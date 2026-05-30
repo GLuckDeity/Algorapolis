@@ -183,4 +183,4 @@ This bibliography compiles every primary source cited in the Algorapolis civiliz
 
 ---
 
-*This bibliography is maintained as a living document. Contributions of additional primary sources are welcome — see [../CONTRIBUTORS.md](../CONTRIBUTORS.md) for guidelines.*
+*This bibliography is maintained as a living document. Contributions of additional primary sources are welcome — see [../CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.*

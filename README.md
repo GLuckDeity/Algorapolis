@@ -193,7 +193,7 @@ This repository acts as the central specifications vault for the Algorapolis fra
 algorapolis/
 ├── README.md               # You are here: The Executive Spec
 ├── LICENSE                 # Dual License: MIT (code/specs) + CC-BY-SA 4.0 (content)
-├── CONTRIBUTORS.md         # Guidelines for developers, researchers, and citizens
+├── CONTRIBUTING.md         # Guidelines for developers, researchers, and citizens
 ├── CODE_OF_CONDUCT.md      # Community expectations and values
 ├── SECURITY.md             # Vulnerability disclosure and security policy
 ├── CHANGELOG.md            # Version history and development log

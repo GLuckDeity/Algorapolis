@@ -84,7 +84,7 @@ Each case study provides a detailed analysis of a real-world governance experime
 
 ## Contributing
 
-Research contributions should follow academic standards: cite primary sources, distinguish between established findings and speculative claims, and identify methodological limitations. See [../CONTRIBUTORS.md](../CONTRIBUTORS.md) for guidelines.
+Research contributions should follow academic standards: cite primary sources, distinguish between established findings and speculative claims, and identify methodological limitations. See [../CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
 
 ---
 
