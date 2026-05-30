@@ -1,0 +1,1632 @@
+openapi: 3.1.0
+
+info:
+  title: Algorapolis Sovereign Logic Engine API
+  description: |
+    The API specification for the Sovereign Logic Engine (SLE) — the administrative core of Algorapolis.
+
+    The SLE is distinguished from any form of artificial general intelligence by five properties:
+    **Objective** (decisions derived from formal rules, not training data),
+    **Utility** (provides a service without will, like electricity infrastructure),
+    **Narrow** (manages resources without consciousness or preferences),
+    **Constrained** (constitutional locks prevent scope expansion),
+    **Auditable** (every decision is logged, explainable via SHAP values, and reversible).
+
+    All endpoints operate within the four constitutional guardrails:
+    no omniscience, no total behavioral prediction, no centralized social engineering,
+    and no unrestricted computational control. The six human-reserved domains
+    (religion/spirituality, culture/identity, family structure, moral interpretation,
+    artistic expression, personal identity) are permanently excluded from SLE scope.
+
+    **IMPORTANT**: This API is aspirational and represents the target architecture,
+    not a current implementation. It defines the interface contract that the Sovereign
+    Logic Engine will fulfill when deployed. All endpoints, schemas, and behaviors
+    described herein are specification targets for development, not descriptions of
+    existing functionality.
+  version: 0.1.0
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  contact:
+    name: Algorapolis Project
+    url: https://algorapolis.org
+
+servers:
+  - url: https://api.algorapolis.org/v1
+    description: Production (aspirational — not yet deployed)
+
+security:
+  - BearerAuth: []
+  - ZKPAuth: []
+
+tags:
+  - name: System
+    description: Health checks and system status
+  - name: Constitutional
+    description: Constitutional constraint monitoring and compliance
+  - name: Decisions
+    description: Governance decision execution and audit
+  - name: Digital Twin
+    description: National digital twin state queries
+  - name: Sandbox
+    description: Governance sandbox simulation
+  - name: Telemetry
+    description: Real-time economic and civic telemetry
+  - name: Privacy
+    description: Zero-knowledge proof verification and privacy operations
+  - name: Identity
+    description: W3C DID resolution and self-sovereign identity
+  - name: Predictive
+    description: Predictive governance models (constitutionally bounded)
+  - name: Emotional Intelligence
+    description: Privacy-preserving aggregate civic emotional signals
+
+paths:
+  /health:
+    get:
+      operationId: getHealth
+      summary: Health check
+      description: Returns the operational status of the Sovereign Logic Engine and its subsystems.
+      tags: [System]
+      security: []
+      responses:
+        "200":
+          description: SLE is operational
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+        "500":
+          $ref: "#/components/responses/InternalError"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /constitutional/status:
+    get:
+      operationId: getConstitutionalStatus
+      summary: Get constitutional constraint status
+      description: |
+        Returns the current status of all four constitutional guardrails:
+        no_omniscience, no_total_behavioral_prediction, no_centralized_social_engineering,
+        and no_unrestricted_computational_control. Also reports the status of the six
+        human-reserved domains and any active constitutional locks.
+      tags: [Constitutional]
+      responses:
+        "200":
+          description: Constitutional constraint status retrieved successfully
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ConstitutionalStatus"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          $ref: "#/components/responses/Forbidden"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /decisions/execute:
+    post:
+      operationId: executeDecision
+      summary: Execute a governance decision
+      description: |
+        Submits a governance decision for execution by the SLE. The decision must pass
+        constitutional compliance verification before execution. Decisions affecting
+        constitutional rights require human authorization via the Constitutional Veto Layer.
+        The SLE executes decisions; it does not make them — objectives come from the
+        Agora (democratic deliberation) and constraints from the Polis (constitutional locks).
+      tags: [Decisions]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DecisionRequest"
+      responses:
+        "201":
+          description: Decision executed successfully (or queued for human ratification)
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Decision"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          description: Decision rejected — constitutional constraint violation
+          headers:
+            X-Audit-Request-Id:
+              description: Unique audit request identifier
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /decisions/{id}/audit:
+    get:
+      operationId: getDecisionAudit
+      summary: Get audit trail for a decision
+      description: |
+        Retrieves the complete audit trail for a governance decision, including SHAP values
+        for explainability, constitutional compliance checks, input data, processing logic,
+        output decision, and timestamps. Every citizen affected by a decision has the Right
+        to Explanation — a humanly comprehensible account of why the decision was made,
+        what factors were considered, and how to challenge it.
+      tags: [Decisions]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Unique identifier of the decision
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "200":
+          description: Audit trail retrieved successfully
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AuditTrail"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          $ref: "#/components/responses/Forbidden"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /digital-twin/state:
+    get:
+      operationId: getDigitalTwinState
+      summary: Get current digital twin state for a domain
+      description: |
+        Retrieves the current state of the national digital twin for a specified civic domain.
+        The digital twin observes patterns, infrastructure states, civic signals, environmental
+        conditions, economic movement, and operational anomalies — it does NOT observe
+        individual citizens. The constitutional boundary is absolute: the digital twin must
+        never evolve into mass surveillance or centralized behavioral monitoring.
+      tags: [Digital Twin]
+      parameters:
+        - name: domain
+          in: query
+          description: Civic domain to query
+          schema:
+            type: string
+            enum:
+              - healthcare
+              - education
+              - infrastructure
+              - civil_justice
+              - criminal_justice
+              - economic_management
+              - defense
+              - environmental_management
+              - scientific_research
+              - cultural_heritage
+              - international_relations
+              - emergency_response
+        - name: resolution
+          in: query
+          description: Data resolution level (higher = more granular, but all levels are aggregate-only)
+          schema:
+            type: string
+            enum: [summary, standard, detailed]
+            default: standard
+      responses:
+        "200":
+          description: Digital twin state retrieved successfully
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DigitalTwinState"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          $ref: "#/components/responses/Forbidden"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /sandbox/simulate:
+    post:
+      operationId: runSandboxSimulation
+      summary: Run a governance sandbox simulation
+      description: |
+        Executes a governance sandbox simulation to test policy proposals before deployment.
+        All proposed governance rules must pass through the Legal Verification Pipeline:
+        (1) Formal Verification via Lean Theorem Prover for constitutional compliance,
+        (2) Model Checking for behavioral properties, and
+        (3) Adversarial Testing by red teams.
+        Sandbox findings must directly inform the SLE's policy recommendations, creating
+        a closed-loop validation system.
+      tags: [Sandbox]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SandboxSimulationRequest"
+      responses:
+        "202":
+          description: Simulation accepted and queued for processing
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SandboxSimulation"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          $ref: "#/components/responses/Forbidden"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /telemetry/economic:
+    get:
+      operationId: getEconomicTelemetry
+      summary: Get economic telemetry data
+      description: |
+        Retrieves real-time economic telemetry data including budget execution status,
+        resource allocation metrics, benefit disbursement tracking, and procurement
+        verification data. All data is presented with differential privacy guarantees
+        to prevent individual re-identification.
+      tags: [Telemetry]
+      parameters:
+        - name: period
+          in: query
+          description: Time period for telemetry data
+          schema:
+            type: string
+            enum: [realtime, hourly, daily, weekly, monthly, quarterly, annual]
+            default: daily
+        - name: sector
+          in: query
+          description: Economic sector filter
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Economic telemetry data retrieved successfully
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EconomicTelemetry"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          $ref: "#/components/responses/Forbidden"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /privacy/verify-zkp:
+    post:
+      operationId: verifyZKP
+      summary: Verify a zero-knowledge proof
+      description: |
+        Verifies a zero-knowledge proof submitted by a citizen or system. The SLE processes
+        these proofs without ever seeing the underlying data — it verifies eligibility without
+        learning who the citizen is. This is not a privacy policy; it is a mathematical
+        guarantee. Supports the tiered ZKP architecture: Groth16 (smallest proof size,
+        fastest verification, trusted setup per circuit), PLONK (universal and updateable
+        trusted setups — recommended for governance), and Halo 2 (no trusted setup via
+        recursive proof composition).
+      tags: [Privacy]
+      security:
+        - ZKPAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ZKPVerificationRequest"
+      responses:
+        "200":
+          description: ZKP verification completed
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ZKPVerification"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /identity/resolve:
+    get:
+      operationId: resolveDID
+      summary: Resolve a W3C DID
+      description: |
+        Resolves a W3C Decentralized Identifier (DID) to its DID Document. Citizens own
+        their identity data through self-sovereign identity (W3C DIDs v1.0). The SLE
+        verifies eligibility without accessing identity data; it cannot accumulate,
+        centralize, or monetize citizen information. The government does not own citizen
+        identity; citizens do.
+      tags: [Identity]
+      parameters:
+        - name: did
+          in: query
+          required: true
+          description: The W3C DID to resolve (e.g., did:algorapolis:z1A2b3c4d5e6f7)
+          schema:
+            type: string
+            pattern: "^did:[a-z0-9]+:.+$"
+      responses:
+        "200":
+          description: DID Document resolved successfully
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DIDDocument"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /predictive/forecast:
+    post:
+      operationId: runPredictiveForecast
+      summary: Run a predictive governance model
+      description: |
+        Executes a predictive governance model within constitutional bounds. Predictive
+        systems are bounded to infrastructure, environment, and economic patterns — NEVER
+        individual behavior (Guardrail 2: no total behavioral prediction). All forecasts
+        include uncertainty quantification and are subject to the Specification Limit
+        Doctrine: formal systems preserve conditions for flourishing, not flourishing itself.
+      tags: [Predictive]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PredictiveForecastRequest"
+      responses:
+        "202":
+          description: Forecast model accepted and queued for processing
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PredictiveForecast"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          description: |
+            Forecast rejected — violates constitutional bounds on predictive capability.
+            Predictive models may not target individual behavioral prediction.
+          headers:
+            X-Audit-Request-Id:
+              description: Unique audit request identifier
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /emotional/signals:
+    get:
+      operationId: getEmotionalSignals
+      summary: Get aggregate civic emotional signals
+      description: |
+        Retrieves privacy-preserving aggregate civic emotional signals from the Emotional
+        Intelligence Layer. Emotional intelligence is a governance requirement (Principle 5):
+        logic ensures fairness; emotion ensures humanity. Neither is superior. Both are necessary.
+        All emotional data is processed with strict differential privacy (epsilon <= 0.5),
+        making individual re-identification mathematically infeasible. No individual emotional
+        data is ever accessible — only aggregate signals at population level.
+      tags: [Emotional Intelligence]
+      parameters:
+        - name: domain
+          in: query
+          description: Civic domain for emotional signal aggregation
+          schema:
+            type: string
+        - name: granularity
+          in: query
+          description: Spatial granularity of aggregate signals
+          schema:
+            type: string
+            enum: [national, regional, municipal]
+            default: national
+      responses:
+        "200":
+          description: Aggregate emotional signals retrieved successfully
+          headers:
+            X-RateLimit-Limit:
+              description: Request limit per window
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              description: Remaining requests in current window
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              description: Unix timestamp when the rate limit window resets
+              schema:
+                type: integer
+            X-Audit-Request-Id:
+              description: Unique audit request identifier for this API call
+              schema:
+                type: string
+                format: uuid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EmotionalSignal"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          $ref: "#/components/responses/Forbidden"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: |
+        JWT bearer token authentication. Tokens are issued by the Algorapolis
+        identity infrastructure and carry verifiable credentials proving the
+        bearer's authorization level without revealing identity data.
+    ZKPAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: ZKP
+      description: |
+        Zero-knowledge proof authentication. The bearer presents a ZKP token
+        that attests to their eligibility for the requested operation without
+        revealing any identity information. Supports Groth16, PLONK, and Halo 2
+        proof systems.
+
+  schemas:
+    HealthStatus:
+      type: object
+      description: Operational status of the SLE and its subsystems
+      properties:
+        status:
+          type: string
+          enum: [operational, degraded, maintenance, emergency]
+        timestamp:
+          type: string
+          format: date-time
+        version:
+          type: string
+          description: SLE software version
+        subsystems:
+          type: object
+          properties:
+            constitutionalVerifier:
+              type: string
+              enum: [operational, degraded, offline]
+            formalVerificationPipeline:
+              type: string
+              enum: [operational, degraded, offline]
+            digitalTwin:
+              type: string
+              enum: [operational, degraded, offline]
+            privacyLayer:
+              type: string
+              enum: [operational, degraded, offline]
+            auditLogger:
+              type: string
+              enum: [operational, degraded, offline]
+            emotionalIntelligence:
+              type: string
+              enum: [operational, degraded, offline]
+        uptime:
+          type: number
+          description: Uptime percentage over the last 30 days
+          example: 99.97
+      required: [status, timestamp, version, subsystems]
+
+    ConstitutionalStatus:
+      type: object
+      description: Current status of all constitutional constraints
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+        guardrails:
+          type: object
+          properties:
+            no_omniscience:
+              $ref: "#/components/schemas/GuardrailStatus"
+            no_total_behavioral_prediction:
+              $ref: "#/components/schemas/GuardrailStatus"
+            no_centralized_social_engineering:
+              $ref: "#/components/schemas/GuardrailStatus"
+            no_unrestricted_computational_control:
+              $ref: "#/components/schemas/GuardrailStatus"
+          required:
+            - no_omniscience
+            - no_total_behavioral_prediction
+            - no_centralized_social_engineering
+            - no_unrestricted_computational_control
+        humanReservedDomains:
+          type: object
+          properties:
+            religion_spirituality:
+              $ref: "#/components/schemas/HumanReservedDomainStatus"
+            culture_identity:
+              $ref: "#/components/schemas/HumanReservedDomainStatus"
+            family_structure:
+              $ref: "#/components/schemas/HumanReservedDomainStatus"
+            moral_interpretation:
+              $ref: "#/components/schemas/HumanReservedDomainStatus"
+            artistic_expression:
+              $ref: "#/components/schemas/HumanReservedDomainStatus"
+            personal_identity:
+              $ref: "#/components/schemas/HumanReservedDomainStatus"
+          required:
+            - religion_spirituality
+            - culture_identity
+            - family_structure
+            - moral_interpretation
+            - artistic_expression
+            - personal_identity
+        activeConstitutionalLocks:
+          type: integer
+          description: Number of currently active constitutional locks (eternity clauses)
+          example: 47
+        lastFormalVerification:
+          type: string
+          format: date-time
+          description: Timestamp of the most recent formal verification run (Lean 4 / Coq)
+      required: [timestamp, guardrails, humanReservedDomains, activeConstitutionalLocks]
+
+    GuardrailStatus:
+      type: object
+      description: Status of a single constitutional guardrail
+      properties:
+        title:
+          type: string
+        description:
+          type: string
+        status:
+          type: string
+          enum: [enforced, warning, violated]
+          description: |
+            'enforced' = guardrail is actively maintained by formal verification.
+            'warning' = an approach toward the boundary has been detected.
+            'violated' = constitutional constraint breach (triggers emergency protocol).
+        lastVerified:
+          type: string
+          format: date-time
+        enforcementMechanism:
+          type: string
+          description: How this guardrail is computationally enforced
+      required: [title, description, status, lastVerified]
+
+    HumanReservedDomainStatus:
+      type: object
+      description: Status of a human-reserved domain exclusion from SLE scope
+      properties:
+        title:
+          type: string
+        description:
+          type: string
+        sleProhibition:
+          type: string
+          description: What the SLE is specifically prohibited from doing in this domain
+        enforced:
+          type: boolean
+          description: Whether the domain exclusion is currently enforced by formal verification
+        lastAuditCheck:
+          type: string
+          format: date-time
+      required: [title, description, sleProhibition, enforced]
+
+    DecisionRequest:
+      type: object
+      description: Request to execute a governance decision
+      properties:
+        domain:
+          type: string
+          enum:
+            - healthcare
+            - education
+            - infrastructure
+            - civil_justice
+            - criminal_justice
+            - economic_management
+            - defense
+            - environmental_management
+            - scientific_research
+            - cultural_heritage
+            - international_relations
+            - emergency_response
+          description: The civic domain this decision pertains to
+        action:
+          type: string
+          description: The specific governance action to execute
+          minLength: 1
+        parameters:
+          type: object
+          description: Parameters for the governance action (domain-specific)
+          additionalProperties: true
+        authorizationProof:
+          type: object
+          description: |
+            Proof of authorization for this decision. May be a democratic mandate,
+            constitutional compliance proof, meritocratic credential, or human
+            ratification depending on the domain's governance modality.
+          properties:
+            type:
+              type: string
+              enum: [democratic_mandate, constitutional_compliance, meritocratic_credential, human_ratification, emergency_authorization]
+            proof:
+              type: string
+              description: Cryptographic proof of authorization
+            issuer:
+              type: string
+              description: DID of the authorizing entity
+          required: [type, proof]
+        requiresHumanRatification:
+          type: boolean
+          description: |
+            Whether this decision requires human ratification before execution.
+            Automatically true for criminal sentencing, benefit termination,
+            family law, and other rights-affecting domains.
+          default: false
+      required: [domain, action, parameters, authorizationProof]
+
+    Decision:
+      type: object
+      description: A governance decision executed (or queued) by the SLE
+      properties:
+        id:
+          type: string
+          format: uuid
+        domain:
+          type: string
+        action:
+          type: string
+        status:
+          type: string
+          enum: [executed, pending_human_ratification, rejected_constitutional, queued, rolled_back]
+        constitutionalCompliance:
+          type: object
+          properties:
+            verified:
+              type: boolean
+            guardrailChecks:
+              type: object
+              additionalProperties:
+                type: boolean
+            humanReservedDomainChecks:
+              type: object
+              additionalProperties:
+                type: boolean
+          required: [verified]
+        shapExplanation:
+          type: object
+          description: SHAP values explaining which factors influenced the decision
+          additionalProperties:
+            type: number
+        timestamp:
+          type: string
+          format: date-time
+        auditTrailId:
+          type: string
+          format: uuid
+          description: Reference to the full audit trail
+      required: [id, domain, action, status, constitutionalCompliance, timestamp]
+
+    AuditTrail:
+      type: object
+      description: Complete audit trail for a governance decision
+      properties:
+        decisionId:
+          type: string
+          format: uuid
+        domain:
+          type: string
+        action:
+          type: string
+        inputData:
+          type: object
+          description: The input data used for the decision (anonymized per privacy architecture)
+          additionalProperties: true
+        processingLogic:
+          type: string
+          description: Human-readable description of the processing logic applied
+        shapValues:
+          type: object
+          description: |
+            SHAP (SHapley Additive exPlanations) values providing post-hoc
+            interpretability. Maps each input feature to its contribution
+            to the decision outcome.
+          additionalProperties:
+            type: number
+        constitutionalCompliance:
+          type: object
+          properties:
+            verified:
+              type: boolean
+            leanProofId:
+              type: string
+              description: Reference to the Lean 4 formal verification proof
+            guardrailResults:
+              type: object
+              additionalProperties:
+                type: boolean
+            humanReservedDomainResults:
+              type: object
+              additionalProperties:
+                type: boolean
+          required: [verified]
+        outputDecision:
+          type: object
+          description: The decision output
+          additionalProperties: true
+        timestamps:
+          type: object
+          properties:
+            submitted:
+              type: string
+              format: date-time
+            verified:
+              type: string
+              format: date-time
+            executed:
+              type: string
+              format: date-time
+            audited:
+              type: string
+              format: date-time
+          required: [submitted]
+        challengeProcedure:
+          type: string
+          description: |
+            Instructions for how a citizen can challenge this decision,
+            exercising their Right to Explanation and Right to Challenge.
+      required: [decisionId, domain, action, inputData, processingLogic, shapValues, constitutionalCompliance, timestamps]
+
+    DigitalTwinState:
+      type: object
+      description: |
+        Current state of the national digital twin for a civic domain.
+        The digital twin observes aggregate patterns and infrastructure states —
+        never individual citizens.
+      properties:
+        domain:
+          type: string
+        timestamp:
+          type: string
+          format: date-time
+        resolution:
+          type: string
+          enum: [summary, standard, detailed]
+        infrastructureState:
+          type: object
+          description: Current infrastructure conditions (aggregate only)
+          additionalProperties: true
+        resourceMetrics:
+          type: object
+          description: Resource allocation and utilization metrics
+          additionalProperties:
+            type: number
+        environmentalConditions:
+          type: object
+          description: Environmental sensor data and planetary boundary status
+          additionalProperties: true
+        economicIndicators:
+          type: object
+          description: Economic telemetry data with differential privacy applied
+          additionalProperties: true
+        operationalAnomalies:
+          type: array
+          description: Detected operational anomalies requiring attention
+          items:
+            type: object
+            properties:
+              id:
+                type: string
+              severity:
+                type: string
+                enum: [info, warning, critical, emergency]
+              description:
+                type: string
+              detectedAt:
+                type: string
+                format: date-time
+        privacyGuarantee:
+          type: object
+          description: Privacy guarantees for this data release
+          properties:
+            differentialPrivacyEpsilon:
+              type: number
+              description: The epsilon value used for differential privacy
+              example: 0.5
+            aggregationLevel:
+              type: string
+              description: Minimum aggregation level (no individual-level data)
+              example: "municipal"
+            noIndividualData:
+              type: boolean
+              description: Confirmation that no individual citizen data is included
+          required: [differentialPrivacyEpsilon, noIndividualData]
+      required: [domain, timestamp, resolution, privacyGuarantee]
+
+    SandboxSimulationRequest:
+      type: object
+      description: Request to run a governance sandbox simulation
+      properties:
+        policyProposal:
+          type: object
+          description: The policy proposal to simulate
+          properties:
+            domain:
+              type: string
+            description:
+              type: string
+            formalSpecification:
+              type: string
+              description: Formal specification of the policy (Lean 4 / Akoma Ntoso)
+            parameters:
+              type: object
+              additionalProperties: true
+          required: [domain, description, formalSpecification]
+        simulationConfig:
+          type: object
+          properties:
+            duration:
+              type: string
+              description: Simulated time duration (e.g., 'P1Y' for one year)
+            population:
+              type: integer
+              description: Simulated population size
+            scenarioType:
+              type: string
+              enum: [baseline, stress, adversarial, historical_analog, extinction]
+            includeEmotionalModeling:
+              type: boolean
+              description: Whether to include Emotional Intelligence Layer modeling
+              default: true
+          required: [duration, population, scenarioType]
+        verificationStages:
+          type: array
+          description: Which stages of the Legal Verification Pipeline to run
+          items:
+            type: string
+            enum: [formal_verification, model_checking, adversarial_testing]
+          default: ["formal_verification", "model_checking", "adversarial_testing"]
+      required: [policyProposal, simulationConfig]
+
+    SandboxSimulation:
+      type: object
+      description: A governance sandbox simulation (queued or in progress)
+      properties:
+        id:
+          type: string
+          format: uuid
+        status:
+          type: string
+          enum: [queued, formal_verification, model_checking, adversarial_testing, completed, failed]
+        policyProposal:
+          type: object
+        submittedAt:
+          type: string
+          format: date-time
+        estimatedCompletion:
+          type: string
+          format: date-time
+        results:
+          type: object
+          description: Simulation results (populated when status is 'completed')
+          properties:
+            constitutionalCompliance:
+              type: boolean
+            behavioralOutcomes:
+              type: object
+              additionalProperties: true
+            adversarialFindings:
+              type: array
+              items:
+                type: string
+            recommendations:
+              type: array
+              items:
+                type: string
+            shapExplanations:
+              type: object
+              additionalProperties:
+                type: number
+      required: [id, status, submittedAt]
+
+    EconomicTelemetry:
+      type: object
+      description: Real-time economic telemetry data with differential privacy guarantees
+      properties:
+        period:
+          type: string
+        timestamp:
+          type: string
+          format: date-time
+        budgetExecution:
+          type: object
+          properties:
+            allocated:
+              type: number
+            executed:
+              type: number
+            variance:
+              type: number
+        resourceAllocation:
+          type: object
+          additionalProperties:
+            type: object
+            properties:
+              allocated:
+                type: number
+              utilized:
+                type: number
+              efficiency:
+                type: number
+        benefitDisbursement:
+          type: object
+          properties:
+            totalRecipients:
+              type: integer
+            totalAmount:
+              type: number
+            averageProcessingTime:
+              type: string
+        procurementVerification:
+          type: object
+          properties:
+            activeContracts:
+              type: integer
+            complianceRate:
+              type: number
+            flaggedForReview:
+              type: integer
+        privacyGuarantee:
+          type: object
+          properties:
+            differentialPrivacyEpsilon:
+              type: number
+            aggregationLevel:
+              type: string
+          required: [differentialPrivacyEpsilon]
+      required: [period, timestamp, privacyGuarantee]
+
+    ZKPVerificationRequest:
+      type: object
+      description: Request to verify a zero-knowledge proof
+      properties:
+        proofSystem:
+          type: string
+          enum: [groth16, plonk, halo2]
+          description: |
+            The ZKP system used. Groth16: smallest proof (~128 bytes), fastest verification,
+            requires trusted setup per circuit. PLONK: universal and updateable trusted setups
+            (recommended for governance). Halo 2: no trusted setup, recursive proof composition.
+        proof:
+          type: string
+          description: The zero-knowledge proof (base64-encoded)
+          contentEncoding: base64
+        publicInputs:
+          type: array
+          description: Public inputs for the verification
+          items:
+            type: string
+        circuitIdentifier:
+          type: string
+          description: Identifier for the ZKP circuit (e.g., 'eligibility-voting', 'income-threshold')
+        claimType:
+          type: string
+          enum:
+            - eligibility_voting
+            - eligibility_benefits
+            - age_verification
+            - tax_compliance
+            - credential_ownership
+            - custom
+          description: The type of claim being proven
+      required: [proofSystem, proof, publicInputs, circuitIdentifier, claimType]
+
+    ZKPVerification:
+      type: object
+      description: Result of zero-knowledge proof verification
+      properties:
+        verified:
+          type: boolean
+          description: Whether the proof is mathematically valid
+        proofSystem:
+          type: string
+        claimType:
+          type: string
+        verificationTime:
+          type: string
+          description: Time taken for verification
+        timestamp:
+          type: string
+          format: date-time
+        note:
+          type: string
+          description: |
+            The SLE verifies eligibility without accessing identity data.
+            If verified=true, the claim is mathematically proven correct
+            without the SLE ever seeing the underlying data.
+      required: [verified, proofSystem, claimType, timestamp]
+
+    DIDDocument:
+      type: object
+      description: |
+        W3C Decentralized Identifier Document. Citizens own their identity data
+        through self-sovereign identity (W3C DIDs v1.0). The SLE verifies
+        eligibility without accessing identity data.
+      properties:
+        did:
+          type: string
+          description: The DID that was resolved
+        document:
+          type: object
+          description: The W3C DID Document
+          properties:
+            id:
+              type: string
+            controller:
+              type: string
+            verificationMethod:
+              type: array
+              items:
+                type: object
+            service:
+              type: array
+              items:
+                type: object
+            authentication:
+              type: array
+              items:
+                type: string
+          required: [id]
+        resolutionMetadata:
+          type: object
+          properties:
+            contentType:
+              type: string
+            retrieved:
+              type: string
+              format: date-time
+        privacyNote:
+          type: string
+          description: The SLE resolves DIDs for verification purposes only and does not accumulate or centralize identity data.
+      required: [did, document]
+
+    PredictiveForecastRequest:
+      type: object
+      description: Request to run a predictive governance model
+      properties:
+        model:
+          type: string
+          enum:
+            - infrastructure_demand
+            - economic_trend
+            - environmental_tipping_point
+            - resource_availability
+            - population_health
+            - energy_demand
+            - disaster_probability
+          description: |
+            The predictive model to run. All models are bounded to aggregate patterns —
+            infrastructure, environment, and economic patterns. Individual behavioral
+            prediction is constitutionally prohibited.
+        targetDomain:
+          type: string
+          description: The civic domain for the forecast
+        horizon:
+          type: string
+          description: Forecast horizon (ISO 8601 duration, e.g., P30D, P1Y, P10Y)
+        parameters:
+          type: object
+          additionalProperties: true
+        constitutionalBoundsCheck:
+          type: boolean
+          description: Whether to enforce constitutional bounds on the forecast scope
+          default: true
+      required: [model, targetDomain, horizon]
+
+    PredictiveForecast:
+      type: object
+      description: A predictive governance forecast (queued or completed)
+      properties:
+        id:
+          type: string
+          format: uuid
+        model:
+          type: string
+        targetDomain:
+          type: string
+        horizon:
+          type: string
+        status:
+          type: string
+          enum: [queued, running, completed, failed, rejected_constitutional]
+        submittedAt:
+          type: string
+          format: date-time
+        results:
+          type: object
+          description: Forecast results (populated when status is 'completed')
+          properties:
+            predictions:
+              type: array
+              items:
+                type: object
+                properties:
+                  timestamp:
+                    type: string
+                    format: date-time
+                  value:
+                    type: number
+                  confidenceInterval:
+                    type: object
+                    properties:
+                      lower:
+                        type: number
+                      upper:
+                        type: number
+                      confidence:
+                        type: number
+            uncertaintyQuantification:
+              type: object
+              additionalProperties: true
+            keyDrivers:
+              type: array
+              items:
+                type: string
+            limitations:
+              type: array
+              items:
+                type: string
+              description: |
+                Honest assessment of forecast limitations per the Specification Limit
+                Doctrine and Civilizational Humility principles.
+        constitutionalCompliance:
+          type: object
+          properties:
+            withinBounds:
+              type: boolean
+            guardrailChecks:
+              type: object
+              additionalProperties:
+                type: boolean
+          required: [withinBounds]
+      required: [id, model, targetDomain, horizon, status, submittedAt, constitutionalCompliance]
+
+    EmotionalSignal:
+      type: object
+      description: |
+        Privacy-preserving aggregate civic emotional signals. No individual emotional
+        data is ever accessible — only aggregate signals at population level. Strict
+        epsilon budgets (epsilon <= 0.5) make individual re-identification
+        mathematically infeasible.
+      properties:
+        domain:
+          type: string
+        granularity:
+          type: string
+          enum: [national, regional, municipal]
+        timestamp:
+          type: string
+          format: date-time
+        aggregateSignals:
+          type: object
+          properties:
+            civicConfidence:
+              type: object
+              properties:
+                value:
+                  type: number
+                  minimum: 0
+                  maximum: 1
+                trend:
+                  type: string
+                  enum: [rising, stable, declining]
+            collectiveStress:
+              type: object
+              properties:
+                value:
+                  type: number
+                  minimum: 0
+                  maximum: 1
+                trend:
+                  type: string
+                  enum: [rising, stable, declining]
+            socialCohesion:
+              type: object
+              properties:
+                value:
+                  type: number
+                  minimum: 0
+                  maximum: 1
+                trend:
+                  type: string
+                  enum: [rising, stable, declining]
+            trustInInstitutions:
+              type: object
+              properties:
+                value:
+                  type: number
+                  minimum: 0
+                  maximum: 1
+                trend:
+                  type: string
+                  enum: [rising, stable, declining]
+          required: [civicConfidence, collectiveStress, socialCohesion, trustInInstitutions]
+        privacyGuarantee:
+          type: object
+          properties:
+            differentialPrivacyEpsilon:
+              type: number
+              maximum: 0.5
+              description: Epsilon value (maximum 0.5 for emotional data — strong privacy guarantee)
+            aggregationLevel:
+              type: string
+            noIndividualData:
+              type: boolean
+          required: [differentialPrivacyEpsilon, noIndividualData]
+        methodology:
+          type: string
+          description: Description of the emotional signal collection and aggregation methodology
+      required: [domain, granularity, timestamp, aggregateSignals, privacyGuarantee]
+
+    Error:
+      type: object
+      description: Standard error response
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+            message:
+              type: string
+            details:
+              type: string
+            constitutionalViolation:
+              type: boolean
+              description: Whether this error was caused by a constitutional constraint
+            guardrailViolated:
+              type: string
+              description: If applicable, which guardrail was violated
+              enum:
+                - no_omniscience
+                - no_total_behavioral_prediction
+                - no_centralized_social_engineering
+                - no_unrestricted_computational_control
+            humanReservedDomainViolated:
+              type: string
+              description: If applicable, which human-reserved domain was violated
+              enum:
+                - religion_spirituality
+                - culture_identity
+                - family_structure
+                - moral_interpretation
+                - artistic_expression
+                - personal_identity
+          required: [code, message]
+      required: [error]
+
+  responses:
+    BadRequest:
+      description: Invalid request parameters
+      headers:
+        X-Audit-Request-Id:
+          description: Unique audit request identifier
+          schema:
+            type: string
+            format: uuid
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+
+    Unauthorized:
+      description: Authentication required or invalid credentials
+      headers:
+        X-Audit-Request-Id:
+          description: Unique audit request identifier
+          schema:
+            type: string
+            format: uuid
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+
+    Forbidden:
+      description: Insufficient authorization for this operation
+      headers:
+        X-Audit-Request-Id:
+          description: Unique audit request identifier
+          schema:
+            type: string
+            format: uuid
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+
+    NotFound:
+      description: The requested resource was not found
+      headers:
+        X-Audit-Request-Id:
+          description: Unique audit request identifier
+          schema:
+            type: string
+            format: uuid
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+
+    RateLimited:
+      description: Rate limit exceeded
+      headers:
+        X-RateLimit-Limit:
+          description: Request limit per window
+          schema:
+            type: integer
+        X-RateLimit-Remaining:
+          description: Remaining requests in current window
+          schema:
+            type: integer
+        X-RateLimit-Reset:
+          description: Unix timestamp when the rate limit window resets
+          schema:
+            type: integer
+        Retry-After:
+          description: Seconds until the rate limit resets
+          schema:
+            type: integer
+        X-Audit-Request-Id:
+          description: Unique audit request identifier
+          schema:
+            type: string
+            format: uuid
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+
+    InternalError:
+      description: Internal server error
+      headers:
+        X-Audit-Request-Id:
+          description: Unique audit request identifier
+          schema:
+            type: string
+            format: uuid
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"

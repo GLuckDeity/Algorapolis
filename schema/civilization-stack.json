@@ -1,0 +1,904 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://algorapolis.org/schema/civilization-stack",
+  "title": "Algorapolis Civilization Stack",
+  "description": "Schema for validating Algorapolis civilization layer definitions and their interdependencies. The Algorapolis civilization stack is a ten-layer architecture (6 core + 4 extended) that specifies how governance modalities, constitutional constraints, and civic domains interact within a modular governance framework. Designed by Goodluck Japhet Macha (independent researcher, Tanzania).",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version of the civilization stack definition"
+    },
+    "layers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Layer"
+      },
+      "minItems": 10,
+      "maxItems": 10,
+      "description": "The ten civilization layers, ordered from foundational (1) to transcendent (10)"
+    },
+    "moduleMap": {
+      "$ref": "#/$defs/ModuleMap",
+      "description": "The Module Map defining which governance modality applies to which civic domain"
+    },
+    "constitutionalConstraints": {
+      "$ref": "#/$defs/ConstitutionalConstraints",
+      "description": "The constitutional constraints: four guardrails and six human-reserved domains"
+    },
+    "operationalArchitecture": {
+      "$ref": "#/$defs/OperationalArchitecture",
+      "description": "The four-layer operational architecture binding all subsystems"
+    },
+    "sleProperties": {
+      "$ref": "#/$defs/SLEProperties",
+      "description": "The five distinguishing properties of the Sovereign Logic Engine"
+    }
+  },
+  "required": ["version", "layers", "moduleMap", "constitutionalConstraints"],
+  "additionalProperties": false,
+
+  "$defs": {
+
+    "GovernanceModality": {
+      "title": "GovernanceModality",
+      "description": "The five governance modalities of Algorapolis. Each modality is matched to civic domains according to their nature, following the Matching Principle: governance modality must match domain nature.",
+      "type": "string",
+      "enum": [
+        "algorithmic_administration",
+        "democratic_deliberation",
+        "constitutional_locks",
+        "meritocratic_selection",
+        "human_reserved"
+      ]
+    },
+
+    "LayerCategory": {
+      "title": "LayerCategory",
+      "description": "Whether a layer belongs to the core governance kernel or the extended civilization architecture",
+      "type": "string",
+      "enum": ["core", "extended"]
+    },
+
+    "Guardrail": {
+      "title": "Guardrail",
+      "description": "One of the four constitutional guardrails that bound all system capabilities",
+      "type": "string",
+      "enum": [
+        "no_omniscience",
+        "no_total_behavioral_prediction",
+        "no_centralized_social_engineering",
+        "no_unrestricted_computational_control"
+      ]
+    },
+
+    "HumanReservedDomain": {
+      "title": "HumanReservedDomain",
+      "description": "One of the six domains permanently reserved for human judgment, from which the SLE is excluded",
+      "type": "string",
+      "enum": [
+        "religion_spirituality",
+        "culture_identity",
+        "family_structure",
+        "moral_interpretation",
+        "artistic_expression",
+        "personal_identity"
+      ]
+    },
+
+    "CivicDomainName": {
+      "title": "CivicDomainName",
+      "description": "The twelve civic domains of the Module Map",
+      "type": "string",
+      "enum": [
+        "healthcare",
+        "education",
+        "infrastructure",
+        "civil_justice",
+        "criminal_justice",
+        "economic_management",
+        "defense",
+        "environmental_management",
+        "scientific_research",
+        "cultural_heritage",
+        "international_relations",
+        "emergency_response"
+      ]
+    },
+
+    "ZKPTier": {
+      "title": "ZKPTier",
+      "description": "The tiered zero-knowledge proof architecture for privacy-preserving governance",
+      "type": "string",
+      "enum": ["groth16", "plonk", "halo2"]
+    },
+
+    "OperationalLayer": {
+      "title": "OperationalLayer",
+      "description": "One of the four operational architecture layers",
+      "type": "string",
+      "enum": [
+        "foundational_infrastructure",
+        "reasoning_simulation",
+        "testing_validation",
+        "operational_coordination"
+      ]
+    },
+
+    "Layer": {
+      "title": "Layer",
+      "description": "A single layer in the Algorapolis civilization stack",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Layer number (1=most foundational, 10=most transcendent)"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Canonical name of the layer"
+        },
+        "category": {
+          "$ref": "#/$defs/LayerCategory",
+          "description": "Whether this is a core (layers 1-6) or extended (layers 7-10) layer"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "What this layer provides and why it is necessary"
+        },
+        "subdomains": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "description": "The specific topic areas within this layer"
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          },
+          "uniqueItems": true,
+          "description": "Layer IDs that this layer depends upon (must be lower-numbered layers)"
+        },
+        "governanceModalities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/GovernanceModality"
+          },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Governance modalities active in this layer"
+        },
+        "constitutionalConstraints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Guardrail"
+          },
+          "uniqueItems": true,
+          "description": "Constitutional guardrails that are particularly operative in this layer"
+        },
+        "humanReservedDomains": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/HumanReservedDomain"
+          },
+          "uniqueItems": true,
+          "description": "Human-reserved domains that intersect with this layer (optional, only where applicable)"
+        },
+        "zkpTiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ZKPTier"
+          },
+          "uniqueItems": true,
+          "description": "ZKP tiers employed for privacy guarantees in this layer (optional)"
+        },
+        "operationalMapping": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/OperationalLayer"
+          },
+          "uniqueItems": true,
+          "description": "Which operational architecture layers this civilization layer maps to"
+        }
+      },
+      "required": ["id", "name", "category", "description", "subdomains", "dependencies", "governanceModalities"],
+      "additionalProperties": false
+    },
+
+    "CivicDomain": {
+      "title": "CivicDomain",
+      "description": "A civic domain in the Module Map with its assigned governance modality and rationale",
+      "type": "object",
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/CivicDomainName",
+          "description": "The civic domain identifier"
+        },
+        "primaryModality": {
+          "type": "string",
+          "description": "The primary governance modality or hybrid combination, with rationale for the match"
+        },
+        "modalities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/GovernanceModality"
+          },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "The governance modalities applied to this domain"
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Why this modality matches this domain's nature (the Matching Principle)"
+        },
+        "constitutionalConstraints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Guardrail"
+          },
+          "uniqueItems": true,
+          "description": "Constitutional guardrails that are operative in this domain"
+        },
+        "humanReservedDomains": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/HumanReservedDomain"
+          },
+          "uniqueItems": true,
+          "description": "Human-reserved domains that intersect with this civic domain"
+        },
+        "sleRole": {
+          "type": "string",
+          "description": "What the Sovereign Logic Engine does within this domain (limited to execution, verification, and optimization — never decision-making in human-reserved areas)"
+        }
+      },
+      "required": ["name", "primaryModality", "modalities", "rationale"],
+      "additionalProperties": false
+    },
+
+    "ModuleMap": {
+      "title": "ModuleMap",
+      "description": "The Module Map: a specification of which governance modality applies to which civic domain, implementing Elinor Ostrom's polycentric governance through the Matching Principle",
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string",
+          "const": "The Module Map specifies which governance modality applies to which civic domain, following the Matching Principle: governance modality must match domain nature."
+        },
+        "civicDomains": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/CivicDomain"
+          },
+          "minItems": 12,
+          "maxItems": 12,
+          "description": "The twelve civic domains and their governance modality assignments"
+        }
+      },
+      "required": ["description", "civicDomains"],
+      "additionalProperties": false
+    },
+
+    "ConstitutionalConstraints": {
+      "title": "ConstitutionalConstraints",
+      "description": "The constitutional constraints of Algorapolis: four guardrails bounding system capabilities and six human-reserved domains permanently excluded from computational governance",
+      "type": "object",
+      "properties": {
+        "guardrails": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/Guardrail"
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "enforcementMechanism": {
+                "type": "string",
+                "minLength": 1,
+                "description": "How this guardrail is computationally enforced"
+              },
+              "negativeSpecification": {
+                "type": "string",
+                "description": "The real-world scenario this guardrail structurally prevents"
+              }
+            },
+            "required": ["id", "title", "description", "enforcementMechanism"],
+            "additionalProperties": false
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "humanReservedDomains": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/HumanReservedDomain"
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "enforcementMechanism": {
+                "type": "string",
+                "minLength": 1,
+                "description": "How this reservation is computationally enforced (Neutrality Axiom Extension, Specification Limit, Lean formal verification)"
+              },
+              "sleProhibition": {
+                "type": "string",
+                "minLength": 1,
+                "description": "What the SLE is specifically prohibited from doing in this domain"
+              }
+            },
+            "required": ["id", "title", "description", "enforcementMechanism", "sleProhibition"],
+            "additionalProperties": false
+          },
+          "minItems": 6,
+          "maxItems": 6
+        }
+      },
+      "required": ["guardrails", "humanReservedDomains"],
+      "additionalProperties": false
+    },
+
+    "OperationalArchitecture": {
+      "title": "OperationalArchitecture",
+      "description": "The four-layer operational architecture that binds all Algorapolis subsystems into a coherent whole",
+      "type": "object",
+      "properties": {
+        "layers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/OperationalLayer"
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "components": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "dependencies": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/OperationalLayer"
+                },
+                "uniqueItems": true,
+                "description": "Operational layers this layer depends upon (lower layers)"
+              }
+            },
+            "required": ["id", "name", "description", "components"],
+            "additionalProperties": false
+          },
+          "minItems": 4,
+          "maxItems": 4
+        }
+      },
+      "required": ["layers"],
+      "additionalProperties": false
+    },
+
+    "SLEProperties": {
+      "title": "SLEProperties",
+      "description": "The five distinguishing properties of the Sovereign Logic Engine that separate it from any form of artificial general intelligence",
+      "type": "object",
+      "properties": {
+        "properties": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "enum": ["Objective", "Utility", "Narrow", "Constrained", "Auditable"]
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "technicalBasis": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The mathematical or engineering basis for this property"
+              }
+            },
+            "required": ["name", "description", "technicalBasis"],
+            "additionalProperties": false
+          },
+          "minItems": 5,
+          "maxItems": 5
+        }
+      },
+      "required": ["properties"],
+      "additionalProperties": false
+    }
+  },
+
+  "examples": [
+    {
+      "version": "0.1.0",
+      "layers": [
+        {
+          "id": 1,
+          "name": "Philosophy",
+          "category": "core",
+          "description": "The intellectual foundations without which the technical architecture is mere engineering rather than a grounded response to civilizational necessity. Establishes why existing systems collapse and what principles must govern a successor architecture.",
+          "subdomains": [
+            "Civilizational Failure Analysis",
+            "Foundational Philosophy",
+            "Theory of Balance",
+            "Meaning Theory"
+          ],
+          "dependencies": [],
+          "governanceModalities": ["democratic_deliberation", "constitutional_locks"],
+          "constitutionalConstraints": ["no_omniscience", "no_unrestricted_computational_control"],
+          "humanReservedDomains": ["moral_interpretation"],
+          "operationalMapping": ["operational_coordination"]
+        },
+        {
+          "id": 2,
+          "name": "Psychology",
+          "category": "core",
+          "description": "Algorapolis is designed for real humans, not idealized rational agents. This layer grounds the architecture in empirical psychology: tribal identity, incentive structures, cognitive biases, and the Empathy Shield that makes mathematical governance an instrument of compassion.",
+          "subdomains": [
+            "Tribal Psychology",
+            "Incentive Psychology",
+            "Cognitive Bias Design",
+            "Empathy Shield"
+          ],
+          "dependencies": [1],
+          "governanceModalities": ["democratic_deliberation", "human_reserved"],
+          "constitutionalConstraints": ["no_total_behavioral_prediction", "no_centralized_social_engineering"],
+          "humanReservedDomains": ["personal_identity", "culture_identity"],
+          "zkpTiers": ["plonk"],
+          "operationalMapping": ["reasoning_simulation", "operational_coordination"]
+        },
+        {
+          "id": 3,
+          "name": "Governance",
+          "category": "core",
+          "description": "How power flows in Algorapolis. The Module Map assigns governance modalities to civic domains. The Sovereign Logic Engine executes decisions without making them. Law as Code eliminates the gap between law-on-paper and law-in-practice. Liquid democracy enables continuous citizen sovereignty.",
+          "subdomains": [
+            "Governance Meta-Architecture",
+            "Sovereign Logic Engine",
+            "Law as Code",
+            "Liquid Democracy",
+            "Governance APIs"
+          ],
+          "dependencies": [1, 2],
+          "governanceModalities": ["algorithmic_administration", "democratic_deliberation", "constitutional_locks", "meritocratic_selection"],
+          "constitutionalConstraints": ["no_omniscience", "no_total_behavioral_prediction", "no_centralized_social_engineering", "no_unrestricted_computational_control"],
+          "operationalMapping": ["reasoning_simulation", "testing_validation", "operational_coordination"]
+        },
+        {
+          "id": 4,
+          "name": "Economics",
+          "category": "core",
+          "description": "How resources flow in Algorapolis. Digital identity through W3C DIDs ensures self-sovereign identity. Privacy by mathematics (ZKPs, homomorphic encryption, differential privacy) provides guarantees stronger than any legal guarantee. Economic civilization design structures the Hybrid Economy and Universal Basic Prebate.",
+          "subdomains": [
+            "Digital Identity",
+            "Privacy and Human Rights",
+            "Economic Civilization Design",
+            "Human Value and Meritocracy"
+          ],
+          "dependencies": [1, 2, 3],
+          "governanceModalities": ["algorithmic_administration", "meritocratic_selection", "constitutional_locks"],
+          "constitutionalConstraints": ["no_omniscience", "no_centralized_social_engineering"],
+          "humanReservedDomains": ["personal_identity"],
+          "zkpTiers": ["groth16", "plonk", "halo2"],
+          "operationalMapping": ["foundational_infrastructure", "reasoning_simulation"]
+        },
+        {
+          "id": 5,
+          "name": "Technology",
+          "category": "core",
+          "description": "What infrastructure runs Algorapolis. The national-scale digital twin, IoT sensor networks, AI-powered demand forecasting, and automated allocation protocols. Mathematical foundations: Rust and Move for memory safety, BFT consensus, post-quantum cryptography, tiered ZKP architecture, and formal verification.",
+          "subdomains": [
+            "Infrastructure and Resource Governance",
+            "Mathematical and Technical Foundations",
+            "Digital Twin",
+            "Offline Resilience"
+          ],
+          "dependencies": [1, 3, 4],
+          "governanceModalities": ["algorithmic_administration", "constitutional_locks"],
+          "constitutionalConstraints": ["no_unrestricted_computational_control"],
+          "zkpTiers": ["groth16", "plonk", "halo2"],
+          "operationalMapping": ["foundational_infrastructure"]
+        },
+        {
+          "id": 6,
+          "name": "Security",
+          "category": "core",
+          "description": "How corruption and capture are prevented. Anti-corruption through Klitgaard's formula (C = M + D - A). Anti-dynasty systems with term limits and algorithmic monitoring. Constitutional locks as computationally enforced eternity clauses. Defense philosophy prioritizing resilience over conventional military dominance.",
+          "subdomains": [
+            "Anti-Corruption",
+            "Anti-Capture",
+            "Constitutional Locks",
+            "Defense Philosophy",
+            "Anti-Dynasty Systems"
+          ],
+          "dependencies": [1, 2, 3, 4, 5],
+          "governanceModalities": ["constitutional_locks", "algorithmic_administration"],
+          "constitutionalConstraints": ["no_omniscience", "no_total_behavioral_prediction", "no_centralized_social_engineering", "no_unrestricted_computational_control"],
+          "operationalMapping": ["foundational_infrastructure", "testing_validation"]
+        },
+        {
+          "id": 7,
+          "name": "Culture",
+          "category": "extended",
+          "description": "Why people believe in Algorapolis. Legitimacy is not a feature of governance architecture; it is the precondition for its operation. Civilizational memory, cultural legitimacy, artistic civilization, religious freedom through ZKPs, and multilingualism as epistemic necessity.",
+          "subdomains": [
+            "Civilizational Memory",
+            "Culture and Legitimacy",
+            "Art and Creative Civilization",
+            "Religion and Spirituality",
+            "Language and Communication"
+          ],
+          "dependencies": [1, 2, 3, 6],
+          "governanceModalities": ["human_reserved", "constitutional_locks", "democratic_deliberation"],
+          "constitutionalConstraints": ["no_centralized_social_engineering", "no_omniscience"],
+          "humanReservedDomains": ["religion_spirituality", "culture_identity", "artistic_expression"],
+          "zkpTiers": ["plonk"],
+          "operationalMapping": ["operational_coordination"]
+        },
+        {
+          "id": 8,
+          "name": "Ecology",
+          "category": "extended",
+          "description": "Civilization in balance with nature. Planetary boundaries as constitutional constraints. Energy as a constitutional right. Nutritional adequacy as a computationally enforceable hard right. Steady-state economics and regenerative civilization.",
+          "subdomains": [
+            "Planetary Management",
+            "Energy Civilization",
+            "Food and Agricultural Sovereignty",
+            "Urban Design",
+            "Steady-State Economics",
+            "Tipping Point Early Warning"
+          ],
+          "dependencies": [1, 3, 5, 6],
+          "governanceModalities": ["constitutional_locks", "algorithmic_administration"],
+          "constitutionalConstraints": ["no_omniscience", "no_unrestricted_computational_control"],
+          "operationalMapping": ["foundational_infrastructure", "reasoning_simulation"]
+        },
+        {
+          "id": 9,
+          "name": "Civilization",
+          "category": "extended",
+          "description": "How Algorapolis governs civilization itself. Family and social fabric, time governance, science governance, disaster and extinction systems, emergence and unintended consequences, post-scarcity rights, and honest assessment of failure scenarios.",
+          "subdomains": [
+            "International Relations",
+            "Time Governance",
+            "Science Governance",
+            "Family and Social Fabric",
+            "Disaster and Extinction Systems",
+            "Emergence and Unintended Consequences",
+            "Human Rights Under Post-Scarcity",
+            "Failure Scenarios"
+          ],
+          "dependencies": [1, 2, 3, 4, 5, 6, 7, 8],
+          "governanceModalities": ["democratic_deliberation", "constitutional_locks", "meritocratic_selection", "algorithmic_administration"],
+          "constitutionalConstraints": ["no_omniscience", "no_total_behavioral_prediction", "no_centralized_social_engineering", "no_unrestricted_computational_control"],
+          "humanReservedDomains": ["family_structure", "moral_interpretation"],
+          "operationalMapping": ["reasoning_simulation", "testing_validation", "operational_coordination"]
+        },
+        {
+          "id": 10,
+          "name": "Ark",
+          "category": "extended",
+          "description": "How civilization survives centuries and propagates through time. The Ark Protocol, adaptive civilizational scaling, the Human Continuity Archive, civilizational pluralism, propagation theory, and the transition architecture for deployment.",
+          "subdomains": [
+            "The Ark Protocol",
+            "Adaptive Civilizational Scaling",
+            "Human Continuity Archive",
+            "Civilizational Pluralism",
+            "Propagation Theory",
+            "Transition Architecture"
+          ],
+          "dependencies": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+          "governanceModalities": ["constitutional_locks", "democratic_deliberation", "algorithmic_administration"],
+          "constitutionalConstraints": ["no_omniscience", "no_total_behavioral_prediction", "no_centralized_social_engineering", "no_unrestricted_computational_control"],
+          "operationalMapping": ["foundational_infrastructure", "reasoning_simulation", "testing_validation", "operational_coordination"]
+        }
+      ],
+      "moduleMap": {
+        "description": "The Module Map specifies which governance modality applies to which civic domain, following the Matching Principle: governance modality must match domain nature.",
+        "civicDomains": [
+          {
+            "name": "healthcare",
+            "primaryModality": "Hybrid: algorithmic resource allocation + democratic value setting",
+            "modalities": ["algorithmic_administration", "democratic_deliberation"],
+            "rationale": "Resource optimization requires computation; care priorities require human values",
+            "constitutionalConstraints": ["no_omniscience", "no_total_behavioral_prediction"],
+            "sleRole": "Optimizes resource allocation and scheduling; verifies constitutional compliance; does not determine care values or priorities"
+          },
+          {
+            "name": "education",
+            "primaryModality": "Democratic deliberation + meritocratic selection",
+            "modalities": ["democratic_deliberation", "meritocratic_selection"],
+            "rationale": "Curriculum is a value judgment; teacher competence is measurable",
+            "constitutionalConstraints": ["no_centralized_social_engineering"],
+            "sleRole": "Blind evaluation of educator competence; verifies qualification credentials via ZKPs; does not set curricula"
+          },
+          {
+            "name": "infrastructure",
+            "primaryModality": "Algorithmic administration",
+            "modalities": ["algorithmic_administration"],
+            "rationale": "Resource allocation is an optimization problem with constitutional constraints",
+            "constitutionalConstraints": ["no_unrestricted_computational_control"],
+            "sleRole": "Full administrative execution: resource optimization, demand forecasting, automated allocation within constitutional bounds"
+          },
+          {
+            "name": "civil_justice",
+            "primaryModality": "Constitutional locks + human judgment",
+            "modalities": ["constitutional_locks", "democratic_deliberation"],
+            "rationale": "Rights protection requires both computational enforcement and moral reasoning",
+            "constitutionalConstraints": ["no_omniscience", "no_unrestricted_computational_control"],
+            "humanReservedDomains": ["moral_interpretation"],
+            "sleRole": "Constitutional compliance verification; due process enforcement; does not render moral judgments"
+          },
+          {
+            "name": "criminal_justice",
+            "primaryModality": "Constitutional locks + democratic oversight",
+            "modalities": ["constitutional_locks", "democratic_deliberation"],
+            "rationale": "Due process requires both algorithmic fairness and community accountability",
+            "constitutionalConstraints": ["no_omniscience", "no_total_behavioral_prediction", "no_unrestricted_computational_control"],
+            "humanReservedDomains": ["moral_interpretation"],
+            "sleRole": "Constitutional compliance checks; procedural fairness verification; mandatory human ratification before sentencing or benefit termination"
+          },
+          {
+            "name": "economic_management",
+            "primaryModality": "Algorithmic administration + democratic priority-setting",
+            "modalities": ["algorithmic_administration", "democratic_deliberation"],
+            "rationale": "Allocation is computational; priorities are political",
+            "constitutionalConstraints": ["no_centralized_social_engineering", "no_unrestricted_computational_control"],
+            "sleRole": "Budget execution, procurement verification, benefit disbursement; does not set economic priorities"
+          },
+          {
+            "name": "defense",
+            "primaryModality": "Constitutional locks + democratic authorization",
+            "modalities": ["constitutional_locks", "democratic_deliberation"],
+            "rationale": "Force deployment requires both constitutional compliance and democratic legitimacy",
+            "constitutionalConstraints": ["no_unrestricted_computational_control", "no_omniscience"],
+            "sleRole": "Constitutional compliance verification; automated threat detection; does not authorize force deployment"
+          },
+          {
+            "name": "environmental_management",
+            "primaryModality": "Constitutional locks (planetary boundaries)",
+            "modalities": ["constitutional_locks", "algorithmic_administration"],
+            "rationale": "Ecological constraints are non-negotiable and computationally enforceable",
+            "constitutionalConstraints": ["no_unrestricted_computational_control"],
+            "sleRole": "Planetary boundary monitoring; constitutionally prohibited from authorizing activities that push boundaries beyond safe operating space"
+          },
+          {
+            "name": "scientific_research",
+            "primaryModality": "Meritocratic selection + democratic priority-setting",
+            "modalities": ["meritocratic_selection", "democratic_deliberation"],
+            "rationale": "Peer review for quality; societal benefit for direction",
+            "constitutionalConstraints": ["no_centralized_social_engineering"],
+            "sleRole": "Blind evaluation of research proposals; automated replication infrastructure; does not determine research priorities"
+          },
+          {
+            "name": "cultural_heritage",
+            "primaryModality": "Human-reserved + constitutional protection",
+            "modalities": ["human_reserved", "constitutional_locks"],
+            "rationale": "Culture must never be algorithmically optimized",
+            "constitutionalConstraints": ["no_centralized_social_engineering", "no_omniscience"],
+            "humanReservedDomains": ["culture_identity", "artistic_expression"],
+            "sleRole": "Constitutional protection enforcement; cultural preservation archival; does not evaluate, rank, or optimize cultural expression"
+          },
+          {
+            "name": "international_relations",
+            "primaryModality": "Democratic deliberation",
+            "modalities": ["democratic_deliberation"],
+            "rationale": "Foreign policy is inherently value-laden",
+            "constitutionalConstraints": ["no_centralized_social_engineering", "no_unrestricted_computational_control"],
+            "sleRole": "Treaty compliance verification; diplomatic record management; does not set foreign policy direction"
+          },
+          {
+            "name": "emergency_response",
+            "primaryModality": "Algorithmic coordination + human authorization",
+            "modalities": ["algorithmic_administration", "democratic_deliberation"],
+            "rationale": "Speed requires computation; escalation requires human judgment",
+            "constitutionalConstraints": ["no_unrestricted_computational_control"],
+            "sleRole": "Real-time resource coordination; automated early warning; mandatory human authorization for escalation decisions"
+          }
+        ]
+      },
+      "constitutionalConstraints": {
+        "guardrails": [
+          {
+            "id": "no_omniscience",
+            "title": "No Omniscience",
+            "description": "The system must never achieve or aspire to total knowledge of citizen behavior",
+            "enforcementMechanism": "Data minimization enforced by formal verification; ZKP architecture ensures the SLE processes proofs without accessing underlying data; temporal limitation with cryptographically enforced retention periods",
+            "negativeSpecification": "China's Social Credit System — centralized, opaque surveillance that makes citizens visible to the state while making the state invisible to citizens"
+          },
+          {
+            "id": "no_total_behavioral_prediction",
+            "title": "No Total Behavioral Prediction",
+            "description": "Predictive systems bounded to infrastructure, environment, and economic patterns — never individual behavior",
+            "enforcementMechanism": "Specification Limit Doctrine enforced in Lean Theorem Prover; predictive models limited to aggregate patterns with differential privacy (epsilon <= 0.5 for emotional data); constitutional rejection of individual-level behavioral prediction",
+            "negativeSpecification": "Predictive policing systems that perpetuate racial profiling through historical bias replication"
+          },
+          {
+            "id": "no_centralized_social_engineering",
+            "title": "No Centralized Social Engineering",
+            "description": "The system must never manipulate citizen behavior toward state-defined outcomes",
+            "enforcementMechanism": "Human-reserved domains constitutionally excluded from SLE scope; Neutrality Axiom Extension prevents detection of religious/ideological identity in civic processes; formal verification of domain boundaries",
+            "negativeSpecification": "China's Social Credit System — punitive social scoring designed to shape citizen behavior toward state-defined norms"
+          },
+          {
+            "id": "no_unrestricted_computational_control",
+            "title": "No Unrestricted Computational Control",
+            "description": "The SLE remains bounded, auditable, and subject to human constitutional authority",
+            "enforcementMechanism": "Constitutional locks as computationally enforced eternity clauses; supermajority consensus across multiple independent verification nodes required for any modification; Constitutional Veto Layer requires human authorization for rights-affecting decisions",
+            "negativeSpecification": "The Dutch Childcare Benefits Scandal — automated authority without human oversight producing systematic injustice"
+          }
+        ],
+        "humanReservedDomains": [
+          {
+            "id": "religion_spirituality",
+            "title": "Religion and Spirituality",
+            "description": "The SLE must never define, judge, rank, or evaluate religious belief",
+            "enforcementMechanism": "Neutrality Axiom Extension: the governance infrastructure cannot detect religious or ideological identity in civic processes; ZKP-based blind evaluation protocols",
+            "sleProhibition": "The SLE cannot access, process, classify, or make decisions based on religious affiliation, spiritual practice, or belief systems"
+          },
+          {
+            "id": "culture_identity",
+            "title": "Culture and Identity",
+            "description": "Algorithmic optimization must never dictate cultural expression",
+            "enforcementMechanism": "Formal verification of domain boundaries in Lean Theorem Prover; cultural domains excluded from SLE optimization scope",
+            "sleProhibition": "The SLE cannot evaluate, rank, optimize, or make allocation decisions based on cultural identity, ethnic affiliation, or cultural expression"
+          },
+          {
+            "id": "family_structure",
+            "title": "Family Structure",
+            "description": "The state must not define what constitutes a family",
+            "enforcementMechanism": "Specification Limit and constitutional locks; functional (not normative) definitions only for administrative purposes; human ratification required for family-related decisions",
+            "sleProhibition": "The SLE cannot define, classify, rank, or make normative judgments about family structures, relationships, or domestic arrangements"
+          },
+          {
+            "id": "moral_interpretation",
+            "title": "Moral Interpretation",
+            "description": "The SLE escalates moral questions to human judgment",
+            "enforcementMechanism": "Contested Formalization Protocol (three-team rule); Ambiguity Preservation Rule; mandatory human ratification for rights-affecting decisions",
+            "sleProhibition": "The SLE cannot determine moral truth, resolve ethical dilemmas, or make decisions that require moral reasoning beyond procedural fairness"
+          },
+          {
+            "id": "artistic_expression",
+            "title": "Artistic Expression",
+            "description": "Art must never be optimized by governance systems",
+            "enforcementMechanism": "Constitutional exclusion of artistic domains from algorithmic evaluation; human-reserved status enforced by formal verification",
+            "sleProhibition": "The SLE cannot evaluate, score, rank, allocate resources based on, or optimize artistic merit, aesthetic value, or creative expression"
+          },
+          {
+            "id": "personal_identity",
+            "title": "Personal Identity",
+            "description": "Identity is a human right that computation can serve but never define",
+            "enforcementMechanism": "W3C DID self-sovereign identity; ZKP-based credential verification without identity disclosure; citizens own their data, control access, can revoke at any time",
+            "sleProhibition": "The SLE cannot define, classify, centralize, or make determinative decisions about personal identity; it can verify credentials via ZKPs but cannot access identity data"
+          }
+        ]
+      },
+      "operationalArchitecture": {
+        "layers": [
+          {
+            "id": "foundational_infrastructure",
+            "name": "Foundational Infrastructure",
+            "description": "The base layer providing spatial databases, IoT networks, offline resilience, and the technical substrate upon which all higher layers operate",
+            "components": [
+              "National Digital Twin",
+              "Infrastructure Awareness",
+              "Offline Resilience",
+              "Spatial Database",
+              "IoT Sensor Networks"
+            ],
+            "dependencies": []
+          },
+          {
+            "id": "reasoning_simulation",
+            "name": "Reasoning & Simulation",
+            "description": "The analytical layer enabling economic telemetry, predictive governance, civilization simulation, and simulation-driven planning",
+            "components": [
+              "Economic Telemetry",
+              "Predictive Governance",
+              "Civilization Simulation",
+              "Simulation-Driven Planning"
+            ],
+            "dependencies": ["foundational_infrastructure"]
+          },
+          {
+            "id": "testing_validation",
+            "name": "Testing & Validation",
+            "description": "The verification layer ensuring governance sandboxes validate policies before deployment and privacy architecture protects citizen data",
+            "components": [
+              "Governance Sandboxes",
+              "Privacy Architecture",
+              "Formal Verification Pipeline",
+              "Adversarial Testing"
+            ],
+            "dependencies": ["foundational_infrastructure", "reasoning_simulation"]
+          },
+          {
+            "id": "operational_coordination",
+            "name": "Operational Coordination",
+            "description": "The interface layer providing civic reporting, visualization, layered access, human-centered interfaces, and civilization-scale coordination",
+            "components": [
+              "Civic Reporting",
+              "Visualization",
+              "Layered Access",
+              "Human-Centered Interfaces",
+              "Civilization Coordination"
+            ],
+            "dependencies": ["foundational_infrastructure", "reasoning_simulation", "testing_validation"]
+          }
+        ]
+      },
+      "sleProperties": {
+        "properties": [
+          {
+            "name": "Objective",
+            "description": "Based on set theory and Boolean laws, not training data. Decisions are derived from formal rules, not statistical patterns extracted from potentially biased datasets.",
+            "technicalBasis": "Set theory, Boolean logic, formally specified rules. No machine learning training data involved in decision derivation."
+          },
+          {
+            "name": "Utility",
+            "description": "Like electricity or water infrastructure — provides a service without will. It cannot be lobbied, bribed, or socially influenced because it has no preferences to influence.",
+            "technicalBasis": "Deterministic execution engine with no objective function beyond executing published rules. No reward model, no preference learning."
+          },
+          {
+            "name": "Narrow",
+            "description": "Manages resources; does not have will, consciousness, or preferences. It is not an AGI aspiring to sentience; it is a constrained computational tool for administrative problems.",
+            "technicalBasis": "Domain-specific rule engine with bounded computational scope. Cannot set its own goals; objectives are set by democratic deliberation (the Agora)."
+          },
+          {
+            "name": "Constrained",
+            "description": "Constitutional locks prevent scope expansion. The Engine cannot modify its own constitutional constraints, just as the laws of physics constrain physical systems.",
+            "technicalBasis": "Constitutional constraints encoded at a level inaccessible to the Engine itself. Formally verified in Lean 4 and Coq. Modification requires supermajority consensus across independent verification nodes."
+          },
+          {
+            "name": "Auditable",
+            "description": "Every decision is logged, explainable through SHAP values, and reversible. Self-auditing protocols run continuous integrity checks verifying constitutional compliance.",
+            "technicalBasis": "SHAP (SHapley Additive exPlanations) for post-hoc interpretability. Complete audit trail for every consequential decision. Continuous self-auditing protocol with real-time publication of results."
+          }
+        ]
+      }
+    }
+  ]
+}

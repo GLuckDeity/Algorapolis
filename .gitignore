@@ -1,0 +1,225 @@
+# ============================================================================
+# Algorapolis — .gitignore
+# Modular Governance Architecture Framework
+# https://github.com/algorapolis/algorapolis
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# Operating System Files
+# ---------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ---------------------------------------------------------------------------
+# Editor & IDE Files
+# ---------------------------------------------------------------------------
+# VS Code
+.vscode/
+
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+*.un~
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+auto-save-list
+tramp
+
+# EditorConfig (project-level overrides should not be committed)
+.editorconfig
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+.eggs/
+*.egg-info/
+*.egg
+dist/
+downloads/
+eggs/
+sdist/
+
+# Python testing
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+.tox/
+.nox/
+
+# MyPy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# Ruff
+.ruff_cache/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---------------------------------------------------------------------------
+# Node.js
+# ---------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn/
+.pnp.*
+package-lock.json
+
+# ---------------------------------------------------------------------------
+# Build Artifacts
+# ---------------------------------------------------------------------------
+dist/
+build/
+out/
+.cache/
+*.pdf
+!docs/specification.pdf
+
+# ---------------------------------------------------------------------------
+# Secrets & Credentials — NEVER COMMIT
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.template
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials*
+secrets/
+.secrets
+
+# ---------------------------------------------------------------------------
+# Data Files (large or generated — do not commit)
+# ---------------------------------------------------------------------------
+# CSV files (potentially large datasets)
+*.csv
+!data/samples/*.csv
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+
+# ---------------------------------------------------------------------------
+# Temporary & Simulation Outputs
+# ---------------------------------------------------------------------------
+*.tmp
+*.bak
+*.swp
+simulation-output/
+tmp/
+temp/
+
+# ---------------------------------------------------------------------------
+# Jupyter Notebook Checkpoints
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Coverage Reports
+# ---------------------------------------------------------------------------
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# ---------------------------------------------------------------------------
+# Package Archives
+# ---------------------------------------------------------------------------
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.tgz
+*.bz2
+*.xz
+
+# ---------------------------------------------------------------------------
+# Miscellaneous
+# ---------------------------------------------------------------------------
+# Logs
+logs/
+*.log
+
+# OS-generated crash reports
+core
+hs_err_pid*
+
+# Dependency directories
+vendor/
+
+# Terraform state (if infrastructure-as-code is used)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Docker volumes
+.docker/
+
+# ---------------------------------------------------------------------------
+# Project-Specific Exclusions
+# ---------------------------------------------------------------------------
+# Local research notes not ready for commit
+notes/local/
+
+# Benchmark outputs (regenerate locally)
+benchmarks/results/
+
+# Generated API documentation (regenerate from code)
+docs/api/_build/
