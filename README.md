@@ -5,11 +5,15 @@
 </p>
 
 <p align="center">
+  <a href="https://doi.org/10.5281/zenodo.20466164"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20466164.svg" alt="DOI: Publication"/></a>
+  <a href="https://doi.org/10.5281/zenodo.20466389"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20466389.svg" alt="DOI: Software Archive"/></a>
+  <a href="https://archive.org/details/Algorapolis"><img src="https://img.shields.io/badge/Internet%20Archive-Preserved-darkgreen.svg" alt="Internet Archive"/></a>
   <img src="https://img.shields.io/badge/License-MIT%20%2F%20CC--BY--SA--4.0-blue.svg" alt="License Badge"/>
   <img src="https://img.shields.io/badge/Research-Active%20Spec-success.svg" alt="Research Status"/>
   <img src="https://img.shields.io/badge/Pilot%20Region-East%20Africa%20%2F%20Tanzania-orange.svg" alt="Pilot Region"/>
   <img src="https://img.shields.io/badge/SLE%20API-OpenAPI%203.0-blueviolet.svg" alt="API Status"/>
 </p>
+
 
 <p align="center">
   <strong>A modular governance architecture that aligns the Rule of Logic (Algo) with the Public Assembly (Agora) to secure the Common Good (Polis).</strong>
@@ -267,6 +271,79 @@ Algorapolis is built upon the structural works of Nobel laureates, systems theor
 *   **Kahneman & Tversky** (*Heuristics and Biases*): Behavioral economics and cognitive constraint engineering.
 *   **Nassim Taleb** (*Antifragile*): Productive instability, stress-responsive design, and risk management.
 *   **Toby Ord** (*The Precipice*): Existential risk mitigation and the propagation of civilization.
+
+---
+
+
+## 📚 How to Cite & Academic Archives
+
+Algorapolis has **two permanent Zenodo records** — one for the written specification (the academic publication) and one for the code/repository snapshot. Use the correct one depending on your context.
+
+---
+
+### 📄 Record 1 — Academic Publication (Cite in research papers)
+
+> **Title:** Algorapolis: A Civilization Architecture Framework  
+> **Type:** Publication | **Version:** 1.0.0 | **Date:** May 21, 2026  
+> **DOI:** `10.5281/zenodo.20466164` ← *Use this when citing the specification or ideas*
+
+**APA Format:**
+> Macha, G. J. (2026). *Algorapolis: A Civilization Architecture Framework* (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20466164
+
+**BibTeX Format:**
+```bibtex
+@misc{macha2026algorapolis,
+  author       = {Macha, Goodluck Japhet},
+  title        = {Algorapolis: A Civilization Architecture Framework},
+  month        = may,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.20466164},
+  url          = {https://doi.org/10.5281/zenodo.20466164}
+}
+```
+
+---
+
+### 💾 Record 2 — Software Archive (Cite when referencing the code or repository)
+
+> **Title:** GLuckDeity/Algorapolis: v0.1.0 — Genesis  
+> **Type:** Software | **Version:** v0.1.0 | **Date:** May 30, 2026  
+> **DOI:** `10.5281/zenodo.20466389` ← *Use this when citing the repository, schemas, or API specs*  
+> **Concept DOI (all versions):** `10.5281/zenodo.20466388`
+
+**APA Format:**
+> Macha, G. J. (2026). *GLuckDeity/Algorapolis: v0.1.0 — Genesis* (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.20466389
+
+**BibTeX Format:**
+```bibtex
+@software{macha2026algorapolis_code,
+  author       = {Macha, Goodluck Japhet},
+  title        = {{GLuckDeity/Algorapolis: v0.1.0 — Genesis}},
+  month        = may,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v0.1.0},
+  doi          = {10.5281/zenodo.20466389},
+  url          = {https://doi.org/10.5281/zenodo.20466389}
+}
+```
+
+---
+
+### 🗄️ Immutable Archive Links
+
+| Archive | Type | DOI / Link |
+|---------|------|------|
+| Zenodo | 📄 Publication — v1.0.0 | [10.5281/zenodo.20466164](https://doi.org/10.5281/zenodo.20466164) |
+| Zenodo | 📄 Publication — all versions | [10.5281/zenodo.20466163](https://doi.org/10.5281/zenodo.20466163) |
+| Zenodo | 💾 Software Archive — v0.1.0 | [10.5281/zenodo.20466389](https://doi.org/10.5281/zenodo.20466389) |
+| Zenodo | 💾 Software Archive — all versions | [10.5281/zenodo.20466388](https://doi.org/10.5281/zenodo.20466388) |
+| Internet Archive | 🗄️ Permanent Web Snapshot | [archive.org/details/Algorapolis](https://archive.org/details/Algorapolis) |
+| GitHub | 🔧 Live Repository | [GLuckDeity/Algorapolis](https://github.com/GLuckDeity/Algorapolis) |
+
+
 
 ---
 

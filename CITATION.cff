@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: >
+  If you use this software or specification in your research, please cite
+  the academic publication using the metadata in 'preferred-citation'.
+  To cite the software/repository itself, use the metadata below.
+type: software
+authors:
+  - family-names: "Macha"
+    given-names: "Goodluck Japhet"
+    affiliation: "Independent Researcher"
+title: "GLuckDeity/Algorapolis: v0.1.0 — Genesis"
+version: "v0.1.0"
+doi: "10.5281/zenodo.20466389"
+date-released: "2026-05-30"
+url: "https://github.com/GLuckDeity/Algorapolis"
+repository-code: "https://github.com/GLuckDeity/Algorapolis"
+license: "MIT"
+keywords:
+  - algorithmic governance
+  - polycentric systems
+  - sovereign logic engine
+  - liquid democracy
+  - formal verification
+  - zero-knowledge proofs
+  - ubuntu philosophy
+  - civilization architecture
+  - Tanzania pilot
+  - anti-corruption
+
+# Academics: cite the publication below, not the software above
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: "Macha"
+      given-names: "Goodluck Japhet"
+      affiliation: "Independent Researcher"
+  title: "Algorapolis: A Civilization Architecture Framework"
+  year: 2026
+  month: 5
+  version: "1.0.0"
+  doi: "10.5281/zenodo.20466164"
+  url: "https://doi.org/10.5281/zenodo.20466164"
+  publisher:
+    name: "Zenodo"
+  abstract: >
+    Algorapolis is a comprehensive, modular governance architecture framework
+    designed for governing human societies in the algorithmic age. It introduces
+    the Sovereign Logic Engine (SLE) — an objective administrative runtime built
+    on formal mathematical logic, set theory, and zero-knowledge proofs — combined
+    with liquid democracy, constitutional locks, and the Ubuntu philosophy. The
+    framework scales from a single district pilot in Tanzania to planetary and
+    interplanetary civilizations, providing a self-correcting, capture-immune
+    civilizational operating system.
+  keywords:
+    - algorithmic governance
+    - sovereign logic engine
+    - liquid democracy
+    - formal verification
+    - zero-knowledge proofs
+    - civilization architecture
+    - Tanzania pilot
+    - anti-corruption
+
+

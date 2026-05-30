@@ -1,5 +1,14 @@
 # 👋 Start Here — Welcome to Algorapolis
 
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.20466164"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20466164.svg" alt="DOI: Publication"/></a>
+  <a href="https://doi.org/10.5281/zenodo.20466389"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20466389.svg" alt="DOI: Software Archive"/></a>
+  <a href="https://archive.org/details/Algorapolis"><img src="https://img.shields.io/badge/Internet%20Archive-Preserved-darkgreen.svg" alt="Internet Archive"/></a>
+  <img src="https://img.shields.io/badge/License-MIT%20%2F%20CC--BY--SA--4.0-blue.svg" alt="License Badge"/>
+</p>
+
+
+
 > *"You are looking at a civilization architecture. Not a startup. Not a manifesto. Not a political party. A modular, open-source blueprint for how societies can be governed in the age of algorithms — without losing their humanity."*
 
 ---
