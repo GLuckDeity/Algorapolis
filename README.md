@@ -16,16 +16,17 @@
 </p>
 
 <p align="center">
+  <a href="START-HERE.md">🚀 Start Here</a> •
+  <a href="DIAGRAMS.md">🗺️ Visual Architecture</a> •
   <a href="#-executive-summary">Executive Summary</a> •
   <a href="#-the-trinity-algo--agora--polis">The Trinity</a> •
   <a href="#-the-civilization-stack-10-layers">Civilization Stack</a> •
-  <a href="#-volume-architecture">Volume Architecture</a> •
   <a href="#-key-principles--guardrails">Key Principles</a> •
   <a href="#-what-algorapolis-is-not">Comparative Governance</a> •
   <a href="#-the-african-origin--tanzania-pilot">African Origin</a> •
+  <a href="ROADMAP.md">Roadmap</a> •
   <a href="#-repository-structure">Repository Structure</a> •
-  <a href="#-theoretical-lineage">Theoretical Lineage</a> •
-  <a href="#-license--attribution">License & Attribution</a>
+  <a href="#-license--attribution">License</a>
 </p>
 
 ---
@@ -192,6 +193,8 @@ This repository acts as the central specifications vault for the Algorapolis fra
 ```
 algorapolis/
 ├── README.md               # You are here: The Executive Spec
+├── START-HERE.md           # ← New visitors start here: plain language entry point
+├── DIAGRAMS.md             # Visual architecture: flowcharts, maps, and transition models
 ├── LICENSE                 # Dual License: MIT (code/specs) + CC-BY-SA 4.0 (content)
 ├── CONTRIBUTING.md         # Guidelines for developers, researchers, and citizens
 ├── CODE_OF_CONDUCT.md      # Community expectations and values

@@ -24,7 +24,61 @@ The phased development follows the investment and timeline structure established
 
 ---
 
-## Phase 0: Genesis (2025–2026)
+## 🏙️ Civic Implementation Sequence
+
+> *"Where does this begin in reality?"*
+
+This is the most important question. Algorapolis is not deployed top-down from a government proclamation. It is grown bottom-up from specific, reversible, low-risk civic tools that earn trust before expanding. Every step is small enough to fail safely and large enough to demonstrate value.
+
+**The six-step civic migration path:**
+
+| Step | Civic Milestone | Scale | What it proves |
+|------|----------------|-------|----------------|
+| **Step 0** | Open-source specification published — academic review and community formation | Global repository | The framework is rigorous enough to withstand scrutiny |
+| **Step 1** | Civic reporting app — citizens report infrastructure failures via USSD/SMS/web | Single district | Citizens will use it; real data flows in; the feedback loop works |
+| **Step 2** | Transparent procurement portal — all government tenders published in real-time | Single district | Corruption drops measurably; public trust increases |
+| **Step 3** | Digital land registry — paper title deeds replaced with verifiable digital records | Single district | The SLE can administer property rights without human bias or bribery |
+| **Step 4** | Live SLE pilot + Governance Sandbox — new policies tested in simulation before deployment | City level | The engine makes decisions; the sandbox prevents bad ones |
+| **Step 5** | Municipal coordination + Participatory budgeting — citizens allocate budgets via liquid democracy | City level | Democratic control of algorithmic administration is real and functional |
+| **Step 6** | National infrastructure coordination — full digital twin and real-time coordination | National level | Algorapolis operates at sovereign scale with proven safeguards |
+
+### Step-by-Step Detail
+
+**Step 1 — Civic Reporting App**
+*What it is:* A simple mobile app, USSD code, and web form where citizens report broken infrastructure (roads, water pipes, electricity), corruption incidents, or service failures. Each report is timestamped, geotagged, and publicly visible.
+*What it requires:* A smartphone/USSD interface, a basic database, and a district official mandated to respond to reports within a defined SLA.
+*Why it matters:* This is the first moment the SLE exists in practice — as a transparent, incorruptible, publicly auditable record that officials cannot quietly delete.
+
+**Step 2 — Transparent Procurement Portal**
+*What it is:* Every government contract, tender, and purchase order published as a public, searchable, real-time record. Bids are time-stamped. Awards are logged. Deviations are flagged automatically.
+*What it requires:* A procurement database, an API that feeds to a public dashboard, and a policy mandate.
+*Why it matters:* Procurement is where the majority of public corruption happens. Transparency here produces the fastest measurable reduction in corruption losses — typically 10–30% in comparable implementations (Estonia, Georgia).
+
+**Step 3 — Digital Land Registry**
+*What it is:* Property ownership records migrated from paper into a cryptographically signed, publicly auditable digital ledger. Transfers require multi-signature authorization. No single official can alter a record unilaterally.
+*What it requires:* A spatial database, legal mandate to recognize digital records, and community validation of initial digitization.
+*Why it matters:* Land disputes are the single largest source of civil conflict in East Africa. A tamper-proof registry eliminates the structural conditions for those disputes.
+
+**Step 4 — Live SLE Pilot + Governance Sandbox**
+*What it is:* The SLE begins making bounded administrative decisions — resource scheduling, service routing, budget execution — in a live district. Simultaneously, the Governance Sandbox becomes a permanent fixture: every new policy is simulated before deployment.
+*What it requires:* Phase 1 SLE prototype (formally verified), rollback protocols, informed citizen consent, and independent auditing.
+*Why it matters:* This is the first time a governance decision is made by the engine rather than by a human official. Constitutional constraints are active and auditable in real-time.
+
+**Step 5 — Municipal Coordination + Participatory Budgeting**
+*What it is:* Citizens allocate district budgets through a liquid democracy interface — voting directly on spending priorities or delegating their vote to domain experts with instant recall capability.
+*What it requires:* The ZKP-based voting layer, a citizen interface (USSD + web), and a legal mandate accepting the participatory allocation as binding.
+*Why it matters:* This is the moment Algorapolis proves its core thesis: that algorithmic administration and democratic participation strengthen each other rather than compete.
+
+**Step 6 — National Infrastructure Coordination**
+*What it is:* The national digital twin is live. The SLE coordinates infrastructure across ministries, districts, and agencies in real-time within constitutional bounds. The Human Experience Review Board (HERB) is operational.
+*What it requires:* National government commitment, sovereign legislative framework, and successful demonstration of Steps 1–5.
+*Why it matters:* This is Algorapolis at scale. The transition from current governance to a self-correcting, capture-immune civilizational operating system is complete — for the first time on Earth.
+
+---
+
+## 📅 Phased Development Overview
+
+
 
 **CURRENT PHASE**
 
