@@ -32,7 +32,7 @@ Tanzania's 130+ ethnic groups, unified through Swahili under Nyerere's leadershi
 
 ### Legal Pluralism — Three Systems, One Constitution
 
-Tanzania's coexistence of statutory law, customary law, and Islamic law provides a working model for domain-specific governance modules. Family matters for Muslim citizens are governed by the Kadhi's Courts under Islamic law; customary land rights are governed by village councils under customary law; and commercial disputes are governed by formal courts under statutory law. This legal pluralism demonstrates that different domains can operate under different governance logics within a single constitutional framework — precisely the modular architecture that Algorapolis proposes.
+Tanzania's coexistence of statutory law, customary law, and Islamic law provides a working model for domain-specific governance modules. Family matters for Muslim citizens are governed by the Kadhi's Courts under Islamic law; customary land rights are governed by village councils under customary law; and commercial disputes are governed by formal courts under statutory law. This legal pluralism demonstrates that different domains can operate under different governance logics within a single constitutional framework — precisely the modular architecture that Algorapolis proposes. For a detailed theoretical model of how statutory, customary, and religious traditions are encoded computationally, see [Study 15: Legal Pluralism, Food Sovereignty, and Multi-Temporal Governance](../research/studies/15-legal-pluralism-food-sovereignty-temporal-governance.md).
 
 ### M-Pesa and Mobile Money — Proof of Leapfrogging
 

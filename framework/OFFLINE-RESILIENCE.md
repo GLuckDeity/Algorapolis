@@ -90,6 +90,10 @@ For Algorapolis's offline resilience, this means: mesh networking is not optiona
 
 Tanzania-specific considerations include: Dar es Salaam experiences recurrent flooding affecting infrastructure; rural electrification remains below 40% in many regions; TANESCO power supply is intermittent in some areas; and mobile network coverage, while extensive, has gaps in rural areas.
 
+### Temporal Decentralization and the Circadian Governance Protocol
+
+To manage temporal fragmentation during extended offline outages, the architecture relies on the **Circadian Governance Protocol** (specified in Study 15). Offline-capable nodes operate on local time horizons (e.g., seasonal or event-based cycles) while the global network maintains formal consistency over long-term deep-time cycles. The multi-temporal interface ensures that high-speed administrative layers do not disrupt slower local community processes when connectivity is restored, providing temporal firewalls alongside offline mesh routing.
+
 ---
 
 ## The Minimum Viable Algorapolis

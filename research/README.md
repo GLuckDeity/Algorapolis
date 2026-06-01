@@ -25,7 +25,9 @@ research/
 │   ├── 10-predictive-governance-ethics.md
 │   ├── 11-cultural-preservation-computation.md
 │   ├── 12-transition-architecture.md
-│   └── 13-anti-capture-mechanisms.md
+│   ├── 13-anti-capture-mechanisms.md
+│   ├── 14-enclave-formation-human-infrastructure.md
+│   └── 15-legal-pluralism-food-sovereignty-temporal-governance.md
 └── case-studies/                ← Real-world governance experiments
     ├── estonia-digital-nation.md
     ├── singapore-smart-nation.md
@@ -56,6 +58,8 @@ Each study provides an in-depth literature review and analysis of a specific dom
 | 11 | Cultural Preservation in Computation | How can algorithmic governance avoid cultural homogenization? |
 | 12 | Transition Architecture | How do nations actually migrate to new governance operating systems? |
 | 13 | Anti-Capture Mechanisms | How can constitutional architecture prevent elite capture across all domains? |
+| 14 | Enclave Formation & Human Infrastructure | Why do successful zones become disconnected? How can human infrastructure keep pace with physical development? |
+| 15 | Legal Pluralism, Food Sovereignty & Multi-Temporal Governance | How can multiple legal traditions coexist? How can a civilization see its food system? How can fast and slow governance coexist? |
 
 ---
 
@@ -71,6 +75,19 @@ Each case study provides a detailed analysis of a real-world governance experime
 | **Dutch Childcare Scandal** | Negative | Algorithmic governance without emotional intelligence produces morally catastrophic outcomes |
 | **Tanzania Election 2025** | Negative | Governance systems that provide no structural mechanism for preventing power perpetuation will be exploited |
 | **China: Social Credit System** | Negative | The nightmare scenario — centralized, opaque, punitive surveillance governance |
+| **Konza Technopolis, Kenya** | Negative | Smart city without human infrastructure — Africa's enclave warning |
+| **Niger Delta, Nigeria** | Negative | Resource extraction enclaves fueling conflict |
+| **NEOM, Saudi Arabia** | TBD | The world's most ambitious enclave experiment |
+| **Tanzania: Primary Courts & Kadhi's Courts** | Positive | Legal pluralism in practice — three coexisting traditions |
+| **South Africa: Recognition of Customary Marriages** | Positive | Constitutional accommodation of customary law |
+| **Bolivia: Plurinational State** | Positive | Indigenous justice co-equal with ordinary justice |
+| **Brazil: Zero Hunger / PAA** | Positive | Family farm food purchases — world's best food sovereignty policy |
+| **Tanzania: SAGCOT** | Mixed | Agricultural investment with limited smallholder inclusion |
+| **India: e-NAM** | Mixed | Digital market infrastructure that digitized middlemen |
+| **Wales: Future Generations Act** | Positive | Most comprehensive future generations legislation |
+| **Hungary: Ombudsman Downgrading** | Negative | Vulnerability of future generations institutions |
+| **Japan: Future Design** | Positive | Imaginary future generations method |
+| **Netherlands: Delta Programme** | Positive | 200-year water management planning |
 
 ---
 

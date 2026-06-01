@@ -128,6 +128,8 @@ Every module in Algorapolis interacts with other modules through standardized go
 | Offline Resilience | Digital Twin | CRDTs enable twin synchronization across partitions |
 | SLE | Governance Visualization | All decisions produce three representations (technical, narrative, plain-language) |
 | Cultural Preservation | HERB | Cultural impact assessments feed into HERB review |
+| Legal Pluralism | SLE | Resolves customary and statutory conflicts under the Constitutional Rights Layer |
+| Multi-Temporal | All Modules | Enforces temporal firewalls and cooling-off periods to protect slow deliberation |
 
 ---
 

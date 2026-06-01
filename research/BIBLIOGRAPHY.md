@@ -17,6 +17,10 @@ This bibliography compiles every primary source cited in the Algorapolis civiliz
 | Diamond, J. (2005). *Collapse: How Societies Choose to Fail or Succeed*. Viking. | Environmental and institutional drivers of civilizational collapse. |
 | Scott, J. (1998). *Seeing Like a State*. Yale University Press. | High modernist ideology and the danger of comprehensive rational planning. |
 | Perrow, C. (1984). *Normal Accidents*. Basic Books. | Complex systems produce inevitable accidents; the SLE as cognitive single point of failure. |
+| Collier, P. (2007). *The Bottom Billion: Why the Poorest Countries Are Failing and What Can Be Done About It*. Oxford University Press. | The conflict, natural resource, and bad governance traps and their direct relation to enclave dynamics. |
+| Corden, W.M., & Neary, J.P. (1982). "Booming Sector and De-Industrialisation in a Small Open Economy." *The Economic Journal*, 92(368), 825-848. | The Dutch Disease mechanism and structural imbalances between the enclave sector and the rest of the economy. |
+| Sachs, J.D., & Warner, A.M. (1995). "Natural Resource Abundance and Economic Growth." *NBER Working Paper* No. 5398. | Empirically establishing resource enclaves as drivers of slower growth and political volatility. |
+| Sachs, J.D., & Warner, A.M. (2001). "The Curse of Natural Resources." *European Economic Review*, 45(4-6), 827-838. | Analysis of resource curse mechanisms and structural enclave extraction. |
 
 ## Philosophy & Political Theory
 
@@ -41,6 +45,10 @@ This bibliography compiles every primary source cited in the Algorapolis civiliz
 | Tocqueville, A. de (1835). *Democracy in America*. | Tyranny of the majority; democratic institutions' fragility. |
 | Campbell, J. (1949). *The Hero with a Thousand Faces*. | Monomyth; human propagation as carrying something precious through trials. |
 | Nietzsche, F. (1882). *The Gay Science*. | "God is dead"; erosion of transcendent meaning-structures. |
+| Parfit, D. (1984). *Reasons and Persons*. Oxford University Press. | Non-Identity Problem and moral obligations to future generations. |
+| Eriksen, T.H. (2001). *Tyranny of the Moment*. Pluto Press. | Social acceleration and the displacement of deep deliberative processes. |
+| MacAskill, W. (2022). *What We Owe the Future*. Basic Books. | Longtermism and institutional design over century-long trajectories. |
+| Mbiti, J. (1969). *African Religions and Philosophy*. Praeger. | Conceptions of time (Sasa and Zamani) and cumulative temporal dynamics in African society. |
 
 ## Governance & Institutional Design
 
@@ -54,6 +62,18 @@ This bibliography compiles every primary source cited in the Algorapolis civiliz
 | Levitsky, S. & Ziblatt, D. (2018). *How Democracies Die*. | Four warning signs of democratic rollback; competence trap. |
 | Huntington, S. (1957). *The Soldier and the State*. | Subjective vs. objective civilian control of military. |
 | Feaver, P. (2003). *Armed Servants*. | Civil-military problematique; the paradox of protection. |
+| Griffiths, J. (1986). "What is Legal Pluralism?" *Journal of Legal Pluralism*, 18(24), 1–55. | Foundational strong vs. weak legal pluralism distinction. |
+| Merry, S.E. (1988). "Legal Pluralism." *Law & Society Review*, 22(5), 869–896. | Anthropological analysis of coexisting legal orders. |
+| Von Benda-Beckmann, F. (2002). "Who's Afraid of Legal Pluralism?" *Journal of Legal Pluralism*, 34(47), 37–82. | Non-hierarchical deep pluralism vs. state-centric weak pluralism. |
+| Moore, S.F. (1973). "Law and Social Change: The Semi-Autonomous Social Field." *Law & Society Review*, 7(4), 719–746. | Semi-autonomous social fields as Nested Governance modules. |
+| Nute, D. (1994). "Defeasible Logic." *Handbook of Logic in AI*, Vol. 3, 353–395. | Defeasible logic rule structure for reasoning with legal exceptions. |
+| Governatori, G. & Rotolo, A. (2023). "Deontic Ambiguities in Legal Reasoning." *ICAIL 2023*. | Deontic rules and computable defeasible logic in regulatory systems. |
+| Da Costa, N.C.A. (1974). "On the Theory of Inconsistent Formal Systems." *Notre Dame Journal of Formal Logic*, 15(4), 497–510. | C-systems paraconsistent logic for coexisting conflicting legal systems. |
+| Priest, G. (1979). "The Logic of Paradox." *Journal of Philosophical Logic*, 8(1), 219–241. | Logic of paradox and handling contradictions without explosion. |
+| Fishkin, J.S. (2018). *Democracy When the People Are Thinking*. Oxford University Press. | Deliberative polling and slow-tempo democratic design. |
+| Saijo, T. (2017). "Negotiating with the future." *Sustainability Science*, 12(3), 409–420. | Japan's Future Design methodology and generational representation. |
+| Welsh Government. (2015). *Well-being of Future Generations (Wales) Act 2015*. | Statutory commissioners for future generations. |
+| Brand, S. (2018). "Pace Layering: How Complex Systems Learn and Keep." *Journal of Design and Science*, Issue 3, MIT Press. | Brand's six pace layers as the temporal governance foundation. |
 | Hurwicz, L. (2007). Nobel Prize lecture. Mechanism design; incentive compatibility. |
 | Hirschman, A. (1970). *Exit, Voice, Loyalty*. | Exit as ultimate accountability mechanism. |
 | Brandeis, L. (1932). *New State Ice Co. v. Liebmann* (dissent). | "Laboratories of democracy" concept. |
@@ -74,6 +94,8 @@ This bibliography compiles every primary source cited in the Algorapolis civiliz
 | Rogers, E. (1962). *Diffusion of Innovations*. | Five adopter categories; adoption curves for governance transitions. |
 | Putnam, R. (2000). *Bowling Alone*. | Decline of social capital; community organization participation. |
 | Easton, D. (1965). *A Systems Analysis of Political Life*. | Specific vs. diffuse support; legitimacy as emotional foundation. |
+| Chan, J., To, H., & Chan, E. (2006). "Reconsidering Social Cohesion: Developing a Definition and Analytical Framework for Empirical Research." *Social Indicators Research*, 75(2), 273-302. | Establishing empirical social cohesion metrics based on connectedness and solidarity. |
+| Dragolov, G., et al. (2016). *Social Cohesion Radar: Measuring Common Ground*. Bertelsmann Stiftung. | Empirical measurement framework of social cohesion across domains. |
 
 ## Economics & Distribution
 
@@ -87,6 +109,15 @@ This bibliography compiles every primary source cited in the Algorapolis civiliz
 | Acemoglu, D. & Restrepo, P. (2020). "Robots and Jobs." *American Economic Review*. | One robot per 1,000 workers reduces employment 0.2% and wages 0.42%. |
 | Frey, C. & Osborne, M. (2017). "The Future of Employment." *Technological Forecasting and Social Change*. | 47% job-level automation risk. |
 | Henderson, V., Storeygard, A. & Weil, D. (2012). "Measuring Economic Growth from Outer Space." *American Economic Review*. | Night-time lights as GDP proxy. |
+| La Vía Campesina. (1996). *The Right to Produce and Access to Land*. Rome. | Foundational declaration of food sovereignty. |
+| Nyéléni Forum. (2007). *Declaration of Nyéléni*. Sélingué, Mali. | The six pillars of food sovereignty. |
+| Patel, R. (2009). "Food Sovereignty: A Critical Dialogue." *Journal of Peasant Studies*, 36(3), 663–706. | Political economy of food sovereignty. |
+| McMichael, P. (2009). "Food Regime for Thought." *Journal of Peasant Studies*, 36(1), 139–179. | Food regimes and corporate vs. democratic agriculture. |
+| Van der Ploeg, J.D. (2008). *The New Peasantries*. Earthscan. | Peasant factor productivity and localized farming resilience. |
+| UN General Assembly. (2018). *UNDROP*. A/RES/73/165. | UN declaration recognizing collective rights to food sovereignty. |
+| Farole, T. (2011). *Special Economic Zones in Africa: Comparing Performance and Learning from Global Experience*. World Bank Publications. | Performance analysis of African SEZs showing key failure modes in spatial and economic integration. |
+| UNCTAD (2019). *World Investment Report 2019: Special Economic Zones*. United Nations Conference on Trade and Development. | Global survey of SEZ trends and systemic failures to generate domestic linkages. |
+| Zeng, D.Z. (2016). *Special Economic Zones: Lessons from the Global Experience*. PEDL Synthesis Paper No. 1. | Lessons from global SEZs emphasizing human capital and institutional synchronization. |
 
 ## Cryptography & Privacy
 
@@ -99,6 +130,7 @@ This bibliography compiles every primary source cited in the Algorapolis civiliz
 | NIST (2024). FIPS 203 (ML-KEM), FIPS 204 (ML-DSA), FIPS 205 (SLH-DSA). | Post-quantum cryptography standards. |
 | W3C (2022). Decentralized Identifiers (DIDs) v1.0. | Self-sovereign identity standard. |
 | W3C (2022). Verifiable Credentials Data Model v1.1. | Credential presentation standard. |
+| Pariser, E. (2011). *The Filter Bubble: What the Internet Is Hiding from You*. Penguin Press. | Information and recommendation filter bubbles as algorithmic digital enclave mechanisms. |
 
 ## Formal Verification & Distributed Systems
 
@@ -116,6 +148,8 @@ This bibliography compiles every primary source cited in the Algorapolis civiliz
 | Rockström, J. et al. (2023). "Earth system boundaries." *Nature*. | Updated planetary boundaries; six of nine transgressed. |
 | Daly, H. (1996). *Beyond Growth*. | Steady-state economics; economy as subsystem of finite Earth. |
 | IPCC (2023). AR6 Synthesis Report. | Climate change scientific basis. |
+| De Schutter, O. (2010). *Agroecology and the Right to Food*. UN Doc. A/HRC/16/49. | Agroecological yield optimization and ecological food systems. |
+| Stern, N. (2006). *The Economics of Climate Change: The Stern Review*. Cambridge University Press. | Intergenerational discount rates and climate economics. |
 | IRENA (2023). *Renewable Power Generation Costs in 2022*. | Solar PV cost decline 99.6%; wind LCOE $0.033/kWh. |
 
 ## African & Tanzanian Context

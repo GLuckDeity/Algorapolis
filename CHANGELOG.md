@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Study 14: Enclave Formation, Human Infrastructure, and Civilizational Cohesion
+- Study 15: Legal Pluralism, Food Sovereignty, and Multi-Temporal Governance
+- New case study proposals: Konza, Niger Delta, NEOM, Shenzhen, Dubai, Singapore, Ujamaa, Tanzania legal pluralism, South Africa RCMA, Bolivia plurinational state, Brazil Zero Hunger, India e-NAM, Wales Future Generations Act, Hungary ombudsman downgrading, Japan Future Design, Netherlands Delta Programme
+- Anti-Enclave Framework proposal with five constitutional layers
+- Human Infrastructure Index (HII) and Civilizational Cohesion Index (CCI) proposals
+- Computable Legal Pluralism framework with defeasible + paraconsistent logic structures
+- Food Sovereignty Layer with 7 constitutional guardrails and 6-tier human override architecture
+- Multi-Temporal Governance framework with 5 pace layers and temporal firewalls
+- Temporal Rights Charter (6 future generations rights + 5 rights to slowness) and Future Generations Protocol
+- Proposed specification amendments across both studies (14 sections total)
+- Master bibliography expanded with 33 new high-quality academic references
+
 ---
 
 ## [0.1.0] - 2026-05-30

@@ -240,7 +240,7 @@ algorapolis/
 │
 ├── research/               # Empirical Grounding & Evidence
 │   ├── BIBLIOGRAPHY.md     # Full structural citations
-│   ├── studies/            # Domain-specific deep dives (Studies 01-13)
+│   ├── studies/            # Domain-specific deep dives (Studies 01-15)
 │   └── case-studies/       # Comparative studies (Bhutan, Estonia, Taiwan, China, etc.)
 │
 ├── docs/                   # Primary Documentation & Civic Guides
