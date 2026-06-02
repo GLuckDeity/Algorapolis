@@ -29,7 +29,18 @@ research/
 │   ├── 14-enclave-formation-human-infrastructure.md
 │   ├── 15-legal-pluralism-food-sovereignty-temporal-governance.md
 │   ├── 16-civilizational-research-agenda.md
-│   └── 17-simulation-findings.md
+│   ├── 17-simulation-findings.md
+│   ├── 18-civilizational-immunity-capture-resilience.md
+│   ├── 19-ecological-optimization-mechanisms.md
+│   ├── 20-innovation-zones-experimental-regions.md
+│   └── deeper-research/                                       ← NEW DIRECTORY
+│       ├── 01-cyber-civilization-resilience-deeper-research.md
+│       ├── 02-ecological-optimization-deeper-research.md
+│       ├── 03-media-ecosystems-deeper-research.md
+│       ├── 04-education-equality-deeper-research.md
+│       ├── 05-github-integration-guide.md
+│       ├── 06-design-principles-registry.md
+│       └── 07-sle-ndt-module-specifications.md
 └── case-studies/                ← Real-world governance experiments
     ├── estonia-digital-nation.md
     ├── singapore-smart-nation.md
@@ -64,6 +75,9 @@ Each study provides an in-depth literature review and analysis of a specific dom
 | 15 | Legal Pluralism, Food Sovereignty & Multi-Temporal Governance | How can multiple legal traditions coexist? How can a civilization see its food system? How can fast and slow governance coexist? |
 | 16 | Civilizational Research Agenda | What are the 17 critical domains required to scale Algorapolis? How can information sovereignty be structured? |
 | 17 | Simulation Findings | What do simulation findings tell us about institutional trust and proximity? How can we encode political economy to prevent capture? |
+| 18 | Civilizational Immunity & Ideological Capture Resilience | How do civilizations resist ideological capture from within? What antibodies protect the constitutional order? |
+| 19 | Ecological Optimization: Volume I | How do we scale ecological stewardship using planetary boundaries as hard algorithmic constraints? |
+| 20 | Innovation Zones and Experimental Regions | What are the ethical guidelines and transition protocols for governance experiments in special zones? |
 
 ---
 
@@ -96,6 +110,16 @@ Each case study provides a detailed analysis of a real-world governance experime
 | **Iceland Crowdsourced Constitution** | Negative | Crowdsourced drafting demonstrates citizen engagement, but advisory-only processes fail without binding authority |
 | **Los Angeles Neighborhood Councils** | Mixed | Advisory-only proximity structures suffer from extremely low participation (1–3%) |
 | **South African Ward Committees** | Negative | Local proximity interfaces fail when underfunded, partisan-captured, or ignored by executives |
+| **Weimar Germany** | Negative | Lack of unamendable constitutional protections enables legal subversion of democracy |
+| **Hungary: Fidesz** | Negative | Incremental constitutional rewrite and judicial packing can capture democratic institutions legally |
+| **Venezuela** | Negative | Rapid institutional capture and Supreme Court packing bypass checks and balances |
+| **German Ausbildung** | Positive | Dual vocational training (VET) ensures low youth unemployment and academic-vocational parity |
+| **Stockton SEED** | Positive | Guaranteed basic income reduces financial volatility and improves physical/mental health |
+| **Finland: Housing First** | Positive | Providing unconditional housing is the most cost-effective and humane way to eliminate chronic homelessness |
+| **Minneapolis 2040** | Positive | Eliminating single-family zoning increases housing density, lowers rent, and reduces segregation |
+| **Madagascar Charter City** | Negative | Governance experiments dependent on a single political patron collapse when the patron falls |
+| **Honduras ZEDEs** | Negative | Delegated sovereignty enclaves without local democratic consent degenerate into parasitic enclaves |
+| **Dudley Street Neighborhood CLT** | Positive | Community Land Trusts protect housing affordability and prevent gentrification through community land ownership |
 
 ---
 

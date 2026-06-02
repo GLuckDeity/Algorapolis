@@ -94,11 +94,17 @@ Public officials do not swear allegiance to the Sovereign Logic Engine. They aff
 
 ## The Impartiality and Legibility Mandates
 
-The Sovereign Logic Engine operates under two binding administrative rules:
+The Sovereign Logic Engine operates under five binding administrative rules:
 
 **The Impartiality Principle.** Trust in Algorapolis begins with absolute procedural fairness. The SLE enforces the Quality of Government standard: all identical cases must be processed identically, without regard to influence, wealth, or proximity. This procedural consistency is modeled in the NDT and is subject to continuous mathematical and public auditing.
 
 **The "No Invisible Governance" Principle.** No administrative or algorithmic process may govern in secret. All decision logic must be explainable, auditable, and appealable. The burden of legibility lies on the system, not the citizen: if a computational decision cannot be explained simply and traced completely back to its legal source, the SLE is constitutionally barred from executing it.
+
+**The Supply Chain Integrity Mandate.** To ensure that the Engine's operational code remains free from tampering, all software deployed in governance infrastructure must have verified build provenance (SLSA Level 3+), complete dependency mapping, and continuous vulnerability monitoring.
+
+**The Calibrated Trust Mandate.** The Engine must operate under a calibrated, four-tier trust model (Critical Governance, Operational Governance, Citizen Services, Public Information). Zero-trust verification is strictly calibrated to the function's criticality, ensuring that safety controls do not compromise operational latency or citizen privacy.
+
+**The AI Cyber Defense Mandate.** The Engine's automated defenses must implement confidence-weighted action, mandatory security patch validation against a regression test suite, and escalation circuit breakers. If AI-vs-AI security interactions exceed defined thresholds, the Engine must automatically halt automated responses, alert human operators, and establish secure communications, ensuring machine-speed execution never escapes human oversight.
 
 ---
 

@@ -24,8 +24,13 @@ Algorapolis matches governance modality to civic domain:
 | Expertise-requiring functions | Meritocratic selection | Competence must be verified, not assumed |
 | Cultural expression | Community self-governance | Culture cannot be optimized without destroying it |
 | Crisis response | Coordinated authority | Emergencies require speed, not deliberation |
+| Substrate-Level Education | Equity-quality parity / Cognitive Justice | Education is a civilizational substrate that must remain demographically neutral and free from epistemic subordination |
+| Ideological Capture defense | Civilizational Immune System / Antibodies | Threat-agnostic defense prevents incremental institutional capture from within |
 
 This matching principle — governance modality to domain nature — is the original contribution of Algorapolis, and it produces an architecture that no single existing concept encompasses. It is the reason the framework is called *modular*: each module operates under the governance logic appropriate to its domain, and no module imposes its logic on another.
+
+> [!NOTE]
+> For a detailed analysis of how Algorapolis protects its core domains from subversion and capture, see [Study 18: Civilizational Immunity & Ideological Capture Resilience](file:///d:/GitHub/Algorapolis/research/studies/18-civilizational-immunity-capture-resilience.md) and the deeper research on [Substrate-Level Education](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/04-education-equality-deeper-research.md).
 
 ---
 
@@ -102,6 +107,9 @@ The Automatic Dissolution Pact (ADP) addresses the most dangerous incentive prob
 The most critical architectural insight is the distinction between what democracy decides and what constitutional protections decide. Democracy decides preferences, budgets, priorities, policies, and resource allocation. Constitutional protections decide rights, dignity, equality, freedom from discrimination, and the basic conditions of human flourishing. No majority — however large — may vote away the constitutional rights of any citizen or group. This is not anti-democratic; it is the precondition for democracy. A system in which 51% can vote away the rights of 49% is not democracy; it is tyranny with periodic elections.
 
 The practical implementation operates through a constitutional hierarchy. At the base are the Immutable Civic Guarantees — rights that no majority, parliament, or administrator can legislate away: equal legal status regardless of identity, freedom of worship and belief, equal economic participation, equal civic access, and anti-discrimination protections. Above these are Democratic Decision Domains — areas where collective choice legitimately operates: budgets, priorities, policies, and resource allocation. The boundary between the two is enforced by the SLE's formal verification: any proposed policy that violates an Immutable Civic Guarantee is automatically rejected before execution.
+
+> [!NOTE]
+> The architectural defenses protecting constitutional rights from majority override are analyzed in [Study 18: Civilizational Immunity & Ideological Capture Resilience](file:///d:/GitHub/Algorapolis/research/studies/18-civilizational-immunity-capture-resilience.md). Detailed specifications for the SLE and NDT components of these defenses are documented in the [Design Principles Registry](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/06-design-principles-registry.md).
 
 ---
 

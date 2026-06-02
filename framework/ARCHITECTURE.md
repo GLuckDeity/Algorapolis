@@ -132,6 +132,17 @@ Every module in Algorapolis interacts with other modules through standardized go
 | Multi-Temporal | All Modules | Enforces temporal firewalls and cooling-off periods to protect slow deliberation |
 | Information Sovereignty | All Modules | Implements 7-Layer Stack to protect epistemic integrity and block adversarial cognitive manipulation |
 | Political Economy Encoding | SLE / NDT | Enforces binding inequality boundaries, ownership taxonomy, and No-Invisible-Governance rules |
+| Supply Chain Integrity | SLE / NDT | Enforces SLSA Level 3+ build verification and maps dependencies |
+| Calibrated Trust | SLE Security Substrate | Adjusts verification levels dynamically across four distinct security tiers |
+| AI Cyber Defense | SLE Security Substrate | Employs confidence-weighted defensive actions with mandatory human override circuit breakers |
+| Planetary Boundary Constraint Solver | SLE Resource Allocation | Restricts economic and resource decisions using SAFE/ZONE/HAZARD thresholds |
+| Throughput Ceiling Enforcement | SLE / NDT | Restricts material and energy usage in urban areas based on absolute limits |
+| Provenance Verification | SLE Information Layer | Cryptographically signs governance information to confirm source and integrity |
+| Deliberative Curation | SLE Information Layer | Optimizes civic and governance content delivery for informed deliberation rather than engagement |
+| AI Communication Safeguard | SLE Communication | Labels, verifies, and audits AI-generated public announcements |
+| Inverse-Need Funding | SLE Education Module | Automatically adjusts educational budgets based on cumulative disadvantage metrics |
+| Cognitive Justice Audit | SLE Curriculum Module | Evaluates educational materials to prevent cultural and epistemic subordination |
+| Curriculum/Mobility Engines | SLE Education / NDT | Monitors intergenerational mobility and provides compensatory cultural capital resources |
 
 ---
 

@@ -102,11 +102,13 @@ Genesis is the phase of specification, community formation, and intellectual gro
    - Legal Pluralism: Constitutional Rights Layer specification (planned)
    - Food Sovereignty: Food Sovereignty Layer pilot in SAGCOT corridor (Phase 1)
    - Multi-Temporal: Temporal Rights Charter drafting (planned)
-   - Future Generations: Commissioner establishment in Tanzania pilot (Phase 1)
    - Information Sovereignty: 7-Layer Stack design (planned)
    - Species Preservation: Constitutional Biodiversity Floor specification (planned)
    - Political Economy Encoding: Binding Inequality Boundaries definition (planned)
    - Legitimacy System: 4D Assessment Module modeling (planned)
+   - Civilizational Immunity: Ideological Entropy Index (IEI) tracking specification (completed as Study 18)
+   - Ecological Stewardship: SAFE/ZONE/HAZARD planetary boundary constraints framework (completed as Study 19)
+   - Innovation Zones: Ethical experimentation framework and transition protocols (completed as Study 20)
 4. **Pilot feasibility** — Determining whether Tanzania can serve as the first real-world test bed
 5. **Adversarial culture** — Establishing from the outset that scrutiny is not opposition but contribution
 
@@ -116,6 +118,7 @@ Genesis is the phase of specification, community formation, and intellectual gro
 |-------------|-------------|--------|
 | Complete specification | Parts I–XIII, Sections 1–77 | ✅ Complete |
 | Open-source repository | Manifesto, framework, research, and case studies | ✅ Complete |
+| Research studies and deeper research portfolio | Studies 01–20 and Simulation Findings Deeper Research collection | ✅ Complete |
 | Academic review submissions | Papers submitted to governance, computer science, and political theory venues | Q3 2026 |
 | Case study portfolio | Six case studies (Estonia, Singapore, Taiwan, China, Netherlands, Tanzania) | ✅ Complete |
 | Tanzania pilot feasibility report | Detailed assessment of legal, technical, and political viability | Q4 2026 |
@@ -172,6 +175,10 @@ Foundation is the phase of formal verification, prototyping, and first contact w
     - Future Generations Commissioner appointed in Tanzania
     - Localized Information Sovereignty platform and complementary currency simulation deployed
     - 4D Legitimacy Index continuously monitored and Inequality boundaries enforced in the pilot
+    - Civilizational Immunity (IEI monitoring) and Ideological Capture defense antibodies tested in district assemblies
+    - SAFE/ZONE/HAZARD constraint solver piloted for regional resource allocations
+    - Cognitive justice audits and vocational education (VET) training system pilot integrated
+    - Autonomy-within-framework rules implemented for district-level innovation zones
 
 ### Key Deliverables
 

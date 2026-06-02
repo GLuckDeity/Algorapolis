@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Study 18: Civilizational Immunity & Capture Resilience
+- Study 19: Ecological Optimization: Volume I
+- Study 20: Innovation Zones and Experimental Regions
+- Simulation Findings Deeper Research child collection under `research/studies/deeper-research/` (including Parts I–V, a Design Principles Registry, and SLE/NDT Module Specifications).
+- Design Principles Registry (`06-design-principles-registry.md` & `docs/design-principles-cross-reference.csv`) compiling and mapping 56 new design principles.
+- Consolidated SLE/NDT Module Specifications (`07-sle-ndt-module-specifications.md`).
 - Study 14: Enclave Formation, Human Infrastructure, and Civilizational Cohesion
 - Study 15: Legal Pluralism, Food Sovereignty, and Multi-Temporal Governance
 - Study 16: Civilizational Research Agenda — Comprehensive Domain Analysis

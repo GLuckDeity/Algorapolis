@@ -49,6 +49,18 @@ The UK's NDTp, led initially by the Centre for Digital Built Britain at Cambridg
 | **Visualization** | CesiumJS, deck.gl, Kepler.gl, custom dashboards | Human-accessible representations |
 | **Governance** | Access control, audit logging, privacy enforcement, constitutional compliance | Ensuring the twin operates within constitutional boundaries |
 
+### NDT Domain Tracking Layers
+
+To support multi-domain real-time governance, the NDT maintains specialized domain-specific tracking layers:
+
+| Domain | Tracking Layers | Governance Function |
+|--------|-----------------|---------------------|
+| **Cyber** | Infrastructure & Cryptographic Migration Tracker | Monitors physical infrastructure backups, submarine routes, satellite readiness, and classical-to-quantum cryptographic migration status. |
+| **Ecology** | Ecological Digital Twin (EDT), Biodiversity Intactness, Hydrological Balance, Cumulative Impact Ledger | Simulates ecosystem response, tracks the Biodiversity Intactness Index (BII) per watershed, registers water balances, and logs historical carbon/ecological footprints. |
+| **Media** | Local Information Coverage, Civic Info Fund, Platform Transparency | Measures local journalistic coverage density, audits Civic Information Fund disbursements, and indexes platform ranking algorithmic transparency. |
+| **Education** | Education Data Vault, Funding Equity, Mobility Correlation | Provides secure zero-knowledge credential verification, maps inverse-need school resource allocation, and tracks intergenerational mobility metrics. |
+| **Legitimacy & Immunity** | Geospatial Legitimacy & Ideological Entropy Monitoring | Monitors procedural, distributive, and ownership legitimacy alongside the Ideological Entropy Index (IEI) to detect early indicators of institutional capture. |
+
 ### Spatial Data Infrastructure
 
 GIS and spatial computing form the data backbone. ESRI ArcGIS dominates the enterprise market. QGIS is the leading open-source alternative. OpenStreetMap provides the most comprehensive open global geospatial dataset. PostGIS, the spatial extension for PostgreSQL, is the foundational open-source spatial database supporting geometry types, spatial indexing, raster data, topology, and 3D/4D data.

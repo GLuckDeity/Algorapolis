@@ -240,7 +240,18 @@ algorapolis/
 │
 ├── research/               # Empirical Grounding & Evidence
 │   ├── BIBLIOGRAPHY.md     # Full structural citations
-│   ├── studies/            # Domain-specific deep dives (Studies 01-17)
+│   ├── studies/            # Domain-specific deep dives (Studies 01-20)
+│   │   ├── 18-civilizational-immunity-capture-resilience.md # Capture prevention and antibodies
+│   │   ├── 19-ecological-optimization-mechanisms.md # Planetary boundaries as hard constraints
+│   │   ├── 20-innovation-zones-experimental-regions.md # Ethical rules and transition protocols for zones
+│   │   └── deeper-research/ # Multi-part "Deeper Research" child collection
+│   │       ├── 01-cyber-civilization-resilience-deeper-research.md
+│   │       ├── 02-ecological-optimization-deeper-research.md
+│   │       ├── 03-media-ecosystems-deeper-research.md
+│   │       ├── 04-education-equality-deeper-research.md
+│   │       ├── 05-github-integration-guide.md
+│   │       ├── 06-design-principles-registry.md
+│   │       └── 07-sle-ndt-module-specifications.md
 │   └── case-studies/       # Comparative studies (Bhutan, Estonia, Taiwan, China, etc.)
 │
 ├── docs/                   # Primary Documentation & Civic Guides

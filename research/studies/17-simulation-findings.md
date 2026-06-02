@@ -238,6 +238,9 @@ Digital dependence increases attack surface. Every digital capability added to a
 
 6. **The Attack Surface Audit Principle:** The SLE shall conduct continuous attack surface audits, assessing the ratio of digital capability to digital vulnerability. When the attack surface exceeds defined thresholds, new digital deployments shall be paused until resilience investments catch up.
 
+> [!NOTE]
+> For a more detailed treatment of Cyber-Civilization Resilience, including 11 additional design principles and detailed SLE/NDT module specifications, see the deeper research paper: [01-cyber-civilization-resilience-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/01-cyber-civilization-resilience-deeper-research.md).
+
 ---
 
 ## PART VI: ECOLOGICAL OPTIMIZATION
@@ -277,6 +280,9 @@ Environmental excellence may require different optimization methods than economi
 4. **The Regenerative Transition Principle:** Economic activities that deplete foundational resources (soil, water, trust, institutional capacity) shall be subject to progressive transition requirements, with defined timelines for achieving regenerative or neutral impact. Depletion shall be treated as a liability, not an externality.
 
 5. **The Carbon Border Adjustment Principle:** All trade with civilizations that do not implement equivalent carbon pricing shall be subject to border adjustment mechanisms that equalize the carbon cost of domestic and imported goods, preventing ecological arbitrage.
+
+> [!NOTE]
+> For a more detailed treatment of Ecological Optimization, including 12 additional design principles and detailed SLE/NDT module specifications, see the deeper research paper: [02-ecological-optimization-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/02-ecological-optimization-deeper-research.md).
 
 ---
 
@@ -327,6 +333,9 @@ Freedom alone does not guarantee diversity. The market failure in information is
 5. **The Civic Media Infrastructure Principle:** Local and community media shall be classified as governance infrastructure and funded at levels sufficient to maintain information flow at the neighborhood level. Civic media funding shall be protected from political interference through independent administration.
 
 6. **The Anti-Concentration Principle:** No media entity shall control more than 20 percent of audience share within any governance jurisdiction. Media ownership concentration beyond this threshold shall trigger mandatory divestiture or operational separation requirements.
+
+> [!NOTE]
+> For a more detailed treatment of Media Ecosystems, including 10 additional design principles and detailed SLE/NDT module specifications, see the deeper research paper: [03-media-ecosystems-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/03-media-ecosystems-deeper-research.md).
 
 ---
 
@@ -539,6 +548,9 @@ Civic education — the teaching of constitutional principles, governance proces
 4. **The Lifelong Learning Right Principle:** Lifelong learning and reskilling shall be encoded as a civilizational right, with resources allocated proportionally to the pace of skill obsolescence. No citizen shall fall more than 12 months behind current labor market skill requirements without access to free retraining.
 
 5. **The Constitutional Literacy Principle:** Civic education shall be treated as constitutional literacy — a fundamental capability required for democratic participation. Civic education shall be continuous from primary school through adult education and shall be updated whenever constitutional amendments are enacted.
+
+> [!NOTE]
+> For a more detailed treatment of Education Equality, including 23 additional design principles and detailed SLE/NDT module specifications, see the deeper research paper: [04-education-equality-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/04-education-equality-deeper-research.md).
 
 ---
 
