@@ -92,6 +92,16 @@ Public officials do not swear allegiance to the Sovereign Logic Engine. They aff
 
 ---
 
+## The Impartiality and Legibility Mandates
+
+The Sovereign Logic Engine operates under two binding administrative rules:
+
+**The Impartiality Principle.** Trust in Algorapolis begins with absolute procedural fairness. The SLE enforces the Quality of Government standard: all identical cases must be processed identically, without regard to influence, wealth, or proximity. This procedural consistency is modeled in the NDT and is subject to continuous mathematical and public auditing.
+
+**The "No Invisible Governance" Principle.** No administrative or algorithmic process may govern in secret. All decision logic must be explainable, auditable, and appealable. The burden of legibility lies on the system, not the citizen: if a computational decision cannot be explained simply and traced completely back to its legal source, the SLE is constitutionally barred from executing it.
+
+---
+
 ## The Narrow Intelligence Constraint
 
 The Sovereign Logic Engine is deliberately Narrow. It manages resources; it does not have will. The critical design principle is that the Engine cannot set its own goals. Its objectives are set by democratic deliberation (the Agora) and constrained by constitutional locks (the Polis). The Engine optimizes within these constraints; it cannot modify them. This is not a software limitation but an architectural one: the constitutional framework is encoded at a level of the system that the Engine cannot access, just as the laws of physics constrain the behavior of physical systems without being modifiable by the systems they govern.

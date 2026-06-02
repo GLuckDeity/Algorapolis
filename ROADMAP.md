@@ -103,6 +103,10 @@ Genesis is the phase of specification, community formation, and intellectual gro
    - Food Sovereignty: Food Sovereignty Layer pilot in SAGCOT corridor (Phase 1)
    - Multi-Temporal: Temporal Rights Charter drafting (planned)
    - Future Generations: Commissioner establishment in Tanzania pilot (Phase 1)
+   - Information Sovereignty: 7-Layer Stack design (planned)
+   - Species Preservation: Constitutional Biodiversity Floor specification (planned)
+   - Political Economy Encoding: Binding Inequality Boundaries definition (planned)
+   - Legitimacy System: 4D Assessment Module modeling (planned)
 4. **Pilot feasibility** — Determining whether Tanzania can serve as the first real-world test bed
 5. **Adversarial culture** — Establishing from the outset that scrutiny is not opposition but contribution
 
@@ -162,10 +166,12 @@ Foundation is the phase of formal verification, prototyping, and first contact w
 3. **Privacy architecture** — Zero-knowledge proof tier system (Groth16/PLONK/Halo 2), differential privacy, homomorphic encryption
 4. **Citizen interface** — USSD/IVR prototype that works on feature phones (Tanzania: 60%+ feature phone penetration)
 5. **Tanzania pilot infrastructure** — Spatial database, basic IoT sensors, local partnerships, and:
-   - Legal Pluralism Module tested in Tanzanian Primary Courts and Kadhi's Courts
-   - Food Sovereignty Layer piloted with smallholder communities
-   - Multi-temporal governance protocols implemented in local government
-   - Future Generations Commissioner appointed in Tanzania
+    - Legal Pluralism Module tested in Tanzanian Primary Courts and Kadhi's Courts
+    - Food Sovereignty Layer piloted with smallholder communities
+    - Multi-temporal governance protocols implemented in local government
+    - Future Generations Commissioner appointed in Tanzania
+    - Localized Information Sovereignty platform and complementary currency simulation deployed
+    - 4D Legitimacy Index continuously monitored and Inequality boundaries enforced in the pilot
 
 ### Key Deliverables
 

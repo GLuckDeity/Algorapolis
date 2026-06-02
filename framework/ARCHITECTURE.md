@@ -130,6 +130,8 @@ Every module in Algorapolis interacts with other modules through standardized go
 | Cultural Preservation | HERB | Cultural impact assessments feed into HERB review |
 | Legal Pluralism | SLE | Resolves customary and statutory conflicts under the Constitutional Rights Layer |
 | Multi-Temporal | All Modules | Enforces temporal firewalls and cooling-off periods to protect slow deliberation |
+| Information Sovereignty | All Modules | Implements 7-Layer Stack to protect epistemic integrity and block adversarial cognitive manipulation |
+| Political Economy Encoding | SLE / NDT | Enforces binding inequality boundaries, ownership taxonomy, and No-Invisible-Governance rules |
 
 ---
 

@@ -49,6 +49,8 @@ This principle is not merely aspirational; it is a response to documented catast
 
 The Constitutional Sandbox Limits define what the SLE can never do: it cannot redefine rights, modify constitutional axioms, determine moral truth, suppress dissent, centralize identity ownership, or self-expand authority. These limits are not policy choices that can be revised; they are constitutional constraints encoded in the formal verification layer, making them technically unalterable without the most rigorous democratic process.
 
+Furthermore, the **No Invisible Governance** principle guarantees that no administrative logic can operate in secrecy; all decisions must be fully auditable, explainable, and appealable. The SLE integrates a four-dimensional Legitimacy System measuring procedural, distributive, ownership, and narrative legitimacy continuously within the National Digital Twin. If the composite Legitimacy Index falls below the constitutional floor of 65/100, the SLE automatically initiates Legitimacy Restoration Protocols, proving that the algorithm remains a servant to human consent.
+
 ---
 
 ## Principle 4: Privacy Is a Mathematical Guarantee, Not a Policy Choice

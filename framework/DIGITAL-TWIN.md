@@ -76,6 +76,7 @@ The National Digital Twin integrates with other Algorapolis modules through the 
 | **EI Architecture** | Emotional telemetry layers onto spatial twin for geographic well-being mapping |
 | **Infrastructure Awareness** | Infrastructure monitoring feeds twin state updates in real time |
 | **Offline Resilience** | CRDTs enable twin synchronization across network partitions |
+| **Legitimacy Assessment** | Twin integrates 4D Legitimacy Index to track procedural, distributive, ownership, and narrative legitimacy indicators geospatially in real-time |
 
 ---
 

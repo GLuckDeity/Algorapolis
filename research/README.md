@@ -27,7 +27,9 @@ research/
 │   ├── 12-transition-architecture.md
 │   ├── 13-anti-capture-mechanisms.md
 │   ├── 14-enclave-formation-human-infrastructure.md
-│   └── 15-legal-pluralism-food-sovereignty-temporal-governance.md
+│   ├── 15-legal-pluralism-food-sovereignty-temporal-governance.md
+│   ├── 16-civilizational-research-agenda.md
+│   └── 17-simulation-findings.md
 └── case-studies/                ← Real-world governance experiments
     ├── estonia-digital-nation.md
     ├── singapore-smart-nation.md
@@ -60,6 +62,8 @@ Each study provides an in-depth literature review and analysis of a specific dom
 | 13 | Anti-Capture Mechanisms | How can constitutional architecture prevent elite capture across all domains? |
 | 14 | Enclave Formation & Human Infrastructure | Why do successful zones become disconnected? How can human infrastructure keep pace with physical development? |
 | 15 | Legal Pluralism, Food Sovereignty & Multi-Temporal Governance | How can multiple legal traditions coexist? How can a civilization see its food system? How can fast and slow governance coexist? |
+| 16 | Civilizational Research Agenda | What are the 17 critical domains required to scale Algorapolis? How can information sovereignty be structured? |
+| 17 | Simulation Findings | What do simulation findings tell us about institutional trust and proximity? How can we encode political economy to prevent capture? |
 
 ---
 
@@ -88,6 +92,10 @@ Each case study provides a detailed analysis of a real-world governance experime
 | **Hungary: Ombudsman Downgrading** | Negative | Vulnerability of future generations institutions |
 | **Japan: Future Design** | Positive | Imaginary future generations method |
 | **Netherlands: Delta Programme** | Positive | 200-year water management planning |
+| **Porto Alegre Participatory Budgeting** | Positive | Participatory budgeting can direct investment to poor peripheral areas, but requires anti-capture mechanisms |
+| **Iceland Crowdsourced Constitution** | Negative | Crowdsourced drafting demonstrates citizen engagement, but advisory-only processes fail without binding authority |
+| **Los Angeles Neighborhood Councils** | Mixed | Advisory-only proximity structures suffer from extremely low participation (1–3%) |
+| **South African Ward Committees** | Negative | Local proximity interfaces fail when underfunded, partisan-captured, or ignored by executives |
 
 ---
 
