@@ -143,6 +143,31 @@ Every module in Algorapolis interacts with other modules through standardized go
 | Inverse-Need Funding | SLE Education Module | Automatically adjusts educational budgets based on cumulative disadvantage metrics |
 | Cognitive Justice Audit | SLE Curriculum Module | Evaluates educational materials to prevent cultural and epistemic subordination |
 | Curriculum/Mobility Engines | SLE Education / NDT | Monitors intergenerational mobility and provides compensatory cultural capital resources |
+| Data Sovereignty Protocol | SLE / NDT | Enforces extraterritorial privacy protection and logs cross-border transfers |
+| Zero-Knowledge Monetary Transactions | SLE Monetary Layer | Verifies transaction validity using ZKPs without exposing identities or amounts |
+| CSWF Portfolio & Dividend | SLE / NDT | Manages sovereign wealth fund returns, enforcing the 3% withdrawal limit and distributing per-capita dividends |
+| Systemic Risk Surveillance | NDT Financial Layer | Tracks asset-liability mismatches and shadow banking growth, triggering automatic caps |
+| Bail-In by Design | SLE / NDT | Automatically converts CoCos to equity if capital ratios fall below the constitutional minimum |
+| Ecological Guardian Agents | SLE Governance | Represents ecosystems as legal persons with standing to challenge resource extraction decisions |
+| Biodiversity Fiscal Engine | SLE Resource Allocation | Redirects nature-negative subsidies and levies ecological taxes to fund habitat corridors |
+| Trophic Cascade Simulator | NDT Ecological Layer | Runs 50-year simulations of trophic networks and ecosystem engineers before rewilding |
+| Marine Governance Layer | SLE / NDT | Enforces BBNJ Treaty compliance, catch limits, and deep-sea mining prohibitions |
+| Dual-Key Authorization | SLE Security / Tribunal | Cryptographically requires concurrent approval from the command chain and Oversight Tribunal for surveillance |
+| Gradient Classification Engine | SLE Information Layer | Replaces binary classification with gradient access control and automatic 10-year sunset seals |
+| Autonomous Lethal Force Prohibition | SLE Security Substrate | Hard-codes a ban on autonomous weapons targeting humans, requiring human confirmation and immutable audits |
+| Computational Civil Defense | SLE Security Substrate | Coordinates cognitive shelters, digital continuity bunkers, and annual resilience drills |
+| Intergenerational Transfer Cap | SLE Fiscal Module | Automatically diverts estate and gift values exceeding 50x median wealth to the CSWF |
+| Progressive Wealth Tax | SLE / NDT | Assesses annual progressive wealth taxes (0.1% to 2.0%) using the wealth register |
+| Constitutional Capital Stake | SLE / NDT | Endows every citizen at birth with a capital stake that vests at age 18 for wealth building |
+| Pay Ratio Tax Enforcement | SLE Fiscal Module | Taxes enterprises exceeding the 20:1 internal pay ratio at escalating progressive rates |
+| Wealth Inequality Dashboard | NDT Demographic Layer | Publishes real-time Gini coefficients and mobility elasticity, triggering tax stabilizers if limits are breached |
+| Institutional Trust Audit | SLE / NDT | Real-time trust-restoration metrics and procedural audits |
+| Cryptographic Attestation & Provenance | SLE Information Layer | C2PA-compliant content credential signing |
+| Active/Passive Inoculation | SLE / NDT | Distributes psychological vaccines for narrative defense |
+| Sovereign Currency & Credit Separation | SLE Monetary Layer | Enforces 100% reserve banking for demand deposits |
+| Algorithmic Monetary Rule | SLE Monetary Layer | Executes counter-cyclical dividends and basic income |
+| Anti-Plutocratic DAO Rules | SLE Governance | Enforces concave voting and proof-of-personhood structures |
+| Future Generations Proxy | SLE Governance | Allocates future-welfare voting weights in the Assembly |
 
 ---
 

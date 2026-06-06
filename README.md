@@ -251,7 +251,18 @@ algorapolis/
 │   │       ├── 04-education-equality-deeper-research.md
 │   │       ├── 05-github-integration-guide.md
 │   │       ├── 06-design-principles-registry.md
-│   │       └── 07-sle-ndt-module-specifications.md
+│   │       ├── 07-sle-ndt-module-specifications.md
+│   │       ├── 08-trust-decay-deeper-research.md
+│   │       ├── 09-information-warfare-deeper-research.md
+│   │       └── 10-economic-architecture-v2-deeper-research.md
+│   ├── priority-gaps/      # Priority Gaps Research (Parts I–V + Integration Guide)
+│   │   ├── README.md
+│   │   ├── 01-information-sovereignty-priority-gap-research.md
+│   │   ├── 02-monetary-systems-priority-gap-research.md
+│   │   ├── 03-species-preservation-priority-gap-research.md
+│   │   ├── 04-intelligence-security-democratic-gap-research.md
+│   │   ├── 05-wealth-transfer-generational-wealth-priority-gap-research.md
+│   │   └── 06-github-integration-guide.md
 │   └── case-studies/       # Comparative studies (Bhutan, Estonia, Taiwan, China, etc.)
 │
 ├── docs/                   # Primary Documentation & Civic Guides

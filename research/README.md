@@ -40,7 +40,18 @@ research/
 │       ├── 04-education-equality-deeper-research.md
 │       ├── 05-github-integration-guide.md
 │       ├── 06-design-principles-registry.md
-│       └── 07-sle-ndt-module-specifications.md
+│       ├── 07-sle-ndt-module-specifications.md
+│       ├── 08-trust-decay-deeper-research.md
+│       ├── 09-information-warfare-deeper-research.md
+│       └── 10-economic-architecture-v2-deeper-research.md
+├── priority-gaps/                                             ← NEW DIRECTORY
+│   ├── README.md                ← Priority gaps directory index
+│   ├── 01-information-sovereignty-priority-gap-research.md
+│   ├── 02-monetary-systems-priority-gap-research.md
+│   ├── 03-species-preservation-priority-gap-research.md
+│   ├── 04-intelligence-security-democratic-gap-research.md
+│   ├── 05-wealth-transfer-generational-wealth-priority-gap-research.md
+│   └── 06-github-integration-guide.md
 └── case-studies/                ← Real-world governance experiments
     ├── estonia-digital-nation.md
     ├── singapore-smart-nation.md
@@ -78,6 +89,24 @@ Each study provides an in-depth literature review and analysis of a specific dom
 | 18 | Civilizational Immunity & Ideological Capture Resilience | How do civilizations resist ideological capture from within? What antibodies protect the constitutional order? |
 | 19 | Ecological Optimization: Volume I | How do we scale ecological stewardship using planetary boundaries as hard algorithmic constraints? |
 | 20 | Innovation Zones and Experimental Regions | What are the ethical guidelines and transition protocols for governance experiments in special zones? |
+| 21 | Deeper Research: Trust Decay | How do institutions lose trust and how can sortition-based governance restore legitimacy? |
+| 22 | Deeper Research: Information Warfare | How can a digital civilization protect its narrative environment and establish cryptographic roots of trust? |
+| 23 | Deeper Research: Economic Architecture V2 | How do 100% reserve banking, cooperative networks, and gradualist transitions prevent capture? |
+
+---
+
+## Priority Gaps Research
+
+These research papers address structural gaps in the core Algorapolis framework, specifying new modules and Design Principles to be integrated into the Sovereign Logic Engine (SLE) and National Digital Twin (NDT).
+
+| Part | Title | Focus Area | DPs |
+|------|-------|------------|-----|
+| **I** | [Information Sovereignty](file:///d:/GitHub/Algorapolis/research/priority-gaps/01-information-sovereignty-priority-gap-research.md) | 7-layer information stack, digital self-determination, cognitive security | IS-1 to IS-12 |
+| **II** | [Monetary Systems](file:///d:/GitHub/Algorapolis/research/priority-gaps/02-monetary-systems-priority-gap-research.md) | CBDC design, complementary currencies, Sovereign Wealth Funds, monetary discipline | MS-1 to MS-12 |
+| **III** | [Species Preservation](file:///d:/GitHub/Algorapolis/research/priority-gaps/03-species-preservation-priority-gap-research.md) | Rights of Nature, insect collapse, marine governance, conservation economics | SP-1 to SP-12 |
+| **IV** | [Intelligence & Security](file:///d:/GitHub/Algorapolis/research/priority-gaps/04-intelligence-security-democratic-gap-research.md) | Democratic oversight, mass surveillance limits, dual-use technology, AI weapons | ISec-1 to ISec-12 |
+| **V** | [Wealth Transfer](file:///d:/GitHub/Algorapolis/research/priority-gaps/05-wealth-transfer-generational-wealth-priority-gap-research.md) | Intergenerational wealth caps, Piketty's r > g, progressive wealth tax, capital stakes | WT-1 to WT-12 |
+| **VI** | [GitHub Integration Guide](file:///d:/GitHub/Algorapolis/research/priority-gaps/06-github-integration-guide.md) | Repository Integration Specification | — |
 
 ---
 

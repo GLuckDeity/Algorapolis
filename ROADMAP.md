@@ -90,6 +90,7 @@ Genesis is the phase of specification, community formation, and intellectual gro
 - **Q2 2026**: Open-source repository launch with manifesto, framework, and research directories
 - **Q3 2026**: Academic outreach, conference submissions, and community formation
 - **Q4 2026**: Case study development, pilot feasibility assessment, and partnership negotiations
+- **Q2 2026**: Integration of Deeper Research Papers on Trust Decay, Information Warfare, and Economic Architecture V2
 
 ### Focus Areas
 
@@ -102,13 +103,16 @@ Genesis is the phase of specification, community formation, and intellectual gro
    - Legal Pluralism: Constitutional Rights Layer specification (planned)
    - Food Sovereignty: Food Sovereignty Layer pilot in SAGCOT corridor (Phase 1)
    - Multi-Temporal: Temporal Rights Charter drafting (planned)
-   - Information Sovereignty: 7-Layer Stack design (planned)
-   - Species Preservation: Constitutional Biodiversity Floor specification (planned)
-   - Political Economy Encoding: Binding Inequality Boundaries definition (planned)
+   - Information Sovereignty: 7-Layer Stack design (completed as Priority Gaps Part I)
+   - Species Preservation: Constitutional Biodiversity Floor specification (completed as Priority Gaps Part III)
+   - Political Economy Encoding: Binding Inequality Boundaries definition (completed as Priority Gaps Part V)
+   - Intelligence and Security Oversight (completed as Priority Gaps Part IV)
+   - Monetary and Financial Sovereign Architecture (completed as Priority Gaps Part II)
    - Legitimacy System: 4D Assessment Module modeling (planned)
-   - Civilizational Immunity: Ideological Entropy Index (IEI) tracking specification (completed as Study 18)
-   - Ecological Stewardship: SAFE/ZONE/HAZARD planetary boundary constraints framework (completed as Study 19)
-   - Innovation Zones: Ethical experimentation framework and transition protocols (completed as Study 20)
+   - Civilizational Immunity (IEI monitoring) and Ideological Capture defense antibodies tested in district assemblies
+   - SAFE/ZONE/HAZARD constraint solver piloted for regional resource allocations
+   - Cognitive justice audits and vocational education (VET) training system pilot integrated
+   - Autonomy-within-framework rules implemented for district-level innovation zones
 4. **Pilot feasibility** — Determining whether Tanzania can serve as the first real-world test bed
 5. **Adversarial culture** — Establishing from the outset that scrutiny is not opposition but contribution
 
@@ -119,6 +123,8 @@ Genesis is the phase of specification, community formation, and intellectual gro
 | Complete specification | Parts I–XIII, Sections 1–77 | ✅ Complete |
 | Open-source repository | Manifesto, framework, research, and case studies | ✅ Complete |
 | Research studies and deeper research portfolio | Studies 01–20 and Simulation Findings Deeper Research collection | ✅ Complete |
+| Priority Gaps Research portfolio | Parts I–V and GitHub Integration Guide | ✅ Complete |
+| Deeper Research Integration Portfolio | Institutional Trust, Information Warfare, and Economic V2 papers integrated | ✅ Complete |
 | Academic review submissions | Papers submitted to governance, computer science, and political theory venues | Q3 2026 |
 | Case study portfolio | Six case studies (Estonia, Singapore, Taiwan, China, Netherlands, Tanzania) | ✅ Complete |
 | Tanzania pilot feasibility report | Detailed assessment of legal, technical, and political viability | Q4 2026 |
@@ -190,6 +196,7 @@ Foundation is the phase of formal verification, prototyping, and first contact w
 | ZKP tier system | Three-tier privacy architecture (Groth16 for identity, PLONK for eligibility, Halo 2 for aggregate) | Q2 2027 |
 | USSD/IVR citizen interface | Working prototype accessible on feature phones | Q3 2027 |
 | Governance sandbox engine | Simulation environment for policy testing | Q4 2027 |
+| Priority Gap Modules prototype | Proof-of-concept for Information Sovereignty, Biodiversity Fiscal Engine, Transparency-Optimized Classification, and Capital Sovereignty modules | Q1 2028 |
 | Tanzania spatial database | Geospatial infrastructure for pilot region | Q1 2028 |
 | Basic IoT deployment | Environmental and infrastructure sensors in pilot region | Q2 2028 |
 | Tanzania pilot MOU | Signed memorandum of understanding with Tanzanian authorities | Q2 2028 |

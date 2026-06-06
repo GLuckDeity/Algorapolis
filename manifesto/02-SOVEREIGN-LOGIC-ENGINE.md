@@ -94,7 +94,7 @@ Public officials do not swear allegiance to the Sovereign Logic Engine. They aff
 
 ## The Impartiality and Legibility Mandates
 
-The Sovereign Logic Engine operates under five binding administrative rules:
+The Sovereign Logic Engine operates under thirteen binding administrative rules:
 
 **The Impartiality Principle.** Trust in Algorapolis begins with absolute procedural fairness. The SLE enforces the Quality of Government standard: all identical cases must be processed identically, without regard to influence, wealth, or proximity. This procedural consistency is modeled in the NDT and is subject to continuous mathematical and public auditing.
 
@@ -105,6 +105,22 @@ The Sovereign Logic Engine operates under five binding administrative rules:
 **The Calibrated Trust Mandate.** The Engine must operate under a calibrated, four-tier trust model (Critical Governance, Operational Governance, Citizen Services, Public Information). Zero-trust verification is strictly calibrated to the function's criticality, ensuring that safety controls do not compromise operational latency or citizen privacy.
 
 **The AI Cyber Defense Mandate.** The Engine's automated defenses must implement confidence-weighted action, mandatory security patch validation against a regression test suite, and escalation circuit breakers. If AI-vs-AI security interactions exceed defined thresholds, the Engine must automatically halt automated responses, alert human operators, and establish secure communications, ensuring machine-speed execution never escapes human oversight.
+
+**The Data Sovereignty Mandate.** The SLE must enforce the Data Sovereignty Protocol, treating citizen data as sovereign territory of the citizen and applying data protection standards extraterritorially, ensuring all cross-border data flows are logged and auditable.
+
+**The Rules-Based Monetary Governance Mandate.** The SLE shall execute monetary policy algorithmically under strict rules-based constraints, enforcing the constitutional inflation band (0–3%), managing multi-tier currency conversions, and executing automated bail-in and seigniorage limits.
+
+**The Ecological Constraint Solver Mandate.** The SLE shall treat planetary boundaries as non-negotiable computational constraints, automatically blocking any resource extraction or developmental permit that transgresses the SAFE operating boundaries modeled by the NDT.
+
+**The Dual-Key Security Mandate.** The SLE shall programmatically enforce dual-key cryptographic authorization for all surveillance and security operations, requiring concurrent approval from both the operational command chain and the independent Intelligence Oversight Tribunal.
+
+**The Capital Sovereignty Mandate.** The SLE shall structurally counter wealth concentration (r > g) by enforcing lifetime inheritance caps, progressive wealth taxes, exit taxes on capital flight, and pay ratio limits on commercial enterprises, while managing the universal capital stake accounts.
+
+**The Institutional Trust Restoration Mandate.** The SLE shall execute regular automated audits of procedural fairness, enforce lottocratic representation models via sortition, and maintain polycentric scaling parameters to prevent institutional decay.
+
+**The Information Warfare Mandate.** The SLE shall verify content provenance via cryptographic credentials, log foreign influence operations, and deploy technique-based pre-bunking programs.
+
+**The Economic Architecture Mandate.** The SLE shall programmatically enforce 100% reserve banking, execute counter-cyclical dividends, coordinate federated cooperative R&D/banking networks, and enforce beneficial ownership registries.
 
 ---
 

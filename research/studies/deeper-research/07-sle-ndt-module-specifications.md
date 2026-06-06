@@ -231,3 +231,79 @@ The SLE shall implement a **Crisis Information Resilience Protocol** with five c
 **Principle 23 — Mother-Tongue Foundation**: The SLE shall mandate that initial literacy instruction occurs in the child's mother tongue or dominant home language, with transition to additional languages beginning only after foundational literacy is established. The civilizational competency of multilingualism is achieved through additive bilingualism, not subtractive replacement of the mother tongue.
 
 ---
+
+## Information Sovereignty Specifications
+
+### Full-Stack Sovereignty and NDT Monitoring
+The National Digital Twin (NDT) shall operate a **Layer Integrity Index** tracking sovereignty across a 7-layer stack: Physical, Data, Algorithmic, Narrative, Cultural, Institutional, and Constitutional. Any layer scoring below 60/100 triggers an automatic constitutional alert.
+- **Physical Layer (Layer 1):** The NDT maintains a **Physical Infrastructure Sovereignty Index** tracking all submarine cables, semiconductor supplies, and data center routing to eliminate foreign choke points.
+- **Data Layer (Layer 2):** Enforces a **Data Sovereignty Protocol** treating citizen data as sovereign territory. Cross-border transfers must be logged in a **Cross-Border Data Flow Register**.
+- **Algorithmic Layer (Layer 3):** The SLE enforces a **Glass Box Standard** exposing the decision logic of all civic algorithms, complemented by a citizen **Algorithmic Contestability Right** managed in a **Contestation Register**.
+- **Narrative Layer (Layer 4):** The NDT runs a **Narrative Environment Monitor** calculating the **Narrative Sovereignty Ratio** (domestic vs. foreign narrative velocity).
+- **Cultural Layer (Layer 5):** The NDT maintains a **Cultural Vitality Index** tracking linguistic diversity and cultural production.
+- **Institutional Layer (Layer 6):** The SLE runs **Institutional Health Monitoring** to detect capture indicators.
+- **Constitutional Layer (Layer 7):** The NDT runs a **Constitutional Drift Detector** to flag cumulative regulatory changes that erode sovereignty.
+
+---
+
+## Monetary Systems Specifications
+
+### CBDC and Multi-Layer Currency Architecture
+- **Privacy-by-Architecture CBDC:** The SLE CBDC settlement engine shall enforce zero-knowledge proof cryptography, verifying transaction validity without exposing user identities, counterparty addresses, or transaction amounts. All transaction metadata is purged after 90 days.
+- **Multi-Tier Complementary Currencies:** The SLE shall coordinate three currency tiers: national CBDC, regional mutual credit networks, and sectoral time/demurrage currencies. The NDT tracks circulation velocity, and the SLE maintains exchange rate pegs, restricting total complementary currency volume to 10% of national monetary aggregates.
+- **CSWF Governance:** The Civilizational Sovereign Wealth Fund (CSWF) runs on-chain with real-time portfolio publishing. The SLE enforces a strict 3% withdrawal rule, with all surplus returns distributed directly to citizens as basic dividends.
+- **Systemic Risk & Auto-Bail-In:** The NDT monitors banking concentration. No single bank may hold assets > 5% of GDP. Any bank > 1% of GDP must issue contingent convertible instruments (CoCos) that the SLE automatically triggers for conversion to equity if capital ratios breach constitutional minimums.
+- **Algorithmic Monetary Rule:** The SLE adjusts the Universal Basic Prebate counter-cyclically (increasing during deflation, decreasing during inflation) to maintain an inflation target of 0–3% without discretionary interest rate hikes.
+
+---
+
+## Species Preservation Specifications
+
+### Biodiversity Fiscal Engine and Legal Personhood
+- **Computational Legal Personhood:** Ecosystems above local threshold sizes are granted legal personhood in the SLE. Designated ecological guardian agents are empowered to challenge resource extraction permits.
+- **Biodiversity Fiscal Engine:** The SLE automates Costa Rican-style PES (Payment for Ecosystem Services), taxing resource extraction and redirecting the $500–700B in global nature-negative subsidies toward corridor conservation.
+- **Three-Tier Preservation:** The SLE optimizes funding priority: Tier 1 (In-Situ / parks) → Tier 2 (Ex-Situ / seed banks) → Tier 3 (Genomic / cryopreservation). If a species' population falls below sustainable numbers, the SLE triggers the **Constitutional Biodiversity Emergency Protocol**.
+- **Rewilding Trophic Cascade Simulator:** Before any rewilding is approved, the NDT's Trophic Cascade Simulator must run a 50-year projection to model ecosystem effects and prevent net biodiversity loss.
+- **Marine Governance Layer:** The SLE encodes the UN BBNJ Treaty as computational law, enforcing algorithmic catch limits and placing a precautionary ban on deep-sea mining.
+
+---
+
+## Intelligence & Security Specifications
+
+### Democratic Oversight and Civil Defense
+- **Architectural Privacy Enforcement:** The SLE is programmatically incapable of performing mass data retention, behavioral profiling of non-target groups, or centralized identity surveillance.
+- **Independent Oversight Tribunal Interface:** The SLE provides the Intelligence Oversight Tribunal absolute access to restricted systems, enforcing a **Dual-Key Surveillance Authorization** where all operations require cryptographic signatures from both the command chain and the Tribunal.
+- **Gradient Classification Engine:** Replaces binary classification with a gradient system (Public, Restricted, Compartmented, Sealed) and enforces a maximum 10-year limit on any security seal.
+- **Autonomous Lethal Force Prohibition:** Fully autonomous weapon systems targeting humans are hard-coded as prohibited. Semi-autonomous weapons require human confirmation for every action and maintain complete immutable audit trails.
+- **Computational Civil Defense:** The SLE coordinates cognitive shelters (independent civic authentication channels), digital continuity bunkers (air-gapped physical backups of core governance state), and regular societal immune drills.
+
+---
+
+## Wealth Transfer Specifications
+
+### Capital Sovereignty and Inequality Governance
+- **Intergenerational Cap & Wealth Tax:** The SLE enforces a lifetime inheritance cap equal to 50 times the median household wealth. It levies an annual progressive wealth tax (0.1% to 2.0%) managed via the NDT's **Comprehensive Wealth Register**.
+- **Constitutional Capital Stake:** Every citizen receives a capital endowment at birth, funded by the CSWF and managed by the SLE, vesting at age 18.
+- **Beneficial Ownership Mandate:** All assets in the jurisdiction must have verified beneficial owners. Anonymous entities and shell structures are blocked from transacting.
+- **Exit Tax & Sanctions:** The SLE collects a progressive exit tax (5–25%) on capital flight and applies tariff surcharges on secrecy jurisdictions.
+- **Automation Rent & Pay Ratio Limits:** The SLE captures automation rents to fund the CSWF dividend. It enforces a maximum 20:1 internal pay ratio, penalizing exceeding enterprises with escalating progressive taxation.
+- **Wealth Inequality Dashboard:** The NDT hosts a public real-time dashboard tracking Gini coefficients and intergenerational mobility, triggering automatic tax adjustments if metrics breach constitutional boundaries.
+
+## Institutional Trust and Legitimacy Specifications
+
+### Institutional Trust Audit
+The SLE must implement an automated trust-restoration and auditing system: (1) **Procedural Fairness Logger** — the NDT records interaction latency, decision clarity, and appeal rates across all citizen-facing services. (2) **Sortition Engine** — Assembly members are selected from the general registry using cryptographically verifiable sortition, ensuring demographically representative samples and preventing dynastic influence. (3) **Sunset Trigger** — any newly registered rule or local regulation has a mandatory 5-year expiration date, requiring affirmative Citizens' Assembly vote to renew. (4) **Ostrom Polycentric Balance Engine** — a sub-module that dynamically allocates governance authority to local, regional, or national hubs based on the geographic scale of resource dependencies, preventing size-related democratic deficits.
+
+---
+
+## Information Warfare and Narrative Defense Specifications
+
+### Narrative Security and Provenance Architecture
+The SLE shall implement a Narrative Security Substrate: (1) **C2PA Signer** — all official statements, audio records, and digital twins publishings carry cryptographic metadata and structural provenance paths. (2) **Cognitive Shield / Pre-Bunking Engine** — the SLE automatically generates and distributes targeted informational inoculations to target groups identifying upcoming narrative manipulation techniques. (3) **Coordinated Inauthentic Behavior (CIB) Monitor** — the NDT measures narrative flow rates and detects coordinated bot infiltration using network topological analysis, flagging external influence campaigns. (4) **Independent Root of Trust** — coordinates the root certificates of all cryptographic seals under the supervision of the sortition-elected Oversight Tribunal.
+
+---
+
+## Economic Architecture V2 Specifications
+
+### Monetary Systems, Cooperatives, and Transition Models
+The SLE Economic Substrate V2 includes: (1) **100% Reserve Core** — the payment ledger is fully backed by sovereign reserves, while credit functions are isolated within separate investment trusts. (2) **r-g Capital Stabilizer** — taxes capital accumulations exceeding growth thresholds, funneling revenue into the CSWF. (3) **Federated Cooperative Ledger** — manages membership, capital accounts, and federated voting for cooperative networks, enforcing boundary checks and wage ratio compliance. (4) **Dual-Track Transition Controller** — coordinates SEZ pilots and legacy systems coexistence, transitioning domains only when local institutional capacity satisfies pre-defined thresholds. (5) **Future Generations Voting Proxy** — automatically generates voting weights in the Agora representing projected resource availability for future cohorts.

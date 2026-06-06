@@ -26,11 +26,21 @@ Algorapolis matches governance modality to civic domain:
 | Crisis response | Coordinated authority | Emergencies require speed, not deliberation |
 | Substrate-Level Education | Equity-quality parity / Cognitive Justice | Education is a civilizational substrate that must remain demographically neutral and free from epistemic subordination |
 | Ideological Capture defense | Civilizational Immune System / Antibodies | Threat-agnostic defense prevents incremental institutional capture from within |
+| Information Sovereignty | Full-Stack Sovereignty Stack | Precondition for all domains; information integrity must be mathematically guaranteed |
+| Monetary Systems | Algorithmic monetary discipline / CSWF | Monetary stability and collective capital stakes are metabolic prerequisites |
+| Species Preservation | Biodiversity Fiscal Engine / Personhood | Biospheric carrying capacity must constrain industrial throughput |
+| Intelligence & Security | Democratic Oversight / Dual-Key | Operational capabilities require cryptographic checks to prevent surveillance state capture |
+| Wealth Transfer | Capital Sovereignty / Lifetime Caps | Piketty r > g concentration must be countered structurally to preserve democratic parity |
+| Institutional Trust & Legitimacy | Algorithmic & sortition-based restoration | Procedural and narrative alignment |
+| Information Warfare & Narrative Defense | Cryptographic provenance & asymmetric defense | Epistemic integrity validation |
+| Economic Architecture V2 | Sovereign monetary separation & cooperative networks | Metabolic stabilization |
 
 This matching principle — governance modality to domain nature — is the original contribution of Algorapolis, and it produces an architecture that no single existing concept encompasses. It is the reason the framework is called *modular*: each module operates under the governance logic appropriate to its domain, and no module imposes its logic on another.
 
 > [!NOTE]
 > For a detailed analysis of how Algorapolis protects its core domains from subversion and capture, see [Study 18: Civilizational Immunity & Ideological Capture Resilience](file:///d:/GitHub/Algorapolis/research/studies/18-civilizational-immunity-capture-resilience.md) and the deeper research on [Substrate-Level Education](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/04-education-equality-deeper-research.md).
+>
+> The foundational governance modalities are further extended by the [Priority Gaps Research](file:///d:/GitHub/Algorapolis/research/priority-gaps/README.md), which establishes specifications for [Information Sovereignty](file:///d:/GitHub/Algorapolis/research/priority-gaps/01-information-sovereignty-priority-gap-research.md) (Part XVII), [Monetary Systems](file:///d:/GitHub/Algorapolis/research/priority-gaps/02-monetary-systems-priority-gap-research.md) (Part XVIII), [Species Preservation](file:///d:/GitHub/Algorapolis/research/priority-gaps/03-species-preservation-priority-gap-research.md) (Part XIX), [Intelligence & Security](file:///d:/GitHub/Algorapolis/research/priority-gaps/04-intelligence-security-democratic-gap-research.md) (Part XX), and [Wealth Transfer](file:///d:/GitHub/Algorapolis/research/priority-gaps/05-wealth-transfer-generational-wealth-priority-gap-research.md) (Part XXI).
 
 ---
 
@@ -109,7 +119,7 @@ The most critical architectural insight is the distinction between what democrac
 The practical implementation operates through a constitutional hierarchy. At the base are the Immutable Civic Guarantees — rights that no majority, parliament, or administrator can legislate away: equal legal status regardless of identity, freedom of worship and belief, equal economic participation, equal civic access, and anti-discrimination protections. Above these are Democratic Decision Domains — areas where collective choice legitimately operates: budgets, priorities, policies, and resource allocation. The boundary between the two is enforced by the SLE's formal verification: any proposed policy that violates an Immutable Civic Guarantee is automatically rejected before execution.
 
 > [!NOTE]
-> The architectural defenses protecting constitutional rights from majority override are analyzed in [Study 18: Civilizational Immunity & Ideological Capture Resilience](file:///d:/GitHub/Algorapolis/research/studies/18-civilizational-immunity-capture-resilience.md). Detailed specifications for the SLE and NDT components of these defenses are documented in the [Design Principles Registry](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/06-design-principles-registry.md).
+> The architectural defenses protecting constitutional rights from majority override are analyzed in [Study 18: Civilizational Immunity & Ideological Capture Resilience](file:///d:/GitHub/Algorapolis/research/studies/18-civilizational-immunity-capture-resilience.md). Detailed specifications for the SLE and NDT components of these defenses are documented in the [Design Principles Registry](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/06-design-principles-registry.md), which compiles all 159 design principles including those for [Intelligence & Security](file:///d:/GitHub/Algorapolis/research/priority-gaps/04-intelligence-security-democratic-gap-research.md) (Part XX) and [Wealth Transfer](file:///d:/GitHub/Algorapolis/research/priority-gaps/05-wealth-transfer-generational-wealth-priority-gap-research.md) (Part XXI).
 
 ---
 

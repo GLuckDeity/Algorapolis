@@ -11,6 +11,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Deeper Research integration of three academic papers:
+  - Part VIII: Institutional Trust & Legitimacy (Trust decay mechanics, legitimacy lifecycles, and sortition-based restoration) with 7 Design Principles (`TD-1` through `TD-7`).
+  - Part IX: Information Warfare & Narrative Defense (C2PA content credentials, asymmetric defense, and public curation) with 12 Design Principles (`IW-1` through `IW-12`).
+  - Part X: Economic Architecture V2 (Chicago Plan reserve banking, federated cooperative networks, and transition gradualism) with 24 Design Principles (`EA-1` through `EA-24`).
+- Appended 43 new Design Principles to the master registry (`06-design-principles-registry.md`) bringing the total to 159.
+- Updated master cross-reference CSV (`docs/design-principles-cross-reference.csv`) with the 43 new principles.
+- Updated SLE/NDT Module Specifications (`07-sle-ndt-module-specifications.md`) with the new specifications.
+- Updated core manifesto (`manifesto/01-CORE-PRINCIPLES.md`, `manifesto/02-SOVEREIGN-LOGIC-ENGINE.md`) and technical blueprints (`framework/DIGITAL-TWIN.md`, `framework/ARCHITECTURE.md`) with integrations for the 3 new research areas.
+
+- Priority Gaps Research child collection under `research/priority-gaps/` authored by Goodluck Japhet Macha:
+  - Part I: Information Sovereignty (7-layer information stack, digital self-determination, cognitive security) with 12 Design Principles (`DP-IS-1` through `DP-IS-12`).
+  - Part II: Monetary Systems (CBDC design, complementary currencies, Sovereign Wealth Funds, monetary discipline) with 12 Design Principles (`DP-MS-1` through `DP-MS-12`).
+  - Part III: Species Preservation (Rights of Nature, insect collapse, marine governance, conservation economics) with 12 Design Principles (`DP-SP-1` through `DP-SP-12`).
+  - Part IV: Intelligence & Security (Democratic oversight, mass surveillance limits, dual-use technology, autonomous weapons) with 12 Design Principles (`DP-ISec-1` through `DP-ISec-12`).
+  - Part V: Wealth Transfer (Intergenerational wealth caps, Piketty's r > g, progressive wealth tax, capital stakes) with 12 Design Principles (`DP-WT-1` through `DP-WT-12`).
+  - Part VI: GitHub Integration Guide (repository integration specification).
+- Appended 60 new Design Principles to the master Design Principles Registry (`06-design-principles-registry.md`).
+- Appended functional specifications for the 5 priority gap domains to the consolidated SLE/NDT Module Specifications (`07-sle-ndt-module-specifications.md`).
+- Updated master cross-reference CSV (`docs/design-principles-cross-reference.csv`) with the 60 new priority gap principles.
+- Updated core manifesto files (`manifesto/01-CORE-PRINCIPLES.md` and `manifesto/02-SOVEREIGN-LOGIC-ENGINE.md`) and technical blueprints (`framework/ARCHITECTURE.md` and `framework/DIGITAL-TWIN.md`) with priority-gap integrations.
 - Study 18: Civilizational Immunity & Capture Resilience
 - Study 19: Ecological Optimization: Volume I
 - Study 20: Innovation Zones and Experimental Regions
