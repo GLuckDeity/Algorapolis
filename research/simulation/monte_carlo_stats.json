@@ -1,0 +1,5602 @@
+{
+  "Capitalism": {
+    "final_metrics_stats": {
+      "prosperity": {
+        "mean": 0.940484,
+        "std": 0.030692,
+        "min": 0.87319,
+        "max": 0.984503,
+        "ci_95_lower": 0.931976,
+        "ci_95_upper": 0.948991
+      },
+      "demography": {
+        "mean": 0.94904,
+        "std": 0.030722,
+        "min": 0.865656,
+        "max": 0.983203,
+        "ci_95_lower": 0.940525,
+        "ci_95_upper": 0.957556
+      },
+      "social_classes": {
+        "mean": 0.880015,
+        "std": 0.042696,
+        "min": 0.784152,
+        "max": 0.951126,
+        "ci_95_lower": 0.868181,
+        "ci_95_upper": 0.89185
+      },
+      "equity": {
+        "mean": 0.859016,
+        "std": 0.042428,
+        "min": 0.745588,
+        "max": 0.934986,
+        "ci_95_lower": 0.847256,
+        "ci_95_upper": 0.870777
+      },
+      "media_and_information": {
+        "mean": 0.976821,
+        "std": 0.011215,
+        "min": 0.93684,
+        "max": 0.986784,
+        "ci_95_lower": 0.973712,
+        "ci_95_upper": 0.97993
+      },
+      "security": {
+        "mean": 0.883574,
+        "std": 0.055113,
+        "min": 0.739017,
+        "max": 0.979004,
+        "ci_95_lower": 0.868297,
+        "ci_95_upper": 0.89885
+      },
+      "infrastructure": {
+        "mean": 0.940179,
+        "std": 0.030659,
+        "min": 0.855829,
+        "max": 0.989165,
+        "ci_95_lower": 0.93168,
+        "ci_95_upper": 0.948677
+      },
+      "resources": {
+        "mean": 0.930201,
+        "std": 0.035987,
+        "min": 0.844377,
+        "max": 0.979977,
+        "ci_95_lower": 0.920226,
+        "ci_95_upper": 0.940177
+      },
+      "agriculture": {
+        "mean": 0.921689,
+        "std": 0.045765,
+        "min": 0.793185,
+        "max": 0.975057,
+        "ci_95_lower": 0.909004,
+        "ci_95_upper": 0.934375
+      },
+      "wildlife_and_ecology": {
+        "mean": 0.823963,
+        "std": 0.05284,
+        "min": 0.692427,
+        "max": 0.908075,
+        "ci_95_lower": 0.809317,
+        "ci_95_upper": 0.83861
+      },
+      "monetary_system": {
+        "mean": 0.968112,
+        "std": 0.021062,
+        "min": 0.908183,
+        "max": 0.987817,
+        "ci_95_lower": 0.962274,
+        "ci_95_upper": 0.97395
+      },
+      "technology": {
+        "mean": 0.980359,
+        "std": 0.008341,
+        "min": 0.951553,
+        "max": 0.987363,
+        "ci_95_lower": 0.978047,
+        "ci_95_upper": 0.982672
+      },
+      "sustainability": {
+        "mean": 0.88367,
+        "std": 0.041455,
+        "min": 0.799858,
+        "max": 0.952114,
+        "ci_95_lower": 0.87218,
+        "ci_95_upper": 0.895161
+      },
+      "freedom": {
+        "mean": 0.959893,
+        "std": 0.024303,
+        "min": 0.891403,
+        "max": 0.985473,
+        "ci_95_lower": 0.953156,
+        "ci_95_upper": 0.966629
+      },
+      "resilience": {
+        "mean": 0.857246,
+        "std": 0.040903,
+        "min": 0.764665,
+        "max": 0.944914,
+        "ci_95_lower": 0.845908,
+        "ci_95_upper": 0.868584
+      }
+    },
+    "annual_trends": {
+      "2026": {
+        "prosperity": {
+          "mean": 0.528656,
+          "std": 0.001746
+        },
+        "demography": {
+          "mean": 0.519332,
+          "std": 0.001265
+        },
+        "social_classes": {
+          "mean": 0.512391,
+          "std": 0.001381
+        },
+        "equity": {
+          "mean": 0.509674,
+          "std": 0.001322
+        },
+        "media_and_information": {
+          "mean": 0.521445,
+          "std": 0.001655
+        },
+        "security": {
+          "mean": 0.51405,
+          "std": 0.001494
+        },
+        "infrastructure": {
+          "mean": 0.524173,
+          "std": 0.001538
+        },
+        "resources": {
+          "mean": 0.516655,
+          "std": 0.001378
+        },
+        "agriculture": {
+          "mean": 0.514299,
+          "std": 0.001573
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.507242,
+          "std": 0.001655
+        },
+        "monetary_system": {
+          "mean": 0.531449,
+          "std": 0.001231
+        },
+        "technology": {
+          "mean": 0.528817,
+          "std": 0.001479
+        },
+        "sustainability": {
+          "mean": 0.509865,
+          "std": 0.001442
+        },
+        "freedom": {
+          "mean": 0.519112,
+          "std": 0.001552
+        },
+        "resilience": {
+          "mean": 0.511825,
+          "std": 0.001689
+        }
+      },
+      "2030": {
+        "prosperity": {
+          "mean": 0.631909,
+          "std": 0.002824
+        },
+        "demography": {
+          "mean": 0.59103,
+          "std": 0.003339
+        },
+        "social_classes": {
+          "mean": 0.558246,
+          "std": 0.003569
+        },
+        "equity": {
+          "mean": 0.547214,
+          "std": 0.003257
+        },
+        "media_and_information": {
+          "mean": 0.600872,
+          "std": 0.003587
+        },
+        "security": {
+          "mean": 0.568907,
+          "std": 0.003112
+        },
+        "infrastructure": {
+          "mean": 0.612214,
+          "std": 0.002928
+        },
+        "resources": {
+          "mean": 0.579253,
+          "std": 0.003418
+        },
+        "agriculture": {
+          "mean": 0.568966,
+          "std": 0.00397
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.534532,
+          "std": 0.003986
+        },
+        "monetary_system": {
+          "mean": 0.642754,
+          "std": 0.002999
+        },
+        "technology": {
+          "mean": 0.63206,
+          "std": 0.002799
+        },
+        "sustainability": {
+          "mean": 0.547068,
+          "std": 0.003742
+        },
+        "freedom": {
+          "mean": 0.59119,
+          "std": 0.003456
+        },
+        "resilience": {
+          "mean": 0.557964,
+          "std": 0.003058
+        }
+      },
+      "2035": {
+        "prosperity": {
+          "mean": 0.723239,
+          "std": 0.019189
+        },
+        "demography": {
+          "mean": 0.659948,
+          "std": 0.018856
+        },
+        "social_classes": {
+          "mean": 0.600325,
+          "std": 0.020411
+        },
+        "equity": {
+          "mean": 0.582464,
+          "std": 0.019492
+        },
+        "media_and_information": {
+          "mean": 0.682866,
+          "std": 0.011184
+        },
+        "security": {
+          "mean": 0.617342,
+          "std": 0.024781
+        },
+        "infrastructure": {
+          "mean": 0.695734,
+          "std": 0.019282
+        },
+        "resources": {
+          "mean": 0.643345,
+          "std": 0.012224
+        },
+        "agriculture": {
+          "mean": 0.62228,
+          "std": 0.021128
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.565225,
+          "std": 0.011216
+        },
+        "monetary_system": {
+          "mean": 0.746463,
+          "std": 0.013482
+        },
+        "technology": {
+          "mean": 0.733788,
+          "std": 0.009467
+        },
+        "sustainability": {
+          "mean": 0.587353,
+          "std": 0.009794
+        },
+        "freedom": {
+          "mean": 0.664309,
+          "std": 0.013768
+        },
+        "resilience": {
+          "mean": 0.602914,
+          "std": 0.014184
+        }
+      },
+      "2050": {
+        "prosperity": {
+          "mean": 0.850668,
+          "std": 0.048452
+        },
+        "demography": {
+          "mean": 0.797153,
+          "std": 0.03784
+        },
+        "social_classes": {
+          "mean": 0.693931,
+          "std": 0.03993
+        },
+        "equity": {
+          "mean": 0.667779,
+          "std": 0.038225
+        },
+        "media_and_information": {
+          "mean": 0.851319,
+          "std": 0.011752
+        },
+        "security": {
+          "mean": 0.716947,
+          "std": 0.060754
+        },
+        "infrastructure": {
+          "mean": 0.821763,
+          "std": 0.043802
+        },
+        "resources": {
+          "mean": 0.753504,
+          "std": 0.040439
+        },
+        "agriculture": {
+          "mean": 0.729963,
+          "std": 0.047606
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.619386,
+          "std": 0.043025
+        },
+        "monetary_system": {
+          "mean": 0.898944,
+          "std": 0.028002
+        },
+        "technology": {
+          "mean": 0.908834,
+          "std": 0.00978
+        },
+        "sustainability": {
+          "mean": 0.6623,
+          "std": 0.048274
+        },
+        "freedom": {
+          "mean": 0.809426,
+          "std": 0.028754
+        },
+        "resilience": {
+          "mean": 0.677553,
+          "std": 0.049157
+        }
+      },
+      "2075": {
+        "prosperity": {
+          "mean": 0.917178,
+          "std": 0.04301
+        },
+        "demography": {
+          "mean": 0.895768,
+          "std": 0.047833
+        },
+        "social_classes": {
+          "mean": 0.794743,
+          "std": 0.042877
+        },
+        "equity": {
+          "mean": 0.767011,
+          "std": 0.047463
+        },
+        "media_and_information": {
+          "mean": 0.954551,
+          "std": 0.015902
+        },
+        "security": {
+          "mean": 0.811006,
+          "std": 0.069976
+        },
+        "infrastructure": {
+          "mean": 0.910382,
+          "std": 0.039908
+        },
+        "resources": {
+          "mean": 0.866688,
+          "std": 0.040016
+        },
+        "agriculture": {
+          "mean": 0.846747,
+          "std": 0.055176
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.714125,
+          "std": 0.053554
+        },
+        "monetary_system": {
+          "mean": 0.959078,
+          "std": 0.024353
+        },
+        "technology": {
+          "mean": 0.976135,
+          "std": 0.011137
+        },
+        "sustainability": {
+          "mean": 0.776139,
+          "std": 0.048386
+        },
+        "freedom": {
+          "mean": 0.91964,
+          "std": 0.026961
+        },
+        "resilience": {
+          "mean": 0.772419,
+          "std": 0.055055
+        }
+      },
+      "2100": {
+        "prosperity": {
+          "mean": 0.930978,
+          "std": 0.041261
+        },
+        "demography": {
+          "mean": 0.931734,
+          "std": 0.041556
+        },
+        "social_classes": {
+          "mean": 0.843044,
+          "std": 0.040944
+        },
+        "equity": {
+          "mean": 0.815854,
+          "std": 0.044527
+        },
+        "media_and_information": {
+          "mean": 0.970388,
+          "std": 0.020501
+        },
+        "security": {
+          "mean": 0.857659,
+          "std": 0.071454
+        },
+        "infrastructure": {
+          "mean": 0.922297,
+          "std": 0.040819
+        },
+        "resources": {
+          "mean": 0.904229,
+          "std": 0.047672
+        },
+        "agriculture": {
+          "mean": 0.897452,
+          "std": 0.045191
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.775277,
+          "std": 0.04939
+        },
+        "monetary_system": {
+          "mean": 0.957275,
+          "std": 0.029572
+        },
+        "technology": {
+          "mean": 0.981004,
+          "std": 0.009075
+        },
+        "sustainability": {
+          "mean": 0.840982,
+          "std": 0.049393
+        },
+        "freedom": {
+          "mean": 0.948565,
+          "std": 0.027838
+        },
+        "resilience": {
+          "mean": 0.824351,
+          "std": 0.045829
+        }
+      },
+      "2125": {
+        "prosperity": {
+          "mean": 0.940484,
+          "std": 0.030692
+        },
+        "demography": {
+          "mean": 0.94904,
+          "std": 0.030722
+        },
+        "social_classes": {
+          "mean": 0.880015,
+          "std": 0.042696
+        },
+        "equity": {
+          "mean": 0.859016,
+          "std": 0.042428
+        },
+        "media_and_information": {
+          "mean": 0.976821,
+          "std": 0.011215
+        },
+        "security": {
+          "mean": 0.883574,
+          "std": 0.055113
+        },
+        "infrastructure": {
+          "mean": 0.940179,
+          "std": 0.030659
+        },
+        "resources": {
+          "mean": 0.930201,
+          "std": 0.035987
+        },
+        "agriculture": {
+          "mean": 0.921689,
+          "std": 0.045765
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.823963,
+          "std": 0.05284
+        },
+        "monetary_system": {
+          "mean": 0.968112,
+          "std": 0.021062
+        },
+        "technology": {
+          "mean": 0.980359,
+          "std": 0.008341
+        },
+        "sustainability": {
+          "mean": 0.88367,
+          "std": 0.041455
+        },
+        "freedom": {
+          "mean": 0.959893,
+          "std": 0.024303
+        },
+        "resilience": {
+          "mean": 0.857246,
+          "std": 0.040903
+        }
+      }
+    }
+  },
+  "Socialism": {
+    "final_metrics_stats": {
+      "prosperity": {
+        "mean": 0.830578,
+        "std": 0.048782,
+        "min": 0.709707,
+        "max": 0.933467,
+        "ci_95_lower": 0.817056,
+        "ci_95_upper": 0.8441
+      },
+      "demography": {
+        "mean": 0.931293,
+        "std": 0.030517,
+        "min": 0.865117,
+        "max": 0.976317,
+        "ci_95_lower": 0.922834,
+        "ci_95_upper": 0.939752
+      },
+      "social_classes": {
+        "mean": 0.942213,
+        "std": 0.027275,
+        "min": 0.875085,
+        "max": 0.98127,
+        "ci_95_lower": 0.934653,
+        "ci_95_upper": 0.949773
+      },
+      "equity": {
+        "mean": 0.957032,
+        "std": 0.021247,
+        "min": 0.881962,
+        "max": 0.984579,
+        "ci_95_lower": 0.951143,
+        "ci_95_upper": 0.962922
+      },
+      "media_and_information": {
+        "mean": 0.923198,
+        "std": 0.019819,
+        "min": 0.867298,
+        "max": 0.952698,
+        "ci_95_lower": 0.917704,
+        "ci_95_upper": 0.928692
+      },
+      "security": {
+        "mean": 0.882787,
+        "std": 0.045096,
+        "min": 0.775093,
+        "max": 0.963116,
+        "ci_95_lower": 0.870287,
+        "ci_95_upper": 0.895287
+      },
+      "infrastructure": {
+        "mean": 0.900129,
+        "std": 0.033686,
+        "min": 0.802835,
+        "max": 0.967383,
+        "ci_95_lower": 0.890791,
+        "ci_95_upper": 0.909466
+      },
+      "resources": {
+        "mean": 0.907561,
+        "std": 0.038256,
+        "min": 0.794697,
+        "max": 0.960226,
+        "ci_95_lower": 0.896957,
+        "ci_95_upper": 0.918165
+      },
+      "agriculture": {
+        "mean": 0.9203,
+        "std": 0.037293,
+        "min": 0.803874,
+        "max": 0.972803,
+        "ci_95_lower": 0.909963,
+        "ci_95_upper": 0.930637
+      },
+      "wildlife_and_ecology": {
+        "mean": 0.916732,
+        "std": 0.03359,
+        "min": 0.801598,
+        "max": 0.964045,
+        "ci_95_lower": 0.907422,
+        "ci_95_upper": 0.926043
+      },
+      "monetary_system": {
+        "mean": 0.868784,
+        "std": 0.034601,
+        "min": 0.754106,
+        "max": 0.939996,
+        "ci_95_lower": 0.859193,
+        "ci_95_upper": 0.878375
+      },
+      "technology": {
+        "mean": 0.89789,
+        "std": 0.023689,
+        "min": 0.823779,
+        "max": 0.92607,
+        "ci_95_lower": 0.891323,
+        "ci_95_upper": 0.904456
+      },
+      "sustainability": {
+        "mean": 0.947468,
+        "std": 0.023206,
+        "min": 0.90148,
+        "max": 0.979035,
+        "ci_95_lower": 0.941035,
+        "ci_95_upper": 0.9539
+      },
+      "freedom": {
+        "mean": 0.892057,
+        "std": 0.032803,
+        "min": 0.792387,
+        "max": 0.944181,
+        "ci_95_lower": 0.882964,
+        "ci_95_upper": 0.901149
+      },
+      "resilience": {
+        "mean": 0.864419,
+        "std": 0.033186,
+        "min": 0.788872,
+        "max": 0.942304,
+        "ci_95_lower": 0.855221,
+        "ci_95_upper": 0.873618
+      }
+    },
+    "annual_trends": {
+      "2026": {
+        "prosperity": {
+          "mean": 0.510751,
+          "std": 0.001586
+        },
+        "demography": {
+          "mean": 0.513922,
+          "std": 0.00155
+        },
+        "social_classes": {
+          "mean": 0.516836,
+          "std": 0.001545
+        },
+        "equity": {
+          "mean": 0.518262,
+          "std": 0.00163
+        },
+        "media_and_information": {
+          "mean": 0.509192,
+          "std": 0.00187
+        },
+        "security": {
+          "mean": 0.512098,
+          "std": 0.001533
+        },
+        "infrastructure": {
+          "mean": 0.513809,
+          "std": 0.001633
+        },
+        "resources": {
+          "mean": 0.512282,
+          "std": 0.001618
+        },
+        "agriculture": {
+          "mean": 0.512286,
+          "std": 0.001521
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.510432,
+          "std": 0.001348
+        },
+        "monetary_system": {
+          "mean": 0.509315,
+          "std": 0.001316
+        },
+        "technology": {
+          "mean": 0.507983,
+          "std": 0.001544
+        },
+        "sustainability": {
+          "mean": 0.513592,
+          "std": 0.001451
+        },
+        "freedom": {
+          "mean": 0.509671,
+          "std": 0.001423
+        },
+        "resilience": {
+          "mean": 0.510687,
+          "std": 0.001404
+        }
+      },
+      "2030": {
+        "prosperity": {
+          "mean": 0.551784,
+          "std": 0.003902
+        },
+        "demography": {
+          "mean": 0.565793,
+          "std": 0.003963
+        },
+        "social_classes": {
+          "mean": 0.580755,
+          "std": 0.0036
+        },
+        "equity": {
+          "mean": 0.586576,
+          "std": 0.003368
+        },
+        "media_and_information": {
+          "mean": 0.543987,
+          "std": 0.004089
+        },
+        "security": {
+          "mean": 0.557888,
+          "std": 0.003605
+        },
+        "infrastructure": {
+          "mean": 0.56614,
+          "std": 0.003428
+        },
+        "resources": {
+          "mean": 0.55812,
+          "std": 0.003551
+        },
+        "agriculture": {
+          "mean": 0.558673,
+          "std": 0.003322
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.552233,
+          "std": 0.002782
+        },
+        "monetary_system": {
+          "mean": 0.54353,
+          "std": 0.003643
+        },
+        "technology": {
+          "mean": 0.53763,
+          "std": 0.003278
+        },
+        "sustainability": {
+          "mean": 0.56581,
+          "std": 0.003179
+        },
+        "freedom": {
+          "mean": 0.544746,
+          "std": 0.003804
+        },
+        "resilience": {
+          "mean": 0.552099,
+          "std": 0.003621
+        }
+      },
+      "2035": {
+        "prosperity": {
+          "mean": 0.589102,
+          "std": 0.017041
+        },
+        "demography": {
+          "mean": 0.618661,
+          "std": 0.013589
+        },
+        "social_classes": {
+          "mean": 0.643784,
+          "std": 0.013598
+        },
+        "equity": {
+          "mean": 0.656104,
+          "std": 0.013947
+        },
+        "media_and_information": {
+          "mean": 0.583211,
+          "std": 0.008126
+        },
+        "security": {
+          "mean": 0.60245,
+          "std": 0.020609
+        },
+        "infrastructure": {
+          "mean": 0.619296,
+          "std": 0.014729
+        },
+        "resources": {
+          "mean": 0.607591,
+          "std": 0.009304
+        },
+        "agriculture": {
+          "mean": 0.607241,
+          "std": 0.015436
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.598901,
+          "std": 0.007208
+        },
+        "monetary_system": {
+          "mean": 0.580981,
+          "std": 0.012342
+        },
+        "technology": {
+          "mean": 0.571319,
+          "std": 0.007552
+        },
+        "sustainability": {
+          "mean": 0.623974,
+          "std": 0.007922
+        },
+        "freedom": {
+          "mean": 0.582145,
+          "std": 0.013127
+        },
+        "resilience": {
+          "mean": 0.59427,
+          "std": 0.011326
+        }
+      },
+      "2050": {
+        "prosperity": {
+          "mean": 0.655754,
+          "std": 0.046446
+        },
+        "demography": {
+          "mean": 0.736014,
+          "std": 0.033245
+        },
+        "social_classes": {
+          "mean": 0.775612,
+          "std": 0.026048
+        },
+        "equity": {
+          "mean": 0.802738,
+          "std": 0.023591
+        },
+        "media_and_information": {
+          "mean": 0.689391,
+          "std": 0.014136
+        },
+        "security": {
+          "mean": 0.697474,
+          "std": 0.047559
+        },
+        "infrastructure": {
+          "mean": 0.715395,
+          "std": 0.041152
+        },
+        "resources": {
+          "mean": 0.702457,
+          "std": 0.029419
+        },
+        "agriculture": {
+          "mean": 0.70907,
+          "std": 0.036127
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.692955,
+          "std": 0.028559
+        },
+        "monetary_system": {
+          "mean": 0.665735,
+          "std": 0.030633
+        },
+        "technology": {
+          "mean": 0.660893,
+          "std": 0.012281
+        },
+        "sustainability": {
+          "mean": 0.739476,
+          "std": 0.03053
+        },
+        "freedom": {
+          "mean": 0.672216,
+          "std": 0.023254
+        },
+        "resilience": {
+          "mean": 0.672709,
+          "std": 0.03575
+        }
+      },
+      "2075": {
+        "prosperity": {
+          "mean": 0.742463,
+          "std": 0.0539
+        },
+        "demography": {
+          "mean": 0.8463,
+          "std": 0.043208
+        },
+        "social_classes": {
+          "mean": 0.885189,
+          "std": 0.026599
+        },
+        "equity": {
+          "mean": 0.913918,
+          "std": 0.025676
+        },
+        "media_and_information": {
+          "mean": 0.80989,
+          "std": 0.019277
+        },
+        "security": {
+          "mean": 0.797213,
+          "std": 0.05333
+        },
+        "infrastructure": {
+          "mean": 0.825839,
+          "std": 0.041355
+        },
+        "resources": {
+          "mean": 0.818316,
+          "std": 0.033521
+        },
+        "agriculture": {
+          "mean": 0.830008,
+          "std": 0.040626
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.815534,
+          "std": 0.033172
+        },
+        "monetary_system": {
+          "mean": 0.768739,
+          "std": 0.039206
+        },
+        "technology": {
+          "mean": 0.772351,
+          "std": 0.020945
+        },
+        "sustainability": {
+          "mean": 0.867973,
+          "std": 0.029419
+        },
+        "freedom": {
+          "mean": 0.783614,
+          "std": 0.026532
+        },
+        "resilience": {
+          "mean": 0.772472,
+          "std": 0.040156
+        }
+      },
+      "2100": {
+        "prosperity": {
+          "mean": 0.798403,
+          "std": 0.048385
+        },
+        "demography": {
+          "mean": 0.90433,
+          "std": 0.036506
+        },
+        "social_classes": {
+          "mean": 0.923702,
+          "std": 0.026761
+        },
+        "equity": {
+          "mean": 0.943223,
+          "std": 0.025244
+        },
+        "media_and_information": {
+          "mean": 0.879052,
+          "std": 0.025687
+        },
+        "security": {
+          "mean": 0.853416,
+          "std": 0.050991
+        },
+        "infrastructure": {
+          "mean": 0.87123,
+          "std": 0.03654
+        },
+        "resources": {
+          "mean": 0.872871,
+          "std": 0.040493
+        },
+        "agriculture": {
+          "mean": 0.88918,
+          "std": 0.03347
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.879853,
+          "std": 0.030228
+        },
+        "monetary_system": {
+          "mean": 0.825138,
+          "std": 0.038954
+        },
+        "technology": {
+          "mean": 0.849296,
+          "std": 0.020922
+        },
+        "sustainability": {
+          "mean": 0.922653,
+          "std": 0.031704
+        },
+        "freedom": {
+          "mean": 0.851152,
+          "std": 0.029377
+        },
+        "resilience": {
+          "mean": 0.829057,
+          "std": 0.035123
+        }
+      },
+      "2125": {
+        "prosperity": {
+          "mean": 0.830578,
+          "std": 0.048782
+        },
+        "demography": {
+          "mean": 0.931293,
+          "std": 0.030517
+        },
+        "social_classes": {
+          "mean": 0.942213,
+          "std": 0.027275
+        },
+        "equity": {
+          "mean": 0.957032,
+          "std": 0.021247
+        },
+        "media_and_information": {
+          "mean": 0.923198,
+          "std": 0.019819
+        },
+        "security": {
+          "mean": 0.882787,
+          "std": 0.045096
+        },
+        "infrastructure": {
+          "mean": 0.900129,
+          "std": 0.033686
+        },
+        "resources": {
+          "mean": 0.907561,
+          "std": 0.038256
+        },
+        "agriculture": {
+          "mean": 0.9203,
+          "std": 0.037293
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.916732,
+          "std": 0.03359
+        },
+        "monetary_system": {
+          "mean": 0.868784,
+          "std": 0.034601
+        },
+        "technology": {
+          "mean": 0.89789,
+          "std": 0.023689
+        },
+        "sustainability": {
+          "mean": 0.947468,
+          "std": 0.023206
+        },
+        "freedom": {
+          "mean": 0.892057,
+          "std": 0.032803
+        },
+        "resilience": {
+          "mean": 0.864419,
+          "std": 0.033186
+        }
+      }
+    }
+  },
+  "Communism": {
+    "final_metrics_stats": {
+      "prosperity": {
+        "mean": 0.553322,
+        "std": 0.084863,
+        "min": 0.377987,
+        "max": 0.753352,
+        "ci_95_lower": 0.529799,
+        "ci_95_upper": 0.576845
+      },
+      "demography": {
+        "mean": 0.740819,
+        "std": 0.066665,
+        "min": 0.575175,
+        "max": 0.852578,
+        "ci_95_lower": 0.722341,
+        "ci_95_upper": 0.759298
+      },
+      "social_classes": {
+        "mean": 0.826236,
+        "std": 0.047951,
+        "min": 0.705774,
+        "max": 0.923182,
+        "ci_95_lower": 0.812945,
+        "ci_95_upper": 0.839528
+      },
+      "equity": {
+        "mean": 0.890385,
+        "std": 0.0386,
+        "min": 0.795583,
+        "max": 0.953326,
+        "ci_95_lower": 0.879686,
+        "ci_95_upper": 0.901084
+      },
+      "media_and_information": {
+        "mean": 0.698496,
+        "std": 0.038113,
+        "min": 0.605954,
+        "max": 0.755234,
+        "ci_95_lower": 0.687932,
+        "ci_95_upper": 0.709061
+      },
+      "security": {
+        "mean": 0.720846,
+        "std": 0.081066,
+        "min": 0.518976,
+        "max": 0.894438,
+        "ci_95_lower": 0.698375,
+        "ci_95_upper": 0.743316
+      },
+      "infrastructure": {
+        "mean": 0.666821,
+        "std": 0.059987,
+        "min": 0.467253,
+        "max": 0.790046,
+        "ci_95_lower": 0.650193,
+        "ci_95_upper": 0.683449
+      },
+      "resources": {
+        "mean": 0.672004,
+        "std": 0.072278,
+        "min": 0.46064,
+        "max": 0.785305,
+        "ci_95_lower": 0.651969,
+        "ci_95_upper": 0.692038
+      },
+      "agriculture": {
+        "mean": 0.701125,
+        "std": 0.061048,
+        "min": 0.568163,
+        "max": 0.80863,
+        "ci_95_lower": 0.684204,
+        "ci_95_upper": 0.718047
+      },
+      "wildlife_and_ecology": {
+        "mean": 0.690818,
+        "std": 0.057526,
+        "min": 0.556865,
+        "max": 0.795909,
+        "ci_95_lower": 0.674872,
+        "ci_95_upper": 0.706763
+      },
+      "monetary_system": {
+        "mean": 0.63891,
+        "std": 0.057003,
+        "min": 0.503741,
+        "max": 0.765048,
+        "ci_95_lower": 0.62311,
+        "ci_95_upper": 0.65471
+      },
+      "technology": {
+        "mean": 0.701016,
+        "std": 0.03539,
+        "min": 0.59115,
+        "max": 0.76239,
+        "ci_95_lower": 0.691206,
+        "ci_95_upper": 0.710825
+      },
+      "sustainability": {
+        "mean": 0.787895,
+        "std": 0.04987,
+        "min": 0.700989,
+        "max": 0.880828,
+        "ci_95_lower": 0.774071,
+        "ci_95_upper": 0.801718
+      },
+      "freedom": {
+        "mean": 0.539724,
+        "std": 0.064598,
+        "min": 0.392182,
+        "max": 0.680537,
+        "ci_95_lower": 0.521819,
+        "ci_95_upper": 0.55763
+      },
+      "resilience": {
+        "mean": 0.631165,
+        "std": 0.064239,
+        "min": 0.476416,
+        "max": 0.7727,
+        "ci_95_lower": 0.613359,
+        "ci_95_upper": 0.648971
+      }
+    },
+    "annual_trends": {
+      "2026": {
+        "prosperity": {
+          "mean": 0.505054,
+          "std": 0.001642
+        },
+        "demography": {
+          "mean": 0.50602,
+          "std": 0.001565
+        },
+        "social_classes": {
+          "mean": 0.509308,
+          "std": 0.001467
+        },
+        "equity": {
+          "mean": 0.510988,
+          "std": 0.001579
+        },
+        "media_and_information": {
+          "mean": 0.503176,
+          "std": 0.001637
+        },
+        "security": {
+          "mean": 0.507025,
+          "std": 0.001811
+        },
+        "infrastructure": {
+          "mean": 0.505838,
+          "std": 0.001536
+        },
+        "resources": {
+          "mean": 0.505029,
+          "std": 0.001644
+        },
+        "agriculture": {
+          "mean": 0.505182,
+          "std": 0.001757
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.503745,
+          "std": 0.001538
+        },
+        "monetary_system": {
+          "mean": 0.503607,
+          "std": 0.001457
+        },
+        "technology": {
+          "mean": 0.503037,
+          "std": 0.001656
+        },
+        "sustainability": {
+          "mean": 0.506014,
+          "std": 0.001424
+        },
+        "freedom": {
+          "mean": 0.502107,
+          "std": 0.001304
+        },
+        "resilience": {
+          "mean": 0.504948,
+          "std": 0.001485
+        }
+      },
+      "2030": {
+        "prosperity": {
+          "mean": 0.52401,
+          "std": 0.004281
+        },
+        "demography": {
+          "mean": 0.529812,
+          "std": 0.003555
+        },
+        "social_classes": {
+          "mean": 0.544162,
+          "std": 0.003432
+        },
+        "equity": {
+          "mean": 0.552822,
+          "std": 0.004118
+        },
+        "media_and_information": {
+          "mean": 0.514751,
+          "std": 0.003647
+        },
+        "security": {
+          "mean": 0.534174,
+          "std": 0.003637
+        },
+        "infrastructure": {
+          "mean": 0.528706,
+          "std": 0.004227
+        },
+        "resources": {
+          "mean": 0.523872,
+          "std": 0.003948
+        },
+        "agriculture": {
+          "mean": 0.524309,
+          "std": 0.00472
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.518789,
+          "std": 0.004271
+        },
+        "monetary_system": {
+          "mean": 0.519431,
+          "std": 0.003652
+        },
+        "technology": {
+          "mean": 0.514006,
+          "std": 0.003733
+        },
+        "sustainability": {
+          "mean": 0.52963,
+          "std": 0.003561
+        },
+        "freedom": {
+          "mean": 0.509554,
+          "std": 0.00383
+        },
+        "resilience": {
+          "mean": 0.524448,
+          "std": 0.003167
+        }
+      },
+      "2035": {
+        "prosperity": {
+          "mean": 0.535721,
+          "std": 0.021167
+        },
+        "demography": {
+          "mean": 0.548471,
+          "std": 0.018709
+        },
+        "social_classes": {
+          "mean": 0.575367,
+          "std": 0.017745
+        },
+        "equity": {
+          "mean": 0.594489,
+          "std": 0.016312
+        },
+        "media_and_information": {
+          "mean": 0.526716,
+          "std": 0.010558
+        },
+        "security": {
+          "mean": 0.553868,
+          "std": 0.02304
+        },
+        "infrastructure": {
+          "mean": 0.549557,
+          "std": 0.018679
+        },
+        "resources": {
+          "mean": 0.542544,
+          "std": 0.013223
+        },
+        "agriculture": {
+          "mean": 0.542044,
+          "std": 0.01817
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.537018,
+          "std": 0.01023
+        },
+        "monetary_system": {
+          "mean": 0.534213,
+          "std": 0.013734
+        },
+        "technology": {
+          "mean": 0.527179,
+          "std": 0.008974
+        },
+        "sustainability": {
+          "mean": 0.556194,
+          "std": 0.007762
+        },
+        "freedom": {
+          "mean": 0.51348,
+          "std": 0.014735
+        },
+        "resilience": {
+          "mean": 0.541875,
+          "std": 0.01343
+        }
+      },
+      "2050": {
+        "prosperity": {
+          "mean": 0.527232,
+          "std": 0.060342
+        },
+        "demography": {
+          "mean": 0.590481,
+          "std": 0.042852
+        },
+        "social_classes": {
+          "mean": 0.646689,
+          "std": 0.037662
+        },
+        "equity": {
+          "mean": 0.692763,
+          "std": 0.032687
+        },
+        "media_and_information": {
+          "mean": 0.562807,
+          "std": 0.017335
+        },
+        "security": {
+          "mean": 0.591358,
+          "std": 0.061882
+        },
+        "infrastructure": {
+          "mean": 0.563161,
+          "std": 0.054659
+        },
+        "resources": {
+          "mean": 0.55684,
+          "std": 0.045716
+        },
+        "agriculture": {
+          "mean": 0.568245,
+          "std": 0.049386
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.558288,
+          "std": 0.037987
+        },
+        "monetary_system": {
+          "mean": 0.554056,
+          "std": 0.042613
+        },
+        "technology": {
+          "mean": 0.565045,
+          "std": 0.01873
+        },
+        "sustainability": {
+          "mean": 0.600313,
+          "std": 0.0417
+        },
+        "freedom": {
+          "mean": 0.51591,
+          "std": 0.034351
+        },
+        "resilience": {
+          "mean": 0.553331,
+          "std": 0.047159
+        }
+      },
+      "2075": {
+        "prosperity": {
+          "mean": 0.530913,
+          "std": 0.084377
+        },
+        "demography": {
+          "mean": 0.645304,
+          "std": 0.069235
+        },
+        "social_classes": {
+          "mean": 0.733479,
+          "std": 0.044042
+        },
+        "equity": {
+          "mean": 0.800965,
+          "std": 0.039369
+        },
+        "media_and_information": {
+          "mean": 0.617191,
+          "std": 0.028834
+        },
+        "security": {
+          "mean": 0.642795,
+          "std": 0.082485
+        },
+        "infrastructure": {
+          "mean": 0.609339,
+          "std": 0.069241
+        },
+        "resources": {
+          "mean": 0.605379,
+          "std": 0.055009
+        },
+        "agriculture": {
+          "mean": 0.623572,
+          "std": 0.06441
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.612951,
+          "std": 0.050686
+        },
+        "monetary_system": {
+          "mean": 0.591338,
+          "std": 0.05922
+        },
+        "technology": {
+          "mean": 0.615101,
+          "std": 0.028931
+        },
+        "sustainability": {
+          "mean": 0.685054,
+          "std": 0.047214
+        },
+        "freedom": {
+          "mean": 0.524068,
+          "std": 0.04825
+        },
+        "resilience": {
+          "mean": 0.583732,
+          "std": 0.06638
+        }
+      },
+      "2100": {
+        "prosperity": {
+          "mean": 0.544657,
+          "std": 0.076973
+        },
+        "demography": {
+          "mean": 0.700635,
+          "std": 0.067816
+        },
+        "social_classes": {
+          "mean": 0.786127,
+          "std": 0.04202
+        },
+        "equity": {
+          "mean": 0.85235,
+          "std": 0.038478
+        },
+        "media_and_information": {
+          "mean": 0.656286,
+          "std": 0.038242
+        },
+        "security": {
+          "mean": 0.686668,
+          "std": 0.080698
+        },
+        "infrastructure": {
+          "mean": 0.636858,
+          "std": 0.066634
+        },
+        "resources": {
+          "mean": 0.63624,
+          "std": 0.067802
+        },
+        "agriculture": {
+          "mean": 0.668646,
+          "std": 0.065408
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.655499,
+          "std": 0.049617
+        },
+        "monetary_system": {
+          "mean": 0.611097,
+          "std": 0.063053
+        },
+        "technology": {
+          "mean": 0.662356,
+          "std": 0.03217
+        },
+        "sustainability": {
+          "mean": 0.742264,
+          "std": 0.05112
+        },
+        "freedom": {
+          "mean": 0.531674,
+          "std": 0.05198
+        },
+        "resilience": {
+          "mean": 0.611391,
+          "std": 0.064644
+        }
+      },
+      "2125": {
+        "prosperity": {
+          "mean": 0.553322,
+          "std": 0.084863
+        },
+        "demography": {
+          "mean": 0.740819,
+          "std": 0.066665
+        },
+        "social_classes": {
+          "mean": 0.826236,
+          "std": 0.047951
+        },
+        "equity": {
+          "mean": 0.890385,
+          "std": 0.0386
+        },
+        "media_and_information": {
+          "mean": 0.698496,
+          "std": 0.038113
+        },
+        "security": {
+          "mean": 0.720846,
+          "std": 0.081066
+        },
+        "infrastructure": {
+          "mean": 0.666821,
+          "std": 0.059987
+        },
+        "resources": {
+          "mean": 0.672004,
+          "std": 0.072278
+        },
+        "agriculture": {
+          "mean": 0.701125,
+          "std": 0.061048
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.690818,
+          "std": 0.057526
+        },
+        "monetary_system": {
+          "mean": 0.63891,
+          "std": 0.057003
+        },
+        "technology": {
+          "mean": 0.701016,
+          "std": 0.03539
+        },
+        "sustainability": {
+          "mean": 0.787895,
+          "std": 0.04987
+        },
+        "freedom": {
+          "mean": 0.539724,
+          "std": 0.064598
+        },
+        "resilience": {
+          "mean": 0.631165,
+          "std": 0.064239
+        }
+      }
+    }
+  },
+  "Democracy": {
+    "final_metrics_stats": {
+      "prosperity": {
+        "mean": 0.908181,
+        "std": 0.038729,
+        "min": 0.821569,
+        "max": 0.97961,
+        "ci_95_lower": 0.897445,
+        "ci_95_upper": 0.918916
+      },
+      "demography": {
+        "mean": 0.948572,
+        "std": 0.027924,
+        "min": 0.870452,
+        "max": 0.984553,
+        "ci_95_lower": 0.940832,
+        "ci_95_upper": 0.956312
+      },
+      "social_classes": {
+        "mean": 0.929308,
+        "std": 0.030714,
+        "min": 0.848558,
+        "max": 0.976895,
+        "ci_95_lower": 0.920795,
+        "ci_95_upper": 0.937822
+      },
+      "equity": {
+        "mean": 0.942176,
+        "std": 0.025251,
+        "min": 0.875333,
+        "max": 0.981801,
+        "ci_95_lower": 0.935177,
+        "ci_95_upper": 0.949175
+      },
+      "media_and_information": {
+        "mean": 0.976831,
+        "std": 0.010134,
+        "min": 0.947306,
+        "max": 0.987262,
+        "ci_95_lower": 0.974022,
+        "ci_95_upper": 0.97964
+      },
+      "security": {
+        "mean": 0.894131,
+        "std": 0.047791,
+        "min": 0.780274,
+        "max": 0.972353,
+        "ci_95_lower": 0.880884,
+        "ci_95_upper": 0.907378
+      },
+      "infrastructure": {
+        "mean": 0.911427,
+        "std": 0.031747,
+        "min": 0.832726,
+        "max": 0.971098,
+        "ci_95_lower": 0.902627,
+        "ci_95_upper": 0.920227
+      },
+      "resources": {
+        "mean": 0.917728,
+        "std": 0.036169,
+        "min": 0.828226,
+        "max": 0.96855,
+        "ci_95_lower": 0.907703,
+        "ci_95_upper": 0.927754
+      },
+      "agriculture": {
+        "mean": 0.927409,
+        "std": 0.038245,
+        "min": 0.83079,
+        "max": 0.97224,
+        "ci_95_lower": 0.916808,
+        "ci_95_upper": 0.93801
+      },
+      "wildlife_and_ecology": {
+        "mean": 0.926226,
+        "std": 0.031313,
+        "min": 0.845669,
+        "max": 0.97444,
+        "ci_95_lower": 0.917546,
+        "ci_95_upper": 0.934905
+      },
+      "monetary_system": {
+        "mean": 0.947742,
+        "std": 0.026162,
+        "min": 0.869153,
+        "max": 0.983683,
+        "ci_95_lower": 0.940491,
+        "ci_95_upper": 0.954994
+      },
+      "technology": {
+        "mean": 0.969941,
+        "std": 0.014406,
+        "min": 0.924128,
+        "max": 0.983874,
+        "ci_95_lower": 0.965948,
+        "ci_95_upper": 0.973934
+      },
+      "sustainability": {
+        "mean": 0.942291,
+        "std": 0.026466,
+        "min": 0.877396,
+        "max": 0.977729,
+        "ci_95_lower": 0.934955,
+        "ci_95_upper": 0.949627
+      },
+      "freedom": {
+        "mean": 0.964783,
+        "std": 0.01803,
+        "min": 0.908863,
+        "max": 0.985937,
+        "ci_95_lower": 0.959786,
+        "ci_95_upper": 0.969781
+      },
+      "resilience": {
+        "mean": 0.896761,
+        "std": 0.032359,
+        "min": 0.830022,
+        "max": 0.973873,
+        "ci_95_lower": 0.887791,
+        "ci_95_upper": 0.90573
+      }
+    },
+    "annual_trends": {
+      "2026": {
+        "prosperity": {
+          "mean": 0.517617,
+          "std": 0.001791
+        },
+        "demography": {
+          "mean": 0.517144,
+          "std": 0.001692
+        },
+        "social_classes": {
+          "mean": 0.515258,
+          "std": 0.001675
+        },
+        "equity": {
+          "mean": 0.515179,
+          "std": 0.001431
+        },
+        "media_and_information": {
+          "mean": 0.519146,
+          "std": 0.001486
+        },
+        "security": {
+          "mean": 0.513591,
+          "std": 0.001247
+        },
+        "infrastructure": {
+          "mean": 0.51598,
+          "std": 0.001724
+        },
+        "resources": {
+          "mean": 0.514019,
+          "std": 0.001519
+        },
+        "agriculture": {
+          "mean": 0.513737,
+          "std": 0.001575
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.511434,
+          "std": 0.001662
+        },
+        "monetary_system": {
+          "mean": 0.517321,
+          "std": 0.001439
+        },
+        "technology": {
+          "mean": 0.515439,
+          "std": 0.001576
+        },
+        "sustainability": {
+          "mean": 0.513299,
+          "std": 0.001454
+        },
+        "freedom": {
+          "mean": 0.519475,
+          "std": 0.001554
+        },
+        "resilience": {
+          "mean": 0.513817,
+          "std": 0.00151
+        }
+      },
+      "2030": {
+        "prosperity": {
+          "mean": 0.582126,
+          "std": 0.003512
+        },
+        "demography": {
+          "mean": 0.582234,
+          "std": 0.003616
+        },
+        "social_classes": {
+          "mean": 0.573686,
+          "std": 0.003685
+        },
+        "equity": {
+          "mean": 0.574255,
+          "std": 0.003795
+        },
+        "media_and_information": {
+          "mean": 0.591289,
+          "std": 0.00334
+        },
+        "security": {
+          "mean": 0.565922,
+          "std": 0.003394
+        },
+        "infrastructure": {
+          "mean": 0.573397,
+          "std": 0.00328
+        },
+        "resources": {
+          "mean": 0.565672,
+          "std": 0.003352
+        },
+        "agriculture": {
+          "mean": 0.564817,
+          "std": 0.003827
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.556833,
+          "std": 0.002923
+        },
+        "monetary_system": {
+          "mean": 0.581898,
+          "std": 0.002742
+        },
+        "technology": {
+          "mean": 0.573951,
+          "std": 0.003739
+        },
+        "sustainability": {
+          "mean": 0.564655,
+          "std": 0.003112
+        },
+        "freedom": {
+          "mean": 0.590756,
+          "std": 0.002713
+        },
+        "resilience": {
+          "mean": 0.56434,
+          "std": 0.00425
+        }
+      },
+      "2035": {
+        "prosperity": {
+          "mean": 0.64306,
+          "std": 0.016513
+        },
+        "demography": {
+          "mean": 0.646093,
+          "std": 0.015005
+        },
+        "social_classes": {
+          "mean": 0.630641,
+          "std": 0.015923
+        },
+        "equity": {
+          "mean": 0.632939,
+          "std": 0.015783
+        },
+        "media_and_information": {
+          "mean": 0.66772,
+          "std": 0.010577
+        },
+        "security": {
+          "mean": 0.613866,
+          "std": 0.020133
+        },
+        "infrastructure": {
+          "mean": 0.632524,
+          "std": 0.015847
+        },
+        "resources": {
+          "mean": 0.619252,
+          "std": 0.010864
+        },
+        "agriculture": {
+          "mean": 0.617358,
+          "std": 0.019064
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.606688,
+          "std": 0.00862
+        },
+        "monetary_system": {
+          "mean": 0.649876,
+          "std": 0.012107
+        },
+        "technology": {
+          "mean": 0.638096,
+          "std": 0.00894
+        },
+        "sustainability": {
+          "mean": 0.622066,
+          "std": 0.007446
+        },
+        "freedom": {
+          "mean": 0.665511,
+          "std": 0.011101
+        },
+        "resilience": {
+          "mean": 0.616891,
+          "std": 0.013888
+        }
+      },
+      "2050": {
+        "prosperity": {
+          "mean": 0.749221,
+          "std": 0.046453
+        },
+        "demography": {
+          "mean": 0.779056,
+          "std": 0.034455
+        },
+        "social_classes": {
+          "mean": 0.752658,
+          "std": 0.029634
+        },
+        "equity": {
+          "mean": 0.765519,
+          "std": 0.02676
+        },
+        "media_and_information": {
+          "mean": 0.831023,
+          "std": 0.010883
+        },
+        "security": {
+          "mean": 0.714287,
+          "std": 0.049903
+        },
+        "infrastructure": {
+          "mean": 0.733791,
+          "std": 0.040943
+        },
+        "resources": {
+          "mean": 0.717776,
+          "std": 0.034183
+        },
+        "agriculture": {
+          "mean": 0.726227,
+          "std": 0.039555
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.706134,
+          "std": 0.032112
+        },
+        "monetary_system": {
+          "mean": 0.785986,
+          "std": 0.027412
+        },
+        "technology": {
+          "mean": 0.785868,
+          "std": 0.011734
+        },
+        "sustainability": {
+          "mean": 0.732932,
+          "std": 0.036386
+        },
+        "freedom": {
+          "mean": 0.814388,
+          "std": 0.022936
+        },
+        "resilience": {
+          "mean": 0.712984,
+          "std": 0.037463
+        }
+      },
+      "2075": {
+        "prosperity": {
+          "mean": 0.848219,
+          "std": 0.046922
+        },
+        "demography": {
+          "mean": 0.887074,
+          "std": 0.04125
+        },
+        "social_classes": {
+          "mean": 0.863202,
+          "std": 0.030009
+        },
+        "equity": {
+          "mean": 0.878867,
+          "std": 0.030457
+        },
+        "media_and_information": {
+          "mean": 0.945216,
+          "std": 0.014132
+        },
+        "security": {
+          "mean": 0.813467,
+          "std": 0.056217
+        },
+        "infrastructure": {
+          "mean": 0.844092,
+          "std": 0.041588
+        },
+        "resources": {
+          "mean": 0.835091,
+          "std": 0.037428
+        },
+        "agriculture": {
+          "mean": 0.8471,
+          "std": 0.044431
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.832614,
+          "std": 0.033799
+        },
+        "monetary_system": {
+          "mean": 0.897844,
+          "std": 0.028992
+        },
+        "technology": {
+          "mean": 0.910716,
+          "std": 0.016734
+        },
+        "sustainability": {
+          "mean": 0.861645,
+          "std": 0.031406
+        },
+        "freedom": {
+          "mean": 0.925154,
+          "std": 0.020927
+        },
+        "resilience": {
+          "mean": 0.820372,
+          "std": 0.043636
+        }
+      },
+      "2100": {
+        "prosperity": {
+          "mean": 0.890703,
+          "std": 0.043422
+        },
+        "demography": {
+          "mean": 0.930109,
+          "std": 0.034502
+        },
+        "social_classes": {
+          "mean": 0.906358,
+          "std": 0.031278
+        },
+        "equity": {
+          "mean": 0.91903,
+          "std": 0.031621
+        },
+        "media_and_information": {
+          "mean": 0.968568,
+          "std": 0.015724
+        },
+        "security": {
+          "mean": 0.864371,
+          "std": 0.055424
+        },
+        "infrastructure": {
+          "mean": 0.883969,
+          "std": 0.038474
+        },
+        "resources": {
+          "mean": 0.886261,
+          "std": 0.041455
+        },
+        "agriculture": {
+          "mean": 0.902063,
+          "std": 0.038359
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.893749,
+          "std": 0.031928
+        },
+        "monetary_system": {
+          "mean": 0.930686,
+          "std": 0.031793
+        },
+        "technology": {
+          "mean": 0.961228,
+          "std": 0.013192
+        },
+        "sustainability": {
+          "mean": 0.916899,
+          "std": 0.034433
+        },
+        "freedom": {
+          "mean": 0.955213,
+          "std": 0.022743
+        },
+        "resilience": {
+          "mean": 0.871436,
+          "std": 0.035784
+        }
+      },
+      "2125": {
+        "prosperity": {
+          "mean": 0.908181,
+          "std": 0.038729
+        },
+        "demography": {
+          "mean": 0.948572,
+          "std": 0.027924
+        },
+        "social_classes": {
+          "mean": 0.929308,
+          "std": 0.030714
+        },
+        "equity": {
+          "mean": 0.942176,
+          "std": 0.025251
+        },
+        "media_and_information": {
+          "mean": 0.976831,
+          "std": 0.010134
+        },
+        "security": {
+          "mean": 0.894131,
+          "std": 0.047791
+        },
+        "infrastructure": {
+          "mean": 0.911427,
+          "std": 0.031747
+        },
+        "resources": {
+          "mean": 0.917728,
+          "std": 0.036169
+        },
+        "agriculture": {
+          "mean": 0.927409,
+          "std": 0.038245
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.926226,
+          "std": 0.031313
+        },
+        "monetary_system": {
+          "mean": 0.947742,
+          "std": 0.026162
+        },
+        "technology": {
+          "mean": 0.969941,
+          "std": 0.014406
+        },
+        "sustainability": {
+          "mean": 0.942291,
+          "std": 0.026466
+        },
+        "freedom": {
+          "mean": 0.964783,
+          "std": 0.01803
+        },
+        "resilience": {
+          "mean": 0.896761,
+          "std": 0.032359
+        }
+      }
+    }
+  },
+  "Algorapolis": {
+    "final_metrics_stats": {
+      "prosperity": {
+        "mean": 0.989482,
+        "std": 0.000487,
+        "min": 0.98827,
+        "max": 0.99,
+        "ci_95_lower": 0.989347,
+        "ci_95_upper": 0.989618
+      },
+      "demography": {
+        "mean": 0.989303,
+        "std": 0.000643,
+        "min": 0.987712,
+        "max": 0.99,
+        "ci_95_lower": 0.989125,
+        "ci_95_upper": 0.989481
+      },
+      "social_classes": {
+        "mean": 0.989262,
+        "std": 0.000728,
+        "min": 0.986155,
+        "max": 0.99,
+        "ci_95_lower": 0.98906,
+        "ci_95_upper": 0.989464
+      },
+      "equity": {
+        "mean": 0.98931,
+        "std": 0.000543,
+        "min": 0.98755,
+        "max": 0.99,
+        "ci_95_lower": 0.989159,
+        "ci_95_upper": 0.98946
+      },
+      "media_and_information": {
+        "mean": 0.989348,
+        "std": 0.000514,
+        "min": 0.988182,
+        "max": 0.99,
+        "ci_95_lower": 0.989205,
+        "ci_95_upper": 0.98949
+      },
+      "security": {
+        "mean": 0.989367,
+        "std": 0.000586,
+        "min": 0.987048,
+        "max": 0.99,
+        "ci_95_lower": 0.989204,
+        "ci_95_upper": 0.989529
+      },
+      "infrastructure": {
+        "mean": 0.989347,
+        "std": 0.000578,
+        "min": 0.987713,
+        "max": 0.99,
+        "ci_95_lower": 0.989186,
+        "ci_95_upper": 0.989507
+      },
+      "resources": {
+        "mean": 0.989244,
+        "std": 0.000729,
+        "min": 0.986198,
+        "max": 0.99,
+        "ci_95_lower": 0.989042,
+        "ci_95_upper": 0.989446
+      },
+      "agriculture": {
+        "mean": 0.989185,
+        "std": 0.000715,
+        "min": 0.987092,
+        "max": 0.99,
+        "ci_95_lower": 0.988986,
+        "ci_95_upper": 0.989383
+      },
+      "wildlife_and_ecology": {
+        "mean": 0.989214,
+        "std": 0.000624,
+        "min": 0.987395,
+        "max": 0.99,
+        "ci_95_lower": 0.989041,
+        "ci_95_upper": 0.989388
+      },
+      "monetary_system": {
+        "mean": 0.989349,
+        "std": 0.000542,
+        "min": 0.987651,
+        "max": 0.99,
+        "ci_95_lower": 0.989199,
+        "ci_95_upper": 0.989499
+      },
+      "technology": {
+        "mean": 0.989455,
+        "std": 0.000479,
+        "min": 0.988159,
+        "max": 0.99,
+        "ci_95_lower": 0.989322,
+        "ci_95_upper": 0.989588
+      },
+      "sustainability": {
+        "mean": 0.989255,
+        "std": 0.00057,
+        "min": 0.987552,
+        "max": 0.99,
+        "ci_95_lower": 0.989097,
+        "ci_95_upper": 0.989413
+      },
+      "freedom": {
+        "mean": 0.989335,
+        "std": 0.000494,
+        "min": 0.988217,
+        "max": 0.99,
+        "ci_95_lower": 0.989198,
+        "ci_95_upper": 0.989472
+      },
+      "resilience": {
+        "mean": 0.989249,
+        "std": 0.000591,
+        "min": 0.987778,
+        "max": 0.99,
+        "ci_95_lower": 0.989086,
+        "ci_95_upper": 0.989413
+      }
+    },
+    "annual_trends": {
+      "2026": {
+        "prosperity": {
+          "mean": 0.585568,
+          "std": 0.0015
+        },
+        "demography": {
+          "mean": 0.556922,
+          "std": 0.001454
+        },
+        "social_classes": {
+          "mean": 0.558895,
+          "std": 0.001485
+        },
+        "equity": {
+          "mean": 0.568887,
+          "std": 0.001563
+        },
+        "media_and_information": {
+          "mean": 0.566616,
+          "std": 0.001576
+        },
+        "security": {
+          "mean": 0.567674,
+          "std": 0.001534
+        },
+        "infrastructure": {
+          "mean": 0.567905,
+          "std": 0.001555
+        },
+        "resources": {
+          "mean": 0.559264,
+          "std": 0.001767
+        },
+        "agriculture": {
+          "mean": 0.556751,
+          "std": 0.001178
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.558887,
+          "std": 0.001564
+        },
+        "monetary_system": {
+          "mean": 0.581469,
+          "std": 0.001564
+        },
+        "technology": {
+          "mean": 0.56832,
+          "std": 0.001868
+        },
+        "sustainability": {
+          "mean": 0.564469,
+          "std": 0.001612
+        },
+        "freedom": {
+          "mean": 0.567781,
+          "std": 0.001792
+        },
+        "resilience": {
+          "mean": 0.566404,
+          "std": 0.001485
+        }
+      },
+      "2030": {
+        "prosperity": {
+          "mean": 0.826789,
+          "std": 0.002411
+        },
+        "demography": {
+          "mean": 0.740215,
+          "std": 0.002784
+        },
+        "social_classes": {
+          "mean": 0.74941,
+          "std": 0.002939
+        },
+        "equity": {
+          "mean": 0.779202,
+          "std": 0.002922
+        },
+        "media_and_information": {
+          "mean": 0.773768,
+          "std": 0.002341
+        },
+        "security": {
+          "mean": 0.776685,
+          "std": 0.002927
+        },
+        "infrastructure": {
+          "mean": 0.775956,
+          "std": 0.002924
+        },
+        "resources": {
+          "mean": 0.748553,
+          "std": 0.002836
+        },
+        "agriculture": {
+          "mean": 0.740598,
+          "std": 0.002458
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.748587,
+          "std": 0.002869
+        },
+        "monetary_system": {
+          "mean": 0.816144,
+          "std": 0.002775
+        },
+        "technology": {
+          "mean": 0.779147,
+          "std": 0.003357
+        },
+        "sustainability": {
+          "mean": 0.764704,
+          "std": 0.002887
+        },
+        "freedom": {
+          "mean": 0.77627,
+          "std": 0.003266
+        },
+        "resilience": {
+          "mean": 0.772139,
+          "std": 0.003031
+        }
+      },
+      "2035": {
+        "prosperity": {
+          "mean": 0.954246,
+          "std": 0.004463
+        },
+        "demography": {
+          "mean": 0.880114,
+          "std": 0.004446
+        },
+        "social_classes": {
+          "mean": 0.889357,
+          "std": 0.004205
+        },
+        "equity": {
+          "mean": 0.918621,
+          "std": 0.00387
+        },
+        "media_and_information": {
+          "mean": 0.913615,
+          "std": 0.003175
+        },
+        "security": {
+          "mean": 0.915616,
+          "std": 0.004496
+        },
+        "infrastructure": {
+          "mean": 0.915184,
+          "std": 0.004688
+        },
+        "resources": {
+          "mean": 0.889529,
+          "std": 0.003927
+        },
+        "agriculture": {
+          "mean": 0.880807,
+          "std": 0.004252
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.889723,
+          "std": 0.003873
+        },
+        "monetary_system": {
+          "mean": 0.947343,
+          "std": 0.003407
+        },
+        "technology": {
+          "mean": 0.919727,
+          "std": 0.004067
+        },
+        "sustainability": {
+          "mean": 0.905344,
+          "std": 0.003434
+        },
+        "freedom": {
+          "mean": 0.915454,
+          "std": 0.003512
+        },
+        "resilience": {
+          "mean": 0.911394,
+          "std": 0.00373
+        }
+      },
+      "2050": {
+        "prosperity": {
+          "mean": 0.988922,
+          "std": 0.001439
+        },
+        "demography": {
+          "mean": 0.988423,
+          "std": 0.001809
+        },
+        "social_classes": {
+          "mean": 0.988794,
+          "std": 0.001224
+        },
+        "equity": {
+          "mean": 0.989303,
+          "std": 0.000598
+        },
+        "media_and_information": {
+          "mean": 0.989444,
+          "std": 0.000403
+        },
+        "security": {
+          "mean": 0.988688,
+          "std": 0.002028
+        },
+        "infrastructure": {
+          "mean": 0.988726,
+          "std": 0.001667
+        },
+        "resources": {
+          "mean": 0.988715,
+          "std": 0.001258
+        },
+        "agriculture": {
+          "mean": 0.988522,
+          "std": 0.001417
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.988877,
+          "std": 0.001088
+        },
+        "monetary_system": {
+          "mean": 0.989174,
+          "std": 0.000874
+        },
+        "technology": {
+          "mean": 0.989355,
+          "std": 0.000648
+        },
+        "sustainability": {
+          "mean": 0.988983,
+          "std": 0.000974
+        },
+        "freedom": {
+          "mean": 0.989235,
+          "std": 0.000601
+        },
+        "resilience": {
+          "mean": 0.98891,
+          "std": 0.001095
+        }
+      },
+      "2075": {
+        "prosperity": {
+          "mean": 0.989206,
+          "std": 0.000859
+        },
+        "demography": {
+          "mean": 0.988906,
+          "std": 0.000971
+        },
+        "social_classes": {
+          "mean": 0.988961,
+          "std": 0.000844
+        },
+        "equity": {
+          "mean": 0.989269,
+          "std": 0.001293
+        },
+        "media_and_information": {
+          "mean": 0.989284,
+          "std": 0.000827
+        },
+        "security": {
+          "mean": 0.989,
+          "std": 0.001113
+        },
+        "infrastructure": {
+          "mean": 0.988747,
+          "std": 0.00139
+        },
+        "resources": {
+          "mean": 0.988746,
+          "std": 0.001115
+        },
+        "agriculture": {
+          "mean": 0.988824,
+          "std": 0.001606
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.98905,
+          "std": 0.000911
+        },
+        "monetary_system": {
+          "mean": 0.989425,
+          "std": 0.000948
+        },
+        "technology": {
+          "mean": 0.989149,
+          "std": 0.000615
+        },
+        "sustainability": {
+          "mean": 0.989185,
+          "std": 0.000612
+        },
+        "freedom": {
+          "mean": 0.989202,
+          "std": 0.000705
+        },
+        "resilience": {
+          "mean": 0.989,
+          "std": 0.000864
+        }
+      },
+      "2100": {
+        "prosperity": {
+          "mean": 0.988975,
+          "std": 0.001226
+        },
+        "demography": {
+          "mean": 0.988598,
+          "std": 0.001862
+        },
+        "social_classes": {
+          "mean": 0.988979,
+          "std": 0.00085
+        },
+        "equity": {
+          "mean": 0.989165,
+          "std": 0.000573
+        },
+        "media_and_information": {
+          "mean": 0.989237,
+          "std": 0.000654
+        },
+        "security": {
+          "mean": 0.988712,
+          "std": 0.002002
+        },
+        "infrastructure": {
+          "mean": 0.988632,
+          "std": 0.001776
+        },
+        "resources": {
+          "mean": 0.988977,
+          "std": 0.001388
+        },
+        "agriculture": {
+          "mean": 0.988941,
+          "std": 0.001142
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.989125,
+          "std": 0.000731
+        },
+        "monetary_system": {
+          "mean": 0.989219,
+          "std": 0.000703
+        },
+        "technology": {
+          "mean": 0.989337,
+          "std": 0.000627
+        },
+        "sustainability": {
+          "mean": 0.989237,
+          "std": 0.00055
+        },
+        "freedom": {
+          "mean": 0.989321,
+          "std": 0.000714
+        },
+        "resilience": {
+          "mean": 0.988939,
+          "std": 0.001232
+        }
+      },
+      "2125": {
+        "prosperity": {
+          "mean": 0.989482,
+          "std": 0.000487
+        },
+        "demography": {
+          "mean": 0.989303,
+          "std": 0.000643
+        },
+        "social_classes": {
+          "mean": 0.989262,
+          "std": 0.000728
+        },
+        "equity": {
+          "mean": 0.98931,
+          "std": 0.000543
+        },
+        "media_and_information": {
+          "mean": 0.989348,
+          "std": 0.000514
+        },
+        "security": {
+          "mean": 0.989367,
+          "std": 0.000586
+        },
+        "infrastructure": {
+          "mean": 0.989347,
+          "std": 0.000578
+        },
+        "resources": {
+          "mean": 0.989244,
+          "std": 0.000729
+        },
+        "agriculture": {
+          "mean": 0.989185,
+          "std": 0.000715
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.989214,
+          "std": 0.000624
+        },
+        "monetary_system": {
+          "mean": 0.989349,
+          "std": 0.000542
+        },
+        "technology": {
+          "mean": 0.989455,
+          "std": 0.000479
+        },
+        "sustainability": {
+          "mean": 0.989255,
+          "std": 0.00057
+        },
+        "freedom": {
+          "mean": 0.989335,
+          "std": 0.000494
+        },
+        "resilience": {
+          "mean": 0.989249,
+          "std": 0.000591
+        }
+      }
+    }
+  },
+  "Corporatocracy": {
+    "final_metrics_stats": {
+      "prosperity": {
+        "mean": 0.937914,
+        "std": 0.033233,
+        "min": 0.846015,
+        "max": 0.987649,
+        "ci_95_lower": 0.928703,
+        "ci_95_upper": 0.947126
+      },
+      "demography": {
+        "mean": 0.928401,
+        "std": 0.038935,
+        "min": 0.827255,
+        "max": 0.980246,
+        "ci_95_lower": 0.917609,
+        "ci_95_upper": 0.939194
+      },
+      "social_classes": {
+        "mean": 0.774669,
+        "std": 0.057481,
+        "min": 0.619937,
+        "max": 0.898836,
+        "ci_95_lower": 0.758736,
+        "ci_95_upper": 0.790602
+      },
+      "equity": {
+        "mean": 0.69848,
+        "std": 0.061058,
+        "min": 0.525438,
+        "max": 0.803138,
+        "ci_95_lower": 0.681556,
+        "ci_95_upper": 0.715405
+      },
+      "media_and_information": {
+        "mean": 0.972107,
+        "std": 0.013827,
+        "min": 0.928778,
+        "max": 0.985745,
+        "ci_95_lower": 0.968275,
+        "ci_95_upper": 0.97594
+      },
+      "security": {
+        "mean": 0.859564,
+        "std": 0.064315,
+        "min": 0.67339,
+        "max": 0.964331,
+        "ci_95_lower": 0.841737,
+        "ci_95_upper": 0.877391
+      },
+      "infrastructure": {
+        "mean": 0.934601,
+        "std": 0.033959,
+        "min": 0.844539,
+        "max": 0.982384,
+        "ci_95_lower": 0.925188,
+        "ci_95_upper": 0.944014
+      },
+      "resources": {
+        "mean": 0.946707,
+        "std": 0.03102,
+        "min": 0.871527,
+        "max": 0.985595,
+        "ci_95_lower": 0.938108,
+        "ci_95_upper": 0.955305
+      },
+      "agriculture": {
+        "mean": 0.907454,
+        "std": 0.053669,
+        "min": 0.753021,
+        "max": 0.97168,
+        "ci_95_lower": 0.892578,
+        "ci_95_upper": 0.922331
+      },
+      "wildlife_and_ecology": {
+        "mean": 0.743778,
+        "std": 0.064727,
+        "min": 0.572826,
+        "max": 0.851913,
+        "ci_95_lower": 0.725836,
+        "ci_95_upper": 0.761719
+      },
+      "monetary_system": {
+        "mean": 0.964849,
+        "std": 0.022902,
+        "min": 0.894018,
+        "max": 0.984476,
+        "ci_95_lower": 0.958501,
+        "ci_95_upper": 0.971197
+      },
+      "technology": {
+        "mean": 0.97859,
+        "std": 0.009965,
+        "min": 0.947918,
+        "max": 0.986658,
+        "ci_95_lower": 0.975828,
+        "ci_95_upper": 0.981352
+      },
+      "sustainability": {
+        "mean": 0.84029,
+        "std": 0.048457,
+        "min": 0.751643,
+        "max": 0.934422,
+        "ci_95_lower": 0.826858,
+        "ci_95_upper": 0.853722
+      },
+      "freedom": {
+        "mean": 0.895283,
+        "std": 0.041633,
+        "min": 0.77759,
+        "max": 0.962162,
+        "ci_95_lower": 0.883743,
+        "ci_95_upper": 0.906823
+      },
+      "resilience": {
+        "mean": 0.820502,
+        "std": 0.047913,
+        "min": 0.724196,
+        "max": 0.929787,
+        "ci_95_lower": 0.807221,
+        "ci_95_upper": 0.833783
+      }
+    },
+    "annual_trends": {
+      "2026": {
+        "prosperity": {
+          "mean": 0.52984,
+          "std": 0.00155
+        },
+        "demography": {
+          "mean": 0.515927,
+          "std": 0.001526
+        },
+        "social_classes": {
+          "mean": 0.50787,
+          "std": 0.001816
+        },
+        "equity": {
+          "mean": 0.505086,
+          "std": 0.001666
+        },
+        "media_and_information": {
+          "mean": 0.518656,
+          "std": 0.001549
+        },
+        "security": {
+          "mean": 0.513436,
+          "std": 0.001817
+        },
+        "infrastructure": {
+          "mean": 0.523981,
+          "std": 0.001562
+        },
+        "resources": {
+          "mean": 0.52133,
+          "std": 0.001496
+        },
+        "agriculture": {
+          "mean": 0.513699,
+          "std": 0.00143
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.50537,
+          "std": 0.001667
+        },
+        "monetary_system": {
+          "mean": 0.531792,
+          "std": 0.001638
+        },
+        "technology": {
+          "mean": 0.52966,
+          "std": 0.001318
+        },
+        "sustainability": {
+          "mean": 0.508085,
+          "std": 0.001535
+        },
+        "freedom": {
+          "mean": 0.510386,
+          "std": 0.001663
+        },
+        "resilience": {
+          "mean": 0.510868,
+          "std": 0.001434
+        }
+      },
+      "2030": {
+        "prosperity": {
+          "mean": 0.635205,
+          "std": 0.003289
+        },
+        "demography": {
+          "mean": 0.577026,
+          "std": 0.003902
+        },
+        "social_classes": {
+          "mean": 0.538825,
+          "std": 0.003234
+        },
+        "equity": {
+          "mean": 0.525713,
+          "std": 0.003415
+        },
+        "media_and_information": {
+          "mean": 0.588565,
+          "std": 0.003334
+        },
+        "security": {
+          "mean": 0.564196,
+          "std": 0.003834
+        },
+        "infrastructure": {
+          "mean": 0.612043,
+          "std": 0.003336
+        },
+        "resources": {
+          "mean": 0.600728,
+          "std": 0.00291
+        },
+        "agriculture": {
+          "mean": 0.564201,
+          "std": 0.003228
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.526143,
+          "std": 0.003323
+        },
+        "monetary_system": {
+          "mean": 0.645603,
+          "std": 0.003029
+        },
+        "technology": {
+          "mean": 0.635516,
+          "std": 0.003177
+        },
+        "sustainability": {
+          "mean": 0.538096,
+          "std": 0.003671
+        },
+        "freedom": {
+          "mean": 0.551521,
+          "std": 0.003609
+        },
+        "resilience": {
+          "mean": 0.551759,
+          "std": 0.003554
+        }
+      },
+      "2035": {
+        "prosperity": {
+          "mean": 0.725984,
+          "std": 0.02319
+        },
+        "demography": {
+          "mean": 0.633913,
+          "std": 0.022376
+        },
+        "social_classes": {
+          "mean": 0.563808,
+          "std": 0.022588
+        },
+        "equity": {
+          "mean": 0.541932,
+          "std": 0.021343
+        },
+        "media_and_information": {
+          "mean": 0.662191,
+          "std": 0.012255
+        },
+        "security": {
+          "mean": 0.608526,
+          "std": 0.029625
+        },
+        "infrastructure": {
+          "mean": 0.694518,
+          "std": 0.020296
+        },
+        "resources": {
+          "mean": 0.679177,
+          "std": 0.013364
+        },
+        "agriculture": {
+          "mean": 0.612996,
+          "std": 0.024283
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.548973,
+          "std": 0.011268
+        },
+        "monetary_system": {
+          "mean": 0.751057,
+          "std": 0.014877
+        },
+        "technology": {
+          "mean": 0.738027,
+          "std": 0.010089
+        },
+        "sustainability": {
+          "mean": 0.572925,
+          "std": 0.008479
+        },
+        "freedom": {
+          "mean": 0.592955,
+          "std": 0.01771
+        },
+        "resilience": {
+          "mean": 0.591054,
+          "std": 0.014743
+        }
+      },
+      "2050": {
+        "prosperity": {
+          "mean": 0.848309,
+          "std": 0.052245
+        },
+        "demography": {
+          "mean": 0.751603,
+          "std": 0.045322
+        },
+        "social_classes": {
+          "mean": 0.621004,
+          "std": 0.047239
+        },
+        "equity": {
+          "mean": 0.582049,
+          "std": 0.043074
+        },
+        "media_and_information": {
+          "mean": 0.822391,
+          "std": 0.014987
+        },
+        "security": {
+          "mean": 0.693828,
+          "std": 0.067205
+        },
+        "infrastructure": {
+          "mean": 0.814985,
+          "std": 0.048241
+        },
+        "resources": {
+          "mean": 0.804091,
+          "std": 0.038863
+        },
+        "agriculture": {
+          "mean": 0.71103,
+          "std": 0.051584
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.578855,
+          "std": 0.04339
+        },
+        "monetary_system": {
+          "mean": 0.903645,
+          "std": 0.029772
+        },
+        "technology": {
+          "mean": 0.911789,
+          "std": 0.012162
+        },
+        "sustainability": {
+          "mean": 0.632758,
+          "std": 0.048989
+        },
+        "freedom": {
+          "mean": 0.688348,
+          "std": 0.035986
+        },
+        "resilience": {
+          "mean": 0.652312,
+          "std": 0.050679
+        }
+      },
+      "2075": {
+        "prosperity": {
+          "mean": 0.915015,
+          "std": 0.045074
+        },
+        "demography": {
+          "mean": 0.855383,
+          "std": 0.056453
+        },
+        "social_classes": {
+          "mean": 0.689174,
+          "std": 0.051393
+        },
+        "equity": {
+          "mean": 0.632952,
+          "std": 0.060159
+        },
+        "media_and_information": {
+          "mean": 0.938703,
+          "std": 0.01816
+        },
+        "security": {
+          "mean": 0.781304,
+          "std": 0.072736
+        },
+        "infrastructure": {
+          "mean": 0.906206,
+          "std": 0.043556
+        },
+        "resources": {
+          "mean": 0.908723,
+          "std": 0.034938
+        },
+        "agriculture": {
+          "mean": 0.828041,
+          "std": 0.056728
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.647796,
+          "std": 0.059708
+        },
+        "monetary_system": {
+          "mean": 0.957427,
+          "std": 0.025095
+        },
+        "technology": {
+          "mean": 0.975992,
+          "std": 0.012683
+        },
+        "sustainability": {
+          "mean": 0.732271,
+          "std": 0.054324
+        },
+        "freedom": {
+          "mean": 0.796251,
+          "std": 0.03752
+        },
+        "resilience": {
+          "mean": 0.735488,
+          "std": 0.06125
+        }
+      },
+      "2100": {
+        "prosperity": {
+          "mean": 0.926291,
+          "std": 0.045841
+        },
+        "demography": {
+          "mean": 0.90435,
+          "std": 0.045642
+        },
+        "social_classes": {
+          "mean": 0.735079,
+          "std": 0.051
+        },
+        "equity": {
+          "mean": 0.663205,
+          "std": 0.059477
+        },
+        "media_and_information": {
+          "mean": 0.962097,
+          "std": 0.02368
+        },
+        "security": {
+          "mean": 0.829212,
+          "std": 0.075293
+        },
+        "infrastructure": {
+          "mean": 0.917909,
+          "std": 0.045376
+        },
+        "resources": {
+          "mean": 0.927996,
+          "std": 0.042236
+        },
+        "agriculture": {
+          "mean": 0.880548,
+          "std": 0.048859
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.699494,
+          "std": 0.056257
+        },
+        "monetary_system": {
+          "mean": 0.955428,
+          "std": 0.029729
+        },
+        "technology": {
+          "mean": 0.980697,
+          "std": 0.009977
+        },
+        "sustainability": {
+          "mean": 0.795642,
+          "std": 0.055854
+        },
+        "freedom": {
+          "mean": 0.859791,
+          "std": 0.038418
+        },
+        "resilience": {
+          "mean": 0.787654,
+          "std": 0.053179
+        }
+      },
+      "2125": {
+        "prosperity": {
+          "mean": 0.937914,
+          "std": 0.033233
+        },
+        "demography": {
+          "mean": 0.928401,
+          "std": 0.038935
+        },
+        "social_classes": {
+          "mean": 0.774669,
+          "std": 0.057481
+        },
+        "equity": {
+          "mean": 0.69848,
+          "std": 0.061058
+        },
+        "media_and_information": {
+          "mean": 0.972107,
+          "std": 0.013827
+        },
+        "security": {
+          "mean": 0.859564,
+          "std": 0.064315
+        },
+        "infrastructure": {
+          "mean": 0.934601,
+          "std": 0.033959
+        },
+        "resources": {
+          "mean": 0.946707,
+          "std": 0.03102
+        },
+        "agriculture": {
+          "mean": 0.907454,
+          "std": 0.053669
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.743778,
+          "std": 0.064727
+        },
+        "monetary_system": {
+          "mean": 0.964849,
+          "std": 0.022902
+        },
+        "technology": {
+          "mean": 0.97859,
+          "std": 0.009965
+        },
+        "sustainability": {
+          "mean": 0.84029,
+          "std": 0.048457
+        },
+        "freedom": {
+          "mean": 0.895283,
+          "std": 0.041633
+        },
+        "resilience": {
+          "mean": 0.820502,
+          "std": 0.047913
+        }
+      }
+    }
+  },
+  "Ecocracy": {
+    "final_metrics_stats": {
+      "prosperity": {
+        "mean": 0.807573,
+        "std": 0.039103,
+        "min": 0.701244,
+        "max": 0.892833,
+        "ci_95_lower": 0.796734,
+        "ci_95_upper": 0.818412
+      },
+      "demography": {
+        "mean": 0.919604,
+        "std": 0.029179,
+        "min": 0.85972,
+        "max": 0.966679,
+        "ci_95_lower": 0.911516,
+        "ci_95_upper": 0.927692
+      },
+      "social_classes": {
+        "mean": 0.910818,
+        "std": 0.025652,
+        "min": 0.850084,
+        "max": 0.959617,
+        "ci_95_lower": 0.903707,
+        "ci_95_upper": 0.917928
+      },
+      "equity": {
+        "mean": 0.93704,
+        "std": 0.021198,
+        "min": 0.885103,
+        "max": 0.967874,
+        "ci_95_lower": 0.931164,
+        "ci_95_upper": 0.942916
+      },
+      "media_and_information": {
+        "mean": 0.937632,
+        "std": 0.015395,
+        "min": 0.886164,
+        "max": 0.966544,
+        "ci_95_lower": 0.933365,
+        "ci_95_upper": 0.941899
+      },
+      "security": {
+        "mean": 0.865793,
+        "std": 0.039231,
+        "min": 0.77167,
+        "max": 0.942292,
+        "ci_95_lower": 0.854918,
+        "ci_95_upper": 0.876667
+      },
+      "infrastructure": {
+        "mean": 0.830424,
+        "std": 0.033387,
+        "min": 0.730934,
+        "max": 0.88782,
+        "ci_95_lower": 0.82117,
+        "ci_95_upper": 0.839679
+      },
+      "resources": {
+        "mean": 0.938626,
+        "std": 0.025817,
+        "min": 0.876704,
+        "max": 0.975506,
+        "ci_95_lower": 0.93147,
+        "ci_95_upper": 0.945782
+      },
+      "agriculture": {
+        "mean": 0.946261,
+        "std": 0.025865,
+        "min": 0.862178,
+        "max": 0.983477,
+        "ci_95_lower": 0.939091,
+        "ci_95_upper": 0.95343
+      },
+      "wildlife_and_ecology": {
+        "mean": 0.970694,
+        "std": 0.014042,
+        "min": 0.914773,
+        "max": 0.985186,
+        "ci_95_lower": 0.966802,
+        "ci_95_upper": 0.974586
+      },
+      "monetary_system": {
+        "mean": 0.829616,
+        "std": 0.029957,
+        "min": 0.738274,
+        "max": 0.889191,
+        "ci_95_lower": 0.821312,
+        "ci_95_upper": 0.83792
+      },
+      "technology": {
+        "mean": 0.916891,
+        "std": 0.017445,
+        "min": 0.866396,
+        "max": 0.942079,
+        "ci_95_lower": 0.912056,
+        "ci_95_upper": 0.921726
+      },
+      "sustainability": {
+        "mean": 0.969767,
+        "std": 0.012436,
+        "min": 0.935116,
+        "max": 0.986258,
+        "ci_95_lower": 0.96632,
+        "ci_95_upper": 0.973214
+      },
+      "freedom": {
+        "mean": 0.93239,
+        "std": 0.022456,
+        "min": 0.874932,
+        "max": 0.969787,
+        "ci_95_lower": 0.926166,
+        "ci_95_upper": 0.938615
+      },
+      "resilience": {
+        "mean": 0.915957,
+        "std": 0.023677,
+        "min": 0.863544,
+        "max": 0.965267,
+        "ci_95_lower": 0.909394,
+        "ci_95_upper": 0.92252
+      }
+    },
+    "annual_trends": {
+      "2026": {
+        "prosperity": {
+          "mean": 0.508493,
+          "std": 0.001439
+        },
+        "demography": {
+          "mean": 0.511441,
+          "std": 0.001517
+        },
+        "social_classes": {
+          "mean": 0.511129,
+          "std": 0.001312
+        },
+        "equity": {
+          "mean": 0.512758,
+          "std": 0.001563
+        },
+        "media_and_information": {
+          "mean": 0.509493,
+          "std": 0.001572
+        },
+        "security": {
+          "mean": 0.510016,
+          "std": 0.001663
+        },
+        "infrastructure": {
+          "mean": 0.508418,
+          "std": 0.001648
+        },
+        "resources": {
+          "mean": 0.514161,
+          "std": 0.001756
+        },
+        "agriculture": {
+          "mean": 0.514051,
+          "std": 0.001751
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.518469,
+          "std": 0.001614
+        },
+        "monetary_system": {
+          "mean": 0.506725,
+          "std": 0.0016
+        },
+        "technology": {
+          "mean": 0.508044,
+          "std": 0.001787
+        },
+        "sustainability": {
+          "mean": 0.518234,
+          "std": 0.001578
+        },
+        "freedom": {
+          "mean": 0.511483,
+          "std": 0.001686
+        },
+        "resilience": {
+          "mean": 0.512427,
+          "std": 0.001676
+        }
+      },
+      "2030": {
+        "prosperity": {
+          "mean": 0.540358,
+          "std": 0.00334
+        },
+        "demography": {
+          "mean": 0.554884,
+          "std": 0.00301
+        },
+        "social_classes": {
+          "mean": 0.553332,
+          "std": 0.003501
+        },
+        "equity": {
+          "mean": 0.560888,
+          "std": 0.003741
+        },
+        "media_and_information": {
+          "mean": 0.547812,
+          "std": 0.003461
+        },
+        "security": {
+          "mean": 0.548412,
+          "std": 0.003266
+        },
+        "infrastructure": {
+          "mean": 0.540805,
+          "std": 0.004179
+        },
+        "resources": {
+          "mean": 0.567261,
+          "std": 0.00333
+        },
+        "agriculture": {
+          "mean": 0.567773,
+          "std": 0.003112
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.585829,
+          "std": 0.003469
+        },
+        "monetary_system": {
+          "mean": 0.533113,
+          "std": 0.003808
+        },
+        "technology": {
+          "mean": 0.540427,
+          "std": 0.003476
+        },
+        "sustainability": {
+          "mean": 0.585988,
+          "std": 0.00301
+        },
+        "freedom": {
+          "mean": 0.554821,
+          "std": 0.004016
+        },
+        "resilience": {
+          "mean": 0.559802,
+          "std": 0.003457
+        }
+      },
+      "2035": {
+        "prosperity": {
+          "mean": 0.571499,
+          "std": 0.013269
+        },
+        "demography": {
+          "mean": 0.597955,
+          "std": 0.012508
+        },
+        "social_classes": {
+          "mean": 0.597073,
+          "std": 0.010982
+        },
+        "equity": {
+          "mean": 0.611345,
+          "std": 0.011143
+        },
+        "media_and_information": {
+          "mean": 0.590686,
+          "std": 0.007639
+        },
+        "security": {
+          "mean": 0.58498,
+          "std": 0.015981
+        },
+        "infrastructure": {
+          "mean": 0.574413,
+          "std": 0.012866
+        },
+        "resources": {
+          "mean": 0.624214,
+          "std": 0.007945
+        },
+        "agriculture": {
+          "mean": 0.623828,
+          "std": 0.014336
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.660146,
+          "std": 0.007463
+        },
+        "monetary_system": {
+          "mean": 0.563134,
+          "std": 0.010235
+        },
+        "technology": {
+          "mean": 0.576805,
+          "std": 0.007145
+        },
+        "sustainability": {
+          "mean": 0.660229,
+          "std": 0.006338
+        },
+        "freedom": {
+          "mean": 0.60063,
+          "std": 0.010019
+        },
+        "resilience": {
+          "mean": 0.61124,
+          "std": 0.009488
+        }
+      },
+      "2050": {
+        "prosperity": {
+          "mean": 0.628971,
+          "std": 0.037095
+        },
+        "demography": {
+          "mean": 0.701299,
+          "std": 0.02548
+        },
+        "social_classes": {
+          "mean": 0.699869,
+          "std": 0.022519
+        },
+        "equity": {
+          "mean": 0.731741,
+          "std": 0.021882
+        },
+        "media_and_information": {
+          "mean": 0.702513,
+          "std": 0.009419
+        },
+        "security": {
+          "mean": 0.669437,
+          "std": 0.039222
+        },
+        "infrastructure": {
+          "mean": 0.635617,
+          "std": 0.035057
+        },
+        "resources": {
+          "mean": 0.738396,
+          "std": 0.025178
+        },
+        "agriculture": {
+          "mean": 0.744929,
+          "std": 0.027684
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.803543,
+          "std": 0.020345
+        },
+        "monetary_system": {
+          "mean": 0.629355,
+          "std": 0.024817
+        },
+        "technology": {
+          "mean": 0.676882,
+          "std": 0.011388
+        },
+        "sustainability": {
+          "mean": 0.80367,
+          "std": 0.02027
+        },
+        "freedom": {
+          "mean": 0.712347,
+          "std": 0.020375
+        },
+        "resilience": {
+          "mean": 0.714519,
+          "std": 0.027223
+        }
+      },
+      "2075": {
+        "prosperity": {
+          "mean": 0.711774,
+          "std": 0.046234
+        },
+        "demography": {
+          "mean": 0.816367,
+          "std": 0.03568
+        },
+        "social_classes": {
+          "mean": 0.814166,
+          "std": 0.024798
+        },
+        "equity": {
+          "mean": 0.852239,
+          "std": 0.023994
+        },
+        "media_and_information": {
+          "mean": 0.828478,
+          "std": 0.014381
+        },
+        "security": {
+          "mean": 0.765562,
+          "std": 0.04774
+        },
+        "infrastructure": {
+          "mean": 0.729143,
+          "std": 0.041246
+        },
+        "resources": {
+          "mean": 0.861329,
+          "std": 0.024351
+        },
+        "agriculture": {
+          "mean": 0.867816,
+          "std": 0.031753
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.925087,
+          "std": 0.020785
+        },
+        "monetary_system": {
+          "mean": 0.723129,
+          "std": 0.034329
+        },
+        "technology": {
+          "mean": 0.79534,
+          "std": 0.016511
+        },
+        "sustainability": {
+          "mean": 0.923787,
+          "std": 0.017082
+        },
+        "freedom": {
+          "mean": 0.833722,
+          "std": 0.020946
+        },
+        "resilience": {
+          "mean": 0.826892,
+          "std": 0.03139
+        }
+      },
+      "2100": {
+        "prosperity": {
+          "mean": 0.770951,
+          "std": 0.040379
+        },
+        "demography": {
+          "mean": 0.881968,
+          "std": 0.032124
+        },
+        "social_classes": {
+          "mean": 0.872657,
+          "std": 0.024765
+        },
+        "equity": {
+          "mean": 0.90526,
+          "std": 0.023058
+        },
+        "media_and_information": {
+          "mean": 0.896213,
+          "std": 0.016981
+        },
+        "security": {
+          "mean": 0.828256,
+          "std": 0.044466
+        },
+        "infrastructure": {
+          "mean": 0.785847,
+          "std": 0.038432
+        },
+        "resources": {
+          "mean": 0.912902,
+          "std": 0.029629
+        },
+        "agriculture": {
+          "mean": 0.921512,
+          "std": 0.024977
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.961149,
+          "std": 0.017394
+        },
+        "monetary_system": {
+          "mean": 0.78275,
+          "std": 0.033001
+        },
+        "technology": {
+          "mean": 0.871926,
+          "std": 0.016879
+        },
+        "sustainability": {
+          "mean": 0.959136,
+          "std": 0.020297
+        },
+        "freedom": {
+          "mean": 0.898713,
+          "std": 0.020191
+        },
+        "resilience": {
+          "mean": 0.884832,
+          "std": 0.02576
+        }
+      },
+      "2125": {
+        "prosperity": {
+          "mean": 0.807573,
+          "std": 0.039103
+        },
+        "demography": {
+          "mean": 0.919604,
+          "std": 0.029179
+        },
+        "social_classes": {
+          "mean": 0.910818,
+          "std": 0.025652
+        },
+        "equity": {
+          "mean": 0.93704,
+          "std": 0.021198
+        },
+        "media_and_information": {
+          "mean": 0.937632,
+          "std": 0.015395
+        },
+        "security": {
+          "mean": 0.865793,
+          "std": 0.039231
+        },
+        "infrastructure": {
+          "mean": 0.830424,
+          "std": 0.033387
+        },
+        "resources": {
+          "mean": 0.938626,
+          "std": 0.025817
+        },
+        "agriculture": {
+          "mean": 0.946261,
+          "std": 0.025865
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.970694,
+          "std": 0.014042
+        },
+        "monetary_system": {
+          "mean": 0.829616,
+          "std": 0.029957
+        },
+        "technology": {
+          "mean": 0.916891,
+          "std": 0.017445
+        },
+        "sustainability": {
+          "mean": 0.969767,
+          "std": 0.012436
+        },
+        "freedom": {
+          "mean": 0.93239,
+          "std": 0.022456
+        },
+        "resilience": {
+          "mean": 0.915957,
+          "std": 0.023677
+        }
+      }
+    }
+  },
+  "Technocracy": {
+    "final_metrics_stats": {
+      "prosperity": {
+        "mean": 0.963504,
+        "std": 0.01887,
+        "min": 0.913389,
+        "max": 0.987125,
+        "ci_95_lower": 0.958274,
+        "ci_95_upper": 0.968735
+      },
+      "demography": {
+        "mean": 0.963829,
+        "std": 0.01951,
+        "min": 0.910181,
+        "max": 0.986087,
+        "ci_95_lower": 0.958421,
+        "ci_95_upper": 0.969237
+      },
+      "social_classes": {
+        "mean": 0.950877,
+        "std": 0.024653,
+        "min": 0.885728,
+        "max": 0.984542,
+        "ci_95_lower": 0.944044,
+        "ci_95_upper": 0.95771
+      },
+      "equity": {
+        "mean": 0.948108,
+        "std": 0.02482,
+        "min": 0.884634,
+        "max": 0.978931,
+        "ci_95_lower": 0.941228,
+        "ci_95_upper": 0.954987
+      },
+      "media_and_information": {
+        "mean": 0.979835,
+        "std": 0.007364,
+        "min": 0.953872,
+        "max": 0.986565,
+        "ci_95_lower": 0.977793,
+        "ci_95_upper": 0.981876
+      },
+      "security": {
+        "mean": 0.947945,
+        "std": 0.031898,
+        "min": 0.86936,
+        "max": 0.983527,
+        "ci_95_lower": 0.939103,
+        "ci_95_upper": 0.956787
+      },
+      "infrastructure": {
+        "mean": 0.967455,
+        "std": 0.01701,
+        "min": 0.916436,
+        "max": 0.986889,
+        "ci_95_lower": 0.96274,
+        "ci_95_upper": 0.97217
+      },
+      "resources": {
+        "mean": 0.969654,
+        "std": 0.016084,
+        "min": 0.926252,
+        "max": 0.986337,
+        "ci_95_lower": 0.965196,
+        "ci_95_upper": 0.974113
+      },
+      "agriculture": {
+        "mean": 0.967929,
+        "std": 0.021899,
+        "min": 0.900259,
+        "max": 0.987014,
+        "ci_95_lower": 0.961859,
+        "ci_95_upper": 0.973999
+      },
+      "wildlife_and_ecology": {
+        "mean": 0.95715,
+        "std": 0.022905,
+        "min": 0.888746,
+        "max": 0.98402,
+        "ci_95_lower": 0.950801,
+        "ci_95_upper": 0.963499
+      },
+      "monetary_system": {
+        "mean": 0.973003,
+        "std": 0.015538,
+        "min": 0.925539,
+        "max": 0.987677,
+        "ci_95_lower": 0.968696,
+        "ci_95_upper": 0.97731
+      },
+      "technology": {
+        "mean": 0.985196,
+        "std": 0.003495,
+        "min": 0.968435,
+        "max": 0.988774,
+        "ci_95_lower": 0.984227,
+        "ci_95_upper": 0.986165
+      },
+      "sustainability": {
+        "mean": 0.965137,
+        "std": 0.017354,
+        "min": 0.916723,
+        "max": 0.987367,
+        "ci_95_lower": 0.960327,
+        "ci_95_upper": 0.969948
+      },
+      "freedom": {
+        "mean": 0.955233,
+        "std": 0.022439,
+        "min": 0.886316,
+        "max": 0.98141,
+        "ci_95_lower": 0.949013,
+        "ci_95_upper": 0.961453
+      },
+      "resilience": {
+        "mean": 0.953143,
+        "std": 0.019126,
+        "min": 0.896393,
+        "max": 0.985034,
+        "ci_95_lower": 0.947841,
+        "ci_95_upper": 0.958444
+      }
+    },
+    "annual_trends": {
+      "2026": {
+        "prosperity": {
+          "mean": 0.533974,
+          "std": 0.00142
+        },
+        "demography": {
+          "mean": 0.52159,
+          "std": 0.001422
+        },
+        "social_classes": {
+          "mean": 0.518927,
+          "std": 0.001346
+        },
+        "equity": {
+          "mean": 0.51565,
+          "std": 0.001525
+        },
+        "media_and_information": {
+          "mean": 0.525258,
+          "std": 0.001478
+        },
+        "security": {
+          "mean": 0.521892,
+          "std": 0.001373
+        },
+        "infrastructure": {
+          "mean": 0.534176,
+          "std": 0.00149
+        },
+        "resources": {
+          "mean": 0.527908,
+          "std": 0.001604
+        },
+        "agriculture": {
+          "mean": 0.524976,
+          "std": 0.001514
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.516054,
+          "std": 0.001726
+        },
+        "monetary_system": {
+          "mean": 0.531512,
+          "std": 0.001731
+        },
+        "technology": {
+          "mean": 0.540518,
+          "std": 0.00134
+        },
+        "sustainability": {
+          "mean": 0.51922,
+          "std": 0.001488
+        },
+        "freedom": {
+          "mean": 0.515371,
+          "std": 0.001395
+        },
+        "resilience": {
+          "mean": 0.521735,
+          "std": 0.001621
+        }
+      },
+      "2030": {
+        "prosperity": {
+          "mean": 0.655427,
+          "std": 0.003977
+        },
+        "demography": {
+          "mean": 0.601686,
+          "std": 0.002826
+        },
+        "social_classes": {
+          "mean": 0.588282,
+          "std": 0.003471
+        },
+        "equity": {
+          "mean": 0.575181,
+          "std": 0.003399
+        },
+        "media_and_information": {
+          "mean": 0.617175,
+          "std": 0.00359
+        },
+        "security": {
+          "mean": 0.602283,
+          "std": 0.003389
+        },
+        "infrastructure": {
+          "mean": 0.654825,
+          "std": 0.003225
+        },
+        "resources": {
+          "mean": 0.629893,
+          "std": 0.003088
+        },
+        "agriculture": {
+          "mean": 0.615892,
+          "std": 0.003182
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.575436,
+          "std": 0.003448
+        },
+        "monetary_system": {
+          "mean": 0.642274,
+          "std": 0.00381
+        },
+        "technology": {
+          "mean": 0.680605,
+          "std": 0.002884
+        },
+        "sustainability": {
+          "mean": 0.588983,
+          "std": 0.003874
+        },
+        "freedom": {
+          "mean": 0.574811,
+          "std": 0.002907
+        },
+        "resilience": {
+          "mean": 0.602553,
+          "std": 0.003679
+        }
+      },
+      "2035": {
+        "prosperity": {
+          "mean": 0.761555,
+          "std": 0.015109
+        },
+        "demography": {
+          "mean": 0.680246,
+          "std": 0.014534
+        },
+        "social_classes": {
+          "mean": 0.657636,
+          "std": 0.01464
+        },
+        "equity": {
+          "mean": 0.634954,
+          "std": 0.014816
+        },
+        "media_and_information": {
+          "mean": 0.710739,
+          "std": 0.00739
+        },
+        "security": {
+          "mean": 0.680094,
+          "std": 0.020266
+        },
+        "infrastructure": {
+          "mean": 0.763404,
+          "std": 0.013718
+        },
+        "resources": {
+          "mean": 0.728342,
+          "std": 0.008586
+        },
+        "agriculture": {
+          "mean": 0.704295,
+          "std": 0.014755
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.6391,
+          "std": 0.008531
+        },
+        "monetary_system": {
+          "mean": 0.747653,
+          "std": 0.009292
+        },
+        "technology": {
+          "mean": 0.804068,
+          "std": 0.004741
+        },
+        "sustainability": {
+          "mean": 0.664074,
+          "std": 0.006761
+        },
+        "freedom": {
+          "mean": 0.637446,
+          "std": 0.011747
+        },
+        "resilience": {
+          "mean": 0.683402,
+          "std": 0.01152
+        }
+      },
+      "2050": {
+        "prosperity": {
+          "mean": 0.898956,
+          "std": 0.032481
+        },
+        "demography": {
+          "mean": 0.831445,
+          "std": 0.027974
+        },
+        "social_classes": {
+          "mean": 0.797969,
+          "std": 0.025977
+        },
+        "equity": {
+          "mean": 0.768354,
+          "std": 0.024502
+        },
+        "media_and_information": {
+          "mean": 0.883536,
+          "std": 0.009214
+        },
+        "security": {
+          "mean": 0.821598,
+          "std": 0.038645
+        },
+        "infrastructure": {
+          "mean": 0.904515,
+          "std": 0.027606
+        },
+        "resources": {
+          "mean": 0.876674,
+          "std": 0.025307
+        },
+        "agriculture": {
+          "mean": 0.857008,
+          "std": 0.029388
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.765027,
+          "std": 0.027961
+        },
+        "monetary_system": {
+          "mean": 0.906426,
+          "std": 0.018997
+        },
+        "technology": {
+          "mean": 0.96129,
+          "std": 0.004267
+        },
+        "sustainability": {
+          "mean": 0.802862,
+          "std": 0.02917
+        },
+        "freedom": {
+          "mean": 0.773117,
+          "std": 0.021586
+        },
+        "resilience": {
+          "mean": 0.820433,
+          "std": 0.027907
+        }
+      },
+      "2075": {
+        "prosperity": {
+          "mean": 0.950386,
+          "std": 0.029559
+        },
+        "demography": {
+          "mean": 0.928266,
+          "std": 0.031386
+        },
+        "social_classes": {
+          "mean": 0.903728,
+          "std": 0.026351
+        },
+        "equity": {
+          "mean": 0.885965,
+          "std": 0.025951
+        },
+        "media_and_information": {
+          "mean": 0.969888,
+          "std": 0.011327
+        },
+        "security": {
+          "mean": 0.911924,
+          "std": 0.040114
+        },
+        "infrastructure": {
+          "mean": 0.958257,
+          "std": 0.023747
+        },
+        "resources": {
+          "mean": 0.955336,
+          "std": 0.021517
+        },
+        "agriculture": {
+          "mean": 0.950023,
+          "std": 0.027384
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.893131,
+          "std": 0.027197
+        },
+        "monetary_system": {
+          "mean": 0.964641,
+          "std": 0.01874
+        },
+        "technology": {
+          "mean": 0.984422,
+          "std": 0.004878
+        },
+        "sustainability": {
+          "mean": 0.922891,
+          "std": 0.02322
+        },
+        "freedom": {
+          "mean": 0.892817,
+          "std": 0.022458
+        },
+        "resilience": {
+          "mean": 0.917521,
+          "std": 0.028074
+        }
+      },
+      "2100": {
+        "prosperity": {
+          "mean": 0.95603,
+          "std": 0.027013
+        },
+        "demography": {
+          "mean": 0.955039,
+          "std": 0.02586
+        },
+        "social_classes": {
+          "mean": 0.935332,
+          "std": 0.027457
+        },
+        "equity": {
+          "mean": 0.924624,
+          "std": 0.027913
+        },
+        "media_and_information": {
+          "mean": 0.976608,
+          "std": 0.014983
+        },
+        "security": {
+          "mean": 0.938378,
+          "std": 0.040961
+        },
+        "infrastructure": {
+          "mean": 0.959035,
+          "std": 0.02352
+        },
+        "resources": {
+          "mean": 0.960967,
+          "std": 0.024709
+        },
+        "agriculture": {
+          "mean": 0.962531,
+          "std": 0.02212
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.939255,
+          "std": 0.025381
+        },
+        "monetary_system": {
+          "mean": 0.965046,
+          "std": 0.020927
+        },
+        "technology": {
+          "mean": 0.984632,
+          "std": 0.00569
+        },
+        "sustainability": {
+          "mean": 0.955164,
+          "std": 0.028019
+        },
+        "freedom": {
+          "mean": 0.938941,
+          "std": 0.023541
+        },
+        "resilience": {
+          "mean": 0.941576,
+          "std": 0.02332
+        }
+      },
+      "2125": {
+        "prosperity": {
+          "mean": 0.963504,
+          "std": 0.01887
+        },
+        "demography": {
+          "mean": 0.963829,
+          "std": 0.01951
+        },
+        "social_classes": {
+          "mean": 0.950877,
+          "std": 0.024653
+        },
+        "equity": {
+          "mean": 0.948108,
+          "std": 0.02482
+        },
+        "media_and_information": {
+          "mean": 0.979835,
+          "std": 0.007364
+        },
+        "security": {
+          "mean": 0.947945,
+          "std": 0.031898
+        },
+        "infrastructure": {
+          "mean": 0.967455,
+          "std": 0.01701
+        },
+        "resources": {
+          "mean": 0.969654,
+          "std": 0.016084
+        },
+        "agriculture": {
+          "mean": 0.967929,
+          "std": 0.021899
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.95715,
+          "std": 0.022905
+        },
+        "monetary_system": {
+          "mean": 0.973003,
+          "std": 0.015538
+        },
+        "technology": {
+          "mean": 0.985196,
+          "std": 0.003495
+        },
+        "sustainability": {
+          "mean": 0.965137,
+          "std": 0.017354
+        },
+        "freedom": {
+          "mean": 0.955233,
+          "std": 0.022439
+        },
+        "resilience": {
+          "mean": 0.953143,
+          "std": 0.019126
+        }
+      }
+    }
+  },
+  "Anarcho_Syndicalism": {
+    "final_metrics_stats": {
+      "prosperity": {
+        "mean": 0.636074,
+        "std": 0.067409,
+        "min": 0.481262,
+        "max": 0.797003,
+        "ci_95_lower": 0.617389,
+        "ci_95_upper": 0.654759
+      },
+      "demography": {
+        "mean": 0.836134,
+        "std": 0.051513,
+        "min": 0.73269,
+        "max": 0.920995,
+        "ci_95_lower": 0.821856,
+        "ci_95_upper": 0.850413
+      },
+      "social_classes": {
+        "mean": 0.906404,
+        "std": 0.035125,
+        "min": 0.812507,
+        "max": 0.96703,
+        "ci_95_lower": 0.896668,
+        "ci_95_upper": 0.916141
+      },
+      "equity": {
+        "mean": 0.933533,
+        "std": 0.027381,
+        "min": 0.853732,
+        "max": 0.971765,
+        "ci_95_lower": 0.925943,
+        "ci_95_upper": 0.941122
+      },
+      "media_and_information": {
+        "mean": 0.94249,
+        "std": 0.021868,
+        "min": 0.8661,
+        "max": 0.971044,
+        "ci_95_lower": 0.936429,
+        "ci_95_upper": 0.948552
+      },
+      "security": {
+        "mean": 0.616122,
+        "std": 0.080443,
+        "min": 0.4547,
+        "max": 0.805938,
+        "ci_95_lower": 0.593824,
+        "ci_95_upper": 0.638419
+      },
+      "infrastructure": {
+        "mean": 0.67829,
+        "std": 0.054288,
+        "min": 0.48652,
+        "max": 0.788383,
+        "ci_95_lower": 0.663243,
+        "ci_95_upper": 0.693338
+      },
+      "resources": {
+        "mean": 0.782666,
+        "std": 0.058396,
+        "min": 0.637035,
+        "max": 0.877771,
+        "ci_95_lower": 0.766479,
+        "ci_95_upper": 0.798853
+      },
+      "agriculture": {
+        "mean": 0.843161,
+        "std": 0.049244,
+        "min": 0.700226,
+        "max": 0.921747,
+        "ci_95_lower": 0.829511,
+        "ci_95_upper": 0.856811
+      },
+      "wildlife_and_ecology": {
+        "mean": 0.894279,
+        "std": 0.039281,
+        "min": 0.766488,
+        "max": 0.950558,
+        "ci_95_lower": 0.883391,
+        "ci_95_upper": 0.905167
+      },
+      "monetary_system": {
+        "mean": 0.698784,
+        "std": 0.045701,
+        "min": 0.599229,
+        "max": 0.784147,
+        "ci_95_lower": 0.686117,
+        "ci_95_upper": 0.711452
+      },
+      "technology": {
+        "mean": 0.881213,
+        "std": 0.026015,
+        "min": 0.795736,
+        "max": 0.916803,
+        "ci_95_lower": 0.874002,
+        "ci_95_upper": 0.888424
+      },
+      "sustainability": {
+        "mean": 0.893156,
+        "std": 0.035883,
+        "min": 0.819554,
+        "max": 0.951037,
+        "ci_95_lower": 0.883209,
+        "ci_95_upper": 0.903102
+      },
+      "freedom": {
+        "mean": 0.945884,
+        "std": 0.026926,
+        "min": 0.873619,
+        "max": 0.980007,
+        "ci_95_lower": 0.938421,
+        "ci_95_upper": 0.953348
+      },
+      "resilience": {
+        "mean": 0.700054,
+        "std": 0.054226,
+        "min": 0.57772,
+        "max": 0.81124,
+        "ci_95_lower": 0.685023,
+        "ci_95_upper": 0.715085
+      }
+    },
+    "annual_trends": {
+      "2026": {
+        "prosperity": {
+          "mean": 0.505442,
+          "std": 0.001725
+        },
+        "demography": {
+          "mean": 0.508628,
+          "std": 0.001431
+        },
+        "social_classes": {
+          "mean": 0.513028,
+          "std": 0.001382
+        },
+        "equity": {
+          "mean": 0.514311,
+          "std": 0.001769
+        },
+        "media_and_information": {
+          "mean": 0.510758,
+          "std": 0.0013
+        },
+        "security": {
+          "mean": 0.504359,
+          "std": 0.001276
+        },
+        "infrastructure": {
+          "mean": 0.506093,
+          "std": 0.001555
+        },
+        "resources": {
+          "mean": 0.507377,
+          "std": 0.00131
+        },
+        "agriculture": {
+          "mean": 0.508346,
+          "std": 0.00171
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.508993,
+          "std": 0.001642
+        },
+        "monetary_system": {
+          "mean": 0.504775,
+          "std": 0.001759
+        },
+        "technology": {
+          "mean": 0.506625,
+          "std": 0.001293
+        },
+        "sustainability": {
+          "mean": 0.50972,
+          "std": 0.001812
+        },
+        "freedom": {
+          "mean": 0.51428,
+          "std": 0.001546
+        },
+        "resilience": {
+          "mean": 0.505863,
+          "std": 0.001791
+        }
+      },
+      "2030": {
+        "prosperity": {
+          "mean": 0.527442,
+          "std": 0.003892
+        },
+        "demography": {
+          "mean": 0.53982,
+          "std": 0.003994
+        },
+        "social_classes": {
+          "mean": 0.562194,
+          "std": 0.003711
+        },
+        "equity": {
+          "mean": 0.568783,
+          "std": 0.003726
+        },
+        "media_and_information": {
+          "mean": 0.551889,
+          "std": 0.003857
+        },
+        "security": {
+          "mean": 0.52175,
+          "std": 0.00405
+        },
+        "infrastructure": {
+          "mean": 0.528799,
+          "std": 0.003871
+        },
+        "resources": {
+          "mean": 0.535769,
+          "std": 0.003699
+        },
+        "agriculture": {
+          "mean": 0.539693,
+          "std": 0.003082
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.545227,
+          "std": 0.003515
+        },
+        "monetary_system": {
+          "mean": 0.523156,
+          "std": 0.004022
+        },
+        "technology": {
+          "mean": 0.534677,
+          "std": 0.003682
+        },
+        "sustainability": {
+          "mean": 0.546741,
+          "std": 0.003634
+        },
+        "freedom": {
+          "mean": 0.568092,
+          "std": 0.00353
+        },
+        "resilience": {
+          "mean": 0.529336,
+          "std": 0.003678
+        }
+      },
+      "2035": {
+        "prosperity": {
+          "mean": 0.543386,
+          "std": 0.020272
+        },
+        "demography": {
+          "mean": 0.570594,
+          "std": 0.0182
+        },
+        "social_classes": {
+          "mean": 0.610044,
+          "std": 0.01801
+        },
+        "equity": {
+          "mean": 0.623289,
+          "std": 0.01615
+        },
+        "media_and_information": {
+          "mean": 0.597807,
+          "std": 0.009357
+        },
+        "security": {
+          "mean": 0.534062,
+          "std": 0.021995
+        },
+        "infrastructure": {
+          "mean": 0.548793,
+          "std": 0.015747
+        },
+        "resources": {
+          "mean": 0.563364,
+          "std": 0.012183
+        },
+        "agriculture": {
+          "mean": 0.572003,
+          "std": 0.017748
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.58607,
+          "std": 0.007891
+        },
+        "monetary_system": {
+          "mean": 0.540738,
+          "std": 0.011805
+        },
+        "technology": {
+          "mean": 0.565654,
+          "std": 0.009202
+        },
+        "sustainability": {
+          "mean": 0.586939,
+          "std": 0.00684
+        },
+        "freedom": {
+          "mean": 0.623968,
+          "std": 0.014086
+        },
+        "resilience": {
+          "mean": 0.550001,
+          "std": 0.012605
+        }
+      },
+      "2050": {
+        "prosperity": {
+          "mean": 0.55302,
+          "std": 0.05392
+        },
+        "demography": {
+          "mean": 0.639727,
+          "std": 0.039759
+        },
+        "social_classes": {
+          "mean": 0.717122,
+          "std": 0.033115
+        },
+        "equity": {
+          "mean": 0.748087,
+          "std": 0.027863
+        },
+        "media_and_information": {
+          "mean": 0.715283,
+          "std": 0.012946
+        },
+        "security": {
+          "mean": 0.548818,
+          "std": 0.058025
+        },
+        "infrastructure": {
+          "mean": 0.565513,
+          "std": 0.049017
+        },
+        "resources": {
+          "mean": 0.606835,
+          "std": 0.038243
+        },
+        "agriculture": {
+          "mean": 0.635755,
+          "std": 0.04292
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.666576,
+          "std": 0.03362
+        },
+        "monetary_system": {
+          "mean": 0.574785,
+          "std": 0.033786
+        },
+        "technology": {
+          "mean": 0.652895,
+          "std": 0.01356
+        },
+        "sustainability": {
+          "mean": 0.666587,
+          "std": 0.037171
+        },
+        "freedom": {
+          "mean": 0.748594,
+          "std": 0.026327
+        },
+        "resilience": {
+          "mean": 0.576134,
+          "std": 0.043294
+        }
+      },
+      "2075": {
+        "prosperity": {
+          "mean": 0.580672,
+          "std": 0.06996
+        },
+        "demography": {
+          "mean": 0.724471,
+          "std": 0.06033
+        },
+        "social_classes": {
+          "mean": 0.826669,
+          "std": 0.034779
+        },
+        "equity": {
+          "mean": 0.862994,
+          "std": 0.031122
+        },
+        "media_and_information": {
+          "mean": 0.84117,
+          "std": 0.018833
+        },
+        "security": {
+          "mean": 0.570227,
+          "std": 0.079275
+        },
+        "infrastructure": {
+          "mean": 0.614039,
+          "std": 0.059289
+        },
+        "resources": {
+          "mean": 0.685098,
+          "std": 0.045398
+        },
+        "agriculture": {
+          "mean": 0.735842,
+          "std": 0.054428
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.784095,
+          "std": 0.039727
+        },
+        "monetary_system": {
+          "mean": 0.627323,
+          "std": 0.046908
+        },
+        "technology": {
+          "mean": 0.757652,
+          "std": 0.020601
+        },
+        "sustainability": {
+          "mean": 0.781604,
+          "std": 0.040157
+        },
+        "freedom": {
+          "mean": 0.869619,
+          "std": 0.024803
+        },
+        "resilience": {
+          "mean": 0.626909,
+          "std": 0.05823
+        }
+      },
+      "2100": {
+        "prosperity": {
+          "mean": 0.611479,
+          "std": 0.065475
+        },
+        "demography": {
+          "mean": 0.789495,
+          "std": 0.056912
+        },
+        "social_classes": {
+          "mean": 0.876484,
+          "std": 0.033428
+        },
+        "equity": {
+          "mean": 0.90686,
+          "std": 0.031237
+        },
+        "media_and_information": {
+          "mean": 0.903995,
+          "std": 0.027451
+        },
+        "security": {
+          "mean": 0.593354,
+          "std": 0.078694
+        },
+        "infrastructure": {
+          "mean": 0.6452,
+          "std": 0.057312
+        },
+        "resources": {
+          "mean": 0.73689,
+          "std": 0.055304
+        },
+        "agriculture": {
+          "mean": 0.798495,
+          "std": 0.047128
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.851105,
+          "std": 0.036822
+        },
+        "monetary_system": {
+          "mean": 0.661768,
+          "std": 0.048016
+        },
+        "technology": {
+          "mean": 0.833309,
+          "std": 0.024116
+        },
+        "sustainability": {
+          "mean": 0.848845,
+          "std": 0.04096
+        },
+        "freedom": {
+          "mean": 0.9204,
+          "std": 0.026987
+        },
+        "resilience": {
+          "mean": 0.666732,
+          "std": 0.053758
+        }
+      },
+      "2125": {
+        "prosperity": {
+          "mean": 0.636074,
+          "std": 0.067409
+        },
+        "demography": {
+          "mean": 0.836134,
+          "std": 0.051513
+        },
+        "social_classes": {
+          "mean": 0.906404,
+          "std": 0.035125
+        },
+        "equity": {
+          "mean": 0.933533,
+          "std": 0.027381
+        },
+        "media_and_information": {
+          "mean": 0.94249,
+          "std": 0.021868
+        },
+        "security": {
+          "mean": 0.616122,
+          "std": 0.080443
+        },
+        "infrastructure": {
+          "mean": 0.67829,
+          "std": 0.054288
+        },
+        "resources": {
+          "mean": 0.782666,
+          "std": 0.058396
+        },
+        "agriculture": {
+          "mean": 0.843161,
+          "std": 0.049244
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.894279,
+          "std": 0.039281
+        },
+        "monetary_system": {
+          "mean": 0.698784,
+          "std": 0.045701
+        },
+        "technology": {
+          "mean": 0.881213,
+          "std": 0.026015
+        },
+        "sustainability": {
+          "mean": 0.893156,
+          "std": 0.035883
+        },
+        "freedom": {
+          "mean": 0.945884,
+          "std": 0.026926
+        },
+        "resilience": {
+          "mean": 0.700054,
+          "std": 0.054226
+        }
+      }
+    }
+  },
+  "Network_State": {
+    "final_metrics_stats": {
+      "prosperity": {
+        "mean": 0.944062,
+        "std": 0.029966,
+        "min": 0.872616,
+        "max": 0.983859,
+        "ci_95_lower": 0.935756,
+        "ci_95_upper": 0.952368
+      },
+      "demography": {
+        "mean": 0.947809,
+        "std": 0.02823,
+        "min": 0.858841,
+        "max": 0.981742,
+        "ci_95_lower": 0.939984,
+        "ci_95_upper": 0.955634
+      },
+      "social_classes": {
+        "mean": 0.903579,
+        "std": 0.037113,
+        "min": 0.800739,
+        "max": 0.973738,
+        "ci_95_lower": 0.893292,
+        "ci_95_upper": 0.913867
+      },
+      "equity": {
+        "mean": 0.920473,
+        "std": 0.030844,
+        "min": 0.840251,
+        "max": 0.969153,
+        "ci_95_lower": 0.911923,
+        "ci_95_upper": 0.929022
+      },
+      "media_and_information": {
+        "mean": 0.9806,
+        "std": 0.007526,
+        "min": 0.951543,
+        "max": 0.987435,
+        "ci_95_lower": 0.978514,
+        "ci_95_upper": 0.982687
+      },
+      "security": {
+        "mean": 0.880867,
+        "std": 0.052782,
+        "min": 0.747924,
+        "max": 0.970971,
+        "ci_95_lower": 0.866237,
+        "ci_95_upper": 0.895497
+      },
+      "infrastructure": {
+        "mean": 0.937486,
+        "std": 0.029614,
+        "min": 0.859139,
+        "max": 0.983754,
+        "ci_95_lower": 0.929277,
+        "ci_95_upper": 0.945694
+      },
+      "resources": {
+        "mean": 0.931036,
+        "std": 0.033568,
+        "min": 0.847157,
+        "max": 0.978142,
+        "ci_95_lower": 0.921731,
+        "ci_95_upper": 0.94034
+      },
+      "agriculture": {
+        "mean": 0.881453,
+        "std": 0.049562,
+        "min": 0.748306,
+        "max": 0.953944,
+        "ci_95_lower": 0.867715,
+        "ci_95_upper": 0.895191
+      },
+      "wildlife_and_ecology": {
+        "mean": 0.905423,
+        "std": 0.037611,
+        "min": 0.803205,
+        "max": 0.960172,
+        "ci_95_lower": 0.894998,
+        "ci_95_upper": 0.915849
+      },
+      "monetary_system": {
+        "mean": 0.965444,
+        "std": 0.021284,
+        "min": 0.902913,
+        "max": 0.987977,
+        "ci_95_lower": 0.959545,
+        "ci_95_upper": 0.971344
+      },
+      "technology": {
+        "mean": 0.98234,
+        "std": 0.005699,
+        "min": 0.954705,
+        "max": 0.988302,
+        "ci_95_lower": 0.98076,
+        "ci_95_upper": 0.98392
+      },
+      "sustainability": {
+        "mean": 0.935103,
+        "std": 0.030473,
+        "min": 0.870499,
+        "max": 0.979693,
+        "ci_95_lower": 0.926657,
+        "ci_95_upper": 0.94355
+      },
+      "freedom": {
+        "mean": 0.96868,
+        "std": 0.016797,
+        "min": 0.915952,
+        "max": 0.985801,
+        "ci_95_lower": 0.964024,
+        "ci_95_upper": 0.973336
+      },
+      "resilience": {
+        "mean": 0.912127,
+        "std": 0.030983,
+        "min": 0.832252,
+        "max": 0.968192,
+        "ci_95_lower": 0.903539,
+        "ci_95_upper": 0.920715
+      }
+    },
+    "annual_trends": {
+      "2026": {
+        "prosperity": {
+          "mean": 0.525882,
+          "std": 0.001744
+        },
+        "demography": {
+          "mean": 0.518614,
+          "std": 0.001588
+        },
+        "social_classes": {
+          "mean": 0.512866,
+          "std": 0.001483
+        },
+        "equity": {
+          "mean": 0.513142,
+          "std": 0.001901
+        },
+        "media_and_information": {
+          "mean": 0.528449,
+          "std": 0.001321
+        },
+        "security": {
+          "mean": 0.512817,
+          "std": 0.001583
+        },
+        "infrastructure": {
+          "mean": 0.520348,
+          "std": 0.001301
+        },
+        "resources": {
+          "mean": 0.515941,
+          "std": 0.001723
+        },
+        "agriculture": {
+          "mean": 0.509877,
+          "std": 0.001151
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.510459,
+          "std": 0.001487
+        },
+        "monetary_system": {
+          "mean": 0.525697,
+          "std": 0.001649
+        },
+        "technology": {
+          "mean": 0.531201,
+          "std": 0.001536
+        },
+        "sustainability": {
+          "mean": 0.513117,
+          "std": 0.001482
+        },
+        "freedom": {
+          "mean": 0.523476,
+          "std": 0.001587
+        },
+        "resilience": {
+          "mean": 0.515453,
+          "std": 0.001421
+        }
+      },
+      "2030": {
+        "prosperity": {
+          "mean": 0.620139,
+          "std": 0.003897
+        },
+        "demography": {
+          "mean": 0.586338,
+          "std": 0.002905
+        },
+        "social_classes": {
+          "mean": 0.562059,
+          "std": 0.00373
+        },
+        "equity": {
+          "mean": 0.56255,
+          "std": 0.003571
+        },
+        "media_and_information": {
+          "mean": 0.630545,
+          "std": 0.002884
+        },
+        "security": {
+          "mean": 0.562479,
+          "std": 0.003475
+        },
+        "infrastructure": {
+          "mean": 0.596784,
+          "std": 0.003054
+        },
+        "resources": {
+          "mean": 0.574465,
+          "std": 0.003524
+        },
+        "agriculture": {
+          "mean": 0.5494,
+          "std": 0.003408
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.549874,
+          "std": 0.003479
+        },
+        "monetary_system": {
+          "mean": 0.619395,
+          "std": 0.003118
+        },
+        "technology": {
+          "mean": 0.641679,
+          "std": 0.002901
+        },
+        "sustainability": {
+          "mean": 0.562347,
+          "std": 0.00336
+        },
+        "freedom": {
+          "mean": 0.60824,
+          "std": 0.003564
+        },
+        "resilience": {
+          "mean": 0.573413,
+          "std": 0.003958
+        }
+      },
+      "2035": {
+        "prosperity": {
+          "mean": 0.705613,
+          "std": 0.019742
+        },
+        "demography": {
+          "mean": 0.651663,
+          "std": 0.016398
+        },
+        "social_classes": {
+          "mean": 0.608406,
+          "std": 0.017521
+        },
+        "equity": {
+          "mean": 0.612599,
+          "std": 0.015824
+        },
+        "media_and_information": {
+          "mean": 0.732058,
+          "std": 0.00892
+        },
+        "security": {
+          "mean": 0.606561,
+          "std": 0.025784
+        },
+        "infrastructure": {
+          "mean": 0.67196,
+          "std": 0.018378
+        },
+        "resources": {
+          "mean": 0.633882,
+          "std": 0.012464
+        },
+        "agriculture": {
+          "mean": 0.588032,
+          "std": 0.020084
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.594179,
+          "std": 0.009601
+        },
+        "monetary_system": {
+          "mean": 0.712013,
+          "std": 0.011468
+        },
+        "technology": {
+          "mean": 0.749994,
+          "std": 0.005523
+        },
+        "sustainability": {
+          "mean": 0.616701,
+          "std": 0.008878
+        },
+        "freedom": {
+          "mean": 0.69351,
+          "std": 0.014562
+        },
+        "resilience": {
+          "mean": 0.631737,
+          "std": 0.012743
+        }
+      },
+      "2050": {
+        "prosperity": {
+          "mean": 0.836778,
+          "std": 0.039914
+        },
+        "demography": {
+          "mean": 0.787316,
+          "std": 0.032073
+        },
+        "social_classes": {
+          "mean": 0.713758,
+          "std": 0.033506
+        },
+        "equity": {
+          "mean": 0.727041,
+          "std": 0.03037
+        },
+        "media_and_information": {
+          "mean": 0.9051,
+          "std": 0.010181
+        },
+        "security": {
+          "mean": 0.700421,
+          "std": 0.052415
+        },
+        "infrastructure": {
+          "mean": 0.794783,
+          "std": 0.039578
+        },
+        "resources": {
+          "mean": 0.744321,
+          "std": 0.035108
+        },
+        "agriculture": {
+          "mean": 0.670495,
+          "std": 0.043121
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.682582,
+          "std": 0.034627
+        },
+        "monetary_system": {
+          "mean": 0.867654,
+          "std": 0.026638
+        },
+        "technology": {
+          "mean": 0.923972,
+          "std": 0.005139
+        },
+        "sustainability": {
+          "mean": 0.723298,
+          "std": 0.03677
+        },
+        "freedom": {
+          "mean": 0.851289,
+          "std": 0.023105
+        },
+        "resilience": {
+          "mean": 0.738351,
+          "std": 0.039491
+        }
+      },
+      "2075": {
+        "prosperity": {
+          "mean": 0.917329,
+          "std": 0.036467
+        },
+        "demography": {
+          "mean": 0.891308,
+          "std": 0.041432
+        },
+        "social_classes": {
+          "mean": 0.823168,
+          "std": 0.034206
+        },
+        "equity": {
+          "mean": 0.841512,
+          "std": 0.034917
+        },
+        "media_and_information": {
+          "mean": 0.976083,
+          "std": 0.010434
+        },
+        "security": {
+          "mean": 0.79714,
+          "std": 0.057474
+        },
+        "infrastructure": {
+          "mean": 0.896544,
+          "std": 0.03569
+        },
+        "resources": {
+          "mean": 0.861792,
+          "std": 0.033724
+        },
+        "agriculture": {
+          "mean": 0.781665,
+          "std": 0.052548
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.803397,
+          "std": 0.03756
+        },
+        "monetary_system": {
+          "mean": 0.950839,
+          "std": 0.024113
+        },
+        "technology": {
+          "mean": 0.981686,
+          "std": 0.006109
+        },
+        "sustainability": {
+          "mean": 0.851483,
+          "std": 0.033797
+        },
+        "freedom": {
+          "mean": 0.948995,
+          "std": 0.018857
+        },
+        "resilience": {
+          "mean": 0.846962,
+          "std": 0.039291
+        }
+      },
+      "2100": {
+        "prosperity": {
+          "mean": 0.93164,
+          "std": 0.038307
+        },
+        "demography": {
+          "mean": 0.930063,
+          "std": 0.037473
+        },
+        "social_classes": {
+          "mean": 0.871314,
+          "std": 0.03723
+        },
+        "equity": {
+          "mean": 0.889309,
+          "std": 0.032547
+        },
+        "media_and_information": {
+          "mean": 0.977045,
+          "std": 0.014316
+        },
+        "security": {
+          "mean": 0.849091,
+          "std": 0.06398
+        },
+        "infrastructure": {
+          "mean": 0.918511,
+          "std": 0.036659
+        },
+        "resources": {
+          "mean": 0.904366,
+          "std": 0.039416
+        },
+        "agriculture": {
+          "mean": 0.845003,
+          "std": 0.045363
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.868433,
+          "std": 0.035064
+        },
+        "monetary_system": {
+          "mean": 0.9559,
+          "std": 0.028703
+        },
+        "technology": {
+          "mean": 0.982687,
+          "std": 0.005974
+        },
+        "sustainability": {
+          "mean": 0.907239,
+          "std": 0.036592
+        },
+        "freedom": {
+          "mean": 0.964045,
+          "std": 0.021665
+        },
+        "resilience": {
+          "mean": 0.890346,
+          "std": 0.034268
+        }
+      },
+      "2125": {
+        "prosperity": {
+          "mean": 0.944062,
+          "std": 0.029966
+        },
+        "demography": {
+          "mean": 0.947809,
+          "std": 0.02823
+        },
+        "social_classes": {
+          "mean": 0.903579,
+          "std": 0.037113
+        },
+        "equity": {
+          "mean": 0.920473,
+          "std": 0.030844
+        },
+        "media_and_information": {
+          "mean": 0.9806,
+          "std": 0.007526
+        },
+        "security": {
+          "mean": 0.880867,
+          "std": 0.052782
+        },
+        "infrastructure": {
+          "mean": 0.937486,
+          "std": 0.029614
+        },
+        "resources": {
+          "mean": 0.931036,
+          "std": 0.033568
+        },
+        "agriculture": {
+          "mean": 0.881453,
+          "std": 0.049562
+        },
+        "wildlife_and_ecology": {
+          "mean": 0.905423,
+          "std": 0.037611
+        },
+        "monetary_system": {
+          "mean": 0.965444,
+          "std": 0.021284
+        },
+        "technology": {
+          "mean": 0.98234,
+          "std": 0.005699
+        },
+        "sustainability": {
+          "mean": 0.935103,
+          "std": 0.030473
+        },
+        "freedom": {
+          "mean": 0.96868,
+          "std": 0.016797
+        },
+        "resilience": {
+          "mean": 0.912127,
+          "std": 0.030983
+        }
+      }
+    }
+  }
+}

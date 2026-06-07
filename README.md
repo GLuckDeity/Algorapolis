@@ -240,6 +240,13 @@ algorapolis/
 │
 ├── research/               # Empirical Grounding & Evidence
 │   ├── BIBLIOGRAPHY.md     # Full structural citations
+│   ├── simulation/         # Civilization simulation engine, report, and datasets [NEW]
+│   │   ├── README.md
+│   │   ├── simulation_engine_v4.py
+│   │   ├── visualization_engine_v4.py
+│   │   ├── generate_report_v4.py
+│   │   ├── Algorapolis_Simulation_Report_V4.pdf
+│   │   └── charts/
 │   ├── studies/            # Domain-specific deep dives (Studies 01-20)
 │   │   ├── 18-civilizational-immunity-capture-resilience.md # Capture prevention and antibodies
 │   │   ├── 19-ecological-optimization-mechanisms.md # Planetary boundaries as hard constraints

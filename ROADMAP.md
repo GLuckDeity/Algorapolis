@@ -125,6 +125,7 @@ Genesis is the phase of specification, community formation, and intellectual gro
 | Research studies and deeper research portfolio | Studies 01–20 and Simulation Findings Deeper Research collection | ✅ Complete |
 | Priority Gaps Research portfolio | Parts I–V and GitHub Integration Guide | ✅ Complete |
 | Deeper Research Integration Portfolio | Institutional Trust, Information Warfare, and Economic V2 papers integrated | ✅ Complete |
+| Civilization Simulation V4 | Portable Python suite, 28 charts, and ReportLab PDF | ✅ Complete |
 | Academic review submissions | Papers submitted to governance, computer science, and political theory venues | Q3 2026 |
 | Case study portfolio | Six case studies (Estonia, Singapore, Taiwan, China, Netherlands, Tanzania) | ✅ Complete |
 | Tanzania pilot feasibility report | Detailed assessment of legal, technical, and political viability | Q4 2026 |

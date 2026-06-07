@@ -44,6 +44,13 @@ research/
 │       ├── 08-trust-decay-deeper-research.md
 │       ├── 09-information-warfare-deeper-research.md
 │       └── 10-economic-architecture-v2-deeper-research.md
+├── simulation/                  ← Civilization simulation engine, report, and datasets [NEW]
+│   ├── README.md
+│   ├── simulation_engine_v4.py
+│   ├── visualization_engine_v4.py
+│   ├── generate_report_v4.py
+│   ├── Algorapolis_Simulation_Report_V4.pdf
+│   └── charts/
 ├── priority-gaps/                                             ← NEW DIRECTORY
 │   ├── README.md                ← Priority gaps directory index
 │   ├── 01-information-sovereignty-priority-gap-research.md
@@ -92,6 +99,12 @@ Each study provides an in-depth literature review and analysis of a specific dom
 | 21 | Deeper Research: Trust Decay | How do institutions lose trust and how can sortition-based governance restore legitimacy? |
 | 22 | Deeper Research: Information Warfare | How can a digital civilization protect its narrative environment and establish cryptographic roots of trust? |
 | 23 | Deeper Research: Economic Architecture V2 | How do 100% reserve banking, cooperative networks, and gradualist transitions prevent capture? |
+
+---
+
+### Civilization Simulation
+
+* **[Civilization Simulation Engine V4](file:///d:/GitHub/Algorapolis/research/simulation/)** — A 100-year quantitative civilization simulation validating the Algorapolis framework principles (§158, §388-390, §1209, §1217, §1497-1503, §1648-1650, §2836, §3653, §4087). The pre-rendered PDF report can be found at [Algorapolis_Simulation_Report_V4.pdf](file:///d:/GitHub/Algorapolis/research/simulation/Algorapolis_Simulation_Report_V4.pdf) and generated charts are located in the [charts/](file:///d:/GitHub/Algorapolis/research/simulation/charts/) subdirectory.
 
 ---
 

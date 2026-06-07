@@ -9,8 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-
+- Civilization Simulation V4 suite integrated under `research/simulation/`:
+  - Python engines `simulation_engine_v4.py` (extended with dynamic legitimacy feedback loops, dynamic shock mitigation, and direct population casualties), `visualization_engine_v4.py` (with Windows-portable font fallbacks), and `generate_report_v4.py`.
+  - Raw time series and statistical datasets (`simulation_results.json`, `monte_carlo_stats.json`, `pairwise_comparisons.json`, `phase_analysis.json`, `shock_log.json`).
+  - Pre-rendered 33-page ReportLab PDF report `Algorapolis_Simulation_Report_V4.pdf` and 28 high-resolution PNG charts in `charts/` subdirectory.
+  - Comprehensive index and manual `README.md` explaining the mathematical model and code setup.
 - Deeper Research integration of three academic papers:
   - Part VIII: Institutional Trust & Legitimacy (Trust decay mechanics, legitimacy lifecycles, and sortition-based restoration) with 7 Design Principles (`TD-1` through `TD-7`).
   - Part IX: Information Warfare & Narrative Defense (C2PA content credentials, asymmetric defense, and public curation) with 12 Design Principles (`IW-1` through `IW-12`).
