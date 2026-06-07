@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated master cross-reference CSV (`docs/design-principles-cross-reference.csv`) with the 43 new principles.
 - Updated SLE/NDT Module Specifications (`07-sle-ndt-module-specifications.md`) with the new specifications.
 - Updated core manifesto (`manifesto/01-CORE-PRINCIPLES.md`, `manifesto/02-SOVEREIGN-LOGIC-ENGINE.md`) and technical blueprints (`framework/DIGITAL-TWIN.md`, `framework/ARCHITECTURE.md`) with integrations for the 3 new research areas.
+- Updated primary document [Algorapolis.docx](file:///d:/GitHub/Algorapolis/docs/Algorapolis.docx) and expanded visual assets in [assets/](file:///d:/GitHub/Algorapolis/assets/) to incorporate recent architecture revisions and design diagrams.
 
 - Priority Gaps Research child collection under `research/priority-gaps/` authored by Goodluck Japhet Macha:
   - Part I: Information Sovereignty (7-layer information stack, digital self-determination, cognitive security) with 12 Design Principles (`DP-IS-1` through `DP-IS-12`).
