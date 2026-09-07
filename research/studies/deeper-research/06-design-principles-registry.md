@@ -1,6 +1,6 @@
 # Design Principles Registry
 
-This document compiles all 159 new design principles from the Simulation Findings Deeper Research collection and the Priority Gaps Research papers. These principles are constitutional-grade specifications to be encoded in the Sovereign Logic Engine (SLE) logic, National Digital Twin (NDT) models, and core civilizational processes.
+This document compiles all 177 new design principles from the Simulation Findings Deeper Research collection and the Priority Gaps Research papers (Parts I–V and Part VII: Family & Social Fabric, plus the Education Values Transmission extension). These principles are constitutional-grade specifications to be encoded in the Sovereign Logic Engine (SLE) logic, National Digital Twin (NDT) models, and core civilizational processes.
 
 ## 1. Master Cross-Reference Table
 
@@ -165,6 +165,24 @@ This document compiles all 159 new design principles from the Simulation Finding
 | EA-22 | DP-22 | Mandated Civic Participation Thresholds | Economic Architecture | [10-economic-architecture-v2-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/10-economic-architecture-v2-deeper-research.md) | §8 | Core §3 (Governance) — Turnout Monitor | P2 |
 | EA-23 | DP-23 | Constitutional Wealth Concentration Limits | Economic Architecture | [10-economic-architecture-v2-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/10-economic-architecture-v2-deeper-research.md) | §8 | Core §4 (Economics) — Concentration limits | P2 |
 | EA-24 | DP-24 | Audit-Optimized Sovereign Portfolios | Economic Architecture | [10-economic-architecture-v2-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/10-economic-architecture-v2-deeper-research.md) | §8 | Core §4 (Economics) — Asset Registry | P2 |
+| FS-1 | DP-FS-1 | Parental Primacy Doctrine | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §7 (Family and Social Fabric) — SLE Family Sovereignty Locks | P0 |
+| FS-2 | DP-FS-2 | Material Floor Without Custody Transfer | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §6 + Core §4 (Economics) — UBP child-floor engine | P1 |
+| FS-3 | DP-FS-3 | Formalized Intervention Threshold | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §7 — SLE Intervention Threshold Solver | P0 |
+| FS-4 | DP-FS-4 | Ideological Neutrality Lock | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §1/§7 — Constitutional Neutrality Lock | P0 |
+| FS-5 | DP-FS-5 | Least Coercive Means Cascade | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §7 — Six-Tier Override Cascade | P1 |
+| FS-6 | DP-FS-6 | Provision Pluralism Rule | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §3 — SLE Provision Pluralism Engine | P1 |
+| FS-7 | DP-FS-7 | Alloparental Infrastructure | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §4 — NDT Alloparental Infrastructure Layer | P2 |
+| FS-8 | DP-FS-8 | Family Privacy Boundary | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §1 + Core §4 (Privacy) — ZKP tier extension | P1 |
+| FS-9 | DP-FS-9 | Values Transmission Neutrality | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §5 + Core §5 (Education) — Values Transmission Neutrality | P1 |
+| FS-10 | DP-FS-10 | Family Integrity Index | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §8 — NDT Family Integrity Index (FII) | P1 |
+| FS-11 | DP-FS-11 | Family-Policy Capture Guard | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §1 + Core §6 (Security/Immunity) — Capture Guard | P2 |
+| FS-12 | DP-FS-12 | Reversibility and Pilot Dissolution | Family & Social Fabric | [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | §8 | Part XXII §8 — Reversibility & Sunset machinery (ADP extension) | P2 |
+| EV-1 | DP-EV-1 | Curriculum Firewall | Education Values | [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md) | §6 | Core §5 (Education) — SLE Curriculum Architecture (extends EDU-11) | P0 |
+| EV-2 | DP-EV-2 | Curriculum Capture Monitor | Education Values | [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md) | §6 | Core §5 (Education) — NDT Capture Telemetry + Core §6 (Immunity bridge) | P2 |
+| EV-3 | DP-EV-3 | Educational Provision Pluralism | Education Values | [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md) | §6 | Core §5 (Education) — SLE Funding Engine | P1 |
+| EV-4 | DP-EV-4 | Homeschooling Regulation Floor | Education Values | [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md) | §6 | Core §5 (Education) + Part XXII — Registration & floor verification | P2 |
+| EV-5 | DP-EV-5 | Educator Neutrality Scope | Education Values | [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md) | §6 | Core §5 (Education) — Professional standards | P3 |
+| EV-6 | DP-EV-6 | Educational Materials Provenance | Education Values | [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md) | §6 | Core §5 (Education) + Core §13 (Information Sovereignty bridge) | P2 |
 
 ## 2. Detailed Principle Descriptions
 
@@ -1469,3 +1487,152 @@ The SLE shall impose lifetime inheritance caps and progressive wealth taxes to p
 
 All public asset management and sovereign wealth holdings shall be logged on-chain in real-time, enabling continuous public audit of investment portfolios.
 
+
+
+### Family & Social Fabric Domain Principles
+
+#### **[FS-1] Parental Primacy Doctrine Principle**
+- **Original ID:** DP-FS-1
+- **Priority:** P0
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §7 (Family and Social Fabric) — SLE Family Sovereignty Locks
+
+Parents and legal guardians are the default trustees of the child's upbringing and development, holding decision authority as fiduciary duty rather than ownership right; the state is residual guardian of last resort and shall never constitute the default custodian of children. This principle encodes the convergent rule of *Meyer*, *Pierce*, *Yoder*, and *Troxel*, CRC Articles 5 and 18, and ECHR Article 8: parental primacy as a strong presumption, rebuttable only by harm. It binds symmetrically: no majority, ministry, or movement may invert the trustee relationship in either direction.
+
+#### **[FS-2] Material Floor Without Custody Transfer Principle Principle**
+- **Original ID:** DP-FS-2
+- **Priority:** P1
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §6 + Core §4 (Economics) — UBP child-floor engine
+
+The SLE shall administer unconditional material floors for children — Universal Basic Prebate, child allowances, capital stakes — strictly as cash and provision rights flowing to the family unit, never as institutional custody defaults or care-mode conditions. The material floor and the custody arrangement are formally severable variables: the state guarantees the child's material conditions without acquiring any claim on the child's person, care, or values formation. Causal evidence (Shaefer et al. 2018, 2024; Canada Child Benefit) demonstrates the decoupling is achievable without custody transfer; the kibbutz and Soviet cases demonstrate what coupling produces.
+
+#### **[FS-3] Formalized Intervention Threshold Principle Principle**
+- **Original ID:** DP-FS-3
+- **Priority:** P0
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §7 — SLE Intervention Threshold Solver
+
+State intervention in a family requires clear-and-convincing evidence of serious harm — abuse, neglect, abandonment, or endangerment — evaluated against published, uniform, machine-checkable criteria and evidence classes, with identical thresholds across all jurisdictions and automatic appeal. Any modification of the threshold, evidence classes, or proof standard is a constitutional-level amendment requiring supermajority democratic authorization; administrative or emergency modification is void. The measured variance of existing systems (US substantiation rates from under 6% to above 50%) establishes that indeterminate standards cannot be administered in good faith; formalization is the minimum remedy.
+
+#### **[FS-4] Ideological Neutrality Lock Principle Principle**
+- **Original ID:** DP-FS-4
+- **Priority:** P0
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §1/§7 — Constitutional Neutrality Lock
+
+Ideology, religion, values, lifestyle, cultural practice, political opinion, or anticipated belief of the child shall never constitute intervention grounds, risk-score factors, custody considerations, or curriculum-transfer justifications. The lock binds every ideology identically, including whichever is ascendent. Residential and boarding school systems — the realized implementation of values-based custody transfer — and the Soviet reversal into coerced traditionalism are the negative specifications on both fronts. The SLE's formal verification shall reject any intervention or curriculum instrument referencing protected values categories before execution.
+
+#### **[FS-5] Least Coercive Means Cascade Principle Principle**
+- **Original ID:** DP-FS-5
+- **Priority:** P1
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §7 — Six-Tier Override Cascade
+
+Intervention authority proceeds through the six-tier override cascade — in-family support, voluntary engagement, supervised support, kinship placement, community foster care, institutional care — with each tier exhausted or affirmatively ruled out before the next activates. Institutional care is ultima ratio, restricted to cases where no family-level placement is viable, and mandated at attachment-level quality: BEIP-derived caregiver-to-child ratios, relational-continuity requirements, and NDT audit. Termination of parental rights requires the highest evidentiary standard in the family domain. The BEIP recovery data (quality foster care producing substantial recovery) and the foster-care longitudinal data establish both the necessity and the sufficiency conditions.
+
+#### **[FS-6] Provision Pluralism Rule Principle Principle**
+- **Original ID:** DP-FS-6
+- **Priority:** P1
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §3 — SLE Provision Pluralism Engine
+
+Collective childcare and child-related services shall be voluntary, multi-provider, and choice-preserving: no jurisdiction may establish sole-provider provision, and no subsidy, tax, or regulatory architecture may make institutional care the default setting for any age band. For children aged 0–3, family-home care is the protected default, with external provision available by parental choice; any policy shifting default care settings for this age band triggers mandatory evidence review, given documented early-childhood non-cognitive risks (Quebec evaluation; East/West German cohort data). Subsidies shall be child-attached and mode-neutral — following the child's family, not the provider.
+
+#### **[FS-7] Alloparental Infrastructure Principle Principle**
+- **Original ID:** DP-FS-7
+- **Priority:** P2
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §4 — NDT Alloparental Infrastructure Layer
+
+The SLE and NDT shall build distributed care support networks — community childcare, respite care, shared domestic infrastructure, elder-youth programs, communal kitchens on the Ujamaa pattern — as additive scaffolding around the primary attachment unit, consistent with the cooperative-breeding design specification of the species (40–50% non-maternal care around a parental anchor). The village is a supplement to the family, never a substitute or successor: alloparental support strengthens exactly the distributed-provision component the isolated nuclear family under-provides, without touching custody, attachment, or values transmission. This is the modality row for Family & Social Fabric in the Core Principles table.
+
+#### **[FS-8] Family Privacy Boundary Principle Principle**
+- **Original ID:** DP-FS-8
+- **Priority:** P1
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §1 + Core §4 (Privacy) — ZKP tier extension
+
+The family is a protected privacy unit: no family-linked scores, no joint liability for relatives' conduct, no kinship surveillance, and no state collection of intra-family data beyond the minimum required for legally authorized intervention processes. The privacy-by-mathematics stack (ZKP tiers, differential privacy, homomorphic computation) extends to the family domain: intervention-relevant data shall be processed under zero-knowledge verification so that the state verifies compliance without accessing family interiors. China's family-linked social credit consequences and documented kinship surveillance programs are the negative specification.
+
+#### **[FS-9] Values Transmission Neutrality Principle Principle**
+- **Original ID:** DP-FS-9
+- **Priority:** P1
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §5 + Core §5 (Education) — Values Transmission Neutrality
+
+Education funding shall be provided without provisioning monopoly: the state funds, quality-regulates, and guarantees access to plural educational settings — public, community, religious, and independent — under common outcome standards, with no state instrumentality of education for ideological conversion and no bar to exit. Parents direct values content within the rights floor; the state guarantees the floor and the literacy outcomes, never the creed. This encodes *Pierce* ("the child is not the mere creature of the State"), *Yoder*, and the educational-pluralism architecture (Netherlands, German dual system), and is specified in detail in the companion Education, Values Transmission and Ideological Curriculum Capture deeper research (ALG-SIM-DEEP-2026-011).
+
+#### **[FS-10] Family Integrity Index Principle Principle**
+- **Original ID:** DP-FS-10
+- **Priority:** P1
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §8 — NDT Family Integrity Index (FII)
+
+The NDT shall maintain a Family Integrity Index (FII) as a constitutional metric suite: attachment-security proxies (care-setting stability, overnight-separation rates), intervention threshold uniformity delta across jurisdictions, intervention reversal and appeal-success rates, removal disproportionality ratios by community, provision-choice diversity (share of families with genuine multi-provider choice), and family-linked surveillance incidents. FII thresholds trigger automatic constitutional review, publish in real time, and feed the Civilizational Immune System's monitoring layer. The FII follows the pattern of the Wealth Inequality Dashboard (WT-12) and the Legitimacy Index.
+
+#### **[FS-11] Family-Policy Capture Guard Principle Principle**
+- **Original ID:** DP-FS-11
+- **Priority:** P2
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §1 + Core §6 (Security/Immunity) — Capture Guard
+
+Family law, child welfare, and family-related provision are monitored capture surfaces under the Civilizational Immune System (Study 18): provision-monopolization trends, threshold-creep indicators, family-domain score proliferation, and values-custody rhetoric are tracked as early-warning signals. Breach triggers automatic constitutional review with delayed modification protocols — family-domain rules take effect only after cooling-off and adversarial testing, never under emergency suspension. Family policy is a documented vector in international information warfare (Carnegie Endowment 2025), so the IW layer's narrative-defense machinery (IW-1–12) cross-references this domain.
+
+#### **[FS-12] Reversibility and Pilot Dissolution Principle Principle**
+- **Original ID:** DP-FS-12
+- **Priority:** P2
+- **Source Section:** §8 in [07-family-social-fabric-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md)
+- **Integration Target:** Part XXII §8 — Reversibility & Sunset machinery (ADP extension)
+
+Every family-affecting policy carries mandatory sunset clauses, published rollback criteria, and FII-gated continuation: continuation requires the Family Integrity Index to demonstrate non-degradation, and any pilot program touching family provision or intervention powers is subject to the Automatic Dissolution Pact — it cannot entrench. The kibbutz reversal is the founding evidence: even under maximal ideological commitment, parental demand reversed the program from within; the architecture guarantees that every such experiment remains reversible by design rather than requiring eighty years and a civilizational crisis to unwind.
+
+### Education Values Transmission Domain Principles
+
+#### **[EV-1] Curriculum Firewall Principle Principle**
+- **Original ID:** DP-EV-1
+- **Priority:** P0
+- **Source Section:** §6 in [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md)
+- **Integration Target:** Core §5 (Education) — SLE Curriculum Architecture (extends EDU-11)
+
+The SLE shall enforce a strict institutional separation between the outcome floor and the values layer of education. The floor — literacy, numeracy, science, human-rights education, civic procedure — is common, machine-assessable, and uniform across all providers. The cultural and values layer is governed by families and communities within the rights floor and shall never be assessed, scored, ranked, or standardized by the state. Values content may not be introduced into floor assessment, and floor content may not be locally vetoed. The Contested Formalization Protocol governs boundary classification disputes. This extends EDU-11 (Dual-Layer Curriculum Mandate) with the firewall specification and encodes *Pierce*, *Yoder*, and ECHR Protocol 1 Article 2.
+
+#### **[EV-2] Curriculum Capture Monitor Principle Principle**
+- **Original ID:** DP-EV-2
+- **Priority:** P2
+- **Source Section:** §6 in [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md)
+- **Integration Target:** Core §5 (Education) — NDT Capture Telemetry + Core §6 (Immunity bridge)
+
+The NDT shall maintain capture telemetry over the education content system, integrated with the Civilizational Immune System: text-drift and asymmetry analysis on curricular materials across the seven-stage capture signature; provenance verification of authorship and funding; provider-concentration metrics; and family exit-rate telemetry. Capture is detected as asymmetry and trajectory, never as the content of any particular view. Threshold breach triggers automatic constitutional review with delayed modification protocols. The residential-school and Soviet-pedagogy cases are the negative specifications; the 2021–2025 multi-directional capture attempts are the live calibration set.
+
+#### **[EV-3] Educational Provision Pluralism Principle Principle**
+- **Original ID:** DP-EV-3
+- **Priority:** P1
+- **Source Section:** §6 in [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md)
+- **Integration Target:** Core §5 (Education) — SLE Funding Engine
+
+Education funding shall follow the child across a plural provider system — public, community, religious, and independent — under common outcome floors, with real entry and exit rights: portable per-child funding, no exit taxation, and capacity guarantees that prevent exit rights from being priced out by scarcity. No provider may hold monopoly position in any jurisdiction, and no provider's failure may be generalized into system-level content control. This specifies DP-FS-9's institutional mechanism on the Dutch pillarization and German dual-system pattern.
+
+#### **[EV-4] Homeschooling Regulation Floor Principle Principle**
+- **Original ID:** DP-EV-4
+- **Priority:** P2
+- **Source Section:** §6 in [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md)
+- **Integration Target:** Core §5 (Education) + Part XXII — Registration & floor verification
+
+Homeschooling is a protected exit right, subject to a regulation floor: registration, outcome-floor verification (literacy, science, rights education), and abuse screening through the formalized family intervention threshold (DP-FS-3) — with identical evidence classes and proof standards as for schooled children. Neither prohibition (the German model's integration rationale may not be used to eliminate the exit right) nor unregulated exit (the insularity failure mode) is permitted. Homeschooling-specific suspicion regimes are prohibited as threshold creep; family privacy boundaries (DP-FS-8) apply to all data collected under the floor.
+
+#### **[EV-5] Educator Neutrality Scope Principle Principle**
+- **Original ID:** DP-EV-5
+- **Priority:** P3
+- **Source Section:** §6 in [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md)
+- **Integration Target:** Core §5 (Education) — Professional standards
+
+Educators in the compulsory, state-funded floor layer hold a fiduciary, content-neutral role: advocacy for political or religious positions within floor instruction is an employment-standard violation, enforceable through ordinary professional and employment law with audit support. The obligation is strictly scoped to the compulsory captive-audience layer and does not extend to higher education, adult education, or educators' off-duty citizenship. The cultural layer's instruction is governed by its own community within the rights floor. The scope boundary itself is a protected classification, contestable only through the Contested Formalization Protocol.
+
+#### **[EV-6] Educational Materials Provenance Principle Principle**
+- **Original ID:** DP-EV-6
+- **Priority:** P2
+- **Source Section:** §6 in [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md)
+- **Integration Target:** Core §5 (Education) + Core §13 (Information Sovereignty bridge)
+
+All educational content reaching children — textbooks, software, platform-delivered media, and AI-tutor outputs — shall carry verifiable provenance: authorship, funding source, content-modification chain, and, for algorithmic systems, the content-selection objective. Engagement optimization is prohibited as a content-selection objective in compulsory-education contexts; selection must follow declared, auditable pedagogical standards. AI tutors operating in the floor layer are bound by the floor/cultural-layer separation. This closes the platform-capture vector and extends the IW provenance architecture (IW-1 through IW-12) to the education stack.

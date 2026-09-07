@@ -1,4 +1,4 @@
-# Civilization Simulation Engine (V4)
+# Civilization Simulation Engine (V4 + V5 Family Extension)
 
 > **Civilization Architecture Comparison and Validation** — A quantitative 100-year stress test comparing 10 governance systems across 15 metrics under 17 shock types.
 
@@ -12,6 +12,7 @@ This directory contains the civilization simulation engine, datasets, pre-render
 research/simulation/
 ├── README.md                          ← You are here
 ├── simulation_engine_v4.py            ← Runs 100-year, 10-village Monte Carlo simulation
+├── simulation_engine_v5_family.py     ← V5 family extension (16th metric, 3 regimes, 5 shocks)
 ├── visualization_engine_v4.py         ← Generates 28 publication-quality charts
 ├── generate_report_v4.py              ← Builds the 33-page ReportLab PDF report
 ├── Algorapolis_Simulation_Report_V4.pdf← Completed pre-rendered PDF report
@@ -41,9 +42,9 @@ The simulation operates as a discrete-time, agent-based model with annual steps 
 * **Anarcho-Syndicalism:** Worker-managed; high equity, but coordination bottlenecks.
 * **Network State:** Digital-native; high innovation, but vulnerable to external shocks.
 
-### 2. 15 Civilization Metrics
-The system tracks civilizational development across 15 dimensions:
-`prosperity`, `demography`, `social_classes`, `equity`, `media_and_information`, `security`, `infrastructure`, `resources`, `agriculture`, `wildlife_and_ecology`, `monetary_system`, `technology`, `sustainability`, `freedom`, and `resilience`.
+### 2. 16 Civilization Metrics (V4 + V5)
+The system tracks civilizational development across 16 dimensions (15 in V4 baseline, plus `family_integrity` in V5):
+`prosperity`, `demography`, `social_classes`, `equity`, `media_and_information`, `security`, `infrastructure`, `resources`, `agriculture`, `wildlife_and_ecology`, `monetary_system`, `technology`, `sustainability`, `freedom`, `resilience`, and `family_integrity`.
 
 ---
 
@@ -114,4 +115,10 @@ pip install numpy matplotlib reportlab
    Assembles the charts and logs into a publication-ready 33-page PDF report.
    ```bash
    python generate_report_v4.py
+   ```
+
+4. **Run the V5 Family Extension (Optional / Verification):**
+   Runs the 3-regime family policy comparison with the 16th metric (`family_integrity`).
+   ```bash
+   python simulation_engine_v5_family.py --runs 2
    ```

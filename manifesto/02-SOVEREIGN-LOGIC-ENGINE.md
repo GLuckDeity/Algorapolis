@@ -94,7 +94,7 @@ Public officials do not swear allegiance to the Sovereign Logic Engine. They aff
 
 ## The Impartiality and Legibility Mandates
 
-The Sovereign Logic Engine operates under thirteen binding administrative rules:
+The Sovereign Logic Engine operates under fourteen binding administrative rules:
 
 **The Impartiality Principle.** Trust in Algorapolis begins with absolute procedural fairness. The SLE enforces the Quality of Government standard: all identical cases must be processed identically, without regard to influence, wealth, or proximity. This procedural consistency is modeled in the NDT and is subject to continuous mathematical and public auditing.
 
@@ -121,6 +121,8 @@ The Sovereign Logic Engine operates under thirteen binding administrative rules:
 **The Information Warfare Mandate.** The SLE shall verify content provenance via cryptographic credentials, log foreign influence operations, and deploy technique-based pre-bunking programs.
 
 **The Economic Architecture Mandate.** The SLE shall programmatically enforce 100% reserve banking, execute counter-cyclical dividends, coordinate federated cooperative R&D/banking networks, and enforce beneficial ownership registries.
+
+**The Family Sovereignty Mandate.** The SLE shall never constitute the default custodian of children; parents and legal guardians are the default trustees of the child's upbringing, with the state as formalized residual guardian of last resort. All child-affecting interventions shall be processed through the published six-tier override cascade (DP-FS-5). The Intervention Threshold Solver shall reject any evidence set referencing ideology, religion, values, or cultural practice as intervention grounds before execution, identically for every ideology (DP-FS-4). Any modification of the published threshold, evidence classes, or proof standard is a constitutional-level amendment event, not an administrative setting (DP-FS-3). Material floors shall flow to the family unit as cash and provision rights, never as institutional custody defaults (DP-FS-2).
 
 ---
 

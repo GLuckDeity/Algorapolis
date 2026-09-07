@@ -1,0 +1,178 @@
+GlobalID,OriginalID,PrincipleName,Domain,SourceFile,Section,IntegrationTarget,Priority
+CYB-7,DP-7,Supply Chain Integrity Mandate,Cyber,01-cyber-civilization-resilience-deeper-research.md,§1,Core §15 (Security Architecture) — SLE Supply Chain Integrity Module,P1
+CYB-8,DP-8,Calibrated Trust Architecture,Cyber,01-cyber-civilization-resilience-deeper-research.md,§2,Core §15 (Security Architecture) — SLE Trust Tier Classification,P2
+CYB-9,DP-9,Privacy-Preserving Verification,Cyber,01-cyber-civilization-resilience-deeper-research.md,§2,Core §15 (Security Architecture) + Core §5 (Education — Data Sovereignty bridge),P2
+CYB-10,DP-10,AI Cyber Defense with Human Override,Cyber,01-cyber-civilization-resilience-deeper-research.md,§3,Core §14 (Intelligence Architecture) — SLE AI Defense Protocol,P2
+CYB-11,DP-11,Federated Identity Architecture,Cyber,01-cyber-civilization-resilience-deeper-research.md,§4,Core §15 (Security Architecture) — SLE Identity Module,P1
+CYB-12,DP-12,Physical Layer Resilience,Cyber,01-cyber-civilization-resilience-deeper-research.md,§5,Core §15 (Security Architecture) — NDT Infrastructure Layer,P2
+CYB-13,DP-13,Quantum-Resilient Cryptography,Cyber,01-cyber-civilization-resilience-deeper-research.md,§6,Core §15 (Security Architecture) — SLE Cryptographic Module,P0
+CYB-14,DP-14,Q-Day Preparedness,Cyber,01-cyber-civilization-resilience-deeper-research.md,§6,Core §15 (Security Architecture) — SLE Crisis Protocol,P0
+CYB-15,DP-15,Cyber Resilience Equalization,Cyber,01-cyber-civilization-resilience-deeper-research.md,§7,Core §15 (Security Architecture) + Core §22 (Ecology — equity bridge),P2
+CYB-16,DP-16,CCRI Constitutional Metric,Cyber,01-cyber-civilization-resilience-deeper-research.md,§8,Core §15 (Security Architecture) — NDT Risk Layer,P3
+CYB-17,DP-17,Attribution and Accountability,Cyber,01-cyber-civilization-resilience-deeper-research.md,§8,Core §14 (Intelligence Architecture) — SLE Attribution Module,P3
+ECO-6,DP-6,Planetary Boundary Hard Constraint Protocol,Ecology,02-ecological-optimization-deeper-research.md,§1,Core §22 (Ecological Stewardship) — SLE Constraint Engine,P0
+ECO-7,DP-7,Coupled Boundary Assessment,Ecology,02-ecological-optimization-deeper-research.md,§1,Core §22 (Ecological Stewardship) — NDT Coupled Model,P0
+ECO-8,DP-8,Precautionary Default for Novel Entities,Ecology,02-ecological-optimization-deeper-research.md,§1,Core §22 (Ecological Stewardship) — SLE Novel Entity Gate,P2
+ECO-9,DP-9,Biodiversity Infrastructure Protection,Ecology,02-ecological-optimization-deeper-research.md,§2,Core §22 (Ecological Stewardship) + Core §22/Species Ecology bridge,P1
+ECO-10,DP-10,Hydrological Balance Enforcement,Ecology,02-ecological-optimization-deeper-research.md,§3,Core §22 (Ecological Stewardship) — NDT Hydrological Layer,P1
+ECO-11,DP-11,Infrastructure Sequencing Mandate,Ecology,02-ecological-optimization-deeper-research.md,§4,Core §22 (Ecological Stewardship) — SLE Permit Engine,P2
+ECO-12,DP-12,Metabolic Throughput Ceiling,Ecology,02-ecological-optimization-deeper-research.md,§5,Core §22 (Ecological Stewardship) — NDT Urban Layer,P2
+ECO-13,DP-13,Proportional Ecological Responsibility,Ecology,02-ecological-optimization-deeper-research.md,§6,Core §22 (Ecological Stewardship) — SLE Fiscal Module (ecological tariffs),P2
+ECO-14,DP-14,Per-Capita Equity Floor,Ecology,02-ecological-optimization-deeper-research.md,§6,Core §22 (Ecological Stewardship) — Constitutional Equity Clause,P2
+ECO-15,DP-15,Human Ecological Review Board,Ecology,02-ecological-optimization-deeper-research.md,§7,Core §22 (Ecological Stewardship) — Governance Overlay,P3
+ECO-16,DP-16,Growth-Agnostic Objective Function,Ecology,02-ecological-optimization-deeper-research.md,§8,Core §22 (Ecological Stewardship) — SLE Economic Module,P3
+ECO-17,DP-17,Ecological Digital Twin Layer,Ecology,02-ecological-optimization-deeper-research.md,§8,Core §22 (Ecological Stewardship) — NDT EDT Layer,P3
+MED-7,DP-7,Provenance Verification,Media,03-media-ecosystems-deeper-research.md,§1,Core §13 (Information Sovereignty) — SLE Provenance Engine,P1
+MED-8,DP-8,Counter-Disinformation Architecture,Media,03-media-ecosystems-deeper-research.md,§1,Core §13 (Information Sovereignty) — SLE Counter-Disinfo Module,P1
+MED-9,DP-9,Deliberative Curation,Media,03-media-ecosystems-deeper-research.md,§2,Core §13 (Information Sovereignty) — SLE Curation Engine,P2
+MED-10,DP-10,Public Information Utility,Media,03-media-ecosystems-deeper-research.md,§3,Core §13 (Information Sovereignty) — Institutional Design,P2
+MED-11,DP-11,Media Literacy as Constitutional Right,Media,03-media-ecosystems-deeper-research.md,§4,Core §13 (Information Sovereignty) + Core §5 (Education — literacy bridge),P2
+MED-12,DP-12,Platform Transparency and Interoperability,Media,03-media-ecosystems-deeper-research.md,§5,Core §13 (Information Sovereignty) — Platform Regulation,P2
+MED-13,DP-13,Local Information Infrastructure,Media,03-media-ecosystems-deeper-research.md,§6,Core §13 (Information Sovereignty) — Civic Information Fund,P3
+MED-14,DP-14,AI Communication Safeguard,Media,03-media-ecosystems-deeper-research.md,§7,Core §13 (Information Sovereignty) — SLE Communication Module,P3
+MED-15,DP-15,Crisis Information Resilience,Media,03-media-ecosystems-deeper-research.md,§8,Core §13 (Information Sovereignty) — SLE Crisis Module,P3
+MED-16,DP-16,Anti-Cynicism Design,Media,03-media-ecosystems-deeper-research.md,§8,Core §13 (Information Sovereignty) — System Design Constraint,P3
+EDU-1,Principle 1,Algorithmic Transparency Mandate,Education,04-education-equality-deeper-research.md,§1,Core §5 (Education) — SLE AI Governance Layer,P2
+EDU-2,Principle 2,Anti-Tracking Safeguard,Education,04-education-equality-deeper-research.md,§1,Core §5 (Education) — SLE Curriculum Module,P2
+EDU-3,Principle 3,Data Sovereignty in Education,Education,04-education-equality-deeper-research.md,§1,Core §5 (Education) + Core §15 (Security — identity bridge),P2
+EDU-4,Principle 4,Bloom Equity Target,Education,04-education-equality-deeper-research.md,§1,Core §5 (Education) — SLE Outcome Measurement,P2
+EDU-5,Principle 5,Inverse-Need Funding Formula,Education,04-education-equality-deeper-research.md,§2,Core §5 (Education) — SLE Resource Allocation Engine,P1
+EDU-6,Principle 6,Education Debt Prohibition,Education,04-education-equality-deeper-research.md,§2,Core §5 (Education) — Constitutional Finance Clause,P3
+EDU-7,Principle 7,Minimum Floor Guarantee,Education,04-education-equality-deeper-research.md,§2,Core §5 (Education) — Constitutional Priority Clause,P1
+EDU-8,Principle 8,Teacher Quality Floor,Education,04-education-equality-deeper-research.md,§3,Core §5 (Education) — NDT Education Layer,P2
+EDU-9,Principle 9,Professionalization Parity,Education,04-education-equality-deeper-research.md,§3,Core §5 (Education) — Institutional Design,P2
+EDU-10,Principle 10,Compressed Distribution Target,Education,04-education-equality-deeper-research.md,§3,Core §5 (Education) — NDT Distribution Analytics,P2
+EDU-11,Principle 11,Dual-Layer Curriculum Mandate,Education,04-education-equality-deeper-research.md,§4,Core §5 (Education) — SLE Curriculum Architecture,P2
+EDU-12,Principle 12,Epistemic Non-Subordination,Education,04-education-equality-deeper-research.md,§4,Core §5 (Education) — Constitutional Epistemology Clause,P2
+EDU-13,Principle 13,Cognitive Justice Audit,Education,04-education-equality-deeper-research.md,§4,Core §5 (Education) — SLE Assessment Module,P2
+EDU-14,Principle 14,Inverted Allocation Curve,Education,04-education-equality-deeper-research.md,§5,Core §5 (Education) — SLE Budget Engine,P1
+EDU-15,Principle 15,Universal Early Childhood Guarantee,Education,04-education-equality-deeper-research.md,§5,Core §5 (Education) — Constitutional Guarantee,P3
+EDU-16,Principle 16,Parity of Esteem Architecture,Education,04-education-equality-deeper-research.md,§6,Core §5 (Education) — Institutional Design,P2
+EDU-17,Principle 17,Automation-Resilient VET,Education,04-education-equality-deeper-research.md,§6,Core §5 (Education) — SLE Vocational Module,P2
+EDU-18,Principle 18,Mobility Audit Mandate,Education,04-education-equality-deeper-research.md,§7,Core §5 (Education) — NDT Demographic Layer,P2
+EDU-19,Principle 19,Cultural Capital Compensation,Education,04-education-equality-deeper-research.md,§7,Core §5 (Education) — SLE Equity Engine,P2
+EDU-20,Principle 20,Credential-Wealth Decoupling,Education,04-education-equality-deeper-research.md,§7,Core §5 (Education) — Constitutional Credential Clause,P2
+EDU-21,Principle 21,Zero Learning Poverty Target,Education,04-education-equality-deeper-research.md,§8,Core §5 (Education) — Constitutional Target,P0
+EDU-22,Principle 22,Learning-Enrollment Coupling,Education,04-education-equality-deeper-research.md,§8,Core §5 (Education) — NDT Education Layer,P0
+EDU-23,Principle 23,Mother-Tongue Foundation,Education,04-education-equality-deeper-research.md,§8,Core §5 (Education) — SLE Curriculum Module,P3
+IS-1,DP-IS-1,Full-Stack Sovereignty Mandate,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,Part XVII §1 (7-Layer Stack),P1
+IS-2,DP-IS-2,Data as Sovereign Territory,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,Part XVII §2 (Data Governance),P1
+IS-3,DP-IS-3,Algorithmic Glass Box Standard,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,Part XVII §4 (Algorithmic Accountability),P2
+IS-4,DP-IS-4,Cross-Border Data Flow Sovereignty,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,Part XVII §3 (Cross-Border Data Flows),P1
+IS-5,DP-IS-5,Algorithmic Contestability Right,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,Part XVII §4 (Algorithmic Accountability),P2
+IS-6,DP-IS-6,Open-Source by Default,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,Part XVII §5 (Open-Source Mandate),P1
+IS-7,DP-IS-7,Physical Infrastructure Sovereignty Index,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,"Part XVII §1 (7-Layer Stack, Layer 1)",P2
+IS-8,DP-IS-8,Narrative Environment Monitoring,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,"Part XVII §1 (7-Layer Stack, Layer 4)",P3
+IS-9,DP-IS-9,Cultural Vitality Index,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,"Part XVII §1 (7-Layer Stack, Layer 5)",P3
+IS-10,DP-IS-10,Sovereignty Equity Mandate,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,Part XVII §6 (Global South Dimensions),P2
+IS-11,DP-IS-11,Constitutional Drift Detection,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,"Part XVII §1 (7-Layer Stack, Layer 7)",P2
+IS-12,DP-IS-12,Institutional Health Monitoring,Information Sovereignty,01-information-sovereignty-priority-gap-research.md,§7,"Part XVII §1 (7-Layer Stack, Layer 6)",P3
+MS-1,DP-M1,Constitutional Currency Sovereignty,Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §1 (CBDC Design),P0
+MS-2,DP-M2,Privacy-by-Architecture for Monetary Transactions,Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §1 (CBDC Design),P0
+MS-3,DP-M3,Multi-Layer Currency Architecture,Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §2 (Complementary Currencies),P2
+MS-4,DP-M4,Civilizational Sovereign Wealth Fund (CSWF),Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §3 (Sovereign Wealth Funds),P1
+MS-5,DP-M5,Anti-Capture Protection for Sovereign Wealth,Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §3 (Sovereign Wealth Funds),P1
+MS-6,DP-M6,Algorithmic Monetary Discipline,Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §4 (Inflation/Deflation Governance),P2
+MS-7,DP-M7,Constitutional Capital Stake (CCS),Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §5 (Universal Basic Capital),P1
+MS-8,DP-M8,Systemic Risk Surveillance and Constitutional Limits,Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §6 (Financial Stability),P2
+MS-9,DP-M9,Bail-In by Design,Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §6 (Financial Stability),P2
+MS-10,DP-M10,Fiscal-Monetary Coordination via the NDT,Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §4 (Inflation/Deflation Governance),P2
+MS-11,DP-M11,Interoperable Complementary Currency Pegging,Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §2 (Complementary Currencies),P2
+MS-12,DP-M12,Monetary Infrastructure Resilience,Monetary Systems,02-monetary-systems-priority-gap-research.md,§7,Part XVIII §6 (Financial Stability),P3
+SP-1,DP-SP1,Constitutional Legal Personhood for Ecosystems,Species Preservation,03-species-preservation-priority-gap-research.md,§7,Part XIX §1 (Rights of Nature),P1
+SP-2,DP-SP2,Biodiversity Fiscal Engine,Species Preservation,03-species-preservation-priority-gap-research.md,§7,Part XIX §4 (Conservation Economics),P2
+SP-3,DP-SP3,Three-Tier Preservation Hierarchy with Allocation Priority,Species Preservation,03-species-preservation-priority-gap-research.md,§7,Part XIX §3 (3-Tier Hierarchy),P1
+SP-4,DP-SP4,Mandatory Connectivity Mandate,Species Preservation,03-species-preservation-priority-gap-research.md,§7,Part XIX §5 (Habitat Corridors/Rewilding),P2
+SP-5,DP-SP5,Cascading Effects Modeling,Species Preservation,03-species-preservation-priority-gap-research.md,§7,Part XIX §2 (Sixth Mass Extinction),P2
+SP-6,DP-SP6,Marine Governance Layer,Species Preservation,03-species-preservation-priority-gap-research.md,§7,Part XIX §6 (Marine Biodiversity),P2
+SP-7,DP-SP7,Insect Collapse Emergency Protocol,Species Preservation,03-species-preservation-priority-gap-research.md,§7,Part XIX §2 (Sixth Mass Extinction),P2
+SP-8,DP-SP8,Rewilding-by-Default with NDT Simulation,Species Preservation,03-species-preservation-priority-gap-research.md,§7,Part XIX §5 (Habitat Corridors/Rewilding),P2
+SP-9,DP-SP9,Constitutional Inheritance Doctrine,Species Preservation,03-species-preservation-priority-gap-research.md,§7,Part XIX §3 (3-Tier Hierarchy),P2
+SP-10,DP-SP10,Genomic Preservation Completeness Mandate,Species Preservation,03-species-preservation-priority-gap-research.md,§7,"Part XIX §3 (3-Tier Hierarchy, Tier 3)",P3
+SP-11,DP-SP11,Coral Reef Climate Refugia Protection,Species Preservation,03-species-preservation-priority-gap-research.md,§7,Part XIX §6 (Marine Biodiversity),P3
+SP-12,DP-SP12,Ecological Monitoring as Constitutional Obligation,Species Preservation,03-species-preservation-priority-gap-research.md,§7,"Part XIX §2 (Sixth Mass Extinction, Monitoring)",P3
+ISec-1,DP-ISec-1,Architectural Privacy Enforcement,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §2 (Surveillance Limits),P0
+ISec-2,DP-ISec-2,Independent Intelligence Oversight Tribunal,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §1 (Democratic Oversight),P1
+ISec-3,DP-ISec-3,Dual-Key Surveillance Authorization,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §4 (Intelligence Accountability),P1
+ISec-4,DP-ISec-4,Classification as Exception,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §4 (Intelligence Accountability),P2
+ISec-5,DP-ISec-5,Whistleblower Constitutional Protection,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §4 (Intelligence Accountability),P2
+ISec-6,DP-ISec-6,Dual-Use Technology Assessment Mandate,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §3 (Dual-Use Governance),P2
+ISec-7,DP-ISec-7,Autonomous Lethal Force Prohibition,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §5 (AI/Autonomous Weapons),P1
+ISec-8,DP-ISec-8,Computational Civil Defense,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §6 (Civil Defense),P2
+ISec-9,DP-ISec-9,Intelligence Budget Transparency,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §1 (Democratic Oversight),P3
+ISec-10,DP-ISec-10,Periodic Intelligence Review,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §1 (Democratic Oversight),P3
+ISec-11,DP-ISec-11,Cross-Jurisdictional Accountability,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §1 (Democratic Oversight),P2
+ISec-12,DP-ISec-12,Democratic Override of Emergency Powers,Intelligence & Security,04-intelligence-security-democratic-gap-research.md,§7,Part XX §6 (Civil Defense),P2
+WT-1,DP-WT-1,Intergenerational Transfer Cap Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §3 (Intergenerational Wealth Transfer),P0
+WT-2,DP-WT-2,Progressive Wealth Tax Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §4 (Wealth Taxes),P1
+WT-3,DP-WT-3,Constitutional Capital Stake Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §5 (Universal Capital Stakes),P1
+WT-4,DP-WT-4,Civilizational Sovereign Wealth Fund Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §5 (Universal Capital Stakes),P1
+WT-5,DP-WT-5,Beneficial Ownership Mandate Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §6 (Tax Havens),P1
+WT-6,DP-WT-6,Exit Tax Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §6 (Tax Havens),P2
+WT-7,DP-WT-7,Great Compression Encoding Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §2 (Great Compression),P2
+WT-8,DP-WT-8,Wealth Concentration Limit Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §3 (Intergenerational Wealth Transfer),P2
+WT-9,DP-WT-9,Secrecy Jurisdiction Sanctions Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §6 (Tax Havens),P2
+WT-10,DP-WT-10,Automation Rent Redistribution Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §1 (Piketty r>g),P2
+WT-11,DP-WT-11,Pay Ratio Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,Part XXI §2 (Great Compression),P2
+WT-12,DP-WT-12,Wealth Inequality Dashboard Principle,Wealth Transfer,05-wealth-transfer-generational-wealth-priority-gap-research.md,§7,"Part XXI §1 (Piketty r>g, SLE Design)",P3
+TD-1,DP-1,Mandatory Procedural Fairness Audits,Trust & Legitimacy,08-trust-decay-deeper-research.md,§8,Core §3 (Sovereign Logic Engine) — SLE Trust Restorer,P1
+TD-2,DP-2,Built-In Institutional Sunset Clauses,Trust & Legitimacy,08-trust-decay-deeper-research.md,§8,Core §6 (Security) — SLE Sunset Manager,P2
+TD-3,DP-3,Sortition-Based Participation,Trust & Legitimacy,08-trust-decay-deeper-research.md,§8,Core §3 (Sovereign Logic Engine) — Citizens' Assembly,P1
+TD-4,DP-4,Polycentric Governance,Trust & Legitimacy,08-trust-decay-deeper-research.md,§8,Core §3 (Sovereign Logic Engine) — Regional Coordination,P2
+TD-5,DP-5,Impartiality Enforcement,Trust & Legitimacy,08-trust-decay-deeper-research.md,§8,Core §3 (Sovereign Logic Engine) — Impartiality Solver,P1
+TD-6,DP-6,Structural Disruption Mechanisms,Trust & Legitimacy,08-trust-decay-deeper-research.md,§8,Core §6 (Security) — Rule Layering Module,P2
+TD-7,DP-7,Process Transparency,Trust & Legitimacy,08-trust-decay-deeper-research.md,§8,Core §3 (Sovereign Logic Engine) — Legibility Interface,P2
+IW-1,DP-1,Provenance Infrastructure,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — C2PA Signature,P1
+IW-2,DP-2,Epistemic Redundancy,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Channels,P2
+IW-3,DP-3,Asymmetric Defense,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Defense,P1
+IW-4,DP-4,Rapid Response Architecture,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Verification Pipeline,P1
+IW-5,DP-5,Algorithmic Accountability,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Audit Portal,P2
+IW-6,DP-6,Foreign Influence Transparency,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Transparency Register,P2
+IW-7,DP-7,Civic Epistemic Infrastructure,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Literacy Program,P2
+IW-8,DP-8,Anti-Capture Provisions,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Media Ownership,P2
+IW-9,DP-9,Crisis Epistemic Protocols,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Fact-Finding Commissions,P2
+IW-10,DP-10,Generative AI Governance,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Synthetic Labeling,P2
+IW-11,DP-11,Master Narrative Mapping,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Attack Surface Map,P3
+IW-12,DP-12,Root of Trust Architecture,Information Warfare,09-information-warfare-deeper-research.md,§10,Core §13 (Information Sovereignty) — Independent Tribunal,P1
+EA-1,DP-1,Separation of Money Creation and Credit Creation,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — 100% Reserve Module,P1
+EA-2,DP-2,Algorithmic Monetary Policy,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Issuance Rules,P2
+EA-3,DP-3,Protocol-Level Transaction Privacy,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — ZKP Privacy Substrate,P1
+EA-4,DP-4,Programmable Monetary Constraints,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Constraint Logic,P2
+EA-5,DP-5,Binding Monetary Disbursement Limits,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — 3% Fiscal Rule,P2
+EA-6,DP-6,Common Ownership of Network Rents,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Platform Rent Module,P2
+EA-7,DP-7,Automatic Piketty-r-g Redistribution,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Wealth Stabilizer,P2
+EA-8,DP-8,Intergenerational Community Wealth Fund,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Community Wealth Fund,P2
+EA-9,DP-9,Algorithmic Future Generations Proxy,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §3 (Governance) — Future generations proxy,P2
+EA-10,DP-10,Federated Cooperative Architecture,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Cooperative Module,P2
+EA-11,DP-11,Scale-Balanced Cooperative Boundaries,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Local Cooperative,P2
+EA-12,DP-12,Coordinated Shared Services,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Shared Services Hub,P2
+EA-13,DP-13,Democratic-Meritocratic Hybrid Governance,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §3 (Governance) — Hybrid voting,P2
+EA-14,DP-14,Explicit Cooperative Membership Management,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Member Registry,P2
+EA-15,DP-15,Dual-Track Transition Gradualism,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Transition Ledger,P2
+EA-16,DP-16,Institutional Capacity Pre-Conditioning,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §3 (Governance) — Institutional checker,P2
+EA-17,DP-17,Performance-to-Democratic Transition Path,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §3 (Governance) — Performance tracker,P2
+EA-18,DP-18,Sovereign-Dividend Capital Stakes,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Capital Stake Module,P2
+EA-19,DP-19,Special Experimental Zones,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §3 (Governance) — Sandbox zone,P2
+EA-20,DP-20,Separation of Economic Stake and Governance Rights,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §3 (Governance) — DAO check,P2
+EA-21,DP-21,Sybil-Resistant Quadratic Voting,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §3 (Governance) — QV module,P2
+EA-22,DP-22,Mandated Civic Participation Thresholds,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §3 (Governance) — Turnout Monitor,P2
+EA-23,DP-23,Constitutional Wealth Concentration Limits,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Concentration limits,P2
+EA-24,DP-24,Audit-Optimized Sovereign Portfolios,Economic Architecture,10-economic-architecture-v2-deeper-research.md,§8,Core §4 (Economics) — Asset Registry,P2
+FS-1,DP-FS-1,Parental Primacy Doctrine,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §7 (Family and Social Fabric) — SLE Family Sovereignty Locks,P0
+FS-2,DP-FS-2,Material Floor Without Custody Transfer,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §6 + Core §4 (Economics) — UBP child-floor engine,P1
+FS-3,DP-FS-3,Formalized Intervention Threshold,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §7 — SLE Intervention Threshold Solver,P0
+FS-4,DP-FS-4,Ideological Neutrality Lock,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §1/§7 — Constitutional Neutrality Lock,P0
+FS-5,DP-FS-5,Least Coercive Means Cascade,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §7 — Six-Tier Override Cascade,P1
+FS-6,DP-FS-6,Provision Pluralism Rule,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §3 — SLE Provision Pluralism Engine,P1
+FS-7,DP-FS-7,Alloparental Infrastructure,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §4 — NDT Alloparental Infrastructure Layer,P2
+FS-8,DP-FS-8,Family Privacy Boundary,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §1 + Core §4 (Privacy) — ZKP tier extension,P1
+FS-9,DP-FS-9,Values Transmission Neutrality,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §5 + Core §5 (Education) — Values Transmission Neutrality,P1
+FS-10,DP-FS-10,Family Integrity Index,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §8 — NDT Family Integrity Index (FII),P1
+FS-11,DP-FS-11,Family-Policy Capture Guard,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §1 + Core §6 (Security/Immunity) — Capture Guard,P2
+FS-12,DP-FS-12,Reversibility and Pilot Dissolution,Family & Social Fabric,07-family-social-fabric-priority-gap-research.md,§8,Part XXII §8 — Reversibility & Sunset machinery (ADP extension),P2
+EV-1,DP-EV-1,Curriculum Firewall,Education Values,11-education-values-transmission-deeper-research.md,§6,Core §5 (Education) — SLE Curriculum Architecture (extends EDU-11),P0
+EV-2,DP-EV-2,Curriculum Capture Monitor,Education Values,11-education-values-transmission-deeper-research.md,§6,Core §5 (Education) — NDT Capture Telemetry + Core §6 (Immunity bridge),P2
+EV-3,DP-EV-3,Educational Provision Pluralism,Education Values,11-education-values-transmission-deeper-research.md,§6,Core §5 (Education) — SLE Funding Engine,P1
+EV-4,DP-EV-4,Homeschooling Regulation Floor,Education Values,11-education-values-transmission-deeper-research.md,§6,Core §5 (Education) + Part XXII — Registration & floor verification,P2
+EV-5,DP-EV-5,Educator Neutrality Scope,Education Values,11-education-values-transmission-deeper-research.md,§6,Core §5 (Education) — Professional standards,P3
+EV-6,DP-EV-6,Educational Materials Provenance,Education Values,11-education-values-transmission-deeper-research.md,§6,Core §5 (Education) + Core §13 (Information Sovereignty bridge),P2

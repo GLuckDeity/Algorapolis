@@ -600,7 +600,7 @@
           "id": 9,
           "name": "Civilization",
           "category": "extended",
-          "description": "How Algorapolis governs civilization itself. Family and social fabric, time governance, science governance, disaster and extinction systems, emergence and unintended consequences, post-scarcity rights, and honest assessment of failure scenarios.",
+          "description": "How Algorapolis governs civilization itself. Family and social fabric (two-front lock architecture per Part XXII: DP-FS-1 through DP-FS-12, Family Integrity Index monitoring), time governance, science governance, disaster and extinction systems, emergence and unintended consequences, post-scarcity rights, and honest assessment of failure scenarios.",
           "subdomains": [
             "International Relations",
             "Time Governance",
@@ -654,6 +654,15 @@
             "rationale": "Curriculum is a value judgment; teacher competence is measurable",
             "constitutionalConstraints": ["no_centralized_social_engineering"],
             "sleRole": "Blind evaluation of educator competence; verifies qualification credentials via ZKPs; does not set curricula"
+          },
+          {
+            "name": "family_child_welfare",
+            "primaryModality": "Parental primacy (constitutional locks) + formalized residual state custody",
+            "modalities": ["constitutional_locks", "democratic_deliberation", "algorithmic_administration"],
+            "rationale": "Attachment formation and values transmission are human-reserved functions; intervention thresholds require lock-grade determinism (Part XXII)",
+            "constitutionalConstraints": ["no_omniscience", "no_total_behavioral_prediction", "no_centralized_social_engineering", "no_unrestricted_computational_control"],
+            "humanReservedDomains": ["family_structure", "moral_interpretation"],
+            "sleRole": "Administers child material floors strictly severable from custody (DP-FS-2); machine-verifies intervention evidence classes and blocks values-based grounds (DP-FS-3/4); monitors the Family Integrity Index (DP-FS-10); never defines, classifies, or ranks family structures; never constitutes default custodian"
           },
           {
             "name": "infrastructure",
@@ -789,9 +798,9 @@
           {
             "id": "family_structure",
             "title": "Family Structure",
-            "description": "The state must not define what constitutes a family",
-            "enforcementMechanism": "Specification Limit and constitutional locks; functional (not normative) definitions only for administrative purposes; human ratification required for family-related decisions",
-            "sleProhibition": "The SLE cannot define, classify, rank, or make normative judgments about family structures, relationships, or domestic arrangements"
+            "description": "The state must not define what constitutes a family — nor, per the Part XXII extension, absorb its functions: provision, intervention, custody, and values transmission are locked against both collectivization and weaponization",
+            "enforcementMechanism": "Specification Limit and constitutional locks; functional (not normative) definitions only for administrative purposes; human ratification required for family-related decisions; the DP-FS lock series blocks the four bypass vectors (provision monopolization, institutional default, threshold creep, ideological custody transfer) with amendment-grade intervention thresholds and Family Integrity Index monitoring",
+            "sleProhibition": "The SLE cannot define, classify, rank, or make normative judgments about family structures, relationships, or domestic arrangements; cannot administer child material floors with custody conditionality; cannot execute interventions referencing protected values categories; cannot collect family-linked scores, apply joint liability, or conduct kinship surveillance; cannot become default custodian of children under any program or emergency power"
           },
           {
             "id": "moral_interpretation",

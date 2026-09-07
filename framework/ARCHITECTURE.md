@@ -45,6 +45,8 @@ Planetary management, energy civilization, food and agricultural sovereignty, an
 #### Layer 9 — Civilization
 Family structure, time governance, science governance, disaster and extinction systems, emergence and unintended consequences, human rights under post-scarcity, and failure scenarios. The family is a governance unit. Time is a governance resource. Science is a public good. Existential risk requires civilization-scale coordination. The framework's own failure scenarios are documented in excruciating detail.
 
+**Family and Social Fabric Module (Part XXII).** The family is protected by a symmetric two-front architecture: against **collectivization** (provision monopolization, institutional default, threshold creep, custody transfer) and against **weaponization** (family as transmission belt for state ideology, kinship surveillance, family-linked scores). Twelve Design Principles (DP-FS-1 through DP-FS-12) specify: parents as default trustees with the state as formalized residual guardian; material floors strictly severable from custody; a published, uniform, machine-checkable intervention threshold (modification only by constitutional amendment); ideological neutrality of intervention grounds binding every ideology identically; a six-tier least-coercive override cascade with institutional care as ultima ratio; provision pluralism with child-attached, mode-neutral support; alloparental infrastructure as scaffolding around — never substitute for — the attachment unit; the family as a protected privacy unit under the ZKP stack; values transmission neutrality across plural education providers; the Family Integrity Index (FII) as a constitutional NDT metric; family-policy capture guards under the Civilizational Immune System; and FII-gated sunset clauses on every family-affecting policy. Empirical grounding: kibbutz reversal, Soviet de-familization 1918–1936, Bucharest Early Intervention Project, residential schools, Norway CPS/ECtHR, Quebec childcare evaluation. Scaling behavior: at Scale 2 (Family/Household), consensus governance with shared rules; the lock series binds at every scale above it.
+
 #### Layer 10 — Ark
 The Ark Protocol, adaptive civilizational scaling, the Human Continuity Archive, civilizational pluralism, propagation theory, and implementation strategy. Species survival architecture. Mars governance protocol. Colony Protocol for civilization seeding. The Human Nature Book as the memory of the species. Propagation through space and time.
 
@@ -168,6 +170,11 @@ Every module in Algorapolis interacts with other modules through standardized go
 | Algorithmic Monetary Rule | SLE Monetary Layer | Executes counter-cyclical dividends and basic income |
 | Anti-Plutocratic DAO Rules | SLE Governance | Enforces concave voting and proof-of-personhood structures |
 | Future Generations Proxy | SLE Governance | Allocates future-welfare voting weights in the Assembly |
+| Family Integrity Index | NDT Demographic Layer | Monitors attachment proxies, threshold uniformity, reversal rates, and disproportionality; constitutional review at threshold breach (DP-FS-10) |
+| Intervention Threshold Solver | SLE Family Module | Machine-verifies evidence classes for every custody-affecting intervention; blocks values-based grounds before execution (DP-FS-3/4) |
+| Provision Pluralism Engine | SLE Fiscal Module | Keeps child-attached support mode-neutral; blocks sole-provider and default-shifting provision architectures (DP-FS-6) |
+| Family Privacy Boundary | SLE Privacy Stack | Extends ZKP verification and kinship-surveillance prohibitions to the family unit (DP-FS-8) |
+| Curriculum Firewall & Capture Monitor | SLE Education Module / NDT | Separates outcome floors from values layers; tracks curriculum drift and provider concentration (DP-EV-1/2) |
 
 ---
 

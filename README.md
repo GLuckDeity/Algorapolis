@@ -243,6 +243,7 @@ algorapolis/
 │   ├── simulation/         # Civilization simulation engine, report, and datasets [NEW]
 │   │   ├── README.md
 │   │   ├── simulation_engine_v4.py
+│   │   ├── simulation_engine_v5_family.py
 │   │   ├── visualization_engine_v4.py
 │   │   ├── generate_report_v4.py
 │   │   ├── Algorapolis_Simulation_Report_V4.pdf
@@ -261,7 +262,8 @@ algorapolis/
 │   │       ├── 07-sle-ndt-module-specifications.md
 │   │       ├── 08-trust-decay-deeper-research.md
 │   │       ├── 09-information-warfare-deeper-research.md
-│   │       └── 10-economic-architecture-v2-deeper-research.md
+│   │       ├── 10-economic-architecture-v2-deeper-research.md
+│   │       └── 11-education-values-transmission-deeper-research.md
 │   ├── priority-gaps/      # Priority Gaps Research (Parts I–V + Integration Guide)
 │   │   ├── README.md
 │   │   ├── 01-information-sovereignty-priority-gap-research.md
@@ -269,8 +271,9 @@ algorapolis/
 │   │   ├── 03-species-preservation-priority-gap-research.md
 │   │   ├── 04-intelligence-security-democratic-gap-research.md
 │   │   ├── 05-wealth-transfer-generational-wealth-priority-gap-research.md
-│   │   └── 06-github-integration-guide.md
-│   └── case-studies/       # Comparative studies (Bhutan, Estonia, Taiwan, China, etc.)
+│   │   ├── 06-github-integration-guide.md
+│   │   └── 07-family-social-fabric-priority-gap-research.md
+│   └── case-studies/       # Comparative studies (Estonia, Singapore, Taiwan, Kibbutz, Norway, Soviet, etc.)
 │
 ├── docs/                   # Primary Documentation & Civic Guides
 │   ├── Algorapolis.docx    # The full, comprehensive 200+ page primary text

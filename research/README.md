@@ -43,10 +43,12 @@ research/
 │       ├── 07-sle-ndt-module-specifications.md
 │       ├── 08-trust-decay-deeper-research.md
 │       ├── 09-information-warfare-deeper-research.md
-│       └── 10-economic-architecture-v2-deeper-research.md
+│       ├── 10-economic-architecture-v2-deeper-research.md
+│       └── 11-education-values-transmission-deeper-research.md
 ├── simulation/                  ← Civilization simulation engine, report, and datasets [NEW]
 │   ├── README.md
 │   ├── simulation_engine_v4.py
+│   ├── simulation_engine_v5_family.py
 │   ├── visualization_engine_v4.py
 │   ├── generate_report_v4.py
 │   ├── Algorapolis_Simulation_Report_V4.pdf
@@ -58,14 +60,18 @@ research/
 │   ├── 03-species-preservation-priority-gap-research.md
 │   ├── 04-intelligence-security-democratic-gap-research.md
 │   ├── 05-wealth-transfer-generational-wealth-priority-gap-research.md
-│   └── 06-github-integration-guide.md
+│   ├── 06-github-integration-guide.md
+│   └── 07-family-social-fabric-priority-gap-research.md
 └── case-studies/                ← Real-world governance experiments
     ├── estonia-digital-nation.md
     ├── singapore-smart-nation.md
     ├── taiwan-civic-tech.md
     ├── dutch-childcare-scandal.md
     ├── tanzania-election-2025.md
-    └── china-social-credit.md
+    ├── china-social-credit.md
+    ├── kibbutz-communal-child-rearing.md
+    ├── soviet-de-familization.md
+    └── norway-cps-best-interests.md
 ```
 
 ---
@@ -99,12 +105,14 @@ Each study provides an in-depth literature review and analysis of a specific dom
 | 21 | Deeper Research: Trust Decay | How do institutions lose trust and how can sortition-based governance restore legitimacy? |
 | 22 | Deeper Research: Information Warfare | How can a digital civilization protect its narrative environment and establish cryptographic roots of trust? |
 | 23 | Deeper Research: Economic Architecture V2 | How do 100% reserve banking, cooperative networks, and gradualist transitions prevent capture? |
+| 24 | Education, Values Transmission & Curriculum Capture | How does ideological curriculum capture operate? What neutrality architecture prevents values-monopolization? |
 
 ---
 
 ### Civilization Simulation
 
 * **[Civilization Simulation Engine V4](file:///d:/GitHub/Algorapolis/research/simulation/)** — A 100-year quantitative civilization simulation validating the Algorapolis framework principles (§158, §388-390, §1209, §1217, §1497-1503, §1648-1650, §2836, §3653, §4087). The pre-rendered PDF report can be found at [Algorapolis_Simulation_Report_V4.pdf](file:///d:/GitHub/Algorapolis/research/simulation/Algorapolis_Simulation_Report_V4.pdf) and generated charts are located in the [charts/](file:///d:/GitHub/Algorapolis/research/simulation/charts/) subdirectory.
+* **[Civilization Simulation Engine V5 Family Extension](file:///d:/GitHub/Algorapolis/research/simulation/simulation_engine_v5_family.py)** — Extends V4 with `family_integrity` as the 16th metric, three family-policy regime comparisons (family_hostile / family_neutral / family_integrative), and five family-specific shock types (DP-FS-10). V4 baseline is unchanged.
 
 ---
 
@@ -120,6 +128,7 @@ These research papers address structural gaps in the core Algorapolis framework,
 | **IV** | [Intelligence & Security](file:///d:/GitHub/Algorapolis/research/priority-gaps/04-intelligence-security-democratic-gap-research.md) | Democratic oversight, mass surveillance limits, dual-use technology, AI weapons | ISec-1 to ISec-12 |
 | **V** | [Wealth Transfer](file:///d:/GitHub/Algorapolis/research/priority-gaps/05-wealth-transfer-generational-wealth-priority-gap-research.md) | Intergenerational wealth caps, Piketty's r > g, progressive wealth tax, capital stakes | WT-1 to WT-12 |
 | **VI** | [GitHub Integration Guide](file:///d:/GitHub/Algorapolis/research/priority-gaps/06-github-integration-guide.md) | Repository Integration Specification | — |
+| **VII** | [Family & Social Fabric](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | Four-vector threat model, seven natural experiments, jurisprudential convergence, six-tier override cascade | FS-1 to FS-12 |
 
 ---
 
@@ -135,6 +144,9 @@ Each case study provides a detailed analysis of a real-world governance experime
 | **Dutch Childcare Scandal** | Negative | Algorithmic governance without emotional intelligence produces morally catastrophic outcomes |
 | **Tanzania Election 2025** | Negative | Governance systems that provide no structural mechanism for preventing power perpetuation will be exploited |
 | **China: Social Credit System** | Negative | The nightmare scenario — centralized, opaque, punitive surveillance governance |
+| **Kibbutz Communal Child-Rearing** | Negative | Voluntary collectivization produces significant attachment security deficits (59% vs 65–70%); communal sleeping abandoned by member demand |
+| **Soviet De-Familization 1918–1936** | Negative | State-engineered de-familization causes social disintegration, soaring abandonment, and subsequent state reversal |
+| **Norway CPS: Best-Interests Indeterminacy** | Negative | Best-faith state administration of an indeterminate standard leads to threshold creep and systematic ECHR violations |
 | **Konza Technopolis, Kenya** | Negative | Smart city without human infrastructure — Africa's enclave warning |
 | **Niger Delta, Nigeria** | Negative | Resource extraction enclaves fueling conflict |
 | **NEOM, Saudi Arabia** | TBD | The world's most ambitious enclave experiment |

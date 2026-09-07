@@ -14,6 +14,11 @@
 - [6. Offline Resilience — Graceful Degradation Model](#6-offline-resilience--graceful-degradation-model)
 - [7. The Digital Twin — Data Flow Architecture](#7-the-digital-twin--data-flow-architecture)
 - [8. Anti-Capture Architecture](#8-anti-capture-architecture)
+- [9. Family Sovereignty — The Six-Tier Override Cascade](#9-family-sovereignty--the-six-tier-override-cascade)
+- [10. Education & Values Transmission — The Curriculum Firewall](#10-education--values-transmission--the-curriculum-firewall)
+- [11. The Governance Sandbox & Policy Simulation Lifecycle](#11-the-governance-sandbox--policy-simulation-lifecycle)
+- [12. The Emotional Intelligence Architecture (CESL & HERB)](#12-the-emotional-intelligence-architecture-cesl--herb)
+- [13. The Sovereign Economic Cycle & Monetary Telemetry](#13-the-sovereign-economic-cycle--monetary-telemetry)
 
 ---
 
@@ -319,6 +324,252 @@ flowchart TD
     style LAYER3 fill:#7b2d00,color:#fff
     style LAYER4 fill:#2d3436,color:#fff
     style CAPTURE_FAIL fill:#27ae60,color:#fff
+```
+
+---
+
+## 9. Family Sovereignty — The Six-Tier Override Cascade
+
+How Algorapolis protects the family unit from state overreach while preventing child abuse. Intervention proceeds strictly through least-coercive means, with ideological and moral values permanently excluded from intervention criteria (`DP-FS-1`–`12`, SLE Mandate 14).
+
+```mermaid
+flowchart TD
+    HarmReport["⚠️ Alleged Harm / Crisis Reported"] --> Gate{"Threshold Verification\n(DP-FS-3 & DP-FS-4)\nImminent Physical Harm or Severe Neglect?"}
+    
+    Gate -->|"❌ No: Ideological, Cultural, or Lifestyle difference"| Blocked["🛑 Permanently Blocked\nState intervention void by law\n(SLE Hard Lock F1/F3)"]
+    Gate -->|"✅ Yes: Verifiable severe harm"| T1
+
+    subgraph CASCADE["🛡️ Six-Tier Least-Coercive Override Cascade (DP-FS-5)"]
+        T1["Tier 1: In-Family Support\nUniversal Basic Prebate child floor,\nmaterial aid, & domestic stabilization\n(Zero custody change)"]
+        T2["Tier 2: Voluntary Community Engagement\nAlloparental elder-youth support,\ncommunity counseling, & respite care"]
+        T3["Tier 3: Supervised In-Home Support\nFormalized safety planning,\nindependent civil monitoring, & periodic visits"]
+        T4["Tier 4: Kinship Placement\nExtended family / customary caregiving\nPreserves ancestral attachment continuity"]
+        T5["Tier 5: Community Foster Care\nRelational-continuity mandate\nContinuous independent audit"]
+        T6["Tier 6: Specialized Institutional Care\nUltima Ratio — strict BEIP caregiver ratios\nTemporary stabilization only"]
+
+        T1 -->|"Insufficient to avert acute harm"| T2
+        T2 -->|"Insufficient to avert acute harm"| T3
+        T3 -->|"Insufficient to avert acute harm"| T4
+        T4 -->|"No viable kinship anchor"| T5
+        T5 -->|"Extreme therapeutic crisis"| T6
+    end
+
+    CASCADE -->|"Harm resolved at any stage"| Reintegration["✅ Reintegration & Family Restoration\n(Mandatory Sunset DP-FS-12)"]
+
+    style Blocked fill:#c0392b,color:#fff
+    style T1 fill:#27ae60,color:#fff
+    style T2 fill:#2ecc71,color:#fff
+    style T3 fill:#f39c12,color:#fff
+    style T4 fill:#e67e22,color:#fff
+    style T5 fill:#d35400,color:#fff
+    style T6 fill:#962d00,color:#fff
+    style Reintegration fill:#2980b9,color:#fff
+```
+
+---
+
+## 10. Education & Values Transmission — The Curriculum Firewall
+
+How Algorapolis decouples universal competency standards from cultural/moral indoctrination (`DP-EV-1`–`6`). The Sovereign Logic Engine enforces the objective floor while protecting pluralistic community values and parental choice.
+
+```mermaid
+flowchart TD
+    subgraph INPUT["🏛️ Educational Inputs & Funding"]
+        Gov["State / SLE Treasury\n(DP-EV-3: Portable Per-Child Voucher)"]
+        Parent["👨‍👩‍👧 Parents & Guardians\n(DP-FS-1 / DP-EV-4: Educational Choice)"]
+    end
+
+    Gov -->|"Funds follow child without content monopoly"| Providers
+
+    subgraph Providers["🏫 Pluralistic Educational Providers"]
+        P1["Public\nCivic Schools"]
+        P2["Community &\nCooperative Schools"]
+        P3["Religious &\nCultural Academies"]
+        P4["Independent &\nHomeschooling (DP-EV-4)"]
+    end
+
+    Parent -->|"Selects or designs provider"| Providers
+
+    Providers --> Firewall{"🔥 SLE Curriculum Firewall\n(DP-EV-1: Dual-Layer Separation)"}
+
+    subgraph FLOOR["📘 Universal Competency Floor (State Guaranteed)"]
+        F1["Literacy & Numeracy"]
+        F2["Empirical Science & Method"]
+        F3["Universal Human Rights & Civic Law"]
+        F4["Objective Historical & Telemetry Data"]
+    end
+
+    subgraph VALUES["🎭 Pluralistic Values & Cultural Layer (Community Governed)"]
+        V1["Moral & Spiritual Formation"]
+        V2["Cultural Traditions & Philosophy"]
+        V3["Ideological & Political Views"]
+        V4["Community Ethics & Lived Experience"]
+    end
+
+    Firewall -->|"Machine-verified outcome floor\nUniform across all providers"| FLOOR
+    Firewall -->|"Constitutionally protected from state testing, ranking, or scoring"| VALUES
+
+    subgraph TELEMETRY["🔍 Civilizational Immune Telemetry (DP-EV-2 & DP-EV-6)"]
+        M1["Curriculum Text-Drift & Capture Detection"]
+        M2["Author & Funding Provenance Audit"]
+        M3["Exit-Rate Telemetry (Early Warning)"]
+    end
+
+    FLOOR -. "Audited for neutrality" .-> TELEMETRY
+    VALUES -. "Protected against capture" .-> TELEMETRY
+
+    style Firewall fill:#e74c3c,color:#fff
+    style FLOOR fill:#2980b9,color:#fff
+    style VALUES fill:#8e44ad,color:#fff
+    style TELEMETRY fill:#16a085,color:#fff
+```
+
+---
+
+## 11. The Governance Sandbox & Policy Simulation Lifecycle
+
+How Algorapolis subjects policy proposals to experimental testing before deployment. No policy affects real citizens until it has passed through the synthetic population "wind tunnel," formal constitutional verification, and multi-chamber review.
+
+```mermaid
+flowchart TD
+    Prop["📜 Policy Proposal\n(Assembly / SLE / Citizen Initiative)"] --> Formal{"⚖️ Constitutional Formal Check\n(Lean 4 Proof Verification)"}
+    
+    Formal -->|"❌ Violates Rights or Hard Locks"| Veto["🛑 Rejected at Inception\nCannot enter simulation or law"]
+    Formal -->|"✅ Valid Specification"| SandEngine
+
+    subgraph SandEngine["🧪 The Governance Sandbox ('Policy Wind Tunnel')"]
+        SynthPop["👥 Synthetic Population Generator\n(IPF + CTGAN + Differential Privacy ε ≤ 0.5)\nAfrican context: 130+ groups, informal economy, mobile money"]
+        
+        subgraph MultiSim["⚙️ Multi-Method Simulation Engine"]
+            ABM["Agent-Based Modeling (ABM)\nIndividual behavior & social networks"]
+            SD["System Dynamics (SD)\nMacro feedback loops & stock-flow"]
+            MC["Monte Carlo Sampling\n10,000 scenario stress-tests"]
+            Affect["Affective Simulation (EIST)\nTrust trajectory & cultural impact"]
+        end
+        
+        SynthPop --> MultiSim
+    end
+
+    MultiSim --> Eval{"📊 Multi-Chamber Evaluation\n(Evidence over rhetoric)"}
+
+    Eval -->|"Adverse effects / trust erosion detected"| Redesign["🔄 Redesign & Parameter Tuning\nReturned to sponsors with telemetry"]
+    Eval -->|"Uncertainty within bounds & HERB approval"| Canary["🐥 Canary Deployment\nGeographically bounded sandbox zone"]
+
+    Canary --> TelemetryGate{"📡 Real-Time Telemetry Gate\n(NDT Live Observation vs Simulation)"}
+    TelemetryGate -->|"Delta > Threshold\n(Negative divergence)"| Rollback["⏪ Automatic Rollback Trigger\nInstant revert to previous stable state"]
+    TelemetryGate -->|"Telemetry matches or exceeds model"| Live["✅ Full Civilizational Deployment\nContinuous NDT monitoring & sunset review"]
+
+    style Veto fill:#c0392b,color:#fff
+    style Formal fill:#2980b9,color:#fff
+    style SandEngine fill:#1a5276,color:#fff
+    style Redesign fill:#e67e22,color:#fff
+    style Canary fill:#f39c12,color:#fff
+    style Rollback fill:#c0392b,color:#fff
+    style Live fill:#27ae60,color:#fff
+```
+
+---
+
+## 12. The Emotional Intelligence Architecture (CESL & HERB)
+
+How Algorapolis ensures that computational governance remains emotionally and culturally grounded. Collective sentiment is captured with mathematical privacy, evaluated by sortition-selected citizens, and feeds qualitative course corrections without individual profiling.
+
+```mermaid
+flowchart TD
+    subgraph STACK1["Stack 1: Civic Emotional Signals Layer (CESL)"]
+        Inputs["📡 Community Voice Inputs\n(Public forums, civic reports, radio call-ins, surveys)"]
+        Edge["🔒 Edge Sentiment NLP & Differential Privacy\n(ε ≤ 0.5 | Zero individual tracking)"]
+        Agg["📊 Ubuntu Well-Being & Trust Monitor\n(Communal belonging, dignity, relational harmony)"]
+        Inputs --> Edge --> Agg
+    end
+
+    subgraph STACK2["Stack 2: Cultural Preservation Layer (CPL)"]
+        Guardians["🛡️ Cultural Guardians (Kaitiaki)\nCommunity-designated cultural custodians"]
+        DiversityIndex["🌐 Cultural Diversity Index & Language Health\nAnti-homogenization audits across 130+ groups"]
+        Guardians <--> DiversityIndex
+    end
+
+    Agg & DiversityIndex --> Screener{"🧭 Emotional Impact Screening (EIST)\nSeverity: Low / Medium / High / Critical"}
+
+    Screener -->|"Low: Routine administrative"| AutoProc["⚙️ Direct SLE Execution"]
+    Screener -->|"Med/High/Critical Impact"| HERB
+
+    subgraph HERB["Stack 3: Human Experience Review Board (HERB)"]
+        C1["🎓 Expert Chamber\nPsychologists, sociologists,\nethicists, anthropologists"]
+        C2["🧑 Citizen Chamber\nSortition-selected (random)\nAnnual rotation, lived experience"]
+        C3["👴 Elders Chamber\nTraditional custodians, spiritual\nleaders, intergenerational memory"]
+        
+        Rule["⚖️ Constitutional Decision Rule:\n≥ 2 Chambers must approve to proceed\nUnanimous rejection = Absolute Veto"]
+        
+        C1 & C2 & C3 --> Rule
+    end
+
+    HERB -->|"Vetoed"| Blocked["🛑 Policy Halted / Rerouted\nLogic cannot dominate human meaning"]
+    HERB -->|"Approved"| EIL["Stack 4: Emotional Interpretability Layer (EIL)\nTranslates technical algorithmic decisions\ninto human meaning, context, & empathy"]
+    
+    EIL --> Public["🧑 Citizens & Community Assembly"]
+
+    style STACK1 fill:#1a5276,color:#fff
+    style STACK2 fill:#2d6a4f,color:#fff
+    style HERB fill:#8e44ad,color:#fff
+    style Blocked fill:#c0392b,color:#fff
+    style EIL fill:#27ae60,color:#fff
+    style AutoProc fill:#533483,color:#fff
+```
+
+---
+
+## 13. The Sovereign Economic Cycle & Monetary Telemetry
+
+How real-time economic telemetry, sovereign capital endowments, and non-surveillance multi-tier currencies unite to provide unconditional material floors, prevent wealth hyper-concentration, and replace lagging retrospective metrics (quarterly GDP).
+
+```mermaid
+flowchart TD
+    subgraph TELEMETRY["🛰️ Real-Time Economic Telemetry (The Economic Windshield)"]
+        T1["Night-Time Lights (NTL VIIRS)\nFormal & informal GDP proxy"]
+        T2["Mobile Money Aggregates\n(M-Pesa / Tigo / Airtel velocity)"]
+        T3["Crop Health & Satellite NDVI\nAgricultural yield early-warning"]
+        T4["Port & Power Telemetry\nReal-time industrial throughput"]
+        
+        Nowcast["⚙️ Nowcasting & Anomaly Engine\nContinuous high-frequency estimation\n(Replaces lagging quarterly GDP)"]
+        
+        T1 & T2 & T3 & T4 --> Nowcast
+    end
+
+    Nowcast --> SLE_Econ["🏛️ Sovereign Logic Engine — Resource Allocator"]
+
+    subgraph WEALTH["💰 Sovereign Capital & Wealth Architecture"]
+        SWF["🏦 Sovereign Wealth Fund (SWF)\nIntergenerational natural resource endowment"]
+        Stakes["🌱 Universal Capital Stakes (Baby Bonds)\nCompounded equity allocated at birth"]
+        Prebate["🍞 Universal Basic Prebate (UBP)\nChild & citizen unconditional material floor"]
+        
+        SWF --> Stakes & Prebate
+    end
+
+    SLE_Econ --> WEALTH
+
+    subgraph CURRENCY["💱 Tripartite Currency Architecture (MS-1–12)"]
+        C1["Tier 1: Civilizational Settlement CBDC\nPrivacy-by-mathematics (ZKP)\nState prohibited from transaction surveillance"]
+        C2["Tier 2: Regional Mutual Credit Systems\nSardex-pattern SME liquidity\nShields local economies from global credit shocks"]
+        C3["Tier 3: Sectoral & Care Currencies\nDemurrage-backed (Wörgl / Fureai Kippu pattern)\nHigh-velocity exchange for elder care & ecology"]
+    end
+
+    WEALTH --> CURRENCY
+    CURRENCY --> Citizens["👨‍👩‍👧‍👦 Productive Economy & Household Prosperity"]
+    Citizens -->|"Economic activity & velocity"| TELEMETRY
+
+    subgraph AUDIT["📊 Inequality & Anti-Capture Telemetry (WT-12)"]
+        Dashboard["Wealth Inequality Dashboard\nGini / Palma ratio telemetry\nTriggers automatic tax-bracket & prebate rebalancing"]
+    end
+
+    Nowcast -. "Real-time distribution data" .-> Dashboard
+    Dashboard -. "Enforces Gini bounds" .-> SLE_Econ
+
+    style TELEMETRY fill:#1a5276,color:#fff
+    style WEALTH fill:#27ae60,color:#fff
+    style CURRENCY fill:#8e44ad,color:#fff
+    style AUDIT fill:#c0392b,color:#fff
+    style SLE_Econ fill:#2980b9,color:#fff
 ```
 
 ---
