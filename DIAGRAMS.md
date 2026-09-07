@@ -19,6 +19,7 @@
 - [11. The Governance Sandbox & Policy Simulation Lifecycle](#11-the-governance-sandbox--policy-simulation-lifecycle)
 - [12. The Emotional Intelligence Architecture (CESL & HERB)](#12-the-emotional-intelligence-architecture-cesl--herb)
 - [13. The Sovereign Economic Cycle & Monetary Telemetry](#13-the-sovereign-economic-cycle--monetary-telemetry)
+- [14. The Industrial Sovereignty Two-Front Architecture](#14-the-industrial-sovereignty-two-front-architecture)
 
 ---
 
@@ -574,7 +575,51 @@ flowchart TD
 
 ---
 
-## Contributing Diagrams
+## 14. The Industrial Sovereignty Two-Front Architecture
+
+How Algorapolis navigates the two fatal industrial policy traps — the Globalist Efficiency Trap and the Autarky/Leverage Trap — through a constitutionally anchored doctrine of Strategic Sufficiency without Adversarial Dominance (`DP-PC-1`–`12`, `DP-ESG-1`–`7`, SLE Mandate 15).
+
+```mermaid
+flowchart TD
+    subgraph TRAP1["🌐 Failure Mode 1: Globalist Efficiency Trap"]
+        G1["Offshore all manufacturing for lowest cost"]
+        G2["Factory closures — skills atrophy — tooling stock decays"]
+        G3["Adversary Dependency (D) climbs to 0.95+"]
+        G4["⚡ Embargo / blockade hits — runway = days, not months"]
+        G1 --> G2 --> G3 --> G4
+    end
+
+    subgraph TRAP2["🏰 Failure Mode 2: Autarky / Leverage Trap"]
+        A1["Mandate total self-reliance behind tariff walls"]
+        A2["Uncompetitive monopolies + rent-seeking capture"]
+        A3["Growth, innovation, and trade surplus weaponized"]
+        A4["⚡ Stagnation, isolation, or imperial overstretch"]
+        A1 --> A2 --> A3 --> A4
+    end
+
+    subgraph DOCTRINE["⚖️ Algorapolis: Strategic Sufficiency without Adversarial Dominance (SLE Rule 15)"]
+        D1["🔍 Criticality Machinery\nCritical Register (monitor) + Strategic Register (obligations)\nComposite Criticality Index (CCI)"]
+        D2["📊 Sufficiency Thresholds\nAdversary-graded caps: ≤40% single non-allied / ≤25% adversary\nProduction-function depth — not gross imports (3× understatement fix)"]
+        D3["🪜 5-Rung Intervention Ladder (cheapest-first)\n1. Strategic stockpiles → 2. Allied co-production →\n3. AMCs / offtake → 4. Capital concessions → 5. State equity (last resort)"]
+        D4["🛡️ 8-Point Anti-Capture Circuitry\nAmsden Reciprocity: every subsidy requires output milestones,\nstatutory sunset, independent examiner, forced exit paths"]
+        D5["🚫 No-Dominance Mirror Cap\nAny instrument whose primary function is denying another\npolity's civilian access is unconstitutional — symmetric floor and ceiling"]
+
+        D1 --> D2 --> D3 --> D4 --> D5
+    end
+
+    TRAP1 --> |"SLE Rule 15 blocks\nthe efficiency race-to-bottom"| DOCTRINE
+    TRAP2 --> |"No-Dominance Cap blocks\ncapture and weaponization"| DOCTRINE
+
+    DOCTRINE --> OUTCOME["✅ industrial_capacity = 17th SLE metric\n180-day strategic reserves · 25% hot-production floor\nMulti-administration continuity lock (10–20 yr)\nCivilization antifragile to supply shocks"]
+
+    style TRAP1 fill:#c0392b,color:#fff
+    style TRAP2 fill:#8e44ad,color:#fff
+    style DOCTRINE fill:#1b4332,color:#fff
+    style OUTCOME fill:#27ae60,color:#fff
+```
+
+---
+
 
 These diagrams are maintained as living documentation. If you identify inaccuracies, propose new diagrams, or want to contribute improved versions:
 

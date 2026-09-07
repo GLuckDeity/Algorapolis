@@ -124,4 +124,20 @@ Simulation results are always conditional: "if these assumptions hold, then thes
 
 ---
 
+## Algorapolis Simulation Engine Family
+
+The civilization simulation engines are versioned Python suites located in `research/simulation/`. Each engine extends its predecessor in memory at runtime; no prior engine file is modified.
+
+| Engine | File | Metrics Covered | Extension Added |
+| :--- | :--- | :--- | :--- |
+| **V4 — Baseline** | `simulation_engine_v4.py` | 15 civilizational metrics | Core validated baseline (15 governance × 10 systems × Monte Carlo) |
+| **V5 — Family** | `simulation_engine_v5_family.py` | + `family_integrity` (16th) | Family Sovereignty Mandate (SLE Rule 14); Part VII DP-FS series |
+| **V6 — Industrial** | `simulation_engine_v6_industrial.py` | + `industrial_capacity` (17th) | Industrial Sovereignty Mandate (SLE Rule 15); Part VIII DP-PC/ESG/EP series; 3 trade regimes; adversary dependency state variable |
+
+The metric stack at V6 runtime is: V4's 15 metrics + `family_integrity` (V5) + `industrial_capacity` (V6) = **17 SLE-monitored civilizational metrics**.
+
+See `research/simulation/README.md` for full usage, reproduction, and validation instructions.
+
+---
+
 *Simulation cannot tell you what will happen. It can tell you what might happen, under what conditions, and with what probability. That is not certainty — but it is infinitely better than guessing.*

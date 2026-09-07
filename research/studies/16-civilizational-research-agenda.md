@@ -832,3 +832,6 @@ No architecture is perfect, and the Algorapolis architecture will inevitably req
 *Algorapolis Research Expansion: Civilizational Research Agenda — Comprehensive Domain Analysis*
 *Version 1.0 | June 2026 | CC-BY-SA 4.0*
 *Goodluck Japhet Macha, Independent Researcher, Tanzania*
+
+> **Part VIII Update (September 2026):** The economic supply-chain governance design principles developed across the seventeen domains of this study — originally catalogued here as foundational research — have been formally extracted, numbered, and registered as **DP-ESG-1 through DP-ESG-7** in the master Design Principles Registry (`research/studies/deeper-research/06-design-principles-registry.md`) under Part VIII (Productive Capacity and Industrial Sovereignty, ALG-PRI-2026-008), with full SLE-binding obligations and Amsden reciprocity enforcement specified.
+

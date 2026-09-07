@@ -186,6 +186,8 @@ Foundation is the phase of formal verification, prototyping, and first contact w
     - SAFE/ZONE/HAZARD constraint solver piloted for regional resource allocations
     - Cognitive justice audits and vocational education (VET) training system pilot integrated
     - Autonomy-within-framework rules implemented for district-level innovation zones
+    - Family Social Fabric: Family Sovereignty constitutional specification — six-tier override cascade, alloparental commons, and educational firewall (completed as Priority Gaps Part VII)
+    - Productive Capacity and Industrial Sovereignty: Constitutional industrial capacity floor, Amsden reciprocity, two-register criticality system, and No-Dominance Mirror Cap (completed as Priority Gaps Part VIII; `industrial_capacity` registered as SLE metric 17)
 
 ### Key Deliverables
 

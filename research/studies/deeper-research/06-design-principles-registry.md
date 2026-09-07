@@ -1,6 +1,6 @@
 # Design Principles Registry
 
-This document compiles all 177 new design principles from the Simulation Findings Deeper Research collection and the Priority Gaps Research papers (Parts I–V and Part VII: Family & Social Fabric, plus the Education Values Transmission extension). These principles are constitutional-grade specifications to be encoded in the Sovereign Logic Engine (SLE) logic, National Digital Twin (NDT) models, and core civilizational processes.
+This document compiles all 202 new design principles from the Simulation Findings Deeper Research collection and the Priority Gaps Research papers (Parts I–V, Part VII: Family & Social Fabric with the Education Values Transmission extension, and Part VIII: Productive Capacity & Industrial Sovereignty — which registers the Study 16 Economic Sovereignty series, the DP-PC industrial-sovereignty series, and the Education-to-Production Pipeline extension). These principles are constitutional-grade specifications to be encoded in the Sovereign Logic Engine (SLE) logic, National Digital Twin (NDT) models, and core civilizational processes.
 
 ## 1. Master Cross-Reference Table
 
@@ -183,6 +183,31 @@ This document compiles all 177 new design principles from the Simulation Finding
 | EV-4 | DP-EV-4 | Homeschooling Regulation Floor | Education Values | [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md) | §6 | Core §5 (Education) + Part XXII — Registration & floor verification | P2 |
 | EV-5 | DP-EV-5 | Educator Neutrality Scope | Education Values | [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md) | §6 | Core §5 (Education) — Professional standards | P3 |
 | EV-6 | DP-EV-6 | Educational Materials Provenance | Education Values | [11-education-values-transmission-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/11-education-values-transmission-deeper-research.md) | §6 | Core §5 (Education) + Core §13 (Information Sovereignty bridge) | P2 |
+| ESG-1 | DP-ESG-1 | Supply Chain Resilience Architecture | Economic Sovereignty | [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md) | §Strategic Foresight | Part XXIII §4.5 + Core §4 (Economics) — SLE Resilience Architecture + VIS sub-tier ledger | P1 |
+| ESG-2 | DP-ESG-2 | Chokepoint Diversification | Economic Sovereignty | [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md) | §Strategic Foresight | Part XXIII §4.3 — NDT Chokepoint Diversification (adversary-graded 65/40/25 caps) | P1 |
+| ESG-3 | DP-ESG-3 | Developmental State Capabilities | Economic Sovereignty | [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md) | §Strategic Foresight | Part XXIII §4.5 + Core §4 — Pilot agencies with ANTICAP circuitry + Amsden reciprocity | P1 |
+| ESG-4 | DP-ESG-4 | Mineral Geopolitics Preparedness | Economic Sovereignty | [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md) | §Strategic Foresight | Part XXIII §4 (merges with DP-PC-7) — full-chain minerals doctrine | P1 |
+| ESG-5 | DP-ESG-5 | Monetary Multipolarity | Economic Sovereignty | [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md) | §Strategic Foresight | Core §4 (Economics) + Part XXIII §7.1 — multi-currency settlement capacity | P2 |
+| ESG-6 | DP-ESG-6 | Adaptive Trade Architecture | Economic Sovereignty | [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md) | §Strategic Foresight | Part XXIII §4.4 — rapid re-routing within the intervention ladder | P2 |
+| ESG-7 | DP-ESG-7 | Geopolitical Positioning | Economic Sovereignty | [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md) | §Strategic Foresight | Part XXIII §4.6 — no-dominance mirror cap on external positions | P2 |
+| PC-1 | DP-PC-1 | Critical Goods Sovereignty Baseline | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §4.2 — SLE Criticality Registers (Critical + Strategic) | P0 |
+| PC-2 | DP-PC-2 | Strategic Sufficiency Threshold | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §4.3 — SLE Threshold Engine (caps, floors, buffers, redundancy tiers) | P0 |
+| PC-3 | DP-PC-3 | Adversarial Dependency Prohibition | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §4.3 — NDT Adversary-Dependency Ledger (production-function measurement) | P0 |
+| PC-4 | DP-PC-4 | Sourcing Modality-Matching | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §4.4 — SLE Intervention Ladder Solver (cheapest-first conjunction) | P1 |
+| PC-5 | DP-PC-5 | Arsenal Continuity & Surge Capacity | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §3.1 + Core §6 (Security) — Runway Monitor + surge registry | P1 |
+| PC-6 | DP-PC-6 | Skills Substrate Mandate | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §7.3 + Core §5 (Education) — NDT skill-stock accounting (DP-EP bridge) | P1 |
+| PC-7 | DP-PC-7 | Mineral & Processing Depth | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §4 (ESG-4 merge) — full-chain minerals doctrine + escalation-ladder shock class | P1 |
+| PC-8 | DP-PC-8 | Energy Sufficiency Anti-Dominance | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §4.6 + Core §6 — no-dominance clause, audited reserves, release locks | P0 |
+| PC-9 | DP-PC-9 | Protectionist Capture Guard | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §4.5 + Core §6 (Immune System) — eight-point anti-capture circuitry | P0 |
+| PC-10 | DP-PC-10 | Multi-Administration Continuity Lock | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §3.7 — constitutional persistence with ramp-slippage factors | P1 |
+| PC-11 | DP-PC-11 | Just-in-Case Reserve Architecture | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §4.3 — NDT days-of-cover + IEA-style sharing protocols | P1 |
+| PC-12 | DP-PC-12 | Blockade Graceful Degradation | Productive Capacity | [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | §8 | Part XXIII §4.6 + INFRASTRUCTURE-AWARENESS — surge substitution + provenance classes | P2 |
+| EP-1 | DP-EP-1 | Occupational Standards as Versioned Law | Education Pipeline | [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md) | §7 | Core §5 (Education) + Part XXIII §7.3 — versioned occupational standards (extends EDU-16) | P1 |
+| EP-2 | DP-EP-2 | Funding-Follows-Verified-Placements | Education Pipeline | [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md) | §7 | Core §5 (Education) — sovereign placement-outcome data layer (Fraunhofer rule) | P1 |
+| EP-3 | DP-EP-3 | Pipeline Latency Planning Mandate | Education Pipeline | [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md) | §7 | Core §5 + Part XXIII §7.3 — Monte Carlo latency variables (implements DP-PC-6) | P1 |
+| EP-4 | DP-EP-4 | Retraining Guarantee Bundle | Education Pipeline | [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md) | §7 | Core §5 (Education) — outcome-purchasing retraining instruments | P2 |
+| EP-5 | DP-EP-5 | Credential Materiality Rule | Education Pipeline | [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md) | §7 | Core §5 (Education) — materiality-gated credential requirements | P2 |
+| EP-6 | DP-EP-6 | Distributional Stress-Test | Education Pipeline | [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md) | §7 | Core §5 + Simulation V6 — distributional outcomes in regime comparison (extends EDU-13) | P2 |
 
 ## 2. Detailed Principle Descriptions
 
@@ -1636,3 +1661,211 @@ Educators in the compulsory, state-funded floor layer hold a fiduciary, content-
 - **Integration Target:** Core §5 (Education) + Core §13 (Information Sovereignty bridge)
 
 All educational content reaching children — textbooks, software, platform-delivered media, and AI-tutor outputs — shall carry verifiable provenance: authorship, funding source, content-modification chain, and, for algorithmic systems, the content-selection objective. Engagement optimization is prohibited as a content-selection objective in compulsory-education contexts; selection must follow declared, auditable pedagogical standards. AI tutors operating in the floor layer are bound by the floor/cultural-layer separation. This closes the platform-capture vector and extends the IW provenance architecture (IW-1 through IW-12) to the education stack.
+
+### Economic Sovereignty & Geopolitical Positioning Domain Principles (Study 16 Series, Registered by Part VIII)
+
+*The DP-ESG series was drafted in Study 16 (§Strategic Foresight) but never registered, never wired into the architecture, and never simulated — orphaned doctrine is unenforced doctrine. Priority Gap Part VIII (ALG-PRI-2026-008) registers the series here, upgraded with the Part VIII module architecture as noted in each entry.*
+
+#### **[ESG-1] Supply Chain Resilience Architecture**
+- **Original ID:** DP-ESG-1
+- **Priority:** P1
+- **Source Section:** §Strategic Foresight in [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md); registered by Part VIII §7.1
+- **Integration Target:** Part XXIII §4.5 + Core §4 (Economics) — SLE Resilience Architecture + VIS sub-tier ledger
+
+The economic system shall maintain strategic reserves of all inputs whose disruption would compromise essential functions within 90 days, with reserves sufficient for at least 180 days of consumption. Supply chain mapping shall be continuous and comprehensive, with the NDT tracking all critical dependencies and their geographic concentration. *Part VIII upgrade:* the mapping extends to the sub-tier transparency ledger (VIS) — the chokepoints that bind sit two and three tiers below the visible supplier — and reserve depth is denominated in days-of-cover against the 30/60/90-day constitutional time-buffers of DP-PC-2.
+
+#### **[ESG-2] Chokepoint Diversification**
+- **Original ID:** DP-ESG-2
+- **Priority:** P1
+- **Source Section:** §Strategic Foresight in [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md); registered by Part VIII §7.1
+- **Integration Target:** Part XXIII §4.3 — NDT Chokepoint Diversification (adversary-graded caps)
+
+No single supplier, nation, or geographic concentration shall represent more than 40% of supply for any critical input. When concentration exceeds this threshold, the NDT shall generate automatic diversification directives, including investment in alternative suppliers, substitution technologies, and domestic production capacity. *Part VIII upgrade:* the caps are adversary-graded (≤65% civilian-critical / ≤40% Strategic / ≤25% war-essential, per DP-PC-2) and measured on adversary-adjusted effective control — transshipment content and upstream ownership, not gross import share, which understates exposure roughly 3x (the pharmaceutical API case).
+
+#### **[ESG-3] Developmental State Capabilities**
+- **Original ID:** DP-ESG-3
+- **Priority:** P1
+- **Source Section:** §Strategic Foresight in [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md); registered by Part VIII §7.1
+- **Integration Target:** Part XXIII §4.5 + Core §4 — pilot agencies with ANTICAP circuitry + Amsden reciprocity
+
+The polity shall maintain pilot agency capabilities sufficient to coordinate industrial policy, manage strategic investments, and respond to economic crises. These capabilities shall be institutionally independent of short-term political pressures while democratically accountable through constitutionally defined oversight mechanisms. *Part VIII upgrade:* the agencies operate under the eight-point anti-capture circuitry of DP-PC-9 — sunset-and-fresh-reauthorization, adjudicated security justification, output-contingent incentives, harm disclosure, beneficiary-concentration monitors, procurement fee-recapture, release locks, and anti-monopoly-of-remedy — with Amsden reciprocity (performance milestones, withdrawal on failure, forced exit paths) as the conditionality standard; the Ujamaa/ISI/zombie-firm record is the specification of what the circuitry prevents.
+
+#### **[ESG-4] Mineral Geopolitics Preparedness**
+- **Original ID:** DP-ESG-4
+- **Priority:** P1
+- **Source Section:** §Strategic Foresight in [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md); registered by Part VIII §7.1
+- **Integration Target:** Part XXIII §4 (merges with DP-PC-7) — full-chain minerals doctrine
+
+The polity shall maintain strategic reserves of critical minerals, invest in recycling and substitution technologies for concentrated resources, and participate in multilateral arrangements that reduce single-nation dependency. The energy transition shall be managed with explicit awareness of its geopolitical implications, not merely its environmental benefits. *Part VIII upgrade:* merged with DP-PC-7 — the doctrine covers the full chain (reserves, processing, recycling, substitution R&D) with processing as the floor priority (chokepoints bind at refining, not mining), and chokepoint weaponization modeled as a recurring escalation-ladder shock class (the 2023–2025 gallium/germanium/antimony/rare-earth sequence with its November 2025 timed suspension).
+
+#### **[ESG-5] Monetary Multipolarity**
+- **Original ID:** DP-ESG-5
+- **Priority:** P2
+- **Source Section:** §Strategic Foresight in [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md); registered by Part VIII §7.1
+- **Integration Target:** Core §4 (Economics) + Part XXIII §7.1 — multi-currency settlement capacity
+
+The economic architecture shall be designed to operate effectively in a multipolar monetary environment, with the capacity to settle transactions in multiple currencies and through multiple clearing systems. Exclusive dependency on any single monetary system for essential transactions is hereby designated a critical vulnerability. *Part VIII grounding:* the reserve-currency coupling (the "exorbitant burden" thesis, USD 56.8% of allocated reserves at Q4 2025 — the lowest share this century) is modeled as a slow, contested-weight variable in Simulation V6, never a deterministic law.
+
+#### **[ESG-6] Adaptive Trade Architecture**
+- **Original ID:** DP-ESG-6
+- **Priority:** P2
+- **Source Section:** §Strategic Foresight in [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md); registered by Part VIII §7.1
+- **Integration Target:** Part XXIII §4.4 — rapid re-routing within the intervention ladder
+
+The trade architecture shall incorporate rapid re-routing capabilities, enabling trade flows to be redirected from sanctioned or disrupted channels without loss of essential supplies. Digital trade infrastructure shall be maintained independently of any single platform or protocol. *Part VIII upgrade:* re-routing is the first rung of the cheapest-first intervention ladder (DP-PC-4), with the sanctions-adaptation evidence (shadow fleet growth 150→1,000+ tankers; CIPS +43%) calibrating the 5–15-year adaptation horizon in Simulation V6.
+
+#### **[ESG-7] Geopolitical Positioning**
+- **Original ID:** DP-ESG-7
+- **Priority:** P2
+- **Source Section:** §Strategic Foresight in [16-civilizational-research-agenda.md](file:///d:/GitHub/Algorapolis/research/studies/16-civilizational-research-agenda.md); registered by Part VIII §7.1
+- **Integration Target:** Part XXIII §4.6 — no-dominance mirror cap on external positions
+
+The polity shall maintain a deliberate strategy regarding its interaction model with the existing nation-state system, selecting from the five identified models based on its current capabilities and evolving toward greater sovereignty as institutional capacity develops. The selected model shall be reviewed at constitutionally defined intervals. *Part VIII upgrade:* the positioning is bounded by the no-dominance mirror cap — Algorapolis entities must never supply more than 65% of any external polity's consumption of a Register-class input nor deliberately construct chokepoint positions; export restrictions are defensive, time-limited, and Adjudication-Chamber-reviewed. The NABEP "energy dominance" pattern (Part VIII §1.3) is the standing negative specification.
+
+### Productive Capacity & Industrial Sovereignty Domain Principles
+
+#### **[PC-1] Critical Goods Sovereignty Baseline**
+- **Original ID:** DP-PC-1
+- **Priority:** P0
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §4.2 — SLE Criticality Registers (Critical + Strategic)
+
+The Sovereign Logic Engine shall maintain a two-register architecture for productive capacity: a Critical Register (monitoring, telemetry, no obligations) and a Strategic Register (thresholds, buffers, and intervention triggers), both scored by a Composite Criticality Index — supply concentration, adversary-origin exposure, substitutability-inverse, demand growth, essentiality tier — recomputed on a fixed published cadence. De-listing shall be procedurally symmetrical with listing (the DoD 14→6 contraction is the precedent that lists can shrink); a cost-discipline criterion (the WHO EML pattern) bounds the Strategic Register against becoming a subsidy menu; and any change to scoring weights is an Agora-level decision, not agency discretion. An unregistered criticality list — the status quo this principle ends — is a sensor gap, not a neutral omission.
+
+#### **[PC-2] Strategic Sufficiency Threshold**
+- **Original ID:** DP-PC-2
+- **Priority:** P0
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §4.3 — SLE Threshold Engine (caps, floors, buffers, redundancy tiers)
+
+Sufficiency thresholds are adversary-graded and stage-differentiated: single-third-country concentration caps of ≤65% (civilian-critical), ≤40% (Strategic Register), ≤25% (war-essential), measured on adversary-adjusted effective control including transshipment and upstream ownership; domestic stage floors of ≥10% extraction, ≥40% processing, ≥25% recycling scaled by register tier, encoding the processing-chokepoint law; time-buffer floors of 30 days (war-essential), 60 days (civilian-critical), 90 days (energy, IEA obligation); and redundancy tiers of N+1 (Critical), N+2 (Strategic), 2N reserved for constitutional-locks-tier functions only. The CRMA benchmarks are the statutory precedent; the German 55% gas datum is the coercibility calibration; 2N redundancy beyond the constitutional tier is classified as the autarky trap in engineering form.
+
+#### **[PC-3] Adversarial Dependency Prohibition**
+- **Original ID:** DP-PC-3
+- **Priority:** P0
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §4.3 — NDT Adversary-Dependency Ledger (production-function measurement)
+
+No Strategic Register input shall depend on adversary-adjusted effective control above its cap. Dependency is measured on the input's production function — transshipment content, upstream ownership, sub-tier concentration — never on gross import share, which the API case shows understates exposure by roughly 3x. Allied redundancy counts toward the cap only when the ally's own upstream for that input is not adversary-controlled. Adversary status is a pre-registered, evidence-tested, Adjudication-Chamber-reviewed declaration, not an executive label — because the modern capture path runs through adversary-designation itself.
+
+#### **[PC-4] Sourcing Modality-Matching**
+- **Original ID:** DP-PC-4
+- **Priority:** P1
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §4.4 — SLE Intervention Ladder Solver (cheapest-first conjunction)
+
+Market sourcing is overridden only when the coded conjunction holds: CCI above the Strategic threshold AND adversary-adjusted share above cap AND cheaper ladder rungs exhausted or time-infeasible. The intervention ladder is strictly cheapest-first — diversification, friend-shoring and allied co-production, strategic stockpile build, capacity guarantee with output-contingent incentives, state production of last resort — with each escalation's expected GDP cost published in the Agora docket before activation (the IMF 1.8%/4.5%/7% envelope). Modality-Matching binds: scarcity risk takes stockpile rungs, coercion risk takes diversification rungs, capability-decay risk takes capacity rungs; wrong-tool selection is a reviewable doctrine violation, because the tariff-against-scarcity error is the commonest self-inflicted wound in the historical record.
+
+#### **[PC-5] Arsenal Continuity & Surge Capacity**
+- **Original ID:** DP-PC-5
+- **Priority:** P1
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §3.1 + Core §6 (Security) — Runway Monitor + surge registry
+
+The polity shall maintain a critical-munitions runway metric (depletion days at wargame-consumption rates ÷ replenishment days) with automatic alarms below 0.1 — the CSIS finding (≈0.01) is the calibration; a civilian-convertible surge registry giving peacetime visibility of convertible capacity (the WWII conversion architecture's peacetime analog); and conversion-governance authority — pre-registered priority lists, rationing authority, public-risk-bearing finance — time-boxed with automatic expiry and demobilization provisions. Deterrence is through depth, measured as the conversion-capacity ceiling (~40% of GNP, the WWII datum), never as stockpile volume: a polity that cannot convert is not strategic no matter what it stores, and a polity that can convert is sufficient without standing autarky.
+
+#### **[PC-6] Skills Substrate Mandate**
+- **Original ID:** DP-PC-6
+- **Priority:** P1
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §7.3 + Core §5 (Education) — NDT skill-stock accounting (DP-EP bridge)
+
+Skill-stock accounting — tacit-knowledge carriers as a first-class civilization metric — shall be maintained by the NDT, because the scarce reserve in every mobilization case is people, not capital (subsidies <10% of the investment that matters; money cannot compress the know-how clock). No reindustrialization target may be scored achieved while its occupational pipeline fill-rate is below 80% of forecast, and talent-pipeline lead times (4–6 years formation plus 18–36 months on-the-job) are mandatory planning variables in every capacity policy. The companion DP-EP series (ALG-SIM-DEEP-2026-012) specifies the education-side instruments this principle requires.
+
+#### **[PC-7] Mineral & Processing Depth**
+- **Original ID:** DP-PC-7
+- **Priority:** P1
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §4 (ESG-4 merge) — full-chain minerals doctrine + escalation-ladder shock class
+
+Strategic-minerals doctrine covers the full chain — reserves, processing, recycling, and substitution R&D — with processing (where chokepoints bind) as the floor priority. Chokepoint weaponization is modeled as a recurring shock class arriving as escalation ladders (controls → ban → licensed truce), not as one-off events, with the 2023–2025 gallium/germanium/antimony/rare-earth sequence — including the November 2025 timed suspension deployed as bargaining leverage — as the calibration sequence. The Apr 2025 license regime is the standing proof that the adversary treats this as a doctrine, not an emergency.
+
+#### **[PC-8] Energy Sufficiency Anti-Dominance**
+- **Original ID:** DP-PC-8
+- **Priority:** P0
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §4.6 + Core §6 — no-dominance clause, audited reserves, release locks
+
+Energy policy is valid up to the sufficiency threshold and no further: any instrument whose primary function is denying another polity's access — export-first-refusals over host-nation entities, board vetoes layered on regime-changed hosts, concessions acquired under blockade or occupation — is unconstitutional, and contracts so acquired carry coercion-provenance voidability. Quantities entering sovereign decision logic require audited reserves (the unaudited 65-billion-barrel claim is the cautionary case); reserves release only on coded objective triggers, never price management; and the legitimacy ordering for external inputs is fixed: domestic capacity → diversified market purchases → multilateral pooled mechanisms → sovereign-equal bilateral contracts — never regime-change concessions. Energy dominance is the autarky/leverage trap in its purest form: negative-NPV, self-liquidating, and corrupting of the institutions that practice it.
+
+#### **[PC-9] Protectionist Capture Guard**
+- **Original ID:** DP-PC-9
+- **Priority:** P0
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §4.5 + Core §6 (Immune System) — eight-point anti-capture circuitry
+
+Every sufficiency instrument carries the eight-point circuitry: sunset-and-fresh-reauthorization within five years with supermajority extension; adjudicated security justification through an independent chamber; output-contingent incentives only, auto-terminating at cost-parity; harm disclosure in the Agora docket; beneficiary-concentration monitors with automatic review; procurement fee-recapture (no cost-plus without milestone-linked clawbacks); stockpile release locks; and anti-monopoly-of-remedy (two or more independent suppliers per Strategic Register item). The Amsden reciprocity standard — performance milestones, withdrawal on failure, forced exit paths — is the conditionality common denominator. The empirical warrant: the sugar program, Jones Act lock-in, F-35 incentive fees, WTO Article XXI abuse, and sunset-clause erosion are the documented failure signature of sufficiency machinery without circuitry.
+
+#### **[PC-10] Multi-Administration Continuity Lock**
+- **Original ID:** DP-PC-10
+- **Priority:** P1
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §3.7 — constitutional persistence with ramp-slippage factors
+
+Reindustrialization programs are constitutionally persisted across administrations — 10–20 year lock parameters with pre-committed escalation ladders (subsidy → conditional equity → managed divestment) — because observed programs routinely span three or more administrations, and electoral-cycle amnesia is the efficiency trap's political delivery mechanism. All published timelines carry empirically calibrated ramp-slippage factors (observed 1.5–3x on defense and semiconductor programs), and emergency organs auto-expire subject to Agora renewal. Continuity is locked, but every lock is sunsettable by design: persistence without expiry is the zombie-firm equilibrium, the Ujamaa failure, and the sugar program in constitutional form.
+
+#### **[PC-11] Just-in-Case Reserve Architecture**
+- **Original ID:** DP-PC-11
+- **Priority:** P1
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §4.3 — NDT days-of-cover + IEA-style sharing protocols
+
+Strategic reserves are denominated in months of consumption per strategic input (food, fuel, medicine, munitions, and Strategic Register items), with multilateral sharing protocols (the IEA coordinated-release model as the non-coercive counter-template to weaponized stockpiles), transparent draw-down doctrine, and release locks per DP-PC-9. Reserves are the cheapest resilience rung (the Sheffi hierarchy: flexibility before redundancy, redundancy before capacity) and are never a price-management instrument. The adversary's own ~1.4-billion-barrel stockpile confirms the doctrine symmetrically: the reserve is the sufficiency answer, and it is the answer the adversary has already implemented.
+
+#### **[PC-12] Blockade Graceful Degradation**
+- **Original ID:** DP-PC-12
+- **Priority:** P2
+- **Source Section:** §8 in [08-productive-capacity-industrial-sovereignty-priority-gap-research.md](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md)
+- **Integration Target:** Part XXIII §4.6 + INFRASTRUCTURE-AWARENESS — surge substitution + provenance classes
+
+The polity shall maintain surge-substitution infrastructure — pre-approved designs, chartered capacity, statutory fast-track: institutional, not technological, speed, because Germany's floating LNG terminals in ~9 months were a permitting and chartering achievement, not an invention — and days-of-cover metrics per strategic input. Post-coercion re-entry into adversary dependency requires supermajority constitutional unlock, encoding the trust-ledger lesson that dependency re-formed under emergency is the trap's favorite re-entry path. All quantitative inputs to these mechanisms carry provenance classes (independent measurement, official claim, state media, expert estimate, viral amplification), and policy thresholds may cite classes one and four only: the sourced 232x, never the viral 350x.
+
+### Education-to-Production Pipeline Domain Principles
+
+#### **[EP-1] Occupational Standards as Versioned Law**
+- **Original ID:** DP-EP-1
+- **Priority:** P1
+- **Source Section:** §7 in [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md)
+- **Integration Target:** Core §5 (Education) + Part XXIII §7.3 — versioned occupational standards (extends EDU-16)
+
+The SLE shall maintain portable occupational standards co-governed by employers and educators as versioned law — the German dual-system pattern (327 federally recognized occupations with employer co-ownership and statutory certification), updated on a published cadence. The National Digital Twin shall carry a live feed of vacancy and wage data per occupation, and material divergence between the standard's implied skill set and the measured vacancy/wage signal triggers a mandatory standard-review event. Standards are demand-validated contracts between production and education, never either side's unilateral projection; portability plus statutory certification is what makes the vocational certificate a currency rather than a consolation.
+
+#### **[EP-2] Funding-Follows-Verified-Placements**
+- **Original ID:** DP-EP-2
+- **Priority:** P1
+- **Source Section:** §7 in [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md)
+- **Integration Target:** Core §5 (Education) — sovereign placement-outcome data layer (Fraunhofer rule)
+
+A defined portion of program funding shall be tied to completion-adjusted employment outcomes, published as a standing sovereign data layer — program-level ROI and credential wage-gain measurement institutionalized as public infrastructure rather than episodic research. Employer co-payment is the demand-verification anchor, with the Fraunhofer ≤1/3 base-funding rule as the gold standard: institutions dependent on competitively won industry contracts carry their own demand test. Anti-gaming caps bound the mechanism — caps on redirection (no shedding of hard programs or hard students), completion-adjustment (outcomes credited only for completers), and floor funding sufficient to prevent manpower-planning capture. Written directly against the UK apprenticeship levy (youth starts −26% while spending rose).
+
+#### **[EP-3] Pipeline Latency Planning Mandate**
+- **Original ID:** DP-EP-3
+- **Priority:** P1
+- **Source Section:** §7 in [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md)
+- **Integration Target:** Core §5 + Part XXIII §7.3 — Monte Carlo latency variables (implements DP-PC-6)
+
+Talent-pipeline lead times shall be first-class Monte Carlo variables in all capacity policy: process-engineer cohorts at 4–6 years plus 18–36 months of on-the-job training, technician flows measured against semiconductor-demand horizons, and the 1.9M/67K gap figures entered as explicit clock constraints. No reindustrialization plan may be scored, published, or adopted without disclosing its pipeline lead-time assumptions, because a policy that ignores 5–10-year talent latency shows phantom GDP gains. The SLE shall weight funding toward the lowest-latency bridges: the P-TECH 9–14 pattern and TSMC-style university–industry compacts, which start the skill clock years earlier than sequential architectures. This principle implements DP-PC-6 at the education side of the boundary.
+
+#### **[EP-4] Retraining Guarantee Bundle**
+- **Original ID:** DP-EP-4
+- **Priority:** P2
+- **Source Section:** §7 in [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md)
+- **Integration Target:** Core §5 (Education) — outcome-purchasing retraining instruments
+
+Every displaced-worker guarantee shall bundle three components as a single legal instrument: an income floor during transition (the Jacobson–LaLonde–Sullivan finding of ~25% persistent annual earnings losses defines what the floor must bridge), a placement-contingent training payment (providers paid on verified placement, not enrollment — the TAA verdict makes anything else a transfer to training providers), and an employer demand pre-commitment (training runs only against employers who have contracted hiring intent for the target occupation — the Singapore SkillsFuture and Denmark flexicurity pattern). The bundle buys outcomes, not enrollments; it is the education-side complement to the intervention ladder of DP-PC-4.
+
+#### **[EP-5] Credential Materiality Rule**
+- **Original ID:** DP-EP-5
+- **Priority:** P2
+- **Source Section:** §7 in [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md)
+- **Integration Target:** Core §5 (Education) — materiality-gated credential requirements
+
+Public-sector and licensed occupations may not require credentials whose registered wage-gain evidence fails a materiality test — the sovereign data layer of DP-EP-2 supplies the registered evidence, and a credential whose measured completion-adjusted wage gain does not clear the threshold may not be a lawful hiring gate for public employment or licensed practice. The rule is deliberately narrow: only demonstrably low-value credential requirements are banned, leaving the rest of the credential market to price signals and private hiring autonomy — regulation that polices the measured bottom of the pool (the "Dismissed by Degrees" requirements locking out 6M+ workers) rather than presuming to price the whole market. Public-sector hiring is the lever: the state is the largest credential demander, and its conventions propagate through the licensed occupations it regulates.
+
+#### **[EP-6] Distributional Stress-Test**
+- **Original ID:** DP-EP-6
+- **Priority:** P2
+- **Source Section:** §7 in [12-education-production-pipeline-deeper-research.md](file:///d:/GitHub/Algorapolis/research/studies/deeper-research/12-education-production-pipeline-deeper-research.md)
+- **Integration Target:** Core §5 + Simulation V6 — distributional outcomes in regime comparison (extends EDU-13)
+
+Every education-finance mechanism — loan structures, guarantee schemes, funding formulas, subsidy instruments — shall be stress-tested in the Civilization Simulation against distributional outcomes, not just aggregate ROI: underemployment, default, and debt-distress concentrations by socioeconomic stratum and by group, with the lower-SES and Black-borrower concentrations as the calibration case. A mechanism that passes the aggregate test while concentrating default and distress in the bottom quartile fails and may not be adopted or renewed. The test is wired to the regime comparison of Simulation V6: distributional failure is scored as a stability cost on the social-fabric metrics, because the regressive concentration of credential-market dysfunction is the transmission channel through which a growth-positive policy degrades the democratic substrate. This principle extends EDU-13 (Cognitive Justice Audit) from curriculum into finance.

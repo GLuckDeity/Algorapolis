@@ -93,4 +93,22 @@ Key challenges: informal economy constitutes an estimated 30–50% of economic a
 
 ---
 
-*Governance without real-time economic awareness is driving blind. Economic telemetry provides the windshield — not a crystal ball, but at least you can see the road.*
+## Industrial Sovereignty Telemetry (Part VIII Extension)
+
+The telemetry sources above measure flows — spending, revenue, construction, crop health. The Globalist Efficiency Trap operates on **stocks**: production capacity, skill stocks, dependency concentration, and munitions runway all atrophy invisibly inside a growing flow economy (US GDP rose while 91,000 manufacturing plants closed; the critical-munitions runway ratio of ≈0.01 was discovered in a wargame, not a dashboard). Priority Gap Part VIII (ALG-PRI-2026-008) extends Economic Telemetry with the stock-layer feeds the SLE requires to detect both failure modes:
+
+| Feed | Object Monitored | Source Methods | Governing Principle |
+|------|------------------|----------------|---------------------|
+| **Composite Criticality Index (CCI)** | Supply concentration, adversary-origin exposure, substitutability-inverse, demand growth, essentiality — per input, two registers (Critical: monitoring only; Strategic: obligations) | Trade microdata, customs ledgers, procurement records, USGS/EU CRMA-style list machinery | DP-PC-1 |
+| **Adversary-Adjusted Effective Control ledger** | Dependency measured on the production function (transshipment content, upstream ownership, sub-tier concentration) — gross imports understate exposure ~3x (the API case) | Value-chain mapping, ownership graphs, third-party attestations | DP-PC-3 |
+| **Munitions runway metric** | Depletion days at wargame-consumption rates ÷ replenishment days, with alarms below 0.1 (the CSIS finding: ≈0.01) | War-game integration, procurement lead-time records, production-line telemetry | DP-PC-5 |
+| **Days-of-cover per strategic input** | Reserve depth (30/60/90-day floors by register tier) for food, fuel, medicine, munitions | Inventory sensors, customs in/outflow, IEA-style reporting | DP-PC-2, DP-PC-11 |
+| **Skill-stock accounting** | Tacit-knowledge carriers per occupation; occupational pipeline fill-rate (the 80% rule); talent-pipeline lead times (4–6 years + 18–36 months OJT) | Education enrollment, certification registries, vacancy/wage feeds (National Digital Twin labor layer) | DP-PC-6, DP-EP-3 |
+| **Provenance-class tagging** | Every quantitative input classed: independent measurement / official claim / state media / expert estimate / viral amplification — policy thresholds cite classes 1 and 4 only | Cross-source attestation, media-provenance analysis | DP-PC-12 |
+| **Beneficiary-concentration monitors** | Concentration of subsidy/override benefits (the ~10,000-grower signature) with automatic review triggers | Fiscal telemetry, procurement records | DP-PC-9 |
+
+The nowcasting layer gains a corresponding capacity dimension: the `industrial_capacity` composite (economic complexity, manufacturing value-added, sole-source-inverse, self-sufficiency) is maintained as a standing NDT metric per Civilization Simulation V6, and the `adversary_dependency` state variable is tracked with the same cadence as monetary aggregates. The Economic Telemetry pipeline's aggregation, differential-privacy, and purpose-limitation safeguards (above) apply unchanged to these feeds; the privacy boundary is economic-actor-level, and the provenance firewall is the additional integrity boundary specific to this layer.
+
+---
+
+*Governance without real-time economic awareness is driving blind. Economic telemetry provides the windshield — not a crystal ball, but at least you can see the road. Part VIII adds the fuel gauge, the structural-integrity check, and the munitions counter: the stock instruments a driving school never taught you to read.*

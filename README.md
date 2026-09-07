@@ -240,10 +240,11 @@ algorapolis/
 │
 ├── research/               # Empirical Grounding & Evidence
 │   ├── BIBLIOGRAPHY.md     # Full structural citations
-│   ├── simulation/         # Civilization simulation engine, report, and datasets [NEW]
+│   ├── simulation/         # Civilization simulation engines V4/V5/V6, report, and datasets
 │   │   ├── README.md
 │   │   ├── simulation_engine_v4.py
 │   │   ├── simulation_engine_v5_family.py
+│   │   ├── simulation_engine_v6_industrial.py  # Part VIII — Industrial Sovereignty (17th metric)
 │   │   ├── visualization_engine_v4.py
 │   │   ├── generate_report_v4.py
 │   │   ├── Algorapolis_Simulation_Report_V4.pdf
@@ -263,8 +264,9 @@ algorapolis/
 │   │       ├── 08-trust-decay-deeper-research.md
 │   │       ├── 09-information-warfare-deeper-research.md
 │   │       ├── 10-economic-architecture-v2-deeper-research.md
-│   │       └── 11-education-values-transmission-deeper-research.md
-│   ├── priority-gaps/      # Priority Gaps Research (Parts I–V + Integration Guide)
+│   │       ├── 11-education-values-transmission-deeper-research.md
+│   │       └── 12-education-production-pipeline-deeper-research.md  # Part VIII — DP-EP series
+│   ├── priority-gaps/      # Priority Gaps Research (Parts I–VIII + Integration Guide)
 │   │   ├── README.md
 │   │   ├── 01-information-sovereignty-priority-gap-research.md
 │   │   ├── 02-monetary-systems-priority-gap-research.md
@@ -272,8 +274,13 @@ algorapolis/
 │   │   ├── 04-intelligence-security-democratic-gap-research.md
 │   │   ├── 05-wealth-transfer-generational-wealth-priority-gap-research.md
 │   │   ├── 06-github-integration-guide.md
-│   │   └── 07-family-social-fabric-priority-gap-research.md
-│   └── case-studies/       # Comparative studies (Estonia, Singapore, Taiwan, Kibbutz, Norway, Soviet, etc.)
+│   │   ├── 07-family-social-fabric-priority-gap-research.md
+│   │   └── 08-productive-capacity-industrial-sovereignty-priority-gap-research.md  # Part VIII
+│   └── case-studies/       # Comparative studies (Estonia, Singapore, Taiwan, Kibbutz, Norway, Soviet,
+│                           #   US deindustrialization, China industrial overmatch, WWII arsenal, etc.)
+│       ├── 10-us-deindustrialization-china-dependency.md
+│       ├── 11-china-industrial-overmatch.md
+│       └── 12-wwii-arsenal-mobilization.md
 │
 ├── docs/                   # Primary Documentation & Civic Guides
 │   ├── Algorapolis.docx    # The full, comprehensive 200+ page primary text

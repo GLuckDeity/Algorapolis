@@ -149,4 +149,17 @@ Rather than deploying traditional sensor networks, Tanzania can leapfrog directl
 
 ---
 
-*Infrastructure that cannot be seen cannot be maintained. Infrastructure that cannot be monitored cannot be governed. The material intelligence layer makes infrastructure visible to the governance system that is responsible for it.*
+## Strategic Capacity Awareness (Part VIII Extension)
+
+The infrastructure domains above — energy, water, transport, environment, buildings, telecommunications — treat physical capacity as a service to be monitored. Priority Gap Part VIII (ALG-PRI-2026-008) adds a capacity layer with a different property: it must be visible **before** it is needed, because strategic capacity cannot be built at the moment of need (money cannot compress the know-how clock; the TSMC Arizona first fab took ~4.5 years from announcement; the WWII conversion ceiling was reached on a skill stock that took a generation to accumulate). Four awareness objects extend this layer:
+
+1. **Convertible surge registry.** Peacetime visibility of civilian capacity convertible to strategic production — the WWII conversion architecture's modern analog: pre-registered priority lists, plant conversion mappings, and chartered capacity (DP-PC-5). The registry is awareness, not activation: conversion governance authority is time-boxed and auto-expiring.
+2. **Sub-tier supplier transparency ledger.** The chokepoints that bind sit two and three tiers below the visible supplier (the sole-source fastener, the specialty chemical, the missile motor). The VIS ledger (registered DP-ESG-1) maps sub-tier concentration by provenance class, so that a single-facility fire or a foreign export control is a known vulnerability rather than a surprise.
+3. **Chokepoint and reserve sensing.** Energy and mineral flows monitored at the chokepoint granularity the doctrine requires: processing-stage concentration (not mining share — refining is where chokepoints bind), days-of-cover per strategic input against the 30/60/90-day floors, and audited-reserves verification for any quantity entering sovereign decision logic (the unaudited 65-billion-barrel rule, DP-PC-8).
+4. **Wargame-linked stress telemetry.** Infrastructure stress tests are wired to consumption-rate scenarios rather than steady-state demand: the munitions runway ratio, grid behavior under embargo conditions, and the graceful-degradation envelope per strategic input (DP-PC-12) — institutional speed (pre-approved designs, chartered capacity, statutory fast-track) measured as FSRU-terminal months, not invention cycles.
+
+For the Tanzania pilot, the priority deployments above gain their capacity analogs: Dar es Salaam port throughput as a trade-chokepoint sensor; the national electrification program's grid telemetry as the energy-sufficiency baseline; mineral-processing (rare-earth, graphite, lithium occurrences) sub-tier mapping as the mineral-depth feed; and vocational-training enrollment-to-placement flows as the skill-stock sensor. The same leapfrogging logic applies: capacity awareness does not require heavy-industry telemetry estates — mobile-money-grade transaction data, satellite production proxies, and registry-grade bookkeeping reach most of the doctrine's sensing requirements.
+
+---
+
+*Infrastructure that cannot be seen cannot be maintained. Infrastructure that cannot be monitored cannot be governed. The material intelligence layer makes infrastructure visible to the governance system that is responsible for it. Part VIII adds the capacity the polity must be able to see before the day it needs it — the surge registry, the sub-tier map, the chokepoint ledger, and the runway counter.*

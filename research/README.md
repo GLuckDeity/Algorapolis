@@ -44,11 +44,13 @@ research/
 │       ├── 08-trust-decay-deeper-research.md
 │       ├── 09-information-warfare-deeper-research.md
 │       ├── 10-economic-architecture-v2-deeper-research.md
-│       └── 11-education-values-transmission-deeper-research.md
+│       ├── 11-education-values-transmission-deeper-research.md
+│       └── 12-education-production-pipeline-deeper-research.md
 ├── simulation/                  ← Civilization simulation engine, report, and datasets [NEW]
 │   ├── README.md
 │   ├── simulation_engine_v4.py
 │   ├── simulation_engine_v5_family.py
+│   ├── simulation_engine_v6_industrial.py
 │   ├── visualization_engine_v4.py
 │   ├── generate_report_v4.py
 │   ├── Algorapolis_Simulation_Report_V4.pdf
@@ -61,7 +63,8 @@ research/
 │   ├── 04-intelligence-security-democratic-gap-research.md
 │   ├── 05-wealth-transfer-generational-wealth-priority-gap-research.md
 │   ├── 06-github-integration-guide.md
-│   └── 07-family-social-fabric-priority-gap-research.md
+│   ├── 07-family-social-fabric-priority-gap-research.md
+│   └── 08-productive-capacity-industrial-sovereignty-priority-gap-research.md
 └── case-studies/                ← Real-world governance experiments
     ├── estonia-digital-nation.md
     ├── singapore-smart-nation.md
@@ -71,7 +74,10 @@ research/
     ├── china-social-credit.md
     ├── kibbutz-communal-child-rearing.md
     ├── soviet-de-familization.md
-    └── norway-cps-best-interests.md
+    ├── norway-cps-best-interests.md
+    ├── 10-us-deindustrialization-china-dependency.md
+    ├── 11-china-industrial-overmatch.md
+    └── 12-wwii-arsenal-mobilization.md
 ```
 
 ---
@@ -105,14 +111,16 @@ Each study provides an in-depth literature review and analysis of a specific dom
 | 21 | Deeper Research: Trust Decay | How do institutions lose trust and how can sortition-based governance restore legitimacy? |
 | 22 | Deeper Research: Information Warfare | How can a digital civilization protect its narrative environment and establish cryptographic roots of trust? |
 | 23 | Deeper Research: Economic Architecture V2 | How do 100% reserve banking, cooperative networks, and gradualist transitions prevent capture? |
-| 24 | Education, Values Transmission & Curriculum Capture | How does ideological curriculum capture operate? What neutrality architecture prevents values-monopolization? |
+| 24 | Deeper Research: Education, Values Transmission & Curriculum Capture | Who controls the creed-content of children's formation — and how is curriculum capture structurally blocked from every direction? |
+| 25 | Deeper Research: Education-to-Production Pipeline | How does a civilization convert learning into the skill stock that industrial sovereignty requires — and how is the pipeline wired to capacity planning, funding, and the simulation? |
 
 ---
 
 ### Civilization Simulation
 
 * **[Civilization Simulation Engine V4](file:///d:/GitHub/Algorapolis/research/simulation/)** — A 100-year quantitative civilization simulation validating the Algorapolis framework principles (§158, §388-390, §1209, §1217, §1497-1503, §1648-1650, §2836, §3653, §4087). The pre-rendered PDF report can be found at [Algorapolis_Simulation_Report_V4.pdf](file:///d:/GitHub/Algorapolis/research/simulation/Algorapolis_Simulation_Report_V4.pdf) and generated charts are located in the [charts/](file:///d:/GitHub/Algorapolis/research/simulation/charts/) subdirectory.
-* **[Civilization Simulation Engine V5 Family Extension](file:///d:/GitHub/Algorapolis/research/simulation/simulation_engine_v5_family.py)** — Extends V4 with `family_integrity` as the 16th metric, three family-policy regime comparisons (family_hostile / family_neutral / family_integrative), and five family-specific shock types (DP-FS-10). V4 baseline is unchanged.
+* **[Civilization Simulation Engine V5 — Family Extension](file:///d:/GitHub/Algorapolis/research/simulation/simulation_engine_v5_family.py)** — Extends the validated V4 methodology with `family_integrity` as the sixteenth metric (DP-FS-10), three family-policy regime comparisons (family_hostile / family_neutral / family_integrative), five family-specific shock types, Algorapolis DP-FS mechanisms, and demand-side reversal dynamics replicating the kibbutz/Soviet evidence (Priority Gap Part VII). The V4 baseline engine is unchanged.
+* **[Civilization Simulation Engine V6 — Industrial Sovereignty Extension](file:///d:/GitHub/Algorapolis/research/simulation/simulation_engine_v6_industrial.py)** — Extends the validated V4/V5 methodology with `industrial_capacity` as the seventeenth metric, the `adversary_dependency` state variable (the Globalist Efficiency Trap accumulator), three trade-regime comparisons (globalist_efficiency / autarkic_dominance / strategic_sufficiency), five industrial shock types (trade embargo, sanctions regime, supply-chain weaponization, reindustrialization response, tech attrition tail), Algorapolis DP-PC mechanisms, and empirically grounded interaction logic — war amplified and prolonged below the 0.55 industrial-capacity constraint (the CSIS munitions-depletion finding), sanctions adaptation halving after year two (the Russia 2022 path), and leverage decay per the weaponization-boomerang law (Priority Gap Part VIII). The V4 and V5 baseline engines are unchanged.
 
 ---
 
@@ -128,7 +136,8 @@ These research papers address structural gaps in the core Algorapolis framework,
 | **IV** | [Intelligence & Security](file:///d:/GitHub/Algorapolis/research/priority-gaps/04-intelligence-security-democratic-gap-research.md) | Democratic oversight, mass surveillance limits, dual-use technology, AI weapons | ISec-1 to ISec-12 |
 | **V** | [Wealth Transfer](file:///d:/GitHub/Algorapolis/research/priority-gaps/05-wealth-transfer-generational-wealth-priority-gap-research.md) | Intergenerational wealth caps, Piketty's r > g, progressive wealth tax, capital stakes | WT-1 to WT-12 |
 | **VI** | [GitHub Integration Guide](file:///d:/GitHub/Algorapolis/research/priority-gaps/06-github-integration-guide.md) | Repository Integration Specification | — |
-| **VII** | [Family & Social Fabric](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | Four-vector threat model, seven natural experiments, jurisprudential convergence, six-tier override cascade | FS-1 to FS-12 |
+| **VII** | [Family & Social Fabric](file:///d:/GitHub/Algorapolis/research/priority-gaps/07-family-social-fabric-priority-gap-research.md) | Four-vector family locks, parental primacy, formalized intervention threshold, provision pluralism, Family Integrity Index | FS-1 to FS-12 |
+| **VIII** | [Productive Capacity & Industrial Sovereignty](file:///d:/GitHub/Algorapolis/research/priority-gaps/08-productive-capacity-industrial-sovereignty-priority-gap-research.md) | Two-failure-mode architecture (efficiency trap / autarky-leverage trap), strategic sufficiency doctrine, criticality registers, adversary-graded caps, intervention ladder, anti-capture circuitry, no-dominance mirror cap | PC-1 to PC-12 (+ ESG-1 to ESG-7 registration, EP-1 to EP-6 companion) |
 
 ---
 
@@ -144,9 +153,12 @@ Each case study provides a detailed analysis of a real-world governance experime
 | **Dutch Childcare Scandal** | Negative | Algorithmic governance without emotional intelligence produces morally catastrophic outcomes |
 | **Tanzania Election 2025** | Negative | Governance systems that provide no structural mechanism for preventing power perpetuation will be exploited |
 | **China: Social Credit System** | Negative | The nightmare scenario — centralized, opaque, punitive surveillance governance |
-| **Kibbutz Communal Child-Rearing** | Negative | Voluntary collectivization produces significant attachment security deficits (59% vs 65–70%); communal sleeping abandoned by member demand |
-| **Soviet De-Familization 1918–1936** | Negative | State-engineered de-familization causes social disintegration, soaring abandonment, and subsequent state reversal |
-| **Norway CPS: Best-Interests Indeterminacy** | Negative | Best-faith state administration of an indeterminate standard leads to threshold creep and systematic ECHR violations |
+| **Kibbutz Communal Child-Rearing** | Negative | The definitive voluntary experiment: even ideologically committed collectives reverse collective child-rearing when parents get a voice; overnight separation is the damaging variable (59% vs 65–70% secure attachment) |
+| **Soviet De-Familization (1918–1936)** | Negative | The family is not a state-adjustable variable — dissolution and coerced preservation are the same error, and the state reverses on cost pressure alone |
+| **Norway Child Protection (CPS)** | Negative | Even a best-faith, high-trust state cannot administer an indeterminate "best interests" standard; the ECtHR correction arc took two decades — formalized thresholds are the minimum remedy |
+| **US Deindustrialization & China Dependency** | Negative | The Globalist Efficiency Trap end-to-end: capacity atrophy is invisible inside a growing GDP, dependency concentrates at chokepoints, and the munitions runway ratio (≈0.01) is discovered at wargame-time, not on any procurement dashboard |
+| **China Industrial Overmatch & the NABEP Mirror** | Negative (dual) | Overmatch is a capability stock, not a guarantee — financed by the soft budget constraint and decaying under sanctions adaptation; the NABEP "energy dominance" deal is the same leverage trap entered from the deficit side — sufficiency without dominance is the only stable equilibrium |
+| **WWII Arsenal Mobilization** | Positive | Conversion architecture, not stockpile volume, is the strategic-sufficiency mechanism: a polity that can push ~40% of GNP into strategic mode within constitutional time-boxes is sufficient without being autarkic |
 | **Konza Technopolis, Kenya** | Negative | Smart city without human infrastructure — Africa's enclave warning |
 | **Niger Delta, Nigeria** | Negative | Resource extraction enclaves fueling conflict |
 | **NEOM, Saudi Arabia** | TBD | The world's most ambitious enclave experiment |

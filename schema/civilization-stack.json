@@ -89,7 +89,7 @@
 
     "CivicDomainName": {
       "title": "CivicDomainName",
-      "description": "The twelve civic domains of the Module Map",
+      "description": "The thirteen civic domains of the Module Map",
       "type": "string",
       "enum": [
         "healthcare",
@@ -98,6 +98,7 @@
         "civil_justice",
         "criminal_justice",
         "economic_management",
+        "industrial_capacity",
         "defense",
         "environmental_management",
         "scientific_research",
@@ -516,7 +517,8 @@
             "Digital Identity",
             "Privacy and Human Rights",
             "Economic Civilization Design",
-            "Human Value and Meritocracy"
+            "Human Value and Meritocracy",
+            "Productive Capacity and Industrial Sovereignty (Part XXIII: two-register criticality machinery, adversary-graded caps, intervention ladder, anti-capture circuitry, no-dominance mirror cap)"
           ],
           "dependencies": [1, 2, 3],
           "governanceModalities": ["algorithmic_administration", "meritocratic_selection", "constitutional_locks"],
@@ -697,6 +699,15 @@
             "rationale": "Allocation is computational; priorities are political",
             "constitutionalConstraints": ["no_centralized_social_engineering", "no_unrestricted_computational_control"],
             "sleRole": "Budget execution, procurement verification, benefit disbursement; does not set economic priorities"
+          },
+          {
+            "name": "industrial_capacity",
+            "primaryModality": "Algorithmic administration (criticality machinery) + constitutional locks (no-dominance cap) + democratic ladder escalation",
+            "modalities": ["algorithmic_administration", "constitutional_locks", "democratic_deliberation"],
+            "rationale": "Criticality scoring and dependency measurement are computational; intervention-ladder escalation and security justifications are political; the no-dominance mirror cap is a lock-grade boundary (Part XXIII)",
+            "constitutionalConstraints": ["no_centralized_social_engineering", "no_unrestricted_computational_control", "no_omniscience"],
+            "tradeRegimeLock": "strategic_sufficiency: adversary_dependency bounded at 0.25 with 65/40/25 concentration caps, 10/40/25 stage floors, 30/60/90-day buffers; sufficiency floors constitutional, coercive chokepoint positions prohibited",
+            "sleRole": "Scores the two-register criticality machinery (DP-PC-1); measures adversary-adjusted effective control on production functions, never gross imports (DP-PC-3); enforces the coded intervention conjunction and cheapest-first five-rung ladder with published GDP costs (DP-PC-4); monitors industrial_capacity and adversary_dependency as constitutional metrics (Simulation V6); administers runway, reserve, and skill-stock telemetry; never adjudicates security justifications (independent Adjudication Chamber); never holds coercive chokepoint positions over external polities (the no-dominance mirror cap, DP-PC-8/DP-ESG-7); provenance-class firewall on all quantitative policy inputs (DP-PC-12)"
           },
           {
             "name": "defense",
